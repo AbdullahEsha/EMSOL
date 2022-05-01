@@ -373,7 +373,7 @@
 				<div class="col-lg-3 col-md-6 char_col">
 					
 					<div class="char_item d-flex flex-row align-items-center justify-content-start">
-						<div class="char_icon"><img src="images/char_1.png" alt=""></div>
+						<div class="char_icon"><img src="{{asset('img/char_1.png')}}" alt="char_icon"></div>
 						<div class="char_content">
 							<div class="char_title">Free Delivery</div>
 							<div class="char_subtitle">from $50</div>
@@ -385,7 +385,7 @@
 				<div class="col-lg-3 col-md-6 char_col">
 					
 					<div class="char_item d-flex flex-row align-items-center justify-content-start">
-						<div class="char_icon"><img src="images/char_2.png" alt=""></div>
+						<div class="char_icon"><img src="{{asset('img/char_2.png')}}" alt="char_icon"></div>
 						<div class="char_content">
 							<div class="char_title">Free Delivery</div>
 							<div class="char_subtitle">from $50</div>
@@ -397,7 +397,7 @@
 				<div class="col-lg-3 col-md-6 char_col">
 					
 					<div class="char_item d-flex flex-row align-items-center justify-content-start">
-						<div class="char_icon"><img src="images/char_3.png" alt=""></div>
+						<div class="char_icon"><img src="{{asset('img/char_3.png')}}" alt="char_icon"></div>
 						<div class="char_content">
 							<div class="char_title">Free Delivery</div>
 							<div class="char_subtitle">from $50</div>
@@ -409,7 +409,7 @@
 				<div class="col-lg-3 col-md-6 char_col">
 					
 					<div class="char_item d-flex flex-row align-items-center justify-content-start">
-						<div class="char_icon"><img src="images/char_4.png" alt=""></div>
+						<div class="char_icon"><img src="{{asset('img/char_4.png')}}" alt="char_icon"></div>
 						<div class="char_content">
 							<div class="char_title">Free Delivery</div>
 							<div class="char_subtitle">from $50</div>
@@ -438,7 +438,7 @@
 								
 								<!-- Deals Item -->
 								<div class="owl-item deals_item">
-									<div class="deals_image"><img src="images/deals.png" alt=""></div>
+									<div class="deals_image"><img src="{{asset('img/deals.png')}}" alt="deals_image"></div>
 									<div class="deals_content">
 										<div class="deals_info_line d-flex flex-row justify-content-start">
 											<div class="deals_item_category"><a href="#">Headphones</a></div>
@@ -482,7 +482,7 @@
 
 								<!-- Deals Item -->
 								<div class="owl-item deals_item">
-									<div class="deals_image"><img src="images/deals.png" alt=""></div>
+									<div class="deals_image"><img src="{{asset('img/deals.png')}}" alt="deals_image"></div>
 									<div class="deals_content">
 										<div class="deals_info_line d-flex flex-row justify-content-start">
 											<div class="deals_item_category"><a href="#">Headphones</a></div>
@@ -526,7 +526,7 @@
 
 								<!-- Deals Item -->
 								<div class="owl-item deals_item">
-									<div class="deals_image"><img src="images/deals.png" alt=""></div>
+									<div class="deals_image"><img src="{{asset('img/deals.png')}}" alt="deals_image"></div>
 									<div class="deals_content">
 										<div class="deals_info_line d-flex flex-row justify-content-start">
 											<div class="deals_item_category"><a href="#">Headphones</a></div>
@@ -598,7 +598,7 @@
 									<div class="featured_slider_item">
 										<div class="border_active"></div>
 										<div class="product_item discount d-flex flex-column align-items-center justify-content-center text-center">
-											<div class="product_image d-flex flex-column align-items-center justify-content-center"><img src="images/featured_1.png" alt=""></div>
+											<div class="product_image d-flex flex-column align-items-center justify-content-center"><img src="{{asset('img/featured_1.png')}}" alt="product_image d-flex flex-column align-items-center justify-content-center"></div>
 											<div class="product_content">
 												<div class="product_price discount">$225<span>$300</span></div>
 												<div class="product_name"><div><a href="product.html">Huawei MediaPad...</a></div></div>
@@ -623,7 +623,7 @@
 									<div class="featured_slider_item">
 										<div class="border_active"></div>
 										<div class="product_item is_new d-flex flex-column align-items-center justify-content-center text-center">
-											<div class="product_image d-flex flex-column align-items-center justify-content-center"><img src="images/featured_2.png" alt=""></div>
+											<div class="product_image d-flex flex-column align-items-center justify-content-center"><img src="{{asset('img/featured_2.png')}}" alt="product_image d-flex flex-column align-items-center justify-content-center"></div>
 											<div class="product_content">
 												<div class="product_price">$379</div>
 												<div class="product_name"><div><a href="product.html">Apple iPod shuffle</a></div></div>
@@ -648,7 +648,7 @@
 									<div class="featured_slider_item">
 										<div class="border_active"></div>
 										<div class="product_item d-flex flex-column align-items-center justify-content-center text-center">
-											<div class="product_image d-flex flex-column align-items-center justify-content-center"><img src="images/featured_3.png" alt=""></div>
+											<div class="product_image d-flex flex-column align-items-center justify-content-center"><img src="{{asset('img/featured_3.png')}}" alt="product_image d-flex flex-column align-items-center justify-content-center"></div>
 											<div class="product_content">
 												<div class="product_price">$379</div>
 												<div class="product_name"><div><a href="product.html">Sony MDRZX310W</a></div></div>
@@ -673,7 +673,7 @@
 									<div class="featured_slider_item">
 										<div class="border_active"></div>
 										<div class="product_item discount d-flex flex-column align-items-center justify-content-center text-center">
-											<div class="product_image d-flex flex-column align-items-center justify-content-center"><img src="images/featured_4.png" alt=""></div>
+											<div class="product_image d-flex flex-column align-items-center justify-content-center"><img src="{{asset('img/featured_4.png')}}" alt="product_image d-flex flex-column align-items-center justify-content-center"></div>
 											<div class="product_content">
 												<div class="product_price discount">$225<span>$300</span></div>
 												<div class="product_name"><div><a href="product.html">LUNA Smartphone</a></div></div>
@@ -698,7 +698,7 @@
 									<div class="featured_slider_item">
 										<div class="border_active"></div>
 										<div class="product_item d-flex flex-column align-items-center justify-content-center text-center">
-											<div class="product_image d-flex flex-column align-items-center justify-content-center"><img src="images/featured_5.png" alt=""></div>
+											<div class="product_image d-flex flex-column align-items-center justify-content-center"><img src="{{asset('img/featured_5.png')}}" alt="product_image d-flex flex-column align-items-center justify-content-center"></div>
 											<div class="product_content">
 												<div class="product_price">$225</div>
 												<div class="product_name"><div><a href="product.html">Canon STM Kit...</a></div></div>
@@ -723,7 +723,7 @@
 									<div class="featured_slider_item">
 										<div class="border_active"></div>
 										<div class="product_item d-flex flex-column align-items-center justify-content-center text-center">
-											<div class="product_image d-flex flex-column align-items-center justify-content-center"><img src="images/featured_6.png" alt=""></div>
+											<div class="product_image d-flex flex-column align-items-center justify-content-center"><img src="{{asset('img/featured_6.png')}}" alt="product_image d-flex flex-column align-items-center justify-content-center"></div>
 											<div class="product_content">
 												<div class="product_price">$379</div>
 												<div class="product_name"><div><a href="product.html">Samsung J330F...</a></div></div>
@@ -748,7 +748,7 @@
 									<div class="featured_slider_item">
 										<div class="border_active"></div>
 										<div class="product_item is_new d-flex flex-column align-items-center justify-content-center text-center">
-											<div class="product_image d-flex flex-column align-items-center justify-content-center"><img src="images/featured_7.png" alt=""></div>
+											<div class="product_image d-flex flex-column align-items-center justify-content-center"><img src="{{asset('img/featured_7.png')}}" alt="product_image d-flex flex-column align-items-center justify-content-center"></div>
 											<div class="product_content">
 												<div class="product_price">$379</div>
 												<div class="product_name"><div><a href="product.html">Lenovo IdeaPad</a></div></div>
@@ -773,7 +773,7 @@
 									<div class="featured_slider_item">
 										<div class="border_active"></div>
 										<div class="product_item d-flex flex-column align-items-center justify-content-center text-center">
-											<div class="product_image d-flex flex-column align-items-center justify-content-center"><img src="images/featured_8.png" alt=""></div>
+											<div class="product_image d-flex flex-column align-items-center justify-content-center"><img src="{{asset('/featured_8.png')}}" alt="product_image d-flex flex-column align-items-center justify-content-center"></div>
 											<div class="product_content">
 												<div class="product_price">$225</div>
 												<div class="product_name"><div><a href="product.html">Digitus EDNET...</a></div></div>
@@ -798,7 +798,7 @@
 									<div class="featured_slider_item">
 										<div class="border_active"></div>
 										<div class="product_item d-flex flex-column align-items-center justify-content-center text-center">
-											<div class="product_image d-flex flex-column align-items-center justify-content-center"><img src="images/featured_1.png" alt=""></div>
+											<div class="product_image d-flex flex-column align-items-center justify-content-center"><img src="{{asset('img/featured_1.png')}}" alt="product_image d-flex flex-column align-items-center justify-content-center"></div>
 											<div class="product_content">
 												<div class="product_price">$225</div>
 												<div class="product_name"><div><a href="product.html">Huawei MediaPad...</a></div></div>
@@ -823,7 +823,7 @@
 									<div class="featured_slider_item">
 										<div class="border_active"></div>
 										<div class="product_item d-flex flex-column align-items-center justify-content-center text-center">
-											<div class="product_image d-flex flex-column align-items-center justify-content-center"><img src="images/featured_2.png" alt=""></div>
+											<div class="product_image d-flex flex-column align-items-center justify-content-center"><img src="{{asset('img/featured_2.png')}}" alt="product_image d-flex flex-column align-items-center justify-content-center"></div>
 											<div class="product_content">
 												<div class="product_price">$379</div>
 												<div class="product_name"><div><a href="product.html">Huawei MediaPad...</a></div></div>
@@ -848,7 +848,7 @@
 									<div class="featured_slider_item">
 										<div class="border_active"></div>
 										<div class="product_item d-flex flex-column align-items-center justify-content-center text-center">
-											<div class="product_image d-flex flex-column align-items-center justify-content-center"><img src="images/featured_3.png" alt=""></div>
+											<div class="product_image d-flex flex-column align-items-center justify-content-center"><img src="{{asset('img/featured_3.png')}}" alt="product_image d-flex flex-column align-items-center justify-content-center"></div>
 											<div class="product_content">
 												<div class="product_price">$379</div>
 												<div class="product_name"><div><a href="product.html">Huawei MediaPad...</a></div></div>
@@ -873,7 +873,7 @@
 									<div class="featured_slider_item">
 										<div class="border_active"></div>
 										<div class="product_item d-flex flex-column align-items-center justify-content-center text-center">
-											<div class="product_image d-flex flex-column align-items-center justify-content-center"><img src="images/featured_4.png" alt=""></div>
+											<div class="product_image d-flex flex-column align-items-center justify-content-center"><img src="{{asset('img/featured_4.png')}}" alt="product_image d-flex flex-column align-items-center justify-content-center"></div>
 											<div class="product_content">
 												<div class="product_price">$225</div>
 												<div class="product_name"><div><a href="product.html">Huawei MediaPad...</a></div></div>
@@ -898,7 +898,7 @@
 									<div class="featured_slider_item">
 										<div class="border_active"></div>
 										<div class="product_item d-flex flex-column align-items-center justify-content-center text-center">
-											<div class="product_image d-flex flex-column align-items-center justify-content-center"><img src="images/featured_5.png" alt=""></div>
+											<div class="product_image d-flex flex-column align-items-center justify-content-center"><img src="{{asset('img/featured_5.png')}}" alt="product_image d-flex flex-column align-items-center justify-content-center"></div>
 											<div class="product_content">
 												<div class="product_price">$225</div>
 												<div class="product_name"><div><a href="product.html">Huawei MediaPad...</a></div></div>
@@ -923,7 +923,7 @@
 									<div class="featured_slider_item">
 										<div class="border_active"></div>
 										<div class="product_item d-flex flex-column align-items-center justify-content-center text-center">
-											<div class="product_image d-flex flex-column align-items-center justify-content-center"><img src="images/featured_6.png" alt=""></div>
+											<div class="product_image d-flex flex-column align-items-center justify-content-center"><img src="{{asset('img/featured_6.png')}}" alt="product_image d-flex flex-column align-items-center justify-content-center"></div>
 											<div class="product_content">
 												<div class="product_price">$379</div>
 												<div class="product_name"><div><a href="product.html">Huawei MediaPad...</a></div></div>
@@ -948,7 +948,7 @@
 									<div class="featured_slider_item">
 										<div class="border_active"></div>
 										<div class="product_item d-flex flex-column align-items-center justify-content-center text-center">
-											<div class="product_image d-flex flex-column align-items-center justify-content-center"><img src="images/featured_7.png" alt=""></div>
+											<div class="product_image d-flex flex-column align-items-center justify-content-center"><img src="{{asset('img/featured_7.png')}}" alt="product_image d-flex flex-column align-items-center justify-content-center"></div>
 											<div class="product_content">
 												<div class="product_price">$379</div>
 												<div class="product_name"><div><a href="product.html">Huawei MediaPad...</a></div></div>
@@ -973,7 +973,7 @@
 									<div class="featured_slider_item">
 										<div class="border_active"></div>
 										<div class="product_item d-flex flex-column align-items-center justify-content-center text-center">
-											<div class="product_image d-flex flex-column align-items-center justify-content-center"><img src="images/featured_8.png" alt=""></div>
+											<div class="product_image d-flex flex-column align-items-center justify-content-center"><img src="{{asset('img/featured_8.png')}}" alt="product_image d-flex flex-column align-items-center justify-content-center"></div>
 											<div class="product_content">
 												<div class="product_price">$225</div>
 												<div class="product_name"><div><a href="product.html">Huawei MediaPad...</a></div></div>
@@ -1007,7 +1007,7 @@
 									<div class="featured_slider_item">
 										<div class="border_active"></div>
 										<div class="product_item discount d-flex flex-column align-items-center justify-content-center text-center">
-											<div class="product_image d-flex flex-column align-items-center justify-content-center"><img src="images/featured_1.png" alt=""></div>
+											<div class="product_image d-flex flex-column align-items-center justify-content-center"><img src="{{asset('img/featured_1.png')}}" alt="product_image d-flex flex-column align-items-center justify-content-center"></div>
 											<div class="product_content">
 												<div class="product_price discount">$225<span>$300</span></div>
 												<div class="product_name"><div><a href="product.html">Huawei MediaPad...</a></div></div>
@@ -1032,7 +1032,7 @@
 									<div class="featured_slider_item">
 										<div class="border_active"></div>
 										<div class="product_item is_new d-flex flex-column align-items-center justify-content-center text-center">
-											<div class="product_image d-flex flex-column align-items-center justify-content-center"><img src="images/featured_2.png" alt=""></div>
+											<div class="product_image d-flex flex-column align-items-center justify-content-center"><img src="{{asset('img/featured_2.png')}}" alt="product_image d-flex flex-column align-items-center justify-content-center"></div>
 											<div class="product_content">
 												<div class="product_price">$379</div>
 												<div class="product_name"><div><a href="product.html">Apple iPod shuffle</a></div></div>
@@ -1057,7 +1057,7 @@
 									<div class="featured_slider_item">
 										<div class="border_active"></div>
 										<div class="product_item d-flex flex-column align-items-center justify-content-center text-center">
-											<div class="product_image d-flex flex-column align-items-center justify-content-center"><img src="images/featured_3.png" alt=""></div>
+											<div class="product_image d-flex flex-column align-items-center justify-content-center"><img src="{{asset('img/featured_3.png')}}" alt="product_image d-flex flex-column align-items-center justify-content-center"></div>
 											<div class="product_content">
 												<div class="product_price">$379</div>
 												<div class="product_name"><div><a href="product.html">Sony MDRZX310W</a></div></div>
@@ -1082,7 +1082,7 @@
 									<div class="featured_slider_item">
 										<div class="border_active"></div>
 										<div class="product_item discount d-flex flex-column align-items-center justify-content-center text-center">
-											<div class="product_image d-flex flex-column align-items-center justify-content-center"><img src="images/featured_4.png" alt=""></div>
+											<div class="product_image d-flex flex-column align-items-center justify-content-center"><img src="{{asset('img/featured_4.png')}}" alt="product_image d-flex flex-column align-items-center justify-content-center"></div>
 											<div class="product_content">
 												<div class="product_price discount">$225<span>$300</span></div>
 												<div class="product_name"><div><a href="product.html">LUNA Smartphone</a></div></div>
@@ -1107,7 +1107,7 @@
 									<div class="featured_slider_item">
 										<div class="border_active"></div>
 										<div class="product_item d-flex flex-column align-items-center justify-content-center text-center">
-											<div class="product_image d-flex flex-column align-items-center justify-content-center"><img src="images/featured_5.png" alt=""></div>
+											<div class="product_image d-flex flex-column align-items-center justify-content-center"><img src="{{asset('img/featured_5.png')}}" alt="product_image d-flex flex-column align-items-center justify-content-center"></div>
 											<div class="product_content">
 												<div class="product_price">$225</div>
 												<div class="product_name"><div><a href="product.html">Canon STM Kit...</a></div></div>
@@ -1132,7 +1132,7 @@
 									<div class="featured_slider_item">
 										<div class="border_active"></div>
 										<div class="product_item d-flex flex-column align-items-center justify-content-center text-center">
-											<div class="product_image d-flex flex-column align-items-center justify-content-center"><img src="images/featured_6.png" alt=""></div>
+											<div class="product_image d-flex flex-column align-items-center justify-content-center"><img src="{{asset('img/featured_6.png')}}" alt="product_image d-flex flex-column align-items-center justify-content-center"></div>
 											<div class="product_content">
 												<div class="product_price">$379</div>
 												<div class="product_name"><div><a href="product.html">Samsung J330F...</a></div></div>
@@ -1157,7 +1157,7 @@
 									<div class="featured_slider_item">
 										<div class="border_active"></div>
 										<div class="product_item is_new d-flex flex-column align-items-center justify-content-center text-center">
-											<div class="product_image d-flex flex-column align-items-center justify-content-center"><img src="images/featured_7.png" alt=""></div>
+											<div class="product_image d-flex flex-column align-items-center justify-content-center"><img src="{{asset('img/featured_7.png')}}" alt="product_image d-flex flex-column align-items-center justify-content-center"></div>
 											<div class="product_content">
 												<div class="product_price">$379</div>
 												<div class="product_name"><div><a href="product.html">Lenovo IdeaPad</a></div></div>
@@ -1182,7 +1182,7 @@
 									<div class="featured_slider_item">
 										<div class="border_active"></div>
 										<div class="product_item d-flex flex-column align-items-center justify-content-center text-center">
-											<div class="product_image d-flex flex-column align-items-center justify-content-center"><img src="images/featured_8.png" alt=""></div>
+											<div class="product_image d-flex flex-column align-items-center justify-content-center"><img src="{{asset('img/featured_8.png')}}" alt="product_image d-flex flex-column align-items-center justify-content-center"></div>
 											<div class="product_content">
 												<div class="product_price">$225</div>
 												<div class="product_name"><div><a href="product.html">Digitus EDNET...</a></div></div>
@@ -1207,7 +1207,7 @@
 									<div class="featured_slider_item">
 										<div class="border_active"></div>
 										<div class="product_item d-flex flex-column align-items-center justify-content-center text-center">
-											<div class="product_image d-flex flex-column align-items-center justify-content-center"><img src="images/featured_1.png" alt=""></div>
+											<div class="product_image d-flex flex-column align-items-center justify-content-center"><img src="{{asset('img/featured_1.png')}}" alt="product_image d-flex flex-column align-items-center justify-content-center"></div>
 											<div class="product_content">
 												<div class="product_price">$225</div>
 												<div class="product_name"><div><a href="product.html">Huawei MediaPad...</a></div></div>
@@ -1232,7 +1232,7 @@
 									<div class="featured_slider_item">
 										<div class="border_active"></div>
 										<div class="product_item d-flex flex-column align-items-center justify-content-center text-center">
-											<div class="product_image d-flex flex-column align-items-center justify-content-center"><img src="images/featured_2.png" alt=""></div>
+											<div class="product_image d-flex flex-column align-items-center justify-content-center"><img src="{{asset('img/featured_2.png')}}" alt="product_image d-flex flex-column align-items-center justify-content-center"></div>
 											<div class="product_content">
 												<div class="product_price">$379</div>
 												<div class="product_name"><div><a href="product.html">Huawei MediaPad...</a></div></div>
@@ -1257,7 +1257,7 @@
 									<div class="featured_slider_item">
 										<div class="border_active"></div>
 										<div class="product_item d-flex flex-column align-items-center justify-content-center text-center">
-											<div class="product_image d-flex flex-column align-items-center justify-content-center"><img src="images/featured_3.png" alt=""></div>
+											<div class="product_image d-flex flex-column align-items-center justify-content-center"><img src="{{asset('img/featured_3.png')}}" alt="product_image d-flex flex-column align-items-center justify-content-center"></div>
 											<div class="product_content">
 												<div class="product_price">$379</div>
 												<div class="product_name"><div><a href="product.html">Huawei MediaPad...</a></div></div>
@@ -1282,7 +1282,7 @@
 									<div class="featured_slider_item">
 										<div class="border_active"></div>
 										<div class="product_item d-flex flex-column align-items-center justify-content-center text-center">
-											<div class="product_image d-flex flex-column align-items-center justify-content-center"><img src="images/featured_4.png" alt=""></div>
+											<div class="product_image d-flex flex-column align-items-center justify-content-center"><img src="{{asset('img/featured_4.png')}}" alt="product_image d-flex flex-column align-items-center justify-content-center"></div>
 											<div class="product_content">
 												<div class="product_price">$225</div>
 												<div class="product_name"><div><a href="product.html">Huawei MediaPad...</a></div></div>
@@ -1307,7 +1307,7 @@
 									<div class="featured_slider_item">
 										<div class="border_active"></div>
 										<div class="product_item d-flex flex-column align-items-center justify-content-center text-center">
-											<div class="product_image d-flex flex-column align-items-center justify-content-center"><img src="images/featured_5.png" alt=""></div>
+											<div class="product_image d-flex flex-column align-items-center justify-content-center"><img src="{{asset('img/featured_5.png')}}" alt="product_image d-flex flex-column align-items-center justify-content-center"></div>
 											<div class="product_content">
 												<div class="product_price">$225</div>
 												<div class="product_name"><div><a href="product.html">Huawei MediaPad...</a></div></div>
@@ -1332,7 +1332,7 @@
 									<div class="featured_slider_item">
 										<div class="border_active"></div>
 										<div class="product_item d-flex flex-column align-items-center justify-content-center text-center">
-											<div class="product_image d-flex flex-column align-items-center justify-content-center"><img src="images/featured_6.png" alt=""></div>
+											<div class="product_image d-flex flex-column align-items-center justify-content-center"><img src="{{asset('img/featured_6.png')}}" alt="product_image d-flex flex-column align-items-center justify-content-center"></div>
 											<div class="product_content">
 												<div class="product_price">$379</div>
 												<div class="product_name"><div><a href="product.html">Huawei MediaPad...</a></div></div>
@@ -1357,7 +1357,7 @@
 									<div class="featured_slider_item">
 										<div class="border_active"></div>
 										<div class="product_item d-flex flex-column align-items-center justify-content-center text-center">
-											<div class="product_image d-flex flex-column align-items-center justify-content-center"><img src="images/featured_7.png" alt=""></div>
+											<div class="product_image d-flex flex-column align-items-center justify-content-center"><img src="{{asset('img/featured_7.png')}}" alt="product_image d-flex flex-column align-items-center justify-content-center"></div>
 											<div class="product_content">
 												<div class="product_price">$379</div>
 												<div class="product_name"><div><a href="product.html">Huawei MediaPad...</a></div></div>
@@ -1382,7 +1382,7 @@
 									<div class="featured_slider_item">
 										<div class="border_active"></div>
 										<div class="product_item d-flex flex-column align-items-center justify-content-center text-center">
-											<div class="product_image d-flex flex-column align-items-center justify-content-center"><img src="images/featured_8.png" alt=""></div>
+											<div class="product_image d-flex flex-column align-items-center justify-content-center"><img src="{{asset('img/featured_8.png')}}" alt="product_image d-flex flex-column align-items-center justify-content-center"></div>
 											<div class="product_content">
 												<div class="product_price">$225</div>
 												<div class="product_name"><div><a href="product.html">Huawei MediaPad...</a></div></div>
@@ -1416,7 +1416,7 @@
 									<div class="featured_slider_item">
 										<div class="border_active"></div>
 										<div class="product_item discount d-flex flex-column align-items-center justify-content-center text-center">
-											<div class="product_image d-flex flex-column align-items-center justify-content-center"><img src="images/featured_1.png" alt=""></div>
+											<div class="product_image d-flex flex-column align-items-center justify-content-center"><img src="{{asset('img/featured_1.png')}}" alt="product_image d-flex flex-column align-items-center justify-content-center"></div>
 											<div class="product_content">
 												<div class="product_price discount">$225<span>$300</span></div>
 												<div class="product_name"><div><a href="product.html">Huawei MediaPad...</a></div></div>
@@ -1441,7 +1441,7 @@
 									<div class="featured_slider_item">
 										<div class="border_active"></div>
 										<div class="product_item is_new d-flex flex-column align-items-center justify-content-center text-center">
-											<div class="product_image d-flex flex-column align-items-center justify-content-center"><img src="images/featured_2.png" alt=""></div>
+											<div class="product_image d-flex flex-column align-items-center justify-content-center"><img src="{{asset('img/featured_2.png')}}" alt="product_image d-flex flex-column align-items-center justify-content-center"></div>
 											<div class="product_content">
 												<div class="product_price">$379</div>
 												<div class="product_name"><div><a href="product.html">Apple iPod shuffle</a></div></div>
@@ -1466,7 +1466,7 @@
 									<div class="featured_slider_item">
 										<div class="border_active"></div>
 										<div class="product_item d-flex flex-column align-items-center justify-content-center text-center">
-											<div class="product_image d-flex flex-column align-items-center justify-content-center"><img src="images/featured_3.png" alt=""></div>
+											<div class="product_image d-flex flex-column align-items-center justify-content-center"><img src="{{asset('img/featured_3.png')}}" alt="product_image d-flex flex-column align-items-center justify-content-center"></div>
 											<div class="product_content">
 												<div class="product_price">$379</div>
 												<div class="product_name"><div><a href="product.html">Sony MDRZX310W</a></div></div>
@@ -1491,7 +1491,7 @@
 									<div class="featured_slider_item">
 										<div class="border_active"></div>
 										<div class="product_item discount d-flex flex-column align-items-center justify-content-center text-center">
-											<div class="product_image d-flex flex-column align-items-center justify-content-center"><img src="images/featured_4.png" alt=""></div>
+											<div class="product_image d-flex flex-column align-items-center justify-content-center"><img src="{{asset('img/featured_4.png')}}" alt="product_image d-flex flex-column align-items-center justify-content-center"></div>
 											<div class="product_content">
 												<div class="product_price discount">$225<span>$300</span></div>
 												<div class="product_name"><div><a href="product.html">LUNA Smartphone</a></div></div>
@@ -1516,7 +1516,7 @@
 									<div class="featured_slider_item">
 										<div class="border_active"></div>
 										<div class="product_item d-flex flex-column align-items-center justify-content-center text-center">
-											<div class="product_image d-flex flex-column align-items-center justify-content-center"><img src="images/featured_5.png" alt=""></div>
+											<div class="product_image d-flex flex-column align-items-center justify-content-center"><img src="{{asset('img/featured_5.png')}}" alt="product_image d-flex flex-column align-items-center justify-content-center"></div>
 											<div class="product_content">
 												<div class="product_price">$225</div>
 												<div class="product_name"><div><a href="product.html">Canon STM Kit...</a></div></div>
@@ -4394,14 +4394,14 @@
 
 						<div class="owl-carousel owl-theme brands_slider">
 							
-							<div class="owl-item"><div class="brands_item d-flex flex-column justify-content-center"><img src="images/brands_1.jpg" alt=""></div></div>
-							<div class="owl-item"><div class="brands_item d-flex flex-column justify-content-center"><img src="images/brands_2.jpg" alt=""></div></div>
-							<div class="owl-item"><div class="brands_item d-flex flex-column justify-content-center"><img src="images/brands_3.jpg" alt=""></div></div>
-							<div class="owl-item"><div class="brands_item d-flex flex-column justify-content-center"><img src="images/brands_4.jpg" alt=""></div></div>
-							<div class="owl-item"><div class="brands_item d-flex flex-column justify-content-center"><img src="images/brands_5.jpg" alt=""></div></div>
-							<div class="owl-item"><div class="brands_item d-flex flex-column justify-content-center"><img src="images/brands_6.jpg" alt=""></div></div>
-							<div class="owl-item"><div class="brands_item d-flex flex-column justify-content-center"><img src="images/brands_7.jpg" alt=""></div></div>
-							<div class="owl-item"><div class="brands_item d-flex flex-column justify-content-center"><img src="images/brands_8.jpg" alt=""></div></div>
+							<div class="owl-item"><div class="brands_item d-flex flex-column justify-content-center"><img src="{{asset('img/brands_1.jpg')}}" alt="owl-item"></div></div>
+							<div class="owl-item"><div class="brands_item d-flex flex-column justify-content-center"><img src="{{asset('img/brands_2.jpg')}}" alt="owl-item"></div></div>
+							<div class="owl-item"><div class="brands_item d-flex flex-column justify-content-center"><img src="{{asset('img/brands_3.jpg')}}" alt="owl-item"></div></div>
+							<div class="owl-item"><div class="brands_item d-flex flex-column justify-content-center"><img src="{{asset('img/brands_4.jpg')}}" alt="owl-item"></div></div>
+							<div class="owl-item"><div class="brands_item d-flex flex-column justify-content-center"><img src="{{asset('img/brands_5.jpg')}}" alt="owl-item"></div></div>
+							<div class="owl-item"><div class="brands_item d-flex flex-column justify-content-center"><img src="{{asset('img/brands_6.jpg')}}" alt="owl-item"></div></div>
+							<div class="owl-item"><div class="brands_item d-flex flex-column justify-content-center"><img src="{{asset('img/brands_7.jpg')}}" alt="owl-item"></div></div>
+							<div class="owl-item"><div class="brands_item d-flex flex-column justify-content-center"><img src="{{asset('img/brands_8.jpg')}}" alt="owl-item"></div></div>
 
 						</div>
 						
@@ -4423,7 +4423,7 @@
 				<div class="col">
 					<div class="newsletter_container d-flex flex-lg-row flex-column align-items-lg-center align-items-center justify-content-lg-start justify-content-center">
 						<div class="newsletter_title_container">
-							<div class="newsletter_icon"><img src="images/send.png" alt=""></div>
+							<div class="newsletter_icon"><img src="{{asset('img/send.png')}}" alt="newsletter_icon"></div>
 							<div class="newsletter_title">Sign up for Newsletter</div>
 							<div class="newsletter_text"><p>...and receive %20 coupon for first shopping.</p></div>
 						</div>
@@ -4530,10 +4530,10 @@ Copyright &copy;<script data-cfasync="false" src="../../../cdn-cgi/scripts/5c5dd
 </div>
 						<div class="logos ml-sm-auto">
 							<ul class="logos_list">
-								<li><a href="#"><img src="images/logos_1.png" alt=""></a></li>
-								<li><a href="#"><img src="images/logos_2.png" alt=""></a></li>
-								<li><a href="#"><img src="images/logos_3.png" alt=""></a></li>
-								<li><a href="#"><img src="images/logos_4.png" alt=""></a></li>
+								<li><a href="#"><img src="{{asset('img/logos_1.png')}}" alt=""></a></li>
+								<li><a href="#"><img src="{{asset('img/logos_2.png')}}" alt=""></a></li>
+								<li><a href="#"><img src="{{asset('img/logos_3.png')}}" alt=""></a></li>
+								<li><a href="#"><img src="{{asset('img/logos_4.png')}}" alt=""></a></li>
 							</ul>
 						</div>
 					</div>
@@ -4544,8 +4544,8 @@ Copyright &copy;<script data-cfasync="false" src="../../../cdn-cgi/scripts/5c5dd
 </div>
 
 <script src="{{asset('js/jquery-3.3.1.min.js')}}"></script>
-<script src="{{asset('styles/bootstrap4/popper.js')}}"></script>
-<script src="{{asset('styles/bootstrap4/bootstrap.min.js')}}"></script>
+<script src="{{asset('css/bootstrap4/popper.js')}}"></script>
+<script src="{{asset('css/bootstrap4/bootstrap.min.js')}}"></script>
 <script src="{{asset('plugins/greensock/TweenMax.min.js')}}"></script>
 <script src="{{asset('plugins/greensock/TimelineMax.min.js')}}"></script>
 <script src="{{asset('plugins/scrollmagic/ScrollMagic.min.js')}}"></script>
