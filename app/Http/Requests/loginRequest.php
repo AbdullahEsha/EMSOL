@@ -13,7 +13,7 @@ class loginRequest extends FormRequest
      */
     public function authorize()
     {
-        return false;
+        return true;
     }
 
     /**
@@ -24,7 +24,15 @@ class loginRequest extends FormRequest
     public function rules()
     {
         return [
-            //
+            'common' => 'required|min:4',
+            'password' => 'required',
+        ];
+    }
+
+    public function messages(){
+        return [
+            'common.required'=> "phone or email is required",
+            'common.min'=> "phone or email can't be less than 4 characters",
         ];
     }
 }

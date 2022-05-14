@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\userController;
 
 /*
 |--------------------------------------------------------------------------
@@ -20,6 +21,7 @@ Route::get('/', function () {
 Route::get('/login', function () {
     return view('common.login');
 });
+Route::post('/login', [UserController::class, 'verify']);
 
 Route::get('/register', function () {
     return view('common.register');
