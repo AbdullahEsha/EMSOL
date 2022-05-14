@@ -15,9 +15,9 @@
         <!-- Tabs Titles -->
     
         <!-- Icon -->
-        <!-- <div class="fadeIn first">
+         <div class="fadeIn first">
           <img src="https://icons.veryicon.com/png/o/miscellaneous/two-color-icon-library/user-286.png" id="icon" alt="User Icon" />
-        </div> -->
+        </div> 
         <br />
         <p class="text-success">
           {{session('msg')}}
@@ -36,7 +36,7 @@
         <!-- Login Form -->
         <form method='POST' action="" enctype= multipart/form-data>
           @csrf
-          <input type="text" id="login" class="fadeIn second" name="email" placeholder="Enter your email/phone ..." required>
+          <input type="text" id="login" class="fadeIn second" name="common" placeholder="Enter your email/phone ..." required>
           <input type="password" id="password" class="fadeIn third" name="password" placeholder="Enter your password" required>
           <input type="submit" class="fadeIn fourth" value="Log In">
         </form>
