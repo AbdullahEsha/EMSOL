@@ -16,6 +16,7 @@
 <link rel="stylesheet" type="text/css" href="{{asset('plugins/OwlCarousel2-2.2.1/owl.theme.default.css')}}">
 <link rel="stylesheet" type="text/css" href="{{asset('plugins/OwlCarousel2-2.2.1/animate.css')}}">
 <link rel="stylesheet" type="text/css" href="{{asset('plugins/slick-1.8.0/slick.css')}}">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 
 
 </head>
@@ -40,7 +41,7 @@
 							<div class="top_bar_menu">
 								<ul class="standard_dropdown top_bar_dropdown">
 									<li>
-										<a href="#">English<i class="fas fa-chevron-down"></i></a>
+										<a href="#">English<i class="fa fa-angle-down" aria-hidden="true"></i></a>
 										<ul>
 											<li><a href="#">Italian</a></li>
 											<li><a href="#">Spanish</a></li>
@@ -58,7 +59,7 @@
 								</ul>
 							</div>
 							<div class="top_bar_user">
-								<div class="user_icon"><img src="images/user.svg" alt=""></div>
+								<div class="user_icon"><img src="{{asset('img/user.svg')}}" alt=""></div>
 								<div><a href="#">Register</a></div>
 								<div><a href="#">Sign in</a></div>
 							</div>
@@ -77,7 +78,7 @@
 					<!-- Logo -->
 					<div class="col-lg-2 col-sm-3 col-3 order-1">
 						<div class="logo_container">
-							<div class="logo"><a href="#">OneTech</a></div>
+							<div class="logo"><a href="#">EMS ltd.</a></div>
 						</div>
 					</div>
 
@@ -102,35 +103,8 @@
 												</ul>
 											</div>
 										</div>
-										<button type="submit" class="header_search_button trans_300" value="Submit"><img src="images/search.png" alt=""></button>
+										<button type="submit" class="header_search_button trans_300" value="Submit"><img src="{{asset('img/search.png')}}" alt=""></button>
 									</form>
-								</div>
-							</div>
-						</div>
-					</div>
-
-					<!-- Wishlist -->
-					<div class="col-lg-4 col-9 order-lg-3 order-2 text-lg-left text-right">
-						<div class="wishlist_cart d-flex flex-row align-items-center justify-content-end">
-							<div class="wishlist d-flex flex-row align-items-center justify-content-end">
-								<div class="wishlist_icon"><img src="{{asset('img/heart.png')}}" alt="wishlist_icon"></div>
-								<div class="wishlist_content">
-									<div class="wishlist_text"><a href="#">Wishlist</a></div>
-									<div class="wishlist_count">115</div>
-								</div>
-							</div>
-
-							<!-- Cart -->
-							<div class="cart">
-								<div class="cart_container d-flex flex-row align-items-center justify-content-end">
-									<div class="cart_icon">
-										<img src="{{asset('img/cart.png')}}" alt="">
-										<div class="cart_count"><span>10</span></div>
-									</div>
-									<div class="cart_content">
-										<div class="cart_text"><a href="#">Cart</a></div>
-										<div class="cart_price">$85</div>
-									</div>
 								</div>
 							</div>
 						</div>
@@ -145,48 +119,7 @@
 			<div class="container">
 				<div class="row">
 					<div class="col">
-						
 						<div class="main_nav_content d-flex flex-row">
-
-							<!-- Categories Menu -->
-
-							<div class="cat_menu_container">
-								<div class="cat_menu_title d-flex flex-row align-items-center justify-content-start">
-									<div class="cat_burger"><span></span><span></span><span></span></div>
-									<div class="cat_menu_text">categories</div>
-								</div>
-
-								<ul class="cat_menu">
-									<li><a href="#">Computers & Laptops <i class="fas fa-chevron-right ml-auto"></i></a></li>
-									<li><a href="#">Cameras & Photos<i class="fas fa-chevron-right"></i></a></li>
-									<li class="hassubs">
-										<a href="#">Hardware<i class="fas fa-chevron-right"></i></a>
-										<ul>
-											<li class="hassubs">
-												<a href="#">Menu Item<i class="fas fa-chevron-right"></i></a>
-												<ul>
-													<li><a href="#">Menu Item<i class="fas fa-chevron-right"></i></a></li>
-													<li><a href="#">Menu Item<i class="fas fa-chevron-right"></i></a></li>
-													<li><a href="#">Menu Item<i class="fas fa-chevron-right"></i></a></li>
-													<li><a href="#">Menu Item<i class="fas fa-chevron-right"></i></a></li>
-												</ul>
-											</li>
-											<li><a href="#">Menu Item<i class="fas fa-chevron-right"></i></a></li>
-											<li><a href="#">Menu Item<i class="fas fa-chevron-right"></i></a></li>
-											<li><a href="#">Menu Item<i class="fas fa-chevron-right"></i></a></li>
-										</ul>
-									</li>
-									<li><a href="#">Smartphones & Tablets<i class="fas fa-chevron-right"></i></a></li>
-									<li><a href="#">TV & Audio<i class="fas fa-chevron-right"></i></a></li>
-									<li><a href="#">Gadgets<i class="fas fa-chevron-right"></i></a></li>
-									<li><a href="#">Car Electronics<i class="fas fa-chevron-right"></i></a></li>
-									<li><a href="#">Video Games & Consoles<i class="fas fa-chevron-right"></i></a></li>
-									<li><a href="#">Accessories<i class="fas fa-chevron-right"></i></a></li>
-								</ul>
-							</div>
-
-							<!-- Main Nav Menu -->
-
 							<div class="main_nav_menu ml-auto">
 								<ul class="standard_dropdown main_nav_dropdown">
 									<li><a href="#">Home<i class="fas fa-chevron-down"></i></a></li>
@@ -351,12 +284,12 @@
 		<div class="container fill_height">
 			<div class="row fill_height">
 				<div class="banner_product_image"><img src="{{asset('img/banner_product.png')}}" alt="banner_product_image"></div>
-				<div class="col-lg-5 offset-lg-4 fill_height">
+				<div class="col-lg-5 offset-lg-1 fill_height">
 					<div class="banner_content">
-						<h1 class="banner_text">new era of smartphones</h1>
+						<h1 class="banner_text">fumigation services bangladesh</h1>
 						<div class="banner_price"><span>$530</span>$460</div>
-						<div class="banner_product_name">Apple Iphone 6s</div>
-						<div class="button banner_button"><a href="#">Shop Now</a></div>
+						<div class="banner_product_name">নতুন করোনাভাইরাস</div>
+						<div class="button banner_button"><a href="#">Contact Now</a></div>
 					</div>
 				</div>
 			</div>
@@ -375,7 +308,7 @@
 					<div class="char_item d-flex flex-row align-items-center justify-content-start">
 						<div class="char_icon"><img src="{{asset('img/char_1.png')}}" alt="char_icon"></div>
 						<div class="char_content">
-							<div class="char_title">Free Delivery</div>
+							<div class="char_title">Ambulance Service</div>
 							<div class="char_subtitle">from $50</div>
 						</div>
 					</div>
@@ -2466,7 +2399,7 @@
 										<div class="arrivals_slider_item">
 											<div class="border_active"></div>
 											<div class="product_item is_new d-flex flex-column align-items-center justify-content-center text-center">
-												<div class="product_image d-flex flex-column align-items-center justify-content-center"><img src="images/new_3.jpg" alt=""></div>
+												<div class="product_image d-flex flex-column align-items-center justify-content-center"><img src="{{asset('img/new_3.jpg')}}" alt=""></div>
 												<div class="product_content">
 													<div class="product_price">$379</div>
 													<div class="product_name"><div><a href="product.html">Huawei MediaPad...</a></div></div>
