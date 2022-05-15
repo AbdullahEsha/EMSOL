@@ -4555,6 +4555,7 @@ Copyright &copy;<script data-cfasync="false" src="../../../cdn-cgi/scripts/5c5dd
 <script src="{{asset('plugins/slick-1.8.0/slick.js')}}"></script>
 <script src="{{asset('plugins/easing/easing.js')}}"></script>
 <script src="{{asset('js/custom.js')}}"></script>
+<script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
 
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-23581568-13"></script>
