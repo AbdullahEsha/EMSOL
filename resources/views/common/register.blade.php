@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login</title>
+    <title>Register</title>
     <link rel="stylesheet" href="{{asset('css/login.css')}}">
     <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
 
@@ -19,7 +19,7 @@
           <img src="https://icons.veryicon.com/png/o/miscellaneous/two-color-icon-library/user-286.png" id="icon" alt="User Icon" />
         </div>
         <br />
-        <!-- Login Form -->
+        <!-- Register Form -->
         <form method='POST' action="" enctype= multipart/form-data>
           @csrf
           <input type="text" id="login" class="fadeIn second" name="name" placeholder="Enter full name" required>
@@ -27,6 +27,7 @@
           <input type="text" id="login" class="fadeIn second" name="phone" placeholder="Enter your phone number" required>
           <input type="password" id="password" class="fadeIn third" name="password" placeholder="Enter your password" required>
           <input type="password" id="password" class="fadeIn third" name="cPassword" placeholder="Confirm your password" required>
+          <input type="file" class="form-group" name="img" required>
           <input type="submit" class="fadeIn fourth" value="Log In">
         </form>
     
