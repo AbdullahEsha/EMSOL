@@ -19,25 +19,14 @@
           <img src="https://icons.veryicon.com/png/o/miscellaneous/two-color-icon-library/user-286.png" id="icon" alt="User Icon" />
         </div>
         <br />
-        <p class="text-success">
-          {{session('msg')}}
-        </p>
-        <p class="text-danger">
-          {{session('error')}}
-        </p>
-        @if (count($errors) > 0)
-          <p class="text-danger">
-            @foreach ($errors->all() as $error)
-              {{ $error }}<br>
-            @endforeach
-          </p>
-        @endif
-    
         <!-- Login Form -->
         <form method='POST' action="" enctype= multipart/form-data>
           @csrf
-          <input type="text" id="login" class="fadeIn second" name="email" placeholder="Enter your email/phone ..." required>
+          <input type="text" id="login" class="fadeIn second" name="name" placeholder="Enter full name" required>
+          <input type="text" id="login" class="fadeIn second" name="email" placeholder="Enter your email address" required>
+          <input type="text" id="login" class="fadeIn second" name="phone" placeholder="Enter your phone number" required>
           <input type="password" id="password" class="fadeIn third" name="password" placeholder="Enter your password" required>
+          <input type="password" id="password" class="fadeIn third" name="cPassword" placeholder="Confirm your password" required>
           <input type="submit" class="fadeIn fourth" value="Log In">
         </form>
     

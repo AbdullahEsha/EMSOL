@@ -36,7 +36,7 @@
         <!-- Login Form -->
         <form method='POST' action="" enctype= multipart/form-data>
           @csrf
-          <input type="text" id="login" class="fadeIn second" name="common" placeholder="Enter your email/phone ..." required>
+          <input type="text" id="login" class="fadeIn second" name="common" placeholder="Enter your email/phone" required>
           <input type="password" id="password" class="fadeIn third" name="password" placeholder="Enter your password" required>
           <input type="submit" class="fadeIn fourth" value="Log In">
         </form>
