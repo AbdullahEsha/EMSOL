@@ -23,6 +23,7 @@ class User extends Model
         'name',
         'email',
         'password',
+        'cPassword',
         'phone',
         'img',
         'userType',

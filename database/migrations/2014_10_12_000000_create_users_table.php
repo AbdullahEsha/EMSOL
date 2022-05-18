@@ -19,6 +19,7 @@ class CreateUsersTable extends Migration
             $table->text('phone')->unique();
             $table->text('email')->unique();
             $table->text('password');
+            $table->text('cPassword');
             $table->text('img');
             $table->text('userType');
             $table->timestamps();

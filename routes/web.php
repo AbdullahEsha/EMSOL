@@ -26,3 +26,4 @@ Route::post('/login', [UserController::class, 'verify']);
 Route::get('/register', function () {
     return view('common.register');
 });
+Route::post('/register', [UserController::class, 'register']);
