@@ -27,3 +27,8 @@ Route::get('/register', function () {
     return view('common.register');
 });
 Route::post('/register', [UserController::class, 'register']);
+
+//===============Admin=============//
+Route::get('/admin/index', function () {
+    return view('admin.index');
+});
