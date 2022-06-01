@@ -140,7 +140,7 @@
                 ><img
                   class="brand-logo"
                   alt="stack admin logo"
-                  src="../app-assets/images/logo/stack-logo.png"
+                  src="{{asset('admin/images/logo/stack-logo.png')}}"
                 />
                 <h2 class="brand-text">Stack</h2>
               </a>
