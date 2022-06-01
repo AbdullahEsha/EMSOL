@@ -2,6 +2,9 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\userController;
+use App\Http\Controllers\ambulanceController;
+use App\Http\Controllers\productController;
+use App\Http\Controllers\blogController;
 
 /*
 |--------------------------------------------------------------------------
@@ -33,6 +36,19 @@ Route::get('/admin/index', function () {
     return view('admin.index');
 });
 
-Route::get('/admin/ambulance', function () {
-    return view('admin.ambulance');
-});
+// Route::get('/admin/ambulance', function () {
+//     return view('admin.ambulance');
+// });
+
+// Route::get('/admin/blog', function () {
+//     return view('admin.blog');
+// });
+
+// Route::get('/admin/product', function () {
+//     return view('admin.product');
+// });
+
+Route::get('/admin/ambulance', [AmbulanceController::class, 'getData']);
+Route::get('/admin/user', [UserController::class, 'getData']);
+Route::get('/admin/product', [ProductController::class, 'getData']);
+Route::get('/admin/blog', [BlogController::class, 'getData']);

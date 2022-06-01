@@ -12,7 +12,8 @@ class productController extends Controller
     public function getData(){
         try{
             $productData = Product::orderBy('id', 'desc')->get();
-            return $productData;
+            //return $productData;
+            return view('admin.product')->with('productData', $productData);
         }
         catch (\Exception $e) {
             $req->session()->flash('error', $e->getMessage());

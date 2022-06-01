@@ -3262,7 +3262,7 @@
                 <div class="card">
                   <div class="card-head">
                     <div class="card-header">
-                      <h4 class="card-title">Ambulance</h4>
+                      <h4 class="card-title">Product</h4>
                       <div class="heading-elements mt-0">
                         <button
                           class="btn btn-primary btn-md"
@@ -3272,7 +3272,7 @@
                           <i
                             class="d-md-none d-block feather icon-plus white"
                           ></i>
-                          <span class="d-md-block d-none">Add Ambulance</span>
+                          <span class="d-md-block d-none">Add Product</span>
                         </button>
                         <div
                           class="modal fade"
@@ -3510,19 +3510,19 @@
                                 />
                               </th>
                               <th>id</th>
-                              <th>ambulanceDetail</th>
+                              <th>productDetail</th>
                               <th>img1</th>
                               <th>img2</th>
                               <th>img3</th>
                               <th>img4</th>
-                              <th>cost</th>
-                              <th>available</th>
+                              <th>price</th>
+                              <th>stock</th>
                               <th>created_at</th>
                               <th>Actions</th>
                             </tr>
                           </thead>
                           <tbody>
-                            @for($i=0; $i < count($ambulanceData); $i++)
+                            @for($i=0; $i < count($productData); $i++)
                               <tr id="rows">
                                 <td>
                                   <input
@@ -3530,15 +3530,15 @@
                                     class="input-chk check"
                                   />
                                 </td>
-                                <td>{{$ambulanceData[$i]['id']}}</td>
-                                <td>{{$ambulanceData[$i]['ambulanceDetail']}}</td>
-                                <td>{{$ambulanceData[$i]['img1']}}</td>
-                                <td>{{$ambulanceData[$i]['img2']}}</td>
-                                <td>{{$ambulanceData[$i]['img3']}}</td>
-                                <td>{{$ambulanceData[$i]['img4']}}</td>
-                                <td>{{$ambulanceData[$i]['cost']}}</td>
-                                <td>{{$ambulanceData[$i]['available']}}</td>
-                                <td>{{date('d M Y', strtotime($ambulanceData[$i]['created_at']))}}</td>
+                                <td>{{$productData[$i]['id']}}</td>
+                                <td>{{$productData[$i]['productDetail']}}</td>
+                                <td>{{$productData[$i]['img1']}}</td>
+                                <td>{{$productData[$i]['img2']}}</td>
+                                <td>{{$productData[$i]['img3']}}</td>
+                                <td>{{$productData[$i]['img4']}}</td>
+                                <td>{{$productData[$i]['price']}}</td>
+                                <td>{{$productData[$i]['stock']}}</td>
+                                <td>{{date('d M Y', strtotime($productData[$i]['created_at']))}}</td>
                                 <td>
                                 <a
                                   data-toggle="modal"

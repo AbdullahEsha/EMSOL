@@ -12,8 +12,9 @@ class ambulanceController extends Controller
 {
     public function getData(){
         try{
-            $productData = Product::orderBy('id', 'desc')->get();
-            return $productData;
+            $ambulanceData = Ambulance::orderBy('id', 'desc')->get();
+            //return $ambulanceData;
+            return view('admin.ambulance')->with('ambulanceData', $ambulanceData);
         }
         catch (\Exception $e) {
             $req->session()->flash('error', $e->getMessage());

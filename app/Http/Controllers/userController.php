@@ -64,4 +64,15 @@ class userController extends Controller
                 return redirect('/signup');
             }
     }
+
+    public function getData(){
+        try{
+            $userData = User::orderBy('id', 'desc')->get();
+            //return $ambulanceData;
+            return view('admin.user')->with('userData', $userData);
+        }
+        catch (\Exception $e) {
+            $req->session()->flash('error', $e->getMessage());
+        } 
+    }
 }

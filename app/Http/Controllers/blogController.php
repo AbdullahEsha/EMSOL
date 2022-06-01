@@ -11,8 +11,9 @@ class blogController extends Controller
 {
     public function getData(){
         try{
-            $productData = Product::orderBy('id', 'desc')->get();
-            return $productData;
+            $blogData = Blog::orderBy('id', 'desc')->get();
+            //return $blogData;
+            return view('admin.blog')->with('blogData', $blogData);
         }
         catch (\Exception $e) {
             $req->session()->flash('error', $e->getMessage());
