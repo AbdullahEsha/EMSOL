@@ -32,3 +32,7 @@ Route::post('/register', [UserController::class, 'register']);
 Route::get('/admin/index', function () {
     return view('admin.index');
 });
+
+Route::get('/admin/ambulance', function () {
+    return view('admin.ambulance');
+});
