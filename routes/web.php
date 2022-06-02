@@ -5,6 +5,8 @@ use App\Http\Controllers\userController;
 use App\Http\Controllers\ambulanceController;
 use App\Http\Controllers\productController;
 use App\Http\Controllers\blogController;
+use App\Http\Controllers\uploadProductController;
+use App\Http\Controllers\blogUploadController;
 
 /*
 |--------------------------------------------------------------------------
@@ -47,6 +49,15 @@ Route::get('/admin/index', function () {
 // Route::get('/admin/product', function () {
 //     return view('admin.product');
 // });
+Route::get('/admin/uploadProduct', function () {
+        return view('admin.uploadProduct');
+    });
+Route::post('/admin/uploadProduct', [UploadProductController::class, 'getdata']);
+
+Route::get('/admin/blogUpload', function () {
+    return view('admin.blogUpload');
+});
+Route::post('/admin/blogUpload', [UploadProductController::class, 'getdata']);
 
 Route::get('/admin/ambulance', [AmbulanceController::class, 'getData']);
 Route::get('/admin/user', [UserController::class, 'getData']);
