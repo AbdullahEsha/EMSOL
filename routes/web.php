@@ -49,17 +49,20 @@ Route::get('/admin/index', function () {
 // Route::get('/admin/product', function () {
 //     return view('admin.product');
 // });
-Route::get('/admin/uploadProduct', function () {
-        return view('admin.uploadProduct');
-    });
-Route::post('/admin/uploadProduct', [UploadProductController::class, 'getdata']);
-
 Route::get('/admin/blogUpload', function () {
     return view('admin.blogUpload');
 });
-Route::post('/admin/blogUpload', [UploadProductController::class, 'getdata']);
+
+Route::get('/admin/blog', [BlogController::class, 'getData']);
+Route::post('/admin/blogUpload', [ProductController::class, 'store']);
 
 Route::get('/admin/ambulance', [AmbulanceController::class, 'getData']);
 Route::get('/admin/user', [UserController::class, 'getData']);
-Route::get('/admin/product', [ProductController::class, 'getData']);
-Route::get('/admin/blog', [BlogController::class, 'getData']);
+
+//===============Vendor==============//
+Route::get('/vendor/uploadProduct', function () {
+        return view('vendor.uploadProduct');
+    });
+Route::get('/vendor/product', [ProductController::class, 'getData']);
+Route::post('/vendor/uploadProduct', [ProductController::class, 'store']);
+

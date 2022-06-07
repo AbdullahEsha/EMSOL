@@ -13,26 +13,29 @@ class productController extends Controller
         try{
             $productData = Product::orderBy('id', 'desc')->get();
             //return $productData;
-            return view('admin.product')->with('productData', $productData);
+            return view('vendor.product')->with('productData', $productData);
         }
         catch (\Exception $e) {
             $req->session()->flash('error', $e->getMessage());
         } 
     }
-
+    
     public function store(Request $req){
-        $product = new Product;
+        $uploadProductData = new Product;
         try {
-            $product->c_name = $req->c_name;
-            $product->phone = $req->phone;
-            $product->email = $req->email;
-            $product->b_date = $req->b_date;
-            $product->n_person = $req->n_person;
+            
+            $uploadProductData->productDetail = $req->productDetail;
+            $uploadProductData->img1 = $req->img1;
+            $uploadProductData->img2 = $req->img2;
+            $uploadProductData->img3 = $req->img3;
+            $uploadProductData->img4 = $req->img4;
+            $uploadProductData->price = $req->price;
+            $uploadProductData->stock = $req->stock;
 
-            $product->save();
+            $uploadProductData->save();
 
             $req->session()->flash('msg', 'Product was successfully added!!');
-            return redirect('/admin/moderators');
+            return redirect('/vendor/product');
         }
         catch (\Exception $e) {
             $req->session()->flash('error', $e->getMessage());

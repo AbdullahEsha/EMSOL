@@ -21,18 +21,14 @@ class blogController extends Controller
     }
 
     public function store(Request $req){
-        $product = new Product;
+        $blogUploadData = new Blog;
         try {
-            $product->c_name = $req->c_name;
-            $product->phone = $req->phone;
-            $product->email = $req->email;
-            $product->b_date = $req->b_date;
-            $product->n_person = $req->n_person;
-
+            $blogUploadData->blogDetail = $req->blogDetail;
+           
             $product->save();
 
             $req->session()->flash('msg', 'Blog was successfully added!!');
-            return redirect('/admin/moderators');
+            return redirect('/admin/blog');
         }
         catch (\Exception $e) {
             $req->session()->flash('error', $e->getMessage());
