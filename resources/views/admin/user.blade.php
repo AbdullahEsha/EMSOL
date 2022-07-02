@@ -3599,9 +3599,13 @@
                               </tr>
                             @endfor
                           </tbody>
-                         
-                         
                         </table>
+                        <div id="editor">
+                          <p>
+                            This is the editor content.
+                            
+                          </p>
+                        </div>
                       </div>
                     </div>
                   </div>
@@ -3611,6 +3615,10 @@
       </div>
     </div>
     <!-- END: Content-->
+
+    
+
+    
 
     <div class="sidenav-overlay"></div>
     <div class="drag-target"></div>
@@ -3644,6 +3652,16 @@
     <script src="{{asset('admin/vendors/js/tables/datatable/dataTables.responsive.min.js')}}"></script>
     <script src="{{asset('admin/vendors/js/tables/datatable/dataTables.rowReorder.min.js')}}"></script>
     <script src="{{asset('admin/vendors/js/forms/icheck/icheck.min.js')}}"></script>
+    <script src="//cdn.ckeditor.com/4.19.0/full/ckeditor.js"></script>
+    <script>
+    CKEDITOR.replace( 'editor' );
+    
+    var editor = CKEDITOR.replace( 'editor' );
+    // The "change" event is fired whenever a change is made in the editor.
+    editor.on( 'change', function( evt ) {
+      console.log( 'Total bytes: ' + evt.editor.getData().length );
+    });
+    </script>
     <!-- END: Page Vendor JS-->
 
     <!-- BEGIN: Theme JS-->
