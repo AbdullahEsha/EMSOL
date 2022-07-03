@@ -3654,7 +3654,7 @@
     <script src="{{asset('admin/vendors/js/forms/icheck/icheck.min.js')}}"></script>
     <script src="//cdn.ckeditor.com/4.19.0/full/ckeditor.js"></script>
     <script>
-    CKEDITOR.replace( 'editor' );
+    CKEDITOR.replace( 'editor'    );
     
     var editor = CKEDITOR.replace( 'editor' );
     // The "change" event is fired whenever a change is made in the editor.

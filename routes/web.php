@@ -61,8 +61,9 @@ Route::get('/admin/user', [UserController::class, 'getData']);
 
 //===============Vendor==============//
 Route::get('/vendor/uploadProduct', function () {
-        return view('vendor.uploadProduct');
-    });
+    return view('vendor.uploadProduct');
+});
 Route::get('/vendor/product', [ProductController::class, 'getData']);
+Route::post('/vendor/product/{id}', [ProductController::class, 'dataUpdate']);
+Route::post('/vendor/product/{id}', [ProductController::class, 'dataUpload']);
 Route::post('/vendor/uploadProduct', [ProductController::class, 'store']);
-
