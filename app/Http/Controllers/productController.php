@@ -65,6 +65,7 @@ class productController extends Controller
 
     function dataUpload(Request $req)
     {
+        if(isset($_POST['submit'])){
         $product = new Product();
 
         // $validatedData = $request->validate(['img' => 'required|image|mimes:jpg,png,jpeg,gif,svg|max:2048',]);
@@ -92,7 +93,8 @@ class productController extends Controller
                     'error',
                     'An error occurred. file could not be registered.'
                 );
-            return redirect('/vendor/uploadProduct');
+            return redirect('/vendor');
+        }
         }
     }
     // public function getDataById(Request $req)
