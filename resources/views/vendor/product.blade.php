@@ -3486,6 +3486,9 @@
                                 <form
                                   id="form-edit-contact"
                                   class="contact-input"
+                                  method='POST' 
+                                  action="" 
+                                  enctype= multipart/form-data
                                 >
                                 @csrf
                                   <div class="modal-header">
@@ -3507,10 +3510,9 @@
                                   <div class="modal-body">
                                     <fieldset class="form-group col-12">
                                       <input
-                                      type="hidden" value="{{$productData[$i]['productDetail']}}"
-                                        name="id"
-                                        class="productDetail form-control"
-                                        placeholder="Product Detail"
+                                      type="hidden" 
+                                      value="{{$productData[$i]['id']}}"
+                                      name="id"
                                       />
                                     </fieldset>
                                     <fieldset class="form-group col-12">
@@ -3559,7 +3561,7 @@
                                       class="form-group position-relative has-icon-left mb-0"
                                     >
                                       <button
-                                        type="button"
+                                        type="submit"
                                         id="edit-contact-item"
                                         class="btn btn-info edit-contact-item"
                                         data-dismiss="modal"
