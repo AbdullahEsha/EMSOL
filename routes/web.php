@@ -63,7 +63,18 @@ Route::get('/admin/user', [UserController::class, 'getData']);
 Route::get('/vendor/uploadProduct', function () {
     return view('vendor.uploadProduct');
 });
-Route::get('/vendor/product', [ProductController::class, 'getData']);
-Route::post('/vendor/product/{id}', [ProductController::class, 'dataUpdate']);
-Route::post('/vendor/product/{id}', [ProductController::class, 'dataUpload']);
-Route::post('/vendor/uploadProduct', [ProductController::class, 'store']);
+Route::get('/vendor/product', [ProductController::class, 'getProduct']);
+Route::post('/vendor/storeProduct', [ProductController::class, 'storeProduct']);
+Route::post('/vendor/updateProduct/{id}', [
+    ProductController::class,
+    'updateProduct',
+]);
+Route::post('/vendor/uploadProduct/{id}', [
+    ProductController::class,
+    'uploadProduct',
+]);
+Route::post('/vendor/addProduct/{id}', [
+    ProductController::class,
+    'addProduct',
+]);
+Route::get('/vendor/edit/{id}', [ProductController::class, 'getDataById']);
