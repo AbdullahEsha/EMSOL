@@ -9,7 +9,7 @@ use Illuminate\Support\Facades\DB;
 
 class productController extends Controller
 {
-    public function getData()
+    public function getProduct()
     {
         try {
             $productData = Product::orderBy('id', 'desc')->get();
@@ -20,7 +20,7 @@ class productController extends Controller
         }
     }
 
-    public function store(Request $req)
+    public function storeProduct(Request $req)
     {
         $uploadProductData = new Product();
         try {
@@ -41,7 +41,40 @@ class productController extends Controller
         }
     }
 
-    public function dataUpdate(Request $req)
+    function addProduct(Request $req)
+    {
+        if (isset($_POST['submit'])) {
+            $add = new Product();
+
+            $img1 = $req->file('img1')->getClientOriginalName();
+            $img2 = $req->file('img2')->getClientOriginalName();
+            $img3 = $req->file('img3')->getClientOriginalName();
+
+            $add->productDetail = $req->productDetail;
+            $add->img1 = 'img/uploads/' . $img1;
+            $add->img2 = 'img/uploads/' . $img2;
+            $add->img3 = 'img/uploads/' . $img3;
+            $add->price = $req->price;
+            $add->stock = $req->stock;
+
+            if ($add->save()) {
+                $req->file('img1')->move('img/uploads', $img1);
+                $req->file('img2')->move('img/uploads', $img2);
+                $req->file('img3')->move('img/uploads', $img3);
+                return redirect('/product');
+            } else {
+                $req
+                    ->session()
+                    ->flash(
+                        'error',
+                        'An error occurred. file could not be registered.'
+                    );
+                return redirect('/vendor');
+            }
+        }
+    }
+
+    public function updateProduct(Request $req)
     {
         $update = Product::find($req->id);
         $file1 = $req->file('img1')->getClientOriginalName();
@@ -63,44 +96,50 @@ class productController extends Controller
         return redirect('/product');
     }
 
-    function dataUpload(Request $req)
+    function uploadProduct(Request $req)
     {
-        if(isset($_POST['submit'])){
-        $product = new Product();
+        if (isset($_POST['submit'])) {
+            $product = new Product();
 
-        // $validatedData = $request->validate(['img' => 'required|image|mimes:jpg,png,jpeg,gif,svg|max:2048',]);
+            // $validatedData = $request->validate(['img' => 'required|image|mimes:jpg,png,jpeg,gif,svg|max:2048',]);
 
-        $image1 = $req->file('img1')->getClientOriginalName();
-        $image2 = $req->file('img2')->getClientOriginalName();
-        $image3 = $req->file('img3')->getClientOriginalName();
+            $image1 = $req->file('img1')->getClientOriginalName();
+            $image2 = $req->file('img2')->getClientOriginalName();
+            $image3 = $req->file('img3')->getClientOriginalName();
 
-        $update->productDetail = $req->productDetail;
-        $update->img1 = 'img/uploads/' . $image1;
-        $update->img2 = 'img/uploads/' . $image2;
-        $update->img3 = 'img/uploads/' . $image3;
-        $update->price = $req->price;
-        $update->stock = $req->stock;
+            $product->productDetail = $req->productDetail;
+            $product->img1 = 'img/uploads/' . $image1;
+            $product->img2 = 'img/uploads/' . $image2;
+            $product->img3 = 'img/uploads/' . $image3;
+            $product->price = $req->price;
+            $product->stock = $req->stock;
 
-        if ($data->save()) {
-            $req->file('img1')->move('img/uploads', $image1);
-            $req->file('img2')->move('img/uploads', $image2);
-            $req->file('img3')->move('img/uploads', $image3);
-            return redirect('/product');
-        } else {
-            $req
-                ->session()
-                ->flash(
-                    'error',
-                    'An error occurred. file could not be registered.'
-                );
-            return redirect('/vendor');
-        }
+            if ($product->save()) {
+                $req->file('img1')->move('img/uploads', $image1);
+                $req->file('img2')->move('img/uploads', $image2);
+                $req->file('img3')->move('img/uploads', $image3);
+                return redirect('/product');
+            } else {
+                $req
+                    ->session()
+                    ->flash(
+                        'error',
+                        'An error occurred. file could not be registered.'
+                    );
+                return redirect('/vendor');
+            }
         }
     }
-    // public function getDataById(Request $req)
-    // {
-    //     $id = $req->id;
-    //     $productData = Product::whereIn('id', [$id])->first();
-    //     return view('vendor.product')->with('product', $productData);
-    // }
+    public function deleteProduct(Request $req)
+    {
+        $delete = Product::find($req->id);
+        $delete->delete();
+        return redirect('/product');
+    }
+    public function getDataById(Request $req)
+    {
+        $id = $req->id;
+        $productData = Product::whereIn('id', [$id])->first();
+        return view('vendor.product')->with('product', $productData);
+    }
 }

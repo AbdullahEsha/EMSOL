@@ -3263,156 +3263,6 @@
                   <div class="card-head">
                     <div class="card-header">
                       <h4 class="card-title">Product</h4>
-                      <div class="heading-elements mt-0">
-                        <button
-                          class="btn btn-primary btn-md"
-                          data-toggle="modal"
-                          data-target="#AddContactModal"
-                        >
-                          <i
-                            class="d-md-none d-block feather icon-plus white"
-                          ></i>
-                          <span class="d-md-block d-none">Add Product</span>
-                        </button>
-                        <div
-                          class="modal fade"
-                          id="AddContactModal"
-                          tabindex="-1"
-                          role="dialog"
-                          aria-labelledby="exampleModalLabel1"
-                          aria-hidden="true"
-                        >
-                          <div class="modal-dialog" role="document">
-                            <div class="modal-content">
-                              <section class="contact-form">
-                                <form
-                                  id="form-add-contact"
-                                  class="contact-input"
-                                >
-                                  <div class="modal-header">
-                                    <h5
-                                      class="modal-title"
-                                      id="exampleModalLabel1"
-                                    >
-                                      Add New Contact
-                                    </h5>
-                                    <button
-                                      type="button"
-                                      class="close"
-                                      data-dismiss="modal"
-                                      aria-label="Close"
-                                    >
-                                      <span aria-hidden="true">&times;</span>
-                                    </button>
-                                  </div>
-                                  <div class="modal-body">
-                                    <fieldset class="form-group col-12">
-                                      <input
-                                        type="text"
-                                        id="contact-name"
-                                        class="contact-name form-control"
-                                        placeholder="Name"
-                                      />
-                                    </fieldset>
-                                    <fieldset class="form-group col-12">
-                                      <input
-                                        type="text"
-                                        id="contact-email"
-                                        class="contact-email form-control"
-                                        placeholder="Email"
-                                      />
-                                    </fieldset>
-                                    <fieldset class="form-group col-12">
-                                      <input
-                                        type="text"
-                                        id="contact-phone"
-                                        class="contact-phone form-control"
-                                        placeholder="Phone Number"
-                                      />
-                                    </fieldset>
-                                    <fieldset class="form-group col-12">
-                                      <input
-                                        type="checkbox"
-                                        id="favorite"
-                                        class="contact-fav input-chk"
-                                      />
-                                      Favorite
-                                    </fieldset>
-                                    <fieldset class="form-group col-12">
-                                      <input
-                                        type="file"
-                                        class="form-control-file"
-                                        id="user-image"
-                                      />
-                                    </fieldset>
-                                  </div>
-                                  <div class="modal-footer">
-                                    <fieldset
-                                      class="form-group position-relative has-icon-left mb-0"
-                                    >
-                                      <button
-                                        type="button"
-                                        id="add-contact-item"
-                                        class="btn btn-info add-contact-item"
-                                        data-dismiss="modal"
-                                      >
-                                        <i
-                                          class="fa fa-paper-plane-o d-block d-lg-none"
-                                        ></i>
-                                        <span class="d-none d-lg-block"
-                                          >Add New</span
-                                        >
-                                      </button>
-                                    </fieldset>
-                                  </div>
-                                </form>
-                              </section>
-                            </div>
-                          </div>
-                        </div>
-                        
-                        <span class="dropdown">
-                          <button
-                            id="btnSearchDrop1"
-                            type="button"
-                            data-toggle="dropdown"
-                            aria-haspopup="true"
-                            aria-expanded="true"
-                            class="btn btn-warning dropdown-menu-right dropdown-toggle btn-md"
-                          >
-                            <i class="feather icon-download-cloud white"></i>
-                          </button>
-                          <span
-                            aria-labelledby="btnSearchDrop1"
-                            class="dropdown-menu dropdown-menu-right mt-1"
-                          >
-                            <a href="#" class="dropdown-item"
-                              ><i class="feather icon-upload"></i> Import</a
-                            >
-                            <a href="#" class="dropdown-item"
-                              ><i class="feather icon-download"></i> Export</a
-                            >
-                            <a href="#" class="dropdown-item"
-                              ><i class="feather icon-shuffle"></i> Find
-                              Duplicate</a
-                            >
-                          </span>
-                        </span>
-                        <button class="btn btn-default btn-sm">
-                          <i class="feather icon-settings white"></i>
-                        </button>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="card-content">
-                    <div class="card-body">
-                      <!-- Task List table -->
-                      <!-- <button
-                        type="button"
-                        class="btn btn-danger btn-sm delete-all mb-1"
-                      > 
-                        Delete All
-                      </button>-->
                       <div class="table-responsive">
                         <table
                           id="users-contacts"
@@ -3459,127 +3309,22 @@
                                 <td>{{$productData[$i]['stock']}}</td>
                                 <td>{{date('d M Y', strtotime($productData[$i]['created_at']))}}</td>
                                 <td>
-                                <a
-                                  data-toggle="modal"
-                                  data-target="#EditContactModal"
+                                <a href="/vendor/edit/{{$productData[$i]['id']}}"
                                   class="primary edit mr-1"
                                   ><i class="fa fa-pencil"></i
                                 ></a>
-                                <a class="danger delete mr-1"
+                                <a href="/vendor/delete/{{$productData[$i]['id']}}"
+                                 class="danger delete mr-1"
                                   ><i class="fa fa-trash-o"></i
                                 ></a>
                                
                               </td>
                               </tr>
-                              <div
-                          class="modal fade"
-                          id="EditContactModal"
-                          tabindex="-2"
-                          role="dialog"
-                          aria-labelledby="exampleModalLabel"
-                          aria-hidden="true"
-                        >
-                          <div class="modal-dialog" role="document">
-                            <div class="modal-content">
-                              <section class="contact-form">
+                                                     
                                 
-                                <form
-                                  id="form-edit-contact"
-                                  class="contact-input"
-                                  method='POST' 
-                                  action="" 
-                                  enctype= multipart/form-data
-                                >
-                                @csrf
-                                  <div class="modal-header">
-                                    <h5
-                                      class="modal-title"
-                                      id="exampleModalLabel"
-                                    >
-                                      Edit Product
-                                    </h5>
-                                    <button
-                                      type="button"
-                                      class="close"
-                                      data-dismiss="modal"
-                                      aria-label="Close"
-                                    >
-                                      <span aria-hidden="true">&times;</span>
-                                    </button>
-                                  </div>
-                                  <div class="modal-body">
-                                    <fieldset class="form-group col-12">
-                                      <input
-                                      type="hidden" 
-                                      value="{{$productData[$i]['id']}}"
-                                      name="id"
-                                      />
-                                    </fieldset>
-                                    <fieldset class="form-group col-12">
-                                      <input
-                                        type="file"
-                                        name="img1"
-                                        class="img1 form-control"
-                                      />
-                                    </fieldset>
-                                    <fieldset class="form-group col-12">
-                                      <input
-                                        type="file"
-                                        name="img2"
-                                        class="img2 form-control"
-                                      />
-                                    </fieldset>
-                                    <fieldset class="form-group col-12">
-                                      <input
-                                        type="file"
-                                        name="img3"
-                                        class="img3 form-control"
-                                      />
-                                    </fieldset>
-                                    <fieldset class="form-group col-12">
-                                      <input
-                                      value="{{$productData[$i]['price']}}"
-                                        type="text"
-                                        name="price"
-                                        class="price form-control"
-                                        placeholder="Price"
-                                      />
-                                    </fieldset>
-                                    <fieldset class="form-group col-12">
-                                      <input
-                                      value="{{$productData[$i]['stock']}}"
-                                        type="text"
-                                        name="stock"
-                                        class="stock form-control"
-                                        placeholder="Stock Availability"
-                                      />
-                                    </fieldset>
-                                    <span id="fav" class="d-none"></span>
-                                  </div>
-                                  <div class="modal-footer">
-                                    <fieldset
-                                      class="form-group position-relative has-icon-left mb-0"
-                                    >
-                                      <button
-                                        type="submit"
-                                        id="edit-contact-item"
-                                        class="btn btn-info edit-contact-item"
-                                        data-dismiss="modal"
-                                      >
-                                        <i
-                                          class="fa fa-paper-plane-o d-lg-none"
-                                        ></i>
-                                        <span class="d-none d-lg-block"
-                                          >Edit</span
-                                        >
-                                      </button>
-                                    </fieldset>
-                                  </div>
-                                </form>
-                              </section>
-                            </div>
-                          </div>
-                        </div>
+                               
+                                
+                        
                             @endfor
                           </tbody>
                          
@@ -3588,6 +3333,7 @@
                       </div>
                     </div>
                   </div>
+                  
                 </div>
               </div>
             </section>
