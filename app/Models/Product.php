@@ -22,5 +22,6 @@ class Product extends Model
         'img4',
         'price',
         'stock',
+        'status',
     ];
 }
