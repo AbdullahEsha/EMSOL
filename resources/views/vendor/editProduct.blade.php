@@ -1771,74 +1771,68 @@
                         </div>
                         <div class="card-content collapse show">
                             <div class="card-body">
-                                <form action="#">
-                                    <div class="form-body">
-                                        <label>Label </label>
-                                        <div class="row">
-                                            <div class="col-md-4">
-                                                <div class="form-group">
-                                                    <input type="text" class="form-control"
-                                                        placeholder="First Input &amp; First Row" />
-                                                </div>
-                                                <div class="form-group">
-                                                    <input type="text" class="form-control"
-                                                        placeholder="First Input &amp; Second Row" />
-                                                </div>
-                                            </div>
-                                            <div class="col-md-8">
-                                                <div class="form-group">
-                                                    <input type="text" class="form-control"
-                                                        placeholder="Second Input &amp; First Row" />
-                                                </div>
-                                                <div class="form-group">
-                                                    <input type="text" class="form-control"
-                                                        placeholder="Second Input &amp; Second Row" />
-                                                </div>
-                                            </div>
-                                        </div>
 
-                                        <label>Multiple width Input Label</label>
+                                <form method='POST' action="" enctype=multipart/form-data>
+                                    @csrf
+                                    <div class="form-body">
+
                                         <div class="row">
-                                            <div class="col-md-7">
+                                            <div class="col-md-12">
+
+
+
+                                                <input value="{{$productData['id']}}" type="hidden"
+                                                    class="form-control" />
+
                                                 <div class="form-group">
-                                                    <input type="text" class="form-control"
-                                                        placeholder="First Input &amp; First Row" />
+                                                    <label>Product Details </label>
+                                                    <input value="{{$productData['productDetail']}}" type="text"
+                                                        name="productDetail" class="form-control" />
+                                                </div>
+
+
+                                                <div class="form-group">
+                                                    <label>Image 1</label>
+                                                    <input value="{{$productData['img1']}}" type="file" name="img1"
+                                                        class="form-control" />
+                                                </div>
+                                                <div class="form-group">
+                                                    <label>Image 2</label>
+                                                    <input value="{{$productData['img2']}}" type="file" name="img2"
+                                                        class="form-control" />
+                                                </div>
+                                                <div class="form-group">
+                                                    <label>Image 3</label>
+                                                    <input value="{{$productData['img3']}}" type="file" name="img3"
+                                                        class="form-control" />
+                                                </div>
+                                                <div class="form-group">
+                                                    <label>Image 4</label>
+                                                    <input value="{{$productData['img4']}}" type="file" name="img4"
+                                                        class="form-control" />
+                                                </div>
+
+                                                <div class="form-group">
+                                                    <label>Price </label>
+                                                    <input value="{{$productData['price']}}" type="text" name="price"
+                                                        class="form-control" />
+                                                </div>
+                                                <div class="form-group">
+                                                    <label>Stock </label>
+                                                    <input value="{{$productData['stock']}}" type="text" name="stock"
+                                                        class="form-control" />
+                                                </div>
+                                                <div align="right">
+                                                    <button class="btn btn-outline-info" type="submit">
+                                                        Submit
+                                                    </button>
                                                 </div>
                                             </div>
-                                            <div class="col-md-5">
-                                                <div class="form-group">
-                                                    <input type="text" class="form-control"
-                                                        placeholder="Second Input &amp; First Row" />
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="row">
-                                            <div class="col-md-8">
-                                                <div class="form-group">
-                                                    <input type="text" class="form-control"
-                                                        placeholder="First Input &amp; Second Row" />
-                                                </div>
-                                            </div>
-                                            <div class="col-md-4">
-                                                <div class="form-group">
-                                                    <input type="text" class="form-control"
-                                                        placeholder="Second Input &amp; Second Row" />
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="form-actions">
-                                        <div class="text-right">
-                                            <button type="submit" class="btn btn-primary">
-                                                Submit
-                                                <i class="feather icon-thumbs-up position-right"></i>
-                                            </button>
-                                            <button type="reset" class="btn btn-warning">
-                                                Reset
-                                                <i class="feather icon-refresh-cw position-right"></i>
-                                            </button>
-                                        </div>
-                                    </div>
+                                            <br />
+
+
+
+
                                 </form>
                             </div>
                         </div>
