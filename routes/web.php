@@ -63,18 +63,21 @@ Route::get('/admin/user', [UserController::class, 'getData']);
 Route::get('/vendor/uploadProduct', function () {
     return view('vendor.uploadProduct');
 });
-Route::get('/vendor/product', [ProductController::class, 'getProduct']);
-Route::post('/vendor/storeProduct', [ProductController::class, 'storeProduct']);
-Route::post('/vendor/updateProduct/{id}', [
-    ProductController::class,
-    'updateProduct',
-]);
-Route::post('/vendor/uploadProduct/{id}', [
+Route::post('/vendor/uploadProduct', [
     ProductController::class,
     'uploadProduct',
 ]);
-Route::post('/vendor/addProduct/{id}', [
+
+Route::get('/vendor/product', [ProductController::class, 'getProduct']);
+Route::post('/vendor/storeProduct', [ProductController::class, 'storeProduct']);
+
+Route::get('/vendor/deleteProduct/{id}', [ProductController::class, 'getDeleteDataById']);
+Route::post('/vendor/deleteProduct/{id}', [
     ProductController::class,
-    'addProduct',
+    'deleteProduct',
 ]);
-Route::get('/vendor/edit/{id}', [ProductController::class, 'getDataById']);
+Route::get('/vendor/editProduct/{id}', [ProductController::class, 'getDataById']);
+Route::post('/vendor/editProduct/{id}', [
+    ProductController::class,
+    'updateProduct',
+]);
