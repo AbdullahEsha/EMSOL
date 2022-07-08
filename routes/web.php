@@ -58,6 +58,7 @@ Route::post('/admin/blogUpload', [ProductController::class, 'store']);
 
 Route::get('/admin/ambulance', [AmbulanceController::class, 'getData']);
 Route::get('/admin/user', [UserController::class, 'getData']);
+Route::get('/admin/product-review', [ProductController::class, 'getProductReviewData']);
 
 //===============Vendor==============//
 Route::get('/vendor/uploadProduct', function () {

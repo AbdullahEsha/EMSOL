@@ -42,39 +42,6 @@ class productController extends Controller
         }
     }
 
-    // public function addProduct(Request $req)
-    // {
-    //     if (isset($_POST['submit'])) {
-    //         $add = new Product();
-
-    //         $img1 = $req->file('img1')->getClientOriginalName();
-    //         $img2 = $req->file('img2')->getClientOriginalName();
-    //         $img3 = $req->file('img3')->getClientOriginalName();
-
-    //         $add->productDetail = $req->productDetail;
-    //         $add->img1 = 'img/uploads/' . $img1;
-    //         $add->img2 = 'img/uploads/' . $img2;
-    //         $add->img3 = 'img/uploads/' . $img3;
-    //         $add->price = $req->price;
-    //         $add->stock = $req->stock;
-
-    //         if ($add->save()) {
-    //             $req->file('img1')->move('img/uploads', $img1);
-    //             $req->file('img2')->move('img/uploads', $img2);
-    //             $req->file('img3')->move('img/uploads', $img3);
-    //             return redirect('/product');
-    //         } else {
-    //             $req
-    //                 ->session()
-    //                 ->flash(
-    //                     'error',
-    //                     'An error occurred. file could not be registered.'
-    //                 );
-    //             return redirect('/vendor');
-    //         }
-    //     }
-    // }
-
     public function updateProduct(Request $req)
     {
         $update = Product::find($req->id);
@@ -88,6 +55,7 @@ class productController extends Controller
         $update->img3 = 'img/uploads/' ;//. $file3;
         $update->price = $req->price;
         $update->stock = $req->stock;
+        $update->status = 'processing';
 
         $update->update();
         // $req->file('img1')->move('img/uploads', $file1);
@@ -115,6 +83,7 @@ class productController extends Controller
         $product->img4 = 'img/uploads/' . $image4;
         $product->price = $req->price;
         $product->stock = $req->stock;
+        $product->status = 'processing';
 
         if ($product->save()) {
             $req->file('img1')->move('img/uploads', $image1);
@@ -147,5 +116,10 @@ class productController extends Controller
     {
         $productData = Product::whereIn('id', [$id])->first();
         return view('vendor.deleteProduct')->with('productData', $productData);
+    }
+    public function getProductReviewData()
+    {
+        $productReviewData = Product::whereIn('status', 'processing')->get();
+        return view('admin.productReview')->with('productReviewData', $productReviewData);
     }
 }
