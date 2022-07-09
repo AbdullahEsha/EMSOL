@@ -58,7 +58,10 @@ Route::post('/admin/blogUpload', [ProductController::class, 'store']);
 
 Route::get('/admin/ambulance', [AmbulanceController::class, 'getData']);
 Route::get('/admin/user', [UserController::class, 'getData']);
-Route::get('/admin/product-review', [ProductController::class, 'getProductReviewData']);
+Route::get('/admin/product-review', [
+    ProductController::class,
+    'getProductReviewData',
+]);
 
 //===============Vendor==============//
 Route::get('/vendor/uploadProduct', function () {
@@ -72,12 +75,18 @@ Route::post('/vendor/uploadProduct', [
 Route::get('/vendor/product', [ProductController::class, 'getProduct']);
 Route::post('/vendor/storeProduct', [ProductController::class, 'storeProduct']);
 
-Route::get('/vendor/deleteProduct/{id}', [ProductController::class, 'getDeleteDataById']);
+Route::get('/vendor/deleteProduct/{id}', [
+    ProductController::class,
+    'getDeleteDataById',
+]);
 Route::post('/vendor/deleteProduct/{id}', [
     ProductController::class,
     'deleteProduct',
 ]);
-Route::get('/vendor/editProduct/{id}', [ProductController::class, 'getDataById']);
+Route::get('/vendor/editProduct/{id}', [
+    ProductController::class,
+    'getDataById',
+]);
 Route::post('/vendor/editProduct/{id}', [
     ProductController::class,
     'updateProduct',

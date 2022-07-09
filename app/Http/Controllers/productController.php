@@ -50,9 +50,9 @@ class productController extends Controller
         // $file3 = $req->file('img3')->getClientOriginalName();
 
         $update->productDetail = $req->productDetail;
-        $update->img1 = 'img/uploads/' ;//. $file1;
-        $update->img2 = 'img/uploads/' ;//. $file2;
-        $update->img3 = 'img/uploads/' ;//. $file3;
+        $update->img1 = 'img/uploads/'; //. $file1;
+        $update->img2 = 'img/uploads/'; //. $file2;
+        $update->img3 = 'img/uploads/'; //. $file3;
         $update->price = $req->price;
         $update->stock = $req->stock;
         $update->status = 'processing';
@@ -93,11 +93,11 @@ class productController extends Controller
             return redirect('/vendor/product');
         } else {
             $req
-                    ->session()
-                    ->flash(
-                        'error',
-                        'An error occurred. file could not be registered.'
-                    );
+                ->session()
+                ->flash(
+                    'error',
+                    'An error occurred. file could not be registered.'
+                );
             return redirect('/vendor/uploadProduct');
         }
     }
@@ -119,7 +119,10 @@ class productController extends Controller
     }
     public function getProductReviewData()
     {
-        $productReviewData = Product::whereIn('status', 'processing')->get();
-        return view('admin.productReview')->with('productReviewData', $productReviewData);
+        $productReviewData = Product::where('status', 'processing')->get();
+        return view('admin.productReview')->with(
+            'productReviewData',
+            $productReviewData
+        );
     }
 }
