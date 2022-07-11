@@ -22,7 +22,6 @@ use App\Http\Controllers\blogUploadController;
 Route::get('/', function () {
     return view('home');
 });
-
 Route::get('/login', function () {
     return view('common.login');
 });
@@ -64,6 +63,9 @@ Route::get('/admin/product-review', [
 ]);
 
 //===============Vendor==============//
+Route::get('/vendor/index', function () {
+    return view('vendor.index');
+});
 Route::get('/vendor/uploadProduct', function () {
     return view('vendor.uploadProduct');
 });

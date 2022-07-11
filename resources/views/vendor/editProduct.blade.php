@@ -68,7 +68,7 @@
                 <div class="card">
                     <div class="card-head">
                         <div class="card-header">
-                            <h4 class="card-title">Product</h4>
+                            <h4 class="card-title">Product / Edit Product</h4>
                             <a class="heading-elements-toggle"><i
                                     class="feather icon-align-justify font-medium-3"></i></a>
                             <div class="heading-elements">
