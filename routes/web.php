@@ -48,20 +48,47 @@ Route::get('/admin/index', function () {
 // Route::get('/admin/product', function () {
 //     return view('admin.product');
 // });
-Route::get('/admin/blogUpload', function () {
+Route::get('/admin/blog', [BlogController::class, 'getData']);
+Route::post('/admin/blogUpload', [BlogController::class, 'store']);
+
+Route::get('/admin/blog-upload', function () {
     return view('admin.blogUpload');
 });
+Route::post('/admin/blog-upload', [
+    BlogController::class,
+    'blogUpload',
+]);
 
-Route::get('/admin/blog', [BlogController::class, 'getData']);
-Route::post('/admin/blogUpload', [ProductController::class, 'store']);
+Route::get('/admin/deleteBlog/{id}', [
+    BlogController::class,
+    'getDeleteDataById',
+]);
+Route::post('/admin/deleteBlog/{id}', [
+    BlogController::class,
+    'deleteBlog',
+]);
+Route::get('/admin/editBlog/{id}', [
+    BlogController::class,
+    'getDataById',
+]);
+Route::post('/admin/editBlog/{id}', [
+    BlogController::class,
+    'updateBlog',
+]);
 
-Route::get('/admin/ambulance', [AmbulanceController::class, 'getData']);
-Route::get('/admin/user', [UserController::class, 'getData']);
-Route::get('/admin/product-review', [
+Route::get('/admin/user', [UserController::class, 'getUser']);
+Route::get('/admin/product-status', [
     ProductController::class,
     'getProductReviewData',
 ]);
-
+Route::get('/admin/product-status/{id}', [
+    ProductController::class,
+    'getProductStatusData',
+]);
+Route::post('/admin/product-status/{id}', [
+    ProductController::class,
+    'updateProductStatus',
+]);
 //===============Vendor==============//
 Route::get('/vendor/index', function () {
     return view('vendor.index');

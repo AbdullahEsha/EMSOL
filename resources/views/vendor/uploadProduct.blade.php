@@ -94,8 +94,6 @@
                           <label>Product Details </label>
                           <input type="text" name="productDetail" class="form-control" />
                         </div>
-
-
                         <div class="form-group">
                           <label>Image 1</label>
                           <input type="file" name="img1" class="form-control" />
@@ -128,10 +126,8 @@
                         </div>
                       </div>
                       <br />
-
-
-
-
+                    </div>
+                  </div>
                 </form>
               </div>
             </div>

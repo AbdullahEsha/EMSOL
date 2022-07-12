@@ -68,7 +68,7 @@
                 <div class="card">
                     <div class="card-head">
                         <div class="card-header">
-                            <h4 class="card-title">Product / Delete Product</h4>
+                            <h4 class="card-title">Product / Edit Product</h4>
                             <a class="heading-elements-toggle"><i
                                     class="feather icon-align-justify font-medium-3"></i></a>
                             <div class="heading-elements">
@@ -96,56 +96,28 @@
                                     <div class="form-body">
 
                                         <div class="row">
-                                            <div class="col-md-12" align="center">
+                                            <div class="col-md-12">
 
-
-
-                                                <input value="{{$productData['id']}}" type="hidden"
-                                                    class="form-control" />
-
+                                                <input value="{{$blogData['id']}}" type="hidden" class="form-control" />
                                                 <div class="form-group">
-                                                    <label><b>Product Details
-                                                            :</b>{{$productData['productDetail']}}</label>
-                                                </div>
-
-
-                                                <div class="form-group">
-                                                    <label><b>Image 1:</b></label>
-                                                    <img src="{{$productData['img1']}}" alt="first product image" />
+                                                    <label>Image </label>
+                                                    <input value="{{$blogData['image']}}" type="file" name="image"
+                                                        class="form-control" />
                                                 </div>
                                                 <div class="form-group">
-                                                    <label><b>Image 2:</b></label>
-                                                    <img src="{{$productData['img2']}}" alt="second product image" />
-                                                </div>
-                                                <div class="form-group">
-                                                    <label><b>Image 3:</b></label>
-                                                    <img src="{{$productData['img3']}}" alt="third product image" />
-                                                </div>
-                                                <div class="form-group">
-                                                    <label><b>Image 4:</b></label>
-                                                    <img src="{{$productData['img4']}}" alt="fourth product image" />
-                                                </div>
-
-                                                <div class="form-group">
-                                                    <label><b>Price :</b>{{$productData['price']}}</label>
-
-                                                </div>
-                                                <div class="form-group">
-                                                    <label><b>Stock :</b>{{$productData['stock']}}</label>
+                                                    <label>Blog Details </label>
+                                                    <input value="{{$blogData['blogDetail']}}" type="text"
+                                                        name="blogDetail" class="form-control" />
                                                 </div>
                                                 <div align="right">
-                                                    <button class="btn btn-outline-danger" type="submit">
-                                                        Delete
+                                                    <button class="btn btn-outline-info" type="submit">
+                                                        Submit
                                                     </button>
                                                 </div>
                                             </div>
                                             <br />
                                         </div>
                                     </div>
-
-
-
-
                                 </form>
                             </div>
                         </div>
