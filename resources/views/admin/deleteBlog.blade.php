@@ -206,13 +206,11 @@
                                     class="selected-language"></span></a>
                             <div class="dropdown-menu" aria-labelledby="dropdown-flag">
                                 <a class="dropdown-item" href="#" data-language="en"><i
-                                        class="flag-icon flag-icon-us"></i>
-                                    English</a><a class="dropdown-item" href="#" data-language="fr"><i
-                                        class="flag-icon flag-icon-fr"></i>
-                                    French</a><a class="dropdown-item" href="#" data-language="pt"><i
-                                        class="flag-icon flag-icon-pt"></i>
-                                    Portuguese</a><a class="dropdown-item" href="#" data-language="de"><i
-                                        class="flag-icon flag-icon-de"></i> German</a>
+                                        class="flag-icon flag-icon-us"></i> English</a><a class="dropdown-item" href="#"
+                                    data-language="fr"><i class="flag-icon flag-icon-fr"></i> French</a><a
+                                    class="dropdown-item" href="#" data-language="pt"><i
+                                        class="flag-icon flag-icon-pt"></i> Portuguese</a><a class="dropdown-item"
+                                    href="#" data-language="de"><i class="flag-icon flag-icon-de"></i> German</a>
                             </div>
                         </li>
                         <li class="dropdown dropdown-notification nav-item">
@@ -289,8 +287,7 @@
                                                 <h6 class="media-heading">Complete the task</h6>
                                                 <small>
                                                     <time class="media-meta text-muted"
-                                                        datetime="2015-06-11T18:29:20+08:00">Last
-                                                        week</time></small>
+                                                        datetime="2015-06-11T18:29:20+08:00">Last week</time></small>
                                             </div>
                                         </div>
                                     </a><a href="javascript:void(0)">
@@ -302,8 +299,7 @@
                                                 <h6 class="media-heading">Generate monthly report</h6>
                                                 <small>
                                                     <time class="media-meta text-muted"
-                                                        datetime="2015-06-11T18:29:20+08:00">Last
-                                                        month</time></small>
+                                                        datetime="2015-06-11T18:29:20+08:00">Last month</time></small>
                                             </div>
                                         </div>
                                     </a>
@@ -393,8 +389,7 @@
                                                 </p>
                                                 <small>
                                                     <time class="media-meta text-muted"
-                                                        datetime="2015-06-11T18:29:20+08:00">last
-                                                        month</time></small>
+                                                        datetime="2015-06-11T18:29:20+08:00">last month</time></small>
                                             </div>
                                         </div>
                                     </a>
@@ -471,8 +466,7 @@
                                 </li>
                                 <li>
                                     <a class="menu-item" href="../vertical-collapsed-menu-template"
-                                        data-i18n="Collapsed Menu">Collapsed
-                                        Menu</a>
+                                        data-i18n="Collapsed Menu">Collapsed Menu</a>
                                 </li>
                                 <li>
                                     <a class="menu-item" href="../vertical-menu-template" data-i18n="Semi Light">Semi
@@ -492,8 +486,7 @@
                                 </li>
                                 <li>
                                     <a class="menu-item" href="../vertical-overlay-menu-template"
-                                        data-i18n="Overlay Menu">Overlay
-                                        Menu</a>
+                                        data-i18n="Overlay Menu">Overlay Menu</a>
                                 </li>
                             </ul>
                         </li>
@@ -557,8 +550,7 @@
                                 </li>
                                 <li>
                                     <a class="menu-item" href="layout-fixed-navigation.html"
-                                        data-i18n="Fixed navigation">Fixed
-                                        navigation</a>
+                                        data-i18n="Fixed navigation">Fixed navigation</a>
                                 </li>
                                 <li>
                                     <a class="menu-item" href="layout-fixed-navbar-navigation.html"
@@ -622,8 +614,7 @@
                                     <ul class="menu-content">
                                         <li>
                                             <a class="menu-item" href="navbar-hide-on-scroll-top.html"
-                                                data-i18n="Hide on Scroll Top">Hide on
-                                                Scroll Top</a>
+                                                data-i18n="Hide on Scroll Top">Hide on Scroll Top</a>
                                         </li>
                                         <li>
                                             <a class="menu-item" href="navbar-hide-on-scroll-bottom.html"
@@ -667,8 +658,7 @@
                                 </li>
                                 <li>
                                     <a class="menu-item" href="vertical-nav-static.html"
-                                        data-i18n="Static Navigation">Static
-                                        Navigation</a>
+                                        data-i18n="Static Navigation">Static Navigation</a>
                                 </li>
                                 <li>
                                     <a class="menu-item" href="vertical-nav-light.html"
@@ -680,8 +670,7 @@
                                 </li>
                                 <li>
                                     <a class="menu-item" href="vertical-nav-accordion.html"
-                                        data-i18n="Accordion Navigation">Accordion
-                                        Navigation</a>
+                                        data-i18n="Accordion Navigation">Accordion Navigation</a>
                                 </li>
                                 <li>
                                     <a class="menu-item" href="vertical-nav-collapsible.html"
@@ -689,38 +678,31 @@
                                 </li>
                                 <li>
                                     <a class="menu-item" href="vertical-nav-flipped.html"
-                                        data-i18n="Flipped Navigation">Flipped
-                                        Navigation</a>
+                                        data-i18n="Flipped Navigation">Flipped Navigation</a>
                                 </li>
                                 <li>
                                     <a class="menu-item" href="vertical-nav-native-scroll.html"
-                                        data-i18n="Native scroll">Native
-                                        scroll</a>
+                                        data-i18n="Native scroll">Native scroll</a>
                                 </li>
                                 <li>
                                     <a class="menu-item" href="vertical-nav-right-side-icon.html"
-                                        data-i18n="Right side icons">Right side
-                                        icons</a>
+                                        data-i18n="Right side icons">Right side icons</a>
                                 </li>
                                 <li>
                                     <a class="menu-item" href="vertical-nav-bordered.html"
-                                        data-i18n="Bordered Navigation">Bordered
-                                        Navigation</a>
+                                        data-i18n="Bordered Navigation">Bordered Navigation</a>
                                 </li>
                                 <li>
                                     <a class="menu-item" href="vertical-nav-disabled-link.html"
-                                        data-i18n="Disabled Navigation">Disabled
-                                        Navigation</a>
+                                        data-i18n="Disabled Navigation">Disabled Navigation</a>
                                 </li>
                                 <li>
                                     <a class="menu-item" href="vertical-nav-styling.html"
-                                        data-i18n="Navigation Styling">Navigation
-                                        Styling</a>
+                                        data-i18n="Navigation Styling">Navigation Styling</a>
                                 </li>
                                 <li>
                                     <a class="menu-item" href="vertical-nav-tags-pills.html"
-                                        data-i18n="Tags &amp; Pills">Tags &amp;
-                                        Pills</a>
+                                        data-i18n="Tags &amp; Pills">Tags &amp; Pills</a>
                                 </li>
                             </ul>
                         </li>
@@ -747,18 +729,15 @@
                             <ul class="menu-content">
                                 <li>
                                     <a class="menu-item" href="headers-breadcrumbs-basic.html"
-                                        data-i18n="Breadcrumbs basic">Breadcrumbs
-                                        basic</a>
+                                        data-i18n="Breadcrumbs basic">Breadcrumbs basic</a>
                                 </li>
                                 <li>
                                     <a class="menu-item" href="headers-breadcrumbs-top.html"
-                                        data-i18n="Breadcrumbs top">Breadcrumbs
-                                        top</a>
+                                        data-i18n="Breadcrumbs top">Breadcrumbs top</a>
                                 </li>
                                 <li>
                                     <a class="menu-item" href="headers-breadcrumbs-bottom.html"
-                                        data-i18n="Breadcrumbs bottom">Breadcrumbs
-                                        bottom</a>
+                                        data-i18n="Breadcrumbs bottom">Breadcrumbs bottom</a>
                                 </li>
                                 <li>
                                     <a class="menu-item" href="headers-breadcrumbs-with-button.html"
@@ -786,8 +765,7 @@
                                 </li>
                                 <li>
                                     <a class="menu-item" href="footer-transparent.html"
-                                        data-i18n="Footer Transparent">Footer
-                                        Transparent</a>
+                                        data-i18n="Footer Transparent">Footer Transparent</a>
                                 </li>
                                 <li>
                                     <a class="menu-item" href="footer-fixed.html" data-i18n="Footer Fixed">Footer
@@ -922,23 +900,19 @@
                     <ul class="menu-content">
                         <li>
                             <a class="menu-item" href="full-calender-basic.html" data-i18n="Full Calender Basic">Full
-                                Calender
-                                Basic</a>
+                                Calender Basic</a>
                         </li>
                         <li>
                             <a class="menu-item" href="full-calender-events.html" data-i18n="Full Calender Events">Full
-                                Calender
-                                Events</a>
+                                Calender Events</a>
                         </li>
                         <li>
                             <a class="menu-item" href="full-calender-advance.html"
-                                data-i18n="Full Calender Advance">Full Calender
-                                Advance</a>
+                                data-i18n="Full Calender Advance">Full Calender Advance</a>
                         </li>
                         <li>
                             <a class="menu-item" href="full-calender-extra.html" data-i18n="Full Calender Extra">Full
-                                Calender
-                                Extra</a>
+                                Calender Extra</a>
                         </li>
                     </ul>
                 </li>
@@ -974,8 +948,7 @@
                         </li>
                         <li>
                             <a class="menu-item" href="timeline-horizontal.html"
-                                data-i18n="Timelines Horizontal">Timelines
-                                Horizontal</a>
+                                data-i18n="Timelines Horizontal">Timelines Horizontal</a>
                         </li>
                     </ul>
                 </li>
@@ -1013,8 +986,7 @@
                         </li>
                         <li>
                             <a class="menu-item" href="gallery-grid-with-desc.html"
-                                data-i18n="Gallery Grid with Desc">Gallery Grid
-                                with Desc</a>
+                                data-i18n="Gallery Grid with Desc">Gallery Grid with Desc</a>
                         </li>
                         <li>
                             <a class="menu-item" href="gallery-masonry.html" data-i18n="Masonry Gallery">Masonry
@@ -1022,8 +994,7 @@
                         </li>
                         <li>
                             <a class="menu-item" href="gallery-masonry-with-desc.html"
-                                data-i18n="Masonry Gallery with Desc">Masonry
-                                Gallery with Desc</a>
+                                data-i18n="Masonry Gallery with Desc">Masonry Gallery with Desc</a>
                         </li>
                         <li>
                             <a class="menu-item" href="gallery-hover-effects.html" data-i18n="Hover Effects">Hover
@@ -1062,8 +1033,7 @@
                         </li>
                         <li>
                             <a class="menu-item" href="login-with-bg-image.html" data-i18n="Login with Bg Image">Login
-                                with Bg
-                                Image</a>
+                                with Bg Image</a>
                         </li>
                         <li>
                             <a class="menu-item" href="register-simple.html" data-i18n="Register Simple">Register
@@ -1075,8 +1045,7 @@
                         </li>
                         <li>
                             <a class="menu-item" href="register-with-bg-image.html"
-                                data-i18n="Register with Bg Image">Register with
-                                Bg Image</a>
+                                data-i18n="Register with Bg Image">Register with Bg Image</a>
                         </li>
                         <li>
                             <a class="menu-item" href="unlock-user.html" data-i18n="Unlock User">Unlock User</a>
@@ -1110,8 +1079,7 @@
                 </li>
                 <li class="nav-item">
                     <a href="#"><i class="feather icon-watch"></i><span class="menu-title"
-                            data-i18n="Coming Soon">Coming
-                            Soon</span></a>
+                            data-i18n="Coming Soon">Coming Soon</span></a>
                     <ul class="menu-content">
                         <li>
                             <a class="menu-item" href="coming-soon-flat.html" data-i18n="Flat">Flat</a>
@@ -1148,8 +1116,7 @@
                         </li>
                         <li>
                             <a class="menu-item" href="content-syntax-highlighter.html"
-                                data-i18n="Syntax highlighter">Syntax
-                                highlighter</a>
+                                data-i18n="Syntax highlighter">Syntax highlighter</a>
                         </li>
                         <li>
                             <a class="menu-item" href="content-helper-classes.html" data-i18n="Helper classes">Helper
@@ -1181,8 +1148,7 @@
                 </li>
                 <li class="nav-item">
                     <a href="#"><i class="feather icon-layers"></i><span class="menu-title"
-                            data-i18n="Advance Cards">Advance
-                            Cards</span></a>
+                            data-i18n="Advance Cards">Advance Cards</span></a>
                     <ul class="menu-content">
                         <li>
                             <a class="menu-item" href="card-statistics.html" data-i18n="Statistics">Statistics</a>
@@ -1206,8 +1172,7 @@
                 </li>
                 <li class="nav-item">
                     <a href="#"><i class="feather icon-droplet"></i><span class="menu-title"
-                            data-i18n="Color Palette">Color
-                            Palette</span><span
+                            data-i18n="Color Palette">Color Palette</span><span
                             class="badge badge badge-warning badge-pill float-right mr-2">14</span></a>
                     <ul class="menu-content">
                         <li>
@@ -1264,8 +1229,7 @@
                         </li>
                         <li>
                             <a class="menu-item" href="color-palette-blue-grey.html" data-i18n="Blue Grey palette">Blue
-                                Grey
-                                palette</a>
+                                Grey palette</a>
                         </li>
                     </ul>
                 </li>
@@ -1282,8 +1246,7 @@
                         </li>
                         <li>
                             <a class="menu-item" href="icons-simple-line-icons.html"
-                                data-i18n="Simple Line Icons">Simple Line
-                                Icons</a>
+                                data-i18n="Simple Line Icons">Simple Line Icons</a>
                         </li>
                         <li>
                             <a class="menu-item" href="icons-meteocons.html" data-i18n="Meteocons">Meteocons</a>
@@ -1313,8 +1276,7 @@
                                 </li>
                                 <li>
                                     <a class="menu-item" href="component-buttons-extended.html"
-                                        data-i18n="Extended Buttons">Extended
-                                        Buttons</a>
+                                        data-i18n="Extended Buttons">Extended Buttons</a>
                                 </li>
                             </ul>
                         </li>
@@ -1381,8 +1343,7 @@
                 </li>
                 <li class="nav-item">
                     <a href="#"><i class="feather icon-box"></i><span class="menu-title"
-                            data-i18n="Extra Components">Extra
-                            Components</span></a>
+                            data-i18n="Extra Components">Extra Components</span></a>
                     <ul class="menu-content">
                         <li>
                             <a class="menu-item" href="ex-component-avatar.html" data-i18n="Avatar">Avatar</a>
@@ -1409,13 +1370,11 @@
                         </li>
                         <li>
                             <a class="menu-item" href="ex-component-date-time-picker.html"
-                                data-i18n="DateTime Picker">DateTime
-                                Picker</a>
+                                data-i18n="DateTime Picker">DateTime Picker</a>
                         </li>
                         <li>
                             <a class="menu-item" href="ex-component-file-uploader-dropzone.html"
-                                data-i18n="File Uploader">File
-                                Uploader</a>
+                                data-i18n="File Uploader">File Uploader</a>
                         </li>
                         <li>
                             <a class="menu-item" href="ex-component-image-cropper.html" data-i18n="Image Cropper">Image
@@ -1474,8 +1433,7 @@
                                 </li>
                                 <li>
                                     <a class="menu-item" href="form-checkboxes-radios.html"
-                                        data-i18n="Checkboxes &amp; Radios">Checkboxes
-                                        &amp; Radios</a>
+                                        data-i18n="Checkboxes &amp; Radios">Checkboxes &amp; Radios</a>
                                 </li>
                                 <li>
                                     <a class="menu-item" href="form-switch.html" data-i18n="Switch">Switch</a>
@@ -1506,8 +1464,7 @@
                                 </li>
                                 <li>
                                     <a class="menu-item" href="form-layout-horizontal.html"
-                                        data-i18n="Horizontal Forms">Horizontal
-                                        Forms</a>
+                                        data-i18n="Horizontal Forms">Horizontal Forms</a>
                                 </li>
                                 <li>
                                     <a class="menu-item" href="form-layout-hidden-labels.html"
@@ -1572,8 +1529,7 @@
                             <ul class="menu-content">
                                 <li>
                                     <a class="menu-item" href="dt-basic-initialization.html"
-                                        data-i18n="Basic Initialisation">Basic
-                                        Initialisation</a>
+                                        data-i18n="Basic Initialisation">Basic Initialisation</a>
                                 </li>
                                 <li>
                                     <a class="menu-item" href="dt-advanced-initialization.html"
@@ -1601,8 +1557,7 @@
                                             <ul class="menu-content">
                                                 <li>
                                                     <a class="menu-item" href="dt-extensions-buttons-basic.html"
-                                                        data-i18n="Basic Buttons">Basic
-                                                        Buttons</a>
+                                                        data-i18n="Basic Buttons">Basic Buttons</a>
                                                 </li>
                                                 <li>
                                                     <a class="menu-item"
@@ -1631,13 +1586,11 @@
                                         </li>
                                         <li>
                                             <a class="menu-item" href="dt-extensions-column-reorder.html"
-                                                data-i18n="Column Reorder">Column
-                                                Reorder</a>
+                                                data-i18n="Column Reorder">Column Reorder</a>
                                         </li>
                                         <li>
                                             <a class="menu-item" href="dt-extensions-fixed-columns.html"
-                                                data-i18n="Fixed Columns">Fixed
-                                                Columns</a>
+                                                data-i18n="Fixed Columns">Fixed Columns</a>
                                         </li>
                                         <li>
                                             <a class="menu-item" href="dt-extensions-key-table.html"
@@ -1689,8 +1642,7 @@
                                 </li>
                                 <li>
                                     <a class="menu-item" href="chartjs-pie-doughnut-charts.html"
-                                        data-i18n="Pie &amp; Doughnut charts">Pie
-                                        &amp; Doughnut charts</a>
+                                        data-i18n="Pie &amp; Doughnut charts">Pie &amp; Doughnut charts</a>
                                 </li>
                                 <li>
                                     <a class="menu-item" href="chartjs-scatter-charts.html"
@@ -1698,8 +1650,7 @@
                                 </li>
                                 <li>
                                     <a class="menu-item" href="chartjs-polar-radar-charts.html"
-                                        data-i18n="Polar &amp; Radar charts">Polar
-                                        &amp; Radar charts</a>
+                                        data-i18n="Polar &amp; Radar charts">Polar &amp; Radar charts</a>
                                 </li>
                                 <li>
                                     <a class="menu-item" href="chartjs-advance-charts.html"
@@ -1747,8 +1698,7 @@
                 </li>
                 <li class="nav-item">
                     <a href="#"><i class="feather icon-align-left"></i><span class="menu-title"
-                            data-i18n="Menu levels">Menu
-                            levels</span></a>
+                            data-i18n="Menu levels">Menu levels</span></a>
                     <ul class="menu-content">
                         <li>
                             <a class="menu-item" href="#" data-i18n="Second level">Second level</a>
@@ -1776,8 +1726,7 @@
                 </li>
                 <li class="disabled nav-item">
                     <a href="#"><i class="feather icon-slash"></i><span class="menu-title"
-                            data-i18n="Disabled Menu">Disabled
-                            Menu</span></a>
+                            data-i18n="Disabled Menu">Disabled Menu</span></a>
                 </li>
                 <li class="nav-item">
                     <a href="https://pixinvent.ticksy.com/" target="_blank"><i class="feather icon-life-buoy"></i><span
@@ -1800,56 +1749,68 @@
                 <div class="card">
                     <div class="card-head">
                         <div class="card-header">
-                            <h4 class="card-title">Product</h4>
-                            <br />
-                            <div class="table-responsive">
-                                <table id="users-contacts"
-                                    class="table table-white-space table-bordered row-grouping display no-wrap icheck table-middle text-center">
-                                    <thead>
-                                        <tr>
-                                            <th>
-                                                <input type="checkbox" class="input-chk" id="check-all"
-                                                    onclick="toggle();" />
-                                            </th>
-                                            <th>id</th>
-                                            <th>productDetail</th>
-                                            <th>img1</th>
-                                            <th>img2</th>
-                                            <th>img3</th>
-                                            <th>img4</th>
-                                            <th>price</th>
-                                            <th>stock</th>
-                                            <th>status</th>
-                                            <th>created_at</th>
-                                            <th>Actions</th>
-                                        </tr>
-                                    </thead>
-                                    <tbody>
-                                        @for($i=0; $i < count($productReviewData); $i++) <tr id="rows">
-                                            <td>
-                                                <input type="checkbox" class="input-chk check" />
-                                            </td>
-                                            <td>{{$i + 1}}</td>
-                                            <td>{{$productReviewData[$i]['productDetail']}}</td>
-                                            <td>{{$productReviewData[$i]['img1']}}</td>
-                                            <td>{{$productReviewData[$i]['img2']}}</td>
-                                            <td>{{$productReviewData[$i]['img3']}}</td>
-                                            <td>{{$productReviewData[$i]['img4']}}</td>
-                                            <td>{{$productReviewData[$i]['price']}}</td>
-                                            <td>{{$productReviewData[$i]['stock']}}</td>
-                                            <td>{{$productReviewData[$i]['status']}}</td>
-                                            <td>{{date('d M Y', strtotime($productReviewData[$i]['created_at']))}}</td>
-                                            <td>
-                                                <a href="/admin/product-status/{{$productReviewData[$i]['id']}}"
-                                                    class="primary edit mr-1"><i class="fa fa-pencil"></i></a>
-
-
-                                            </td>
-                                            </tr>
-                                            @endfor
-                                    </tbody>
-                                </table>
+                            <h4 class="card-title">Confirm To Delete Blog</h4>
+                            <a class="heading-elements-toggle"><i
+                                    class="feather icon-align-justify font-medium-3"></i></a>
+                            <div class="heading-elements">
+                                <ul class="list-inline mb-0">
+                                    <li>
+                                        <a data-action="collapse"><i class="feather icon-minus"></i></a>
+                                    </li>
+                                    <li>
+                                        <a data-action="reload"><i class="feather icon-rotate-cw"></i></a>
+                                    </li>
+                                    <li>
+                                        <a data-action="expand"><i class="feather icon-maximize"></i></a>
+                                    </li>
+                                    <li>
+                                        <a data-action="close"><i class="feather icon-x"></i></a>
+                                    </li>
+                                </ul>
                             </div>
+                        </div>
+                        <div class="card-content collapse show">
+                            <div class="card-body">
+
+                                <form method='POST' action="" enctype=multipart/form-data>
+                                    @csrf
+                                    <div class="form-body">
+
+                                        <div class="row">
+                                            <div class="col-md-12" align="center">
+
+                                                <input value="{{$blogData['id']}}" type="hidden" class="form-control" />
+                                                <div class="form-group">
+                                                    <label><b>Image:</b></label>
+                                                    <img src="{{$blogData['img']}}" alt="blog image" />
+                                                </div>
+                                                <div class="form-group">
+                                                    <label><b>Blog Details
+                                                            :</b>{{$blogData['blogDetail']}}</label>
+                                                </div>
+                                                <div align="right">
+                                                    <button class="btn btn-outline-danger" type="submit">
+                                                        Delete
+                                                    </button>
+                                                </div>
+                                            </div>
+                                            <br />
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-content">
+                        <div class="card-body">
+                            <!-- Task List table -->
+                            <!-- <button
+                        type="button"
+                        class="btn btn-danger btn-sm delete-all mb-1"
+                      > 
+                        Delete All
+                      </button>-->
+
                         </div>
                     </div>
                 </div>

@@ -64,7 +64,17 @@ class productController extends Controller
 
         return redirect('/vendor/product');
     }
+    public function updateProductStatus(Request $req)
+    {
+        $updateStatus = Product::find($req->id);
+        
+        $updateStatus->status = $req->status;
+        ;
 
+        $updateStatus->update();
+
+        return redirect('/admin/product-status');
+    }
     public function uploadProduct(Request $req)
     {
         $product = new Product();
@@ -123,6 +133,14 @@ class productController extends Controller
         return view('admin.productReview')->with(
             'productReviewData',
             $productReviewData
+        );
+    }
+    public function getProductStatusData($id)
+    {
+        $productStatusData = Product::whereIn('id', [$id])->first();
+        return view('admin.productStatus')->with(
+            'productStatusData',
+            $productStatusData
         );
     }
 }

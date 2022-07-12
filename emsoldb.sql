@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Jul 08, 2022 at 11:31 AM
+-- Generation Time: Jul 12, 2022 at 04:32 PM
 -- Server version: 10.4.22-MariaDB
 -- PHP Version: 8.1.2
 
@@ -40,13 +40,6 @@ CREATE TABLE `ambulances` (
   `updated_at` timestamp NULL DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
---
--- Dumping data for table `ambulances`
---
-
-INSERT INTO `ambulances` (`id`, `ambulanceDetail`, `img1`, `img2`, `img3`, `img4`, `cost`, `available`, `created_at`, `updated_at`) VALUES
-(1, 'abc', 'abc.jpg', 'abc.jpg', 'abc.jpg', 'abc.jpg', '123', 'yes', '2022-05-31 18:00:00', '2022-05-31 18:00:00');
-
 -- --------------------------------------------------------
 
 --
@@ -55,6 +48,7 @@ INSERT INTO `ambulances` (`id`, `ambulanceDetail`, `img1`, `img2`, `img3`, `img4
 
 CREATE TABLE `blogs` (
   `id` bigint(20) UNSIGNED NOT NULL,
+  `image` text COLLATE utf8mb4_unicode_ci NOT NULL,
   `blogDetail` text COLLATE utf8mb4_unicode_ci NOT NULL,
   `created_at` timestamp NULL DEFAULT NULL,
   `updated_at` timestamp NULL DEFAULT NULL
@@ -64,8 +58,9 @@ CREATE TABLE `blogs` (
 -- Dumping data for table `blogs`
 --
 
-INSERT INTO `blogs` (`id`, `blogDetail`, `created_at`, `updated_at`) VALUES
-(1, 'jdnwebfiwuevhuiwevnwuebvyeubeuvbisudvdisdvn.', '2022-05-31 18:00:00', '2022-05-31 18:00:00');
+INSERT INTO `blogs` (`id`, `image`, `blogDetail`, `created_at`, `updated_at`) VALUES
+(1, 'a.jpg', 'jdnwebfiwuevhuiwevnwuebvyeubeuvbisudvdisdvn.', '2022-05-31 12:00:00', '2022-05-31 12:00:00'),
+(2, 'b.jpg', 'sjfneireijnwindeiubfwivnwievnwiue.', '2022-05-31 12:00:00', '2022-05-31 12:00:00');
 
 -- --------------------------------------------------------
 
@@ -104,9 +99,9 @@ INSERT INTO `migrations` (`id`, `migration`, `batch`) VALUES
 (2, '2014_10_12_100000_create_password_resets_table', 1),
 (3, '2019_08_19_000000_create_failed_jobs_table', 1),
 (4, '2019_12_14_000001_create_personal_access_tokens_table', 1),
-(5, '2022_05_20_100051_create_blog_table', 2),
-(6, '2022_05_20_100136_create_product_table', 2),
-(7, '2022_05_20_100211_create_ambulance_table', 2);
+(5, '2022_05_20_100051_create_blog_table', 1),
+(6, '2022_05_20_100136_create_product_table', 1),
+(7, '2022_05_20_100211_create_ambulance_table', 1);
 
 -- --------------------------------------------------------
 
@@ -162,9 +157,10 @@ CREATE TABLE `products` (
 -- Dumping data for table `products`
 --
 
-INSERT INTO `products` (`id`, `productDetail`, `img1`, `img2`, `img3`, `img4`, `price`, `stock`,`status`, `created_at`, `updated_at`) VALUES
-(1, 'Oxyzen Mask', 'img/uploads/', 'img/uploads/', 'img/uploads/', 'mask.jpg', '100', '3','processing', '2022-05-31 18:00:00', '2022-07-06 10:14:48'),
-(2, 'Disinfect Spray', 'spray.jpg', 'spray.jpg', 'spray.jpg', 'spray.jpg', '100', '5','processing', '2022-05-31 18:00:00', '2022-05-31 18:00:00');
+INSERT INTO `products` (`id`, `productDetail`, `img1`, `img2`, `img3`, `img4`, `price`, `stock`, `status`, `created_at`, `updated_at`) VALUES
+(1, 'Oxyzen Mask', 'a.jpg', 'b.jpg', 'c.jpg', 'mask.jpg', '100', '3', 'isApproved', '2022-05-31 12:00:00', '2022-07-06 04:14:48'),
+(2, 'Disinfect Spray', 'spray.jpg', 'spray.jpg', 'spray.jpg', 'spray.jpg', '100', '5', 'isApproved', '2022-05-31 12:00:00', '2022-07-11 05:46:42'),
+(3, 'jnjbnibrtb', 'rgtrgt.jpg', 'rgtrgt.jpg', 'rgtrgt.jpg', 'rgtrgt.jpg', '250', '5', 'processing', '2022-07-10 18:00:00', '2022-07-10 18:00:00');
 
 -- --------------------------------------------------------
 
@@ -190,8 +186,8 @@ CREATE TABLE `users` (
 --
 
 INSERT INTO `users` (`id`, `name`, `phone`, `email`, `password`, `cPassword`, `img`, `userType`, `created_at`, `updated_at`) VALUES
-(1, 'abc', '01234567891', 'abc@gmail.com', '123', '123', 'uploads/user1.jpg', 'user', '2022-05-01 10:47:28', '2022-05-01 10:47:28'),
-(2, 'xyz', '145263978955', 'xyz@gmail.com', '456', '456', 'C:\\xampp\\tmp\\phpAFED.tmp', 'user', '2022-05-18 11:27:32', '2022-05-18 11:27:32');
+(1, 'abc', '01234567891', 'abc@gmail.com', '123', '123', 'uploads/user1.jpg', 'user', '2022-05-01 04:47:28', '2022-05-01 04:47:28'),
+(2, 'xyz', '145263978955', 'xyz@gmail.com', '456', '456', 'C:\\xampp\\tmp\\phpAFED.tmp', 'user', '2022-05-18 05:27:32', '2022-05-18 05:27:32');
 
 --
 -- Indexes for dumped tables
@@ -258,13 +254,13 @@ ALTER TABLE `users`
 -- AUTO_INCREMENT for table `ambulances`
 --
 ALTER TABLE `ambulances`
-  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
+  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT;
 
 --
 -- AUTO_INCREMENT for table `blogs`
 --
 ALTER TABLE `blogs`
-  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
+  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
 
 --
 -- AUTO_INCREMENT for table `failed_jobs`
@@ -288,7 +284,7 @@ ALTER TABLE `personal_access_tokens`
 -- AUTO_INCREMENT for table `products`
 --
 ALTER TABLE `products`
-  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
+  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
 
 --
 -- AUTO_INCREMENT for table `users`

@@ -117,7 +117,6 @@
                           <a href="/vendor/uploadProduct"><i class="fa fa-plus"></i></a>
                           Add Product
                         </button>
-
                       </div>
                   </tbody>
                 </table>

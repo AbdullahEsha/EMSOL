@@ -68,7 +68,7 @@
                 <div class="card">
                     <div class="card-head">
                         <div class="card-header">
-                            <h4 class="card-title">Product / Delete Product</h4>
+                            <h4 class="card-title">Product / Edit Product</h4>
                             <a class="heading-elements-toggle"><i
                                     class="feather icon-align-justify font-medium-3"></i></a>
                             <div class="heading-elements">
@@ -100,42 +100,57 @@
 
 
 
-                                                <input value="{{$productData['id']}}" type="hidden"
+                                                <input value="{{$productStatusData['id']}}" type="hidden"
                                                     class="form-control" />
 
                                                 <div class="form-group">
                                                     <label><b>Product Details
-                                                            :</b>{{$productData['productDetail']}}</label>
+                                                            :</b>{{$productStatusData['productDetail']}}</label>
                                                 </div>
 
 
                                                 <div class="form-group">
                                                     <label><b>Image 1:</b></label>
-                                                    <img src="{{$productData['img1']}}" alt="first product image" />
+                                                    <img src="{{$productStatusData['img1']}}"
+                                                        alt="first product image" />
                                                 </div>
                                                 <div class="form-group">
                                                     <label><b>Image 2:</b></label>
-                                                    <img src="{{$productData['img2']}}" alt="second product image" />
+                                                    <img src="{{$productStatusData['img2']}}"
+                                                        alt="second product image" />
                                                 </div>
                                                 <div class="form-group">
                                                     <label><b>Image 3:</b></label>
-                                                    <img src="{{$productData['img3']}}" alt="third product image" />
+                                                    <img src="{{$productStatusData['img3']}}"
+                                                        alt="third product image" />
                                                 </div>
                                                 <div class="form-group">
                                                     <label><b>Image 4:</b></label>
-                                                    <img src="{{$productData['img4']}}" alt="fourth product image" />
+                                                    <img src="{{$productStatusData['img4']}}"
+                                                        alt="fourth product image" />
                                                 </div>
 
                                                 <div class="form-group">
-                                                    <label><b>Price :</b>{{$productData['price']}}</label>
+                                                    <label><b>Price :</b>{{$productStatusData['price']}}</label>
 
                                                 </div>
                                                 <div class="form-group">
-                                                    <label><b>Stock :</b>{{$productData['stock']}}</label>
+                                                    <label><b>Stock :</b>{{$productStatusData['stock']}}</label>
+                                                </div>
+                                                <div className="form-group"><label><b>Current Status:</b>
+                                                        {{$productStatusData['status']}}</label>
+                                                    <select className="form-control" name="status"
+                                                        value="{{$productStatusData['status']}}" required>
+                                                        <option value="" disabled selected>
+                                                            Choose Status
+                                                        </option>
+                                                        <option value="isApproved">Is Approved</option>
+                                                        <option value="Rejected">Rejected</option>
+                                                    </select>
                                                 </div>
                                                 <div align="right">
-                                                    <button class="btn btn-outline-danger" type="submit">
-                                                        Delete
+                                                    <button class="btn btn-info" type="submit">
+                                                        Submit
                                                     </button>
                                                 </div>
                                             </div>
