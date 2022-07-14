@@ -54,11 +54,11 @@
 <body class="vertical-layout vertical-menu content-detached-left-sidebar app-contacts fixed-navbar" data-open="click"
     data-menu="vertical-menu" data-col="content-detached-left-sidebar">
     <!-- BEGIN: Header-->
-    @include('vendor.header')
+    @include('admin.header')
     <!-- END: Header-->
-
+    
     <!-- BEGIN: Main Menu-->
-    @include('vendor.menu')
+    @include('admin.menu')
     <!-- END: Main Menu-->
 
     <!-- BEGIN: Content-->
