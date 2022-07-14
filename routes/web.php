@@ -54,27 +54,15 @@ Route::post('/admin/blogUpload', [BlogController::class, 'store']);
 Route::get('/admin/blog-upload', function () {
     return view('admin.blogUpload');
 });
-Route::post('/admin/blog-upload', [
-    BlogController::class,
-    'blogUpload',
-]);
+Route::post('/admin/blog-upload', [BlogController::class, 'blogUpload']);
 
 Route::get('/admin/deleteBlog/{id}', [
     BlogController::class,
     'getDeleteDataById',
 ]);
-Route::post('/admin/deleteBlog/{id}', [
-    BlogController::class,
-    'deleteBlog',
-]);
-Route::get('/admin/editBlog/{id}', [
-    BlogController::class,
-    'getDataById',
-]);
-Route::post('/admin/editBlog/{id}', [
-    BlogController::class,
-    'updateBlog',
-]);
+Route::post('/admin/deleteBlog/{id}', [BlogController::class, 'deleteBlog']);
+Route::get('/admin/editBlog/{id}', [BlogController::class, 'getDataById']);
+Route::post('/admin/editBlog/{id}', [BlogController::class, 'updateBlog']);
 
 Route::get('/admin/user', [UserController::class, 'getUser']);
 Route::get('/admin/product-status', [
@@ -89,6 +77,7 @@ Route::post('/admin/product-status/{id}', [
     ProductController::class,
     'updateProductStatus',
 ]);
+
 //===============Vendor==============//
 Route::get('/vendor/index', function () {
     return view('vendor.index');
