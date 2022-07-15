@@ -37,9 +37,9 @@ Route::get('/admin/index', function () {
     return view('admin.index');
 });
 
-// Route::get('/admin/ambulance', function () {
-//     return view('admin.ambulance');
-// });
+Route::get('/admin/ambulance', function () {
+    return view('admin.ambulance');
+});
 
 // Route::get('/admin/blog', function () {
 //     return view('admin.blog');
@@ -65,15 +65,15 @@ Route::get('/admin/editBlog/{id}', [BlogController::class, 'getDataById']);
 Route::post('/admin/editBlog/{id}', [BlogController::class, 'updateBlog']);
 
 Route::get('/admin/user', [UserController::class, 'getUser']);
-Route::get('/admin/product-status', [
+Route::get('/admin/product-review', [
     ProductController::class,
     'getProductReviewData',
 ]);
-Route::get('/admin/product-status/{id}', [
+Route::get('/admin/product-review/{id}', [
     ProductController::class,
     'getProductStatusData',
 ]);
-Route::post('/admin/product-status/{id}', [
+Route::post('/admin/product-review/{id}', [
     ProductController::class,
     'updateProductStatus',
 ]);

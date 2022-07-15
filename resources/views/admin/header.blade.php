@@ -8,7 +8,7 @@
                 class="feather icon-menu font-large-1"></i></a>
           </li>
           <li class="nav-item">
-            <a class="navbar-brand" href="index.html"><img class="brand-logo" alt="stack admin logo"
+            <a class="navbar-brand" href="/"><img class="brand-logo" alt="stack admin logo"
                 src="{{asset('admin/images/logo/stack-logo.png')}}" />
               <h2 class="brand-text">Stack</h2>
             </a>
