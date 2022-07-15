@@ -6,45 +6,45 @@
                         data-original-title="General"></i>
                 </li>
                 <li class="nav-item">
-                    <a href="/vendor/index"><i class="feather icon-home"></i><span class="menu-title"
+                    <a href="/admin/index"><i class="feather icon-home"></i><span class="menu-title"
                             data-i18n="Dashboard">Dashboard</span><span
                             class="badge badge badge-primary badge-pill float-right mr-2">3</span>
                         </a>
                 </li>
                 <li class="nav-item">
+                    <a href="/admin/users">
+                        <i class="feather icon-user"></i>
+                        <span class="menu-title" data-i18n="Dashboard">Users</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="/admin/product-review">
+                        <i class="feather icon-box"></i>
+                        <span class="menu-title" data-i18n="Dashboard">Product Review</span>
+                    </a>
+                </li>
+                <li class="nav-item">
                     <a href="#"><i class="feather icon-monitor"></i><span class="menu-title"
-                            data-i18n="Templates">Product</span></a>
+                            data-i18n="Templates">Blog</span></a>
                     <ul class="menu-content">
                         <li>
-                            <a class="menu-item" href="/vendor/uploadProduct" data-i18n="ADD Product">ADD Product</a>
+                            <a class="menu-item" href="/admin/add-blog" data-i18n="ADD Blog">ADD Blog</a>
                         </li>
                         <li>
-                            <a class="menu-item" href="/vendor/product" data-i18n="Product List">Product List</a>
+                            <a class="menu-item" href="/admin/blog-list" data-i18n="Blog List">Blog List</a>
                         </li>
                     </ul>
                 </li>
                 <li class="nav-item">
-                    <a href="#"><i class="feather icon-layout"></i><span class="menu-title"
-                            data-i18n="Layouts">Payments</span></a>
-                    <ul class="menu-content">
-                        <li>
-                            <a class="menu-item" href="#" data-i18n="All Payment">All Payment</a>
-                        </li>
-                        <li>
-                            <a class="menu-item" href="#" data-i18n="Navbars">Navbars</a>
-                        </li>
-                    </ul>
-                </li>
-                <li class="nav-item">
-                    <a href="/vendor/support" target="_blank">
+                    <a href="/admin/support" target="_blank">
                         <i class="feather icon-life-buoy"></i>
                         <span class="menu-title" data-i18n="Raise Support">
-                            Raise Support
+                            Support
                         </span>
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a href="/vendor/profile" target="_blank">
+                    <a href="/admin/profile" target="_blank">
                         <i class="feather icon-folder"></i>
                         <span class="menu-title" data-i18n="Profile Settings">
                             Profile Settings

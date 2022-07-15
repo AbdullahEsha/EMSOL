@@ -75,16 +75,8 @@
                                     class="table table-white-space table-bordered row-grouping display no-wrap icheck table-middle text-center">
                                     <thead>
                                         <tr>
-                                            <th>
-                                                <input type="checkbox" class="input-chk" id="check-all"
-                                                    onclick="toggle();" />
-                                            </th>
                                             <th>id</th>
                                             <th>productDetail</th>
-                                            <th>img1</th>
-                                            <th>img2</th>
-                                            <th>img3</th>
-                                            <th>img4</th>
                                             <th>price</th>
                                             <th>stock</th>
                                             <th>status</th>
@@ -94,24 +86,14 @@
                                     </thead>
                                     <tbody>
                                         @for($i=0; $i < count($productReviewData); $i++) <tr id="rows">
-                                            <td>
-                                                <input type="checkbox" class="input-chk check" />
-                                            </td>
                                             <td>{{$i + 1}}</td>
                                             <td>{{$productReviewData[$i]['productDetail']}}</td>
-                                            <td>{{$productReviewData[$i]['img1']}}</td>
-                                            <td>{{$productReviewData[$i]['img2']}}</td>
-                                            <td>{{$productReviewData[$i]['img3']}}</td>
-                                            <td>{{$productReviewData[$i]['img4']}}</td>
                                             <td>{{$productReviewData[$i]['price']}}</td>
                                             <td>{{$productReviewData[$i]['stock']}}</td>
                                             <td>{{$productReviewData[$i]['status']}}</td>
                                             <td>{{date('d M Y', strtotime($productReviewData[$i]['created_at']))}}</td>
                                             <td>
-                                                <a href="/admin/product-status/{{$productReviewData[$i]['id']}}"
-                                                    class="primary edit mr-1"><i class="fa fa-pencil"></i></a>
-
-
+                                                <a href="/admin/product-review/{{$productReviewData[$i]['id']}}" class="primary edit mr-1"><i class="fa fa-pencil"></i></a>
                                             </td>
                                             </tr>
                                             @endfor

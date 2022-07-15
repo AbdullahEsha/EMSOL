@@ -67,13 +67,11 @@ class productController extends Controller
     public function updateProductStatus(Request $req)
     {
         $updateStatus = Product::find($req->id);
-        
-        $updateStatus->status = $req->status;
-        ;
 
+        $updateStatus->status = $req->status;
         $updateStatus->update();
 
-        return redirect('/admin/product-status');
+        return redirect('/admin/product-review');
     }
     public function uploadProduct(Request $req)
     {
