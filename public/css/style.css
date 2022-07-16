@@ -9,7 +9,7 @@
 # General
 --------------------------------------------------------------*/
 body {
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Open Sans', sans-serif;
   color: #444444;
 }
 
@@ -23,8 +23,13 @@ a:hover {
   text-decoration: none;
 }
 
-h1, h2, h3, h4, h5, h6 {
-  font-family: "Raleway", sans-serif;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Raleway', sans-serif;
 }
 
 /*--------------------------------------------------------------
@@ -86,7 +91,8 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 700;
   letter-spacing: 1px;
 }
-#header .logo h1 a, #header .logo h1 a:hover {
+#header .logo h1 a,
+#header .logo h1 a:hover {
   color: #222222;
   text-decoration: none;
 }
@@ -102,6 +108,7 @@ h1, h2, h3, h4, h5, h6 {
 /**
 * Desktop Navigation 
 */
+
 .navbar {
   padding: 0;
 }
@@ -115,7 +122,8 @@ h1, h2, h3, h4, h5, h6 {
 .navbar li {
   position: relative;
 }
-.navbar a, .navbar a:focus {
+.navbar a,
+.navbar a:focus {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -126,22 +134,33 @@ h1, h2, h3, h4, h5, h6 {
   white-space: nowrap;
   transition: 0.3s;
 }
-.navbar a i, .navbar a:focus i {
+.navbar a i,
+.navbar a:focus i {
   font-size: 12px;
   line-height: 0;
   margin-left: 5px;
 }
-.navbar a:hover, .navbar .active, .navbar .active:focus, .navbar li:hover > a {
+#custom-nav {
+  font-size: 35px;
+  line-height: 0;
+  margin-left: -15px;
+}
+.navbar a:hover,
+.navbar .active,
+.navbar .active:focus,
+.navbar li:hover > a {
   color: #3498db;
 }
-.navbar .getstarted, .navbar .getstarted:focus {
+.navbar .getstarted,
+.navbar .getstarted:focus {
   background: #3498db;
   padding: 8px 25px;
   margin-left: 30px;
   border-radius: 50px;
   color: #fff;
 }
-.navbar .getstarted:hover, .navbar .getstarted:focus:hover {
+.navbar .getstarted:hover,
+.navbar .getstarted:focus:hover {
   color: #fff;
   background: #4aa3df;
 }
@@ -170,7 +189,9 @@ h1, h2, h3, h4, h5, h6 {
 .navbar .dropdown ul a i {
   font-size: 12px;
 }
-.navbar .dropdown ul a:hover, .navbar .dropdown ul .active:hover, .navbar .dropdown ul li:hover > a {
+.navbar .dropdown ul a:hover,
+.navbar .dropdown ul .active:hover,
+.navbar .dropdown ul li:hover > a {
   color: #3498db;
 }
 .navbar .dropdown:hover > ul {
@@ -251,15 +272,19 @@ h1, h2, h3, h4, h5, h6 {
   overflow-y: auto;
   transition: 0.3s;
 }
-.navbar-mobile a, .navbar-mobile a:focus {
+.navbar-mobile a,
+.navbar-mobile a:focus {
   padding: 10px 20px;
   font-size: 15px;
   color: #222222;
 }
-.navbar-mobile a:hover, .navbar-mobile .active, .navbar-mobile li:hover > a {
+.navbar-mobile a:hover,
+.navbar-mobile .active,
+.navbar-mobile li:hover > a {
   color: #3498db;
 }
-.navbar-mobile .getstarted, .navbar-mobile .getstarted:focus {
+.navbar-mobile .getstarted,
+.navbar-mobile .getstarted:focus {
   margin: 15px;
 }
 .navbar-mobile .dropdown ul {
@@ -282,7 +307,9 @@ h1, h2, h3, h4, h5, h6 {
 .navbar-mobile .dropdown ul a i {
   font-size: 12px;
 }
-.navbar-mobile .dropdown ul a:hover, .navbar-mobile .dropdown ul .active:hover, .navbar-mobile .dropdown ul li:hover > a {
+.navbar-mobile .dropdown ul a:hover,
+.navbar-mobile .dropdown ul .active:hover,
+.navbar-mobile .dropdown ul li:hover > a {
   color: #3498db;
 }
 .navbar-mobile .dropdown > .dropdown-active {
@@ -310,7 +337,7 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 24px;
 }
 #hero .btn-get-started {
-  font-family: "Raleway", sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-weight: 500;
   font-size: 16px;
   letter-spacing: 1px;
@@ -411,8 +438,9 @@ section {
   position: relative;
   color: #222222;
 }
-.section-title h2::before, .section-title h2::after {
-  content: "";
+.section-title h2::before,
+.section-title h2::after {
+  content: '';
   width: 50px;
   height: 2px;
   background: #3498db;
@@ -493,7 +521,7 @@ section {
   margin-bottom: 0;
 }
 .about .content .btn-learn-more {
-  font-family: "Raleway", sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-weight: 600;
   font-size: 14px;
   letter-spacing: 1px;
@@ -553,7 +581,7 @@ section {
 .counts .content .count-box p {
   padding: 15px 0 0 0;
   margin: 0 0 0 50px;
-  font-family: "Raleway", sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-size: 14px;
   color: #484848;
 }
@@ -563,7 +591,7 @@ section {
   margin-top: 20px;
   color: #484848;
   font-size: 15px;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   transition: ease-in-out 0.3s;
 }
 .counts .content .count-box a:hover {
@@ -597,7 +625,7 @@ section {
   z-index: 1;
 }
 .services .icon-box::before {
-  content: "";
+  content: '';
   position: absolute;
   background: #e1f0fa;
   right: -60px;
@@ -645,7 +673,8 @@ section {
   line-height: 28px;
   margin-bottom: 0;
 }
-.services .icon-box:hover .title a, .services .icon-box:hover .description {
+.services .icon-box:hover .title a,
+.services .icon-box:hover .description {
   color: #fff;
 }
 .services .icon-box:hover .icon {
@@ -703,7 +732,10 @@ section {
 .more-services .card:hover .card-body {
   background: #3498db;
 }
-.more-services .card:hover .read-more a, .more-services .card:hover .card-title, .more-services .card:hover .card-title a, .more-services .card:hover .card-text {
+.more-services .card:hover .read-more a,
+.more-services .card:hover .card-title,
+.more-services .card:hover .card-title a,
+.more-services .card:hover .card-text {
   color: #fff;
 }
 
@@ -746,7 +778,8 @@ section {
 .testimonials .testimonial-wrap {
   padding-left: 50px;
 }
-.testimonials .testimonials-carousel, .testimonials .testimonials-slider {
+.testimonials .testimonials-carousel,
+.testimonials .testimonials-slider {
   overflow: hidden;
 }
 .testimonials .testimonial-item {
@@ -776,7 +809,8 @@ section {
   color: #999;
   margin: 0;
 }
-.testimonials .testimonial-item .quote-icon-left, .testimonials .testimonial-item .quote-icon-right {
+.testimonials .testimonial-item .quote-icon-left,
+.testimonials .testimonial-item .quote-icon-right {
   color: #e1f0fa;
   font-size: 26px;
 }
@@ -813,7 +847,8 @@ section {
   .testimonials .testimonial-wrap {
     padding-left: 0;
   }
-  .testimonials .testimonials-carousel, .testimonials .testimonials-slider {
+  .testimonials .testimonials-carousel,
+  .testimonials .testimonials-slider {
     overflow: hidden;
   }
   .testimonials .testimonial-item {
@@ -851,7 +886,8 @@ section {
   transition: all 0.3s ease-in-out;
   border-radius: 3px;
 }
-.portfolio #portfolio-flters li:hover, .portfolio #portfolio-flters li.filter-active {
+.portfolio #portfolio-flters li:hover,
+.portfolio #portfolio-flters li.filter-active {
   color: #fff;
   background: #3498db;
 }
@@ -866,7 +902,7 @@ section {
   background: rgba(34, 34, 34, 0.6);
 }
 .portfolio .portfolio-wrap::before {
-  content: "";
+  content: '';
   background: rgba(34, 34, 34, 0.6);
   position: absolute;
   left: 0;
@@ -945,14 +981,20 @@ section {
   margin-top: 20px;
   position: relative;
 }
-.portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet {
+.portfolio-details
+  .portfolio-details-slider
+  .swiper-pagination
+  .swiper-pagination-bullet {
   width: 12px;
   height: 12px;
   background-color: #fff;
   opacity: 1;
   border: 1px solid #3498db;
 }
-.portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet-active {
+.portfolio-details
+  .portfolio-details-slider
+  .swiper-pagination
+  .swiper-pagination-bullet-active {
   background-color: #3498db;
 }
 .portfolio-details .portfolio-info {
@@ -1081,7 +1123,7 @@ section {
   font-size: 42px;
   color: #3498db;
   font-weight: 500;
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Open Sans', sans-serif;
   margin-bottom: 20px;
 }
 .pricing .box h4 sup {
@@ -1126,7 +1168,7 @@ section {
   color: #3498db;
   font-size: 14px;
   font-weight: 400;
-  font-family: "Raleway", sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-weight: 600;
   transition: 0.3s;
 }
@@ -1167,7 +1209,7 @@ section {
   line-height: 26px;
   font-weight: 500;
   margin: 0 0 10px 32px;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
 .faq .faq-item p {
   font-size: 15px;
@@ -1188,7 +1230,7 @@ section {
 .contact .contact-about p {
   font-size: 14px;
   line-height: 24px;
-  font-family: "Raleway", sans-serif;
+  font-family: 'Raleway', sans-serif;
   color: #888;
 }
 .contact .social-links {
@@ -1252,8 +1294,9 @@ section {
   text-align: center;
   padding: 15px;
 }
+
 .contact .php-email-form .loading:before {
-  content: "";
+  content: '';
   display: inline-block;
   border-radius: 50%;
   width: 24px;
@@ -1267,16 +1310,18 @@ section {
 .contact .php-email-form .form-group {
   margin-bottom: 20px;
 }
-.contact .php-email-form input, .contact .php-email-form textarea {
+.contact .php-email-form input,
+.contact .php-email-form textarea {
   border-radius: 0;
   box-shadow: none;
   font-size: 14px;
   padding: 10px 15px;
 }
-.contact .php-email-form input:focus, .contact .php-email-form textarea:focus {
+.contact .php-email-form input:focus,
+.contact .php-email-form textarea:focus {
   border-color: #3498db;
 }
-.contact .php-email-form button[type=submit] {
+.contact .php-email-form button[type='submit'] {
   background: #3498db;
   border: 0;
   padding: 10px 24px;
@@ -1284,7 +1329,7 @@ section {
   transition: 0.4s;
   border-radius: 50px;
 }
-.contact .php-email-form button[type=submit]:hover {
+.contact .php-email-form button[type='submit']:hover {
   background: #2383c4;
 }
 @-webkit-keyframes animate-loading {
@@ -1343,7 +1388,7 @@ section {
   display: inline-block;
   padding-right: 10px;
   color: #3c3c3c;
-  content: "/";
+  content: '/';
 }
 @media (max-width: 768px) {
   .breadcrumbs .d-flex {
