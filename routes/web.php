@@ -55,6 +55,10 @@ Route::get('/admin/blog-upload', function () {
     return view('admin.blogUpload');
 });
 Route::post('/admin/blog-upload', [BlogController::class, 'blogUpload']);
+Route::get('/admin/profile', function () {
+    return view('admin.profile');
+});
+
 
 Route::get('/admin/deleteBlog/{id}', [
     BlogController::class,
