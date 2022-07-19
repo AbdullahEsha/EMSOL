@@ -210,6 +210,11 @@ h6 {
   left: 100%;
   visibility: visible;
 }
+
+.padding-top {
+  padding-top: 20px;
+}
+
 @media (max-width: 1366px) {
   .navbar .dropdown .dropdown ul {
     left: -90%;

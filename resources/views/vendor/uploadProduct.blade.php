@@ -38,7 +38,7 @@
   <!-- END: Page CSS-->
 
   <!-- BEGIN: Custom CSS-->
-  <link rel="stylesheet" type="text/css" href="{{asset('admin/css/style.css')}}" />
+  <link rel="stylesheet" type="text/css" href="{{asset('css/style.css')}}" />
   <!-- END: Custom CSS-->
 </head>
 <!-- END: Head-->
@@ -91,27 +91,6 @@
                     <div class="row">
                       <div class="col-md-12">
                         <div class="form-group">
-                          <label>Product Details </label>
-                          <input type="text" name="productDetail" class="form-control" />
-                        </div>
-                        <div class="form-group">
-                          <label>Image 1</label>
-                          <input type="file" name="img1" class="form-control" />
-                        </div>
-                        <div class="form-group">
-                          <label>Image 2</label>
-                          <input type="file" name="img2" class="form-control" />
-                        </div>
-                        <div class="form-group">
-                          <label>Image 3</label>
-                          <input type="file" name="img3" class="form-control" />
-                        </div>
-                        <div class="form-group">
-                          <label>Image 4</label>
-                          <input type="file" name="img4" class="form-control" />
-                        </div>
-
-                        <div class="form-group">
                           <label>Price </label>
                           <input type="text" name="price" class="form-control" />
                         </div>
@@ -119,29 +98,37 @@
                           <label>Stock </label>
                           <input type="text" name="stock" class="form-control" />
                         </div>
-                        <div align="right">
+                      </div>
+                      <div class="col-md-12">
+                          <label>Product Details </label>
+                          <textarea id="summary-ckeditor" name="messageArea" rows="7" class="form-control ckeditor" placeholder="Write your message.."></textarea>
+                        </div>
+                      <div class="col-md-3">
+                          <label>Image 1</label>
+                          <input type="file" name="img1" class="form-control" />
+                        </div>
+                        <div class="col-md-3">
+                          <label>Image 2</label>
+                          <input type="file" name="img2" class="form-control" />
+                        </div>
+                        <div class="col-md-3">
+                          <label>Image 3</label>
+                          <input type="file" name="img3" class="form-control" />
+                        </div>
+                        <div class="col-md-3">
+                          <label>Image 4</label>
+                          <input type="file" name="img4" class="form-control" />
+                        </div>
+                        
+                        <div align="right" class="col-md-12" class="padding-top">
                           <button class="btn btn-outline-info" type="submit">
                             Submit
                           </button>
                         </div>
-                      </div>
-                      <br />
                     </div>
                   </div>
                 </form>
               </div>
-            </div>
-          </div>
-          <div class="card-content">
-            <div class="card-body">
-              <!-- Task List table -->
-              <!-- <button
-                        type="button"
-                        class="btn btn-danger btn-sm delete-all mb-1"
-                      > 
-                        Delete All
-                      </button>-->
-
             </div>
           </div>
         </div>
@@ -184,6 +171,10 @@
 
   <!-- BEGIN: Page JS-->
   <script src="{{asset('admin/js/scripts/pages/app-invoice.js')}}"></script>
+  <script src="//cdn.ckeditor.com/4.14.0/standard/ckeditor.js"></script>
+  <script>
+  CKEDITOR.replace( 'summary-ckeditor' );
+  </script>
   <!-- END: Page JS-->
 </body>
 <!-- END: Body-->
