@@ -4,6 +4,7 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\userController;
 use App\Http\Controllers\ambulanceController;
 use App\Http\Controllers\productController;
+use App\Http\Controllers\supportController;
 use App\Http\Controllers\blogController;
 use App\Http\Controllers\uploadProductController;
 use App\Http\Controllers\blogUploadController;
@@ -53,6 +54,9 @@ Route::post('/admin/blogUpload', [BlogController::class, 'store']);
 
 Route::get('/admin/blog-upload', function () {
     return view('admin.blogUpload');
+});
+Route::get('/admin/support', function () {
+    return view('admin.support');
 });
 Route::post('/admin/blog-upload', [BlogController::class, 'blogUpload']);
 Route::get('/admin/profile', function () {

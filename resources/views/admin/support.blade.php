@@ -86,25 +86,27 @@
                         <input type="checkbox" class="input-chk" id="check-all" onclick="toggle();" />
                       </th>
                       <th>id no</th>
+                      <th>email</th>
+                      <th>details</th>
                       <th>image</th>
-                      <th>blogDetail</th>
                       <th>created_at</th>
                       <th>Actions</th>
                     </tr>
                   </thead>
                   <tbody>
-                    @for($i=0; $i < count($blogData); $i++) <tr id="rows">
+                    @for($i=0; $i < count($supportData); $i++) <tr id="rows">
                       <td>
                         <input type="checkbox" class="input-chk check" />
                       </td>
                       <td>{{$i+1}}</td>
-                      <td>{{$blogData[$i]['image']}}</td>
-                      <td>{{$blogData[$i]['blogDetail']}}</td>
-                      <td>{{date('d M Y', strtotime($blogData[$i]['created_at']))}}</td>
+                      <td>{{$supportData[$i]['email']}}</td>
+                      <td>{{$supportData[$i]['detail']}}</td>
+                      <td>{{$supportData[$i]['image']}}</td>
+                      <td>{{date('d M Y', strtotime($supportData[$i]['created_at']))}}</td>
                       <td>
-                        <a href="/admin/editBlog/{{$blogData[$i]['id']}}" class="primary edit mr-1"><i
+                        <a href="/admin/editBlog/{{$supportData[$i]['id']}}" class="primary edit mr-1"><i
                             class="fa fa-pencil"></i></a>
-                        <a href="/admin/deleteBlog/{{$blogData[$i]['id']}}" class="danger delete mr-1"><i
+                        <a href="/admin/deleteBlog/{{$supportData[$i]['id']}}" class="danger delete mr-1"><i
                             class="fa fa-trash-o"></i></a>
 
                       </td>
