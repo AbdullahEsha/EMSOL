@@ -57,84 +57,105 @@
 
   <!-- BEGIN: Content-->
   <div class="app-content content">
-    <section class="row all-contacts">
-      <div class="col-12">
-        <div class="card">
-          <div class="card-head">
-            <div class="card-header">
-              <h4 class="card-title">Product</h4>
-              <a class="heading-elements-toggle"><i class="feather icon-align-justify font-medium-3"></i></a>
-              <div class="heading-elements">
-                <ul class="list-inline mb-0">
-                  <li>
-                    <a data-action="collapse"><i class="feather icon-minus"></i></a>
-                  </li>
-                  <li>
-                    <a data-action="reload"><i class="feather icon-rotate-cw"></i></a>
-                  </li>
-                  <li>
-                    <a data-action="expand"><i class="feather icon-maximize"></i></a>
-                  </li>
-                  <li>
-                    <a data-action="close"><i class="feather icon-x"></i></a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-            <div class="card-content collapse show">
-              <div class="card-body">
-
-                <form method='POST' action="" enctype=multipart/form-data>
-                  @csrf
-                  <div class="form-body">
-
-                    <div class="row">
-                      <div class="col-md-12">
-                        <div class="form-group">
-                          <label>Price </label>
-                          <input type="text" name="price" class="form-control" />
-                        </div>
-                        <div class="form-group">
-                          <label>Stock </label>
-                          <input type="text" name="stock" class="form-control" />
-                        </div>
-                      </div>
-                      <div class="col-md-12">
-                          <label>Product Details </label>
-                          <textarea id="summary-ckeditor" name="messageArea" rows="7" class="form-control ckeditor" placeholder="Write your message.."></textarea>
-                        </div>
-                      <div class="col-md-3">
-                          <label>Image 1</label>
-                          <input type="file" name="img1" class="form-control" />
-                        </div>
-                        <div class="col-md-3">
-                          <label>Image 2</label>
-                          <input type="file" name="img2" class="form-control" />
-                        </div>
-                        <div class="col-md-3">
-                          <label>Image 3</label>
-                          <input type="file" name="img3" class="form-control" />
-                        </div>
-                        <div class="col-md-3">
-                          <label>Image 4</label>
-                          <input type="file" name="img4" class="form-control" />
-                        </div>
-                        
-                        <div align="right" class="col-md-12" class="padding-top">
-                          <button class="btn btn-outline-info" type="submit">
-                            Submit
-                          </button>
-                        </div>
+      <div class="content-overlay"></div>
+      <div class="content-wrapper">
+        <div class="content-body">
+          <!-- Add rows table -->
+          <section id="add-row">
+            <div class="row">
+              <div class="col-12">
+                <div class="card">
+                  <div class="card-header">
+                    <h4 class="card-title">Add Product</h4>
+                    <a class="heading-elements-toggle"
+                      ><i class="fa fa-ellipsis-v font-medium-3"></i
+                    ></a>
+                    <div class="heading-elements">
+                      <ul class="list-inline mb-0">
+                        <li>
+                          <a data-action="collapse"
+                            ><i class="feather icon-minus"></i
+                          ></a>
+                        </li>
+                        <li>
+                          <a data-action="reload"
+                            ><i class="feather icon-rotate-cw"></i
+                          ></a>
+                        </li>
+                        <li>
+                          <a data-action="expand"
+                            ><i class="feather icon-maximize"></i
+                          ></a>
+                        </li>
+                        <li>
+                          <a data-action="close"
+                            ><i class="feather icon-x"></i
+                          ></a>
+                        </li>
+                      </ul>
                     </div>
                   </div>
-                </form>
+                  <div class="card-content collapse show">
+                    <div class="card-body">
+                      <div class="card-content collapse show">
+                        <div class="card-body">
+                          <form method='POST' action="" enctype=multipart/form-data>
+                          @csrf
+                          <div class="form-body">
+                            <div class="row">
+                              <div class="col-md-12">
+                              <div class="form-group">
+                                <label>Price </label>
+                                <input type="text" name="price" class="form-control" />
+                              </div>
+                              <div class="form-group">
+                                <label>Stock </label>
+                                <input type="text" name="stock" class="form-control" />
+                              </div>
+                            </div>
+                            <div class="col-md-12">
+                                <label>Product Details </label>
+                                <textarea id="summary-ckeditor" name="messageArea" rows="7" class="form-control ckeditor" placeholder="Write your message.."></textarea>
+                              </div>
+                            <div class="col-md-3">
+                                <label>Image 1</label>
+                                <input type="file" name="img1" class="form-control" />
+                              </div>
+                              <div class="col-md-3">
+                                <label>Image 2</label>
+                                <input type="file" name="img2" class="form-control" />
+                              </div>
+                              <div class="col-md-3">
+                                <label>Image 3</label>
+                                <input type="file" name="img3" class="form-control" />
+                              </div>
+                              <div class="col-md-3">
+                                <label>Image 4</label>
+                                <input type="file" name="img4" class="form-control" />
+                              </div>
+                              <div align="right" class="col-md-12" >
+                                <br>
+                                <button class="btn btn-outline-info" type="submit">
+                                  Submit
+                                </button>
+                              </div>
+                          </div>
+                        </div>
+                      </form>
+                    </div>
+                  </div>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
-          </div>
+          </section>
+          <!--/ Add rows table -->
+          <!-- Individual column searching (text inputs) table -->
         </div>
       </div>
-    </section>
-  </div>
+    </div>
+
   <!-- END: Content-->
 
   <div class="sidenav-overlay"></div>
