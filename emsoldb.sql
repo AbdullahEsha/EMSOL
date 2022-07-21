@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Jul 12, 2022 at 04:32 PM
+-- Generation Time: Jul 21, 2022 at 02:31 PM
 -- Server version: 10.4.22-MariaDB
 -- PHP Version: 8.1.2
 
@@ -59,8 +59,11 @@ CREATE TABLE `blogs` (
 --
 
 INSERT INTO `blogs` (`id`, `image`, `blogDetail`, `created_at`, `updated_at`) VALUES
-(1, 'a.jpg', 'jdnwebfiwuevhuiwevnwuebvyeubeuvbisudvdisdvn.', '2022-05-31 12:00:00', '2022-05-31 12:00:00'),
-(2, 'b.jpg', 'sjfneireijnwindeiubfwivnwievnwiue.', '2022-05-31 12:00:00', '2022-05-31 12:00:00');
+(1, 'img/uploads/more-services-2.jpg', 'jdnwebfiwuevhuiwevnwuebvyeubeuvbisudvdisdvn.', '2022-05-31 12:00:00', '2022-07-12 09:23:08'),
+(2, 'img/uploads/more-services-4.jpg', 'sjfneireijnwindeiubfwivnwievnwiue, sdhfhnhuveurhv.', '2022-05-31 12:00:00', '2022-07-12 09:11:10'),
+(4, 'b.jpg', 'sjfneireijnwindeiubfwivnwievnwiue.', '2022-05-31 06:00:00', '2022-05-31 06:00:00'),
+(5, 'c.jpg', 'sjfneireijnwindeiubfwivnwievnwiue.', '2022-05-31 06:00:00', '2022-05-31 06:00:00'),
+(6, 'd.jpg', 'sjfneireijnwindeiubfwivnwievnwiue.', '2022-05-31 06:00:00', '2022-05-31 06:00:00');
 
 -- --------------------------------------------------------
 
@@ -101,7 +104,8 @@ INSERT INTO `migrations` (`id`, `migration`, `batch`) VALUES
 (4, '2019_12_14_000001_create_personal_access_tokens_table', 1),
 (5, '2022_05_20_100051_create_blog_table', 1),
 (6, '2022_05_20_100136_create_product_table', 1),
-(7, '2022_05_20_100211_create_ambulance_table', 1);
+(7, '2022_05_20_100211_create_ambulance_table', 1),
+(8, '2022_07_20_130332_create_support_table', 2);
 
 -- --------------------------------------------------------
 
@@ -159,8 +163,31 @@ CREATE TABLE `products` (
 
 INSERT INTO `products` (`id`, `productDetail`, `img1`, `img2`, `img3`, `img4`, `price`, `stock`, `status`, `created_at`, `updated_at`) VALUES
 (1, 'Oxyzen Mask', 'a.jpg', 'b.jpg', 'c.jpg', 'mask.jpg', '100', '3', 'isApproved', '2022-05-31 12:00:00', '2022-07-06 04:14:48'),
-(2, 'Disinfect Spray', 'spray.jpg', 'spray.jpg', 'spray.jpg', 'spray.jpg', '100', '5', 'isApproved', '2022-05-31 12:00:00', '2022-07-11 05:46:42'),
+(2, 'Disinfect Spray', 'img/uploads/', 'img/uploads/', 'img/uploads/', 'spray.jpg', '100', '10', 'processing', '2022-05-31 12:00:00', '2022-07-12 09:06:22'),
 (3, 'jnjbnibrtb', 'rgtrgt.jpg', 'rgtrgt.jpg', 'rgtrgt.jpg', 'rgtrgt.jpg', '250', '5', 'processing', '2022-07-10 18:00:00', '2022-07-10 18:00:00');
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `support`
+--
+
+CREATE TABLE `support` (
+  `id` bigint(20) UNSIGNED NOT NULL,
+  `email` text COLLATE utf8mb4_unicode_ci NOT NULL,
+  `details` text COLLATE utf8mb4_unicode_ci NOT NULL,
+  `image` text COLLATE utf8mb4_unicode_ci NOT NULL,
+  `created_at` timestamp NULL DEFAULT current_timestamp(),
+  `updated_at` timestamp NULL DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+
+--
+-- Dumping data for table `support`
+--
+
+INSERT INTO `support` (`id`, `email`, `details`, `image`, `created_at`, `updated_at`) VALUES
+(1, 'xyz@gmail.com', 'jfehfvbehfvbehfv', 'a.jpg', '2022-07-20 18:00:00', '2022-07-20 18:00:00'),
+(2, 'abc@gmail.com', 'dfgrthtjtybtyjtj', 'x.jpg', '2022-07-20 18:00:00', '2022-07-20 18:00:00');
 
 -- --------------------------------------------------------
 
@@ -239,6 +266,12 @@ ALTER TABLE `products`
   ADD PRIMARY KEY (`id`);
 
 --
+-- Indexes for table `support`
+--
+ALTER TABLE `support`
+  ADD PRIMARY KEY (`id`);
+
+--
 -- Indexes for table `users`
 --
 ALTER TABLE `users`
@@ -260,7 +293,7 @@ ALTER TABLE `ambulances`
 -- AUTO_INCREMENT for table `blogs`
 --
 ALTER TABLE `blogs`
-  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
+  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=7;
 
 --
 -- AUTO_INCREMENT for table `failed_jobs`
@@ -272,7 +305,7 @@ ALTER TABLE `failed_jobs`
 -- AUTO_INCREMENT for table `migrations`
 --
 ALTER TABLE `migrations`
-  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=8;
+  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=9;
 
 --
 -- AUTO_INCREMENT for table `personal_access_tokens`
@@ -284,6 +317,12 @@ ALTER TABLE `personal_access_tokens`
 -- AUTO_INCREMENT for table `products`
 --
 ALTER TABLE `products`
+  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
+
+--
+-- AUTO_INCREMENT for table `support`
+--
+ALTER TABLE `support`
   MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
 
 --

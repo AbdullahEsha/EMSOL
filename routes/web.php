@@ -42,32 +42,28 @@ Route::get('/admin/ambulance', function () {
     return view('admin.ambulance');
 });
 
-// Route::get('/admin/blog', function () {
-//     return view('admin.blog');
-// });
-
-// Route::get('/admin/product', function () {
-//     return view('admin.product');
-// });
 Route::get('/admin/blog', [BlogController::class, 'getData']);
 Route::post('/admin/blogUpload', [BlogController::class, 'store']);
 
 Route::get('/admin/blog-upload', function () {
     return view('admin.blogUpload');
 });
+Route::post('/admin/blog-upload', [BlogController::class, 'blogUpload']);
+
+Route::get('/admin/support', [supportController::class, 'getData']);
 Route::get('/admin/support', function () {
     return view('admin.support');
 });
-Route::post('/admin/blog-upload', [BlogController::class, 'blogUpload']);
+
 Route::get('/admin/profile', function () {
     return view('admin.profile');
 });
-
 
 Route::get('/admin/deleteBlog/{id}', [
     BlogController::class,
     'getDeleteDataById',
 ]);
+
 Route::post('/admin/deleteBlog/{id}', [BlogController::class, 'deleteBlog']);
 Route::get('/admin/editBlog/{id}', [BlogController::class, 'getDataById']);
 Route::post('/admin/editBlog/{id}', [BlogController::class, 'updateBlog']);
