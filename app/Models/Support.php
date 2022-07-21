@@ -17,7 +17,7 @@ class Support extends Model
     protected $fillable = [
         'email',
         'details',
-        'image'
+        'image',
         
     ];
 }
