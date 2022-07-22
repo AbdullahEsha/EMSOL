@@ -50,7 +50,7 @@ Route::get('/admin/blog-upload', function () {
 });
 Route::post('/admin/blog-upload', [BlogController::class, 'blogUpload']);
 
-Route::get('/admin/support', [supportController::class, 'getData']);
+Route::get('/admin/support', [SupportController::class, 'getData']);
 Route::get('/admin/support', function () {
     return view('admin.support');
 });
