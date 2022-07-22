@@ -50,10 +50,7 @@ Route::get('/admin/blog-upload', function () {
 });
 Route::post('/admin/blog-upload', [BlogController::class, 'blogUpload']);
 
-Route::get('/admin/support', [supportController::class, 'getData']);
-Route::get('/admin/support', function () {
-    return view('admin.support');
-});
+Route::get('/admin/support', [SupportController::class, 'getSupportData']);
 
 Route::get('/admin/profile', function () {
     return view('admin.profile');
@@ -113,3 +110,6 @@ Route::post('/vendor/editProduct/{id}', [
     ProductController::class,
     'updateProduct',
 ]);
+Route::get('/vendor/support', function () {
+    return view('vendor.support');
+});

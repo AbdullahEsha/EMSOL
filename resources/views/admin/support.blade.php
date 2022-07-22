@@ -90,7 +90,7 @@
                       <th>details</th>
                       <th>image</th>
                       <th>created_at</th>
-                      <th>Actions</th>
+                      <th>Send Mail</th>
                     </tr>
                   </thead>
                   <tbody>
@@ -105,9 +105,8 @@
                       <td>{{$supportData[$i]['image']}}</td>
                       <td>{{date('d M Y', strtotime($supportData[$i]['created_at']))}}</td>
                       <td>
-                        <a href="mailto:{{$supportData[$i]['id']}}" class="primary edit mr-1"><i
-                            class="fa fa-pencil"></i></a>
-
+                        <a href="mailto:{{$supportData[$i]['email']}}" class="primary edit mr-1"><i
+                            class="fa fa-envelope fa-lg"></i></a>
                       </td>
 
                       </tr>
