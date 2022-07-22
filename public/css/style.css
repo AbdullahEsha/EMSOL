@@ -1432,3 +1432,14 @@ section {
 #footer .footer-links a:hover {
   color: #3498db;
 }
+
+/*--------------------------------------------------------------
+# Footer
+--------------------------------------------------------------*/
+
+.product-status-image-view img {
+  max-width: 100%;
+  max-height: 100%;
+  margin: auto;
+  display: block;
+}

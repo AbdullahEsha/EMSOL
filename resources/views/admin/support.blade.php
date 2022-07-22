@@ -63,6 +63,8 @@
 
   <!-- BEGIN: Content-->
   <div class="app-content content">
+      <div class="content-wrapper">
+        <div class="content-body">
     <section class="row all-contacts">
       <div class="col-12">
         <div class="card">
@@ -119,6 +121,7 @@
           </div>
         </section>
       </div>
+    </div>
     </div>
     <!-- END: Content-->
 
