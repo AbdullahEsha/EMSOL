@@ -10,7 +10,7 @@ use Illuminate\Support\Facades\DB;
 
 class supportController extends Controller
 {
-    public function getData()
+    public function getSupportData()
     {
         try {
             $supportData = Support::orderBy('id', 'desc')->get();
@@ -27,7 +27,7 @@ class supportController extends Controller
             $image = $req->file('image')->getClientOriginalName();
             $supportData->email = $req->email;
             $supportData->details = $req->details;
-            $supportData->image = 'img/uploads/'.$image;
+            $supportData->image = 'img/uploads/' . $image;
 
             $product->save();
             $req->file('image')->move('img/uploads', $image);
