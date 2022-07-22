@@ -56,99 +56,104 @@
     <!-- BEGIN: Header-->
     @include('admin.header')
     <!-- END: Header-->
-    
+
     <!-- BEGIN: Main Menu-->
     @include('admin.menu')
     <!-- END: Main Menu-->
 
     <!-- BEGIN: Content-->
     <div class="app-content content">
-        <section class="row all-contacts">
-            <div class="col-12">
-                <div class="card">
-                    <div class="card-head">
-                        <div class="card-header">
-                            <h4 class="card-title">Product</h4>
-                            <br />
-                            <div class="table-responsive">
-                                <table id="users-contacts"
-                                    class="table table-white-space table-bordered row-grouping display no-wrap icheck table-middle text-center">
-                                    <thead>
-                                        <tr>
-                                            <th>id</th>
-                                            <th>productDetail</th>
-                                            <th>price</th>
-                                            <th>stock</th>
-                                            <th>status</th>
-                                            <th>created_at</th>
-                                            <th>Actions</th>
-                                        </tr>
-                                    </thead>
-                                    <tbody>
-                                        @for($i=0; $i < count($productReviewData); $i++) <tr id="rows">
-                                            <td>{{$i + 1}}</td>
-                                            <td>{{$productReviewData[$i]['productDetail']}}</td>
-                                            <td>{{$productReviewData[$i]['price']}}</td>
-                                            <td>{{$productReviewData[$i]['stock']}}</td>
-                                            <td>{{$productReviewData[$i]['status']}}</td>
-                                            <td>{{date('d M Y', strtotime($productReviewData[$i]['created_at']))}}</td>
-                                            <td>
-                                                <a href="/admin/product-review/{{$productReviewData[$i]['id']}}" class="primary edit mr-1"><i class="fa fa-pencil"></i></a>
-                                            </td>
-                                            </tr>
-                                            @endfor
-                                    </tbody>
-                                </table>
+        <div class="content-overlay"></div>
+        <div class="content-wrapper">
+            <div class="content-body">
+                <section class="row all-contacts">
+                    <div class="col-12">
+                        <div class="card">
+                            <div class="card-head">
+                                <div class="card-header">
+                                    <h4 class="card-title">Product</h4>
+                                    <br />
+                                    <div class="table-responsive">
+                                        <table id="users-contacts"
+                                            class="table table-white-space table-bordered row-grouping display no-wrap icheck table-middle text-center">
+                                            <thead>
+                                                <tr>
+                                                    <th>id</th>
+                                                    <th>productDetail</th>
+                                                    <th>price</th>
+                                                    <th>stock</th>
+                                                    <th>status</th>
+                                                    <th>created_at</th>
+                                                    <th>Actions</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                @for($i=0; $i < count($productReviewData); $i++) <tr id="rows">
+                                                    <td>{{$i + 1}}</td>
+                                                    <td>{{$productReviewData[$i]['productDetail']}}</td>
+                                                    <td>{{$productReviewData[$i]['price']}}</td>
+                                                    <td>{{$productReviewData[$i]['stock']}}</td>
+                                                    <td>{{$productReviewData[$i]['status']}}</td>
+                                                    <td>{{date('d M Y',
+                                                        strtotime($productReviewData[$i]['created_at']))}}</td>
+                                                    <td>
+                                                        <a href="/admin/product-review/{{$productReviewData[$i]['id']}}"
+                                                            class="primary edit mr-1"><i class="fa fa-pencil"></i></a>
+                                                    </td>
+                                                    </tr>
+                                                    @endfor
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
-                </div>
+                </section>
             </div>
-        </section>
-    </div>
-    </div>
-    <!-- END: Content-->
+        </div>
+        <!-- END: Content-->
 
-    <div class="sidenav-overlay"></div>
-    <div class="drag-target"></div>
+        <div class="sidenav-overlay"></div>
+        <div class="drag-target"></div>
 
-    <!-- BEGIN: Footer-->
-    <footer class="footer footer-static footer-dark navbar-border">
-        <p class="clearfix blue-grey lighten-2 text-sm-center mb-0 px-2">
-            <span class="float-md-left d-block d-md-inline-block">Copyright &copy; 2020
-                <a class="text-bold-800 grey darken-2" href="https://1.envato.market/pixinvent_portfolio"
-                    target="_blank">PIXINVENT
-                </a></span><span class="float-md-right d-none d-lg-block">Hand-crafted & Made with <i
-                    class="feather icon-heart pink"></i></span>
-        </p>
-    </footer>
-    <!-- END: Footer-->
+        <!-- BEGIN: Footer-->
+        <footer class="footer footer-static footer-dark navbar-border">
+            <p class="clearfix blue-grey lighten-2 text-sm-center mb-0 px-2">
+                <span class="float-md-left d-block d-md-inline-block">Copyright &copy; 2020
+                    <a class="text-bold-800 grey darken-2" href="https://1.envato.market/pixinvent_portfolio"
+                        target="_blank">PIXINVENT
+                    </a></span><span class="float-md-right d-none d-lg-block">Hand-crafted & Made with <i
+                        class="feather icon-heart pink"></i></span>
+            </p>
+        </footer>
+        <!-- END: Footer-->
 
-    <!-- BEGIN: Vendor JS-->
-    <script src="{{asset('admin/vendors/js/vendors.min.js')}}"></script>
-    <!-- BEGIN Vendor JS-->
+        <!-- BEGIN: Vendor JS-->
+        <script src="{{asset('admin/vendors/js/vendors.min.js')}}"></script>
+        <!-- BEGIN Vendor JS-->
 
-    <!-- BEGIN: Page Vendor JS-->
-    <script src="{{asset('admin/vendors/js/tables/jquery.dataTables.min.js')}}"></script>
-    <script src="{{asset('admin/vendors/js/extensions/jquery.raty.js')}}"></script>
-    <script src="{{asset('admin/vendors/js/tables/datatable/dataTables.bootstrap4.min.js')}}"></script>
-    <script src="{{asset('admin/vendors/js/tables/datatable/dataTables.responsive.min.js')}}"></script>
-    <script src="{{asset('admin/vendors/js/tables/datatable/dataTables.rowReorder.min.js')}}"></script>
-    <script src="{{asset('admin/vendors/js/forms/icheck/icheck.min.js')}}"></script>
-    <!-- END: Page Vendor JS-->
+        <!-- BEGIN: Page Vendor JS-->
+        <script src="{{asset('admin/vendors/js/tables/jquery.dataTables.min.js')}}"></script>
+        <script src="{{asset('admin/vendors/js/extensions/jquery.raty.js')}}"></script>
+        <script src="{{asset('admin/vendors/js/tables/datatable/dataTables.bootstrap4.min.js')}}"></script>
+        <script src="{{asset('admin/vendors/js/tables/datatable/dataTables.responsive.min.js')}}"></script>
+        <script src="{{asset('admin/vendors/js/tables/datatable/dataTables.rowReorder.min.js')}}"></script>
+        <script src="{{asset('admin/vendors/js/forms/icheck/icheck.min.js')}}"></script>
+        <!-- END: Page Vendor JS-->
 
-    <!-- BEGIN: Theme JS-->
-    <script src="{{asset('admin/js/core/app-menu.js')}}"></script>
-    <script src="{{asset('admin/js/core/app.js')}}"></script>
-    <!-- END: Theme JS-->
+        <!-- BEGIN: Theme JS-->
+        <script src="{{asset('admin/js/core/app-menu.js')}}"></script>
+        <script src="{{asset('admin/js/core/app.js')}}"></script>
+        <!-- END: Theme JS-->
 
-    <!-- BEGIN: Page JS-->
-    <script src="{{asset('admin/js/scripts/pages/app-contacts.js')}}"></script>
-    <!-- END: Page JS-->
+        <!-- BEGIN: Page JS-->
+        <script src="{{asset('admin/js/scripts/pages/app-contacts.js')}}"></script>
+        <!-- END: Page JS-->
 
-    <!-- BEGIN: Vendor JS-->
-    <script src="{{asset('admin/vendors/js/vendors.min.js')}}"></script>
-    <!-- BEGIN Vendor JS-->
+        <!-- BEGIN: Vendor JS-->
+        <script src="{{asset('admin/vendors/js/vendors.min.js')}}"></script>
+        <!-- BEGIN Vendor JS-->
 
 
 </body>

@@ -54,131 +54,135 @@
 <body class="vertical-layout vertical-menu content-detached-left-sidebar app-contacts fixed-navbar" data-open="click"
     data-menu="vertical-menu" data-col="content-detached-left-sidebar">
     <!-- BEGIN: Header-->
-  @include('admin.header')
-  <!-- END: Header-->
+    @include('admin.header')
+    <!-- END: Header-->
 
-  <!-- BEGIN: Main Menu-->
-  @include('admin.menu')
-  <!-- END: Main Menu-->
+    <!-- BEGIN: Main Menu-->
+    @include('admin.menu')
+    <!-- END: Main Menu-->
 
     <!-- BEGIN: Content-->
     <div class="app-content content">
-        <section class="row all-contacts">
-            <div class="col-12">
-                <div class="card">
-                    <div class="card-head">
-                        <div class="card-header">
-                            <h4 class="card-title">Confirm To Delete Blog</h4>
-                            <a class="heading-elements-toggle"><i
-                                    class="feather icon-align-justify font-medium-3"></i></a>
-                            <div class="heading-elements">
-                                <ul class="list-inline mb-0">
-                                    <li>
-                                        <a data-action="collapse"><i class="feather icon-minus"></i></a>
-                                    </li>
-                                    <li>
-                                        <a data-action="reload"><i class="feather icon-rotate-cw"></i></a>
-                                    </li>
-                                    <li>
-                                        <a data-action="expand"><i class="feather icon-maximize"></i></a>
-                                    </li>
-                                    <li>
-                                        <a data-action="close"><i class="feather icon-x"></i></a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="card-content collapse show">
-                            <div class="card-body">
+        <div class="content-overlay"></div>
+        <div class="content-wrapper">
+            <div class="content-body">
+                <section class="row all-contacts">
+                    <div class="col-12">
+                        <div class="card">
+                            <div class="card-head">
+                                <div class="card-header">
+                                    <h4 class="card-title">Confirm To Delete Blog</h4>
+                                    <a class="heading-elements-toggle"><i
+                                            class="feather icon-align-justify font-medium-3"></i></a>
+                                    <div class="heading-elements">
+                                        <ul class="list-inline mb-0">
+                                            <li>
+                                                <a data-action="collapse"><i class="feather icon-minus"></i></a>
+                                            </li>
+                                            <li>
+                                                <a data-action="reload"><i class="feather icon-rotate-cw"></i></a>
+                                            </li>
+                                            <li>
+                                                <a data-action="expand"><i class="feather icon-maximize"></i></a>
+                                            </li>
+                                            <li>
+                                                <a data-action="close"><i class="feather icon-x"></i></a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="card-content collapse show">
+                                    <div class="card-body">
 
-                                <form method='POST' action="" enctype=multipart/form-data>
-                                    @csrf
-                                    <div class="form-body">
+                                        <form method='POST' action="" enctype=multipart/form-data>
+                                            @csrf
+                                            <div class="form-body">
 
-                                        <div class="row">
-                                            <div class="col-md-12" align="center">
+                                                <div class="row">
+                                                    <div class="col-md-12" align="center">
 
-                                                <input value="{{$blogData['id']}}" type="hidden" class="form-control" />
-                                                <div class="form-group">
-                                                    <label><b>Image:</b></label>
-                                                    <img src="{{$blogData['img']}}" alt="blog image" />
-                                                </div>
-                                                <div class="form-group">
-                                                    <label><b>Blog Details
-                                                            :</b>{{$blogData['blogDetail']}}</label>
-                                                </div>
-                                                <div align="right">
-                                                    <button class="btn btn-outline-danger" type="submit">
-                                                        Delete
-                                                    </button>
+                                                        <input value="{{$blogData['id']}}" type="hidden"
+                                                            class="form-control" />
+                                                        <div class="form-group">
+                                                            <label><b>Image:</b></label>
+                                                            <img src="{{$blogData['img']}}" alt="blog image" />
+                                                        </div>
+                                                        <div class="form-group">
+                                                            <label><b>Blog Details
+                                                                    :</b>{{$blogData['blogDetail']}}</label>
+                                                        </div>
+                                                        <div align="right">
+                                                            <button class="btn btn-outline-danger" type="submit">
+                                                                Delete
+                                                            </button>
+                                                        </div>
+                                                    </div>
+                                                    <br />
                                                 </div>
                                             </div>
-                                            <br />
-                                        </div>
+                                        </form>
                                     </div>
-                                </form>
+                                </div>
                             </div>
-                        </div>
-                    </div>
-                    <div class="card-content">
-                        <div class="card-body">
-                            <!-- Task List table -->
-                            <!-- <button
+                            <div class="card-content">
+                                <div class="card-body">
+                                    <!-- Task List table -->
+                                    <!-- <button
                         type="button"
                         class="btn btn-danger btn-sm delete-all mb-1"
                       > 
                         Delete All
                       </button>-->
 
+                                </div>
+                            </div>
                         </div>
                     </div>
-                </div>
+                </section>
             </div>
-        </section>
-    </div>
-    </div>
-    <!-- END: Content-->
+        </div>
+        <!-- END: Content-->
 
-    <div class="sidenav-overlay"></div>
-    <div class="drag-target"></div>
+        <div class="sidenav-overlay"></div>
+        <div class="drag-target"></div>
 
-    <!-- BEGIN: Footer-->
-    <footer class="footer footer-static footer-dark navbar-border">
-        <p class="clearfix blue-grey lighten-2 text-sm-center mb-0 px-2">
-            <span class="float-md-left d-block d-md-inline-block">Copyright &copy; 2020
-                <a class="text-bold-800 grey darken-2" href="https://1.envato.market/pixinvent_portfolio"
-                    target="_blank">PIXINVENT
-                </a></span><span class="float-md-right d-none d-lg-block">Hand-crafted & Made with <i
-                    class="feather icon-heart pink"></i></span>
-        </p>
-    </footer>
-    <!-- END: Footer-->
+        <!-- BEGIN: Footer-->
+        <footer class="footer footer-static footer-dark navbar-border">
+            <p class="clearfix blue-grey lighten-2 text-sm-center mb-0 px-2">
+                <span class="float-md-left d-block d-md-inline-block">Copyright &copy; 2020
+                    <a class="text-bold-800 grey darken-2" href="https://1.envato.market/pixinvent_portfolio"
+                        target="_blank">PIXINVENT
+                    </a></span><span class="float-md-right d-none d-lg-block">Hand-crafted & Made with <i
+                        class="feather icon-heart pink"></i></span>
+            </p>
+        </footer>
+        <!-- END: Footer-->
 
-    <!-- BEGIN: Vendor JS-->
-    <script src="{{asset('admin/vendors/js/vendors.min.js')}}"></script>
-    <!-- BEGIN Vendor JS-->
+        <!-- BEGIN: Vendor JS-->
+        <script src="{{asset('admin/vendors/js/vendors.min.js')}}"></script>
+        <!-- BEGIN Vendor JS-->
 
-    <!-- BEGIN: Page Vendor JS-->
-    <script src="{{asset('admin/vendors/js/tables/jquery.dataTables.min.js')}}"></script>
-    <script src="{{asset('admin/vendors/js/extensions/jquery.raty.js')}}"></script>
-    <script src="{{asset('admin/vendors/js/tables/datatable/dataTables.bootstrap4.min.js')}}"></script>
-    <script src="{{asset('admin/vendors/js/tables/datatable/dataTables.responsive.min.js')}}"></script>
-    <script src="{{asset('admin/vendors/js/tables/datatable/dataTables.rowReorder.min.js')}}"></script>
-    <script src="{{asset('admin/vendors/js/forms/icheck/icheck.min.js')}}"></script>
-    <!-- END: Page Vendor JS-->
+        <!-- BEGIN: Page Vendor JS-->
+        <script src="{{asset('admin/vendors/js/tables/jquery.dataTables.min.js')}}"></script>
+        <script src="{{asset('admin/vendors/js/extensions/jquery.raty.js')}}"></script>
+        <script src="{{asset('admin/vendors/js/tables/datatable/dataTables.bootstrap4.min.js')}}"></script>
+        <script src="{{asset('admin/vendors/js/tables/datatable/dataTables.responsive.min.js')}}"></script>
+        <script src="{{asset('admin/vendors/js/tables/datatable/dataTables.rowReorder.min.js')}}"></script>
+        <script src="{{asset('admin/vendors/js/forms/icheck/icheck.min.js')}}"></script>
+        <!-- END: Page Vendor JS-->
 
-    <!-- BEGIN: Theme JS-->
-    <script src="{{asset('admin/js/core/app-menu.js')}}"></script>
-    <script src="{{asset('admin/js/core/app.js')}}"></script>
-    <!-- END: Theme JS-->
+        <!-- BEGIN: Theme JS-->
+        <script src="{{asset('admin/js/core/app-menu.js')}}"></script>
+        <script src="{{asset('admin/js/core/app.js')}}"></script>
+        <!-- END: Theme JS-->
 
-    <!-- BEGIN: Page JS-->
-    <script src="{{asset('admin/js/scripts/pages/app-contacts.js')}}"></script>
-    <!-- END: Page JS-->
+        <!-- BEGIN: Page JS-->
+        <script src="{{asset('admin/js/scripts/pages/app-contacts.js')}}"></script>
+        <!-- END: Page JS-->
 
-    <!-- BEGIN: Vendor JS-->
-    <script src="{{asset('admin/vendors/js/vendors.min.js')}}"></script>
-    <!-- BEGIN Vendor JS-->
+        <!-- BEGIN: Vendor JS-->
+        <script src="{{asset('admin/vendors/js/vendors.min.js')}}"></script>
+        <!-- BEGIN Vendor JS-->
 
 
 </body>

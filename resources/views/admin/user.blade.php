@@ -55,11 +55,11 @@
   data-menu="vertical-menu" data-col="content-detached-left-sidebar">
   <!-- BEGIN: Header-->
   @include('admin.header')
-    <!-- END: Header-->
-    
-    <!-- BEGIN: Main Menu-->
-    @include('admin.menu')
-    <!-- END: Main Menu-->
+  <!-- END: Header-->
+
+  <!-- BEGIN: Main Menu-->
+  @include('admin.menu')
+  <!-- END: Main Menu-->
 
   <!-- BEGIN: Content-->
   <div class="app-content content">
@@ -122,10 +122,12 @@
 
                   </p>
                 </div> -->
+                  </div>
+                </div>
               </div>
             </div>
           </div>
-        </div>
+        </section>
       </div>
     </section>
   </div>
@@ -137,56 +139,57 @@
 
 
 
-  <div class="sidenav-overlay"></div>
-  <div class="drag-target"></div>
 
-  <!-- BEGIN: Footer-->
-  <footer class="footer footer-static footer-dark navbar-border">
-    <p class="clearfix blue-grey lighten-2 text-sm-center mb-0 px-2">
-      <span class="float-md-left d-block d-md-inline-block">Copyright &copy; 2020
-        <a class="text-bold-800 grey darken-2" href="https://1.envato.market/pixinvent_portfolio"
-          target="_blank">PIXINVENT
-        </a></span><span class="float-md-right d-none d-lg-block">Hand-crafted & Made with <i
-          class="feather icon-heart pink"></i></span>
-    </p>
-  </footer>
-  <!-- END: Footer-->
+    <div class="sidenav-overlay"></div>
+    <div class="drag-target"></div>
 
-  <!-- BEGIN: Vendor JS-->
-  <script src="{{asset('admin/vendors/js/vendors.min.js')}}"></script>
-  <!-- BEGIN Vendor JS-->
+    <!-- BEGIN: Footer-->
+    <footer class="footer footer-static footer-dark navbar-border">
+      <p class="clearfix blue-grey lighten-2 text-sm-center mb-0 px-2">
+        <span class="float-md-left d-block d-md-inline-block">Copyright &copy; 2020
+          <a class="text-bold-800 grey darken-2" href="https://1.envato.market/pixinvent_portfolio"
+            target="_blank">PIXINVENT
+          </a></span><span class="float-md-right d-none d-lg-block">Hand-crafted & Made with <i
+            class="feather icon-heart pink"></i></span>
+      </p>
+    </footer>
+    <!-- END: Footer-->
 
-  <!-- BEGIN: Page Vendor JS-->
-  <script src="{{asset('admin/vendors/js/tables/jquery.dataTables.min.js')}}"></script>
-  <script src="{{asset('admin/vendors/js/extensions/jquery.raty.js')}}"></script>
-  <script src="{{asset('admin/vendors/js/tables/datatable/dataTables.bootstrap4.min.js')}}"></script>
-  <script src="{{asset('admin/vendors/js/tables/datatable/dataTables.responsive.min.js')}}"></script>
-  <script src="{{asset('admin/vendors/js/tables/datatable/dataTables.rowReorder.min.js')}}"></script>
-  <script src="{{asset('admin/vendors/js/forms/icheck/icheck.min.js')}}"></script>
-  <script src="//cdn.ckeditor.com/4.19.0/full/ckeditor.js"></script>
-  <script>
-    CKEDITOR.replace('editor');
+    <!-- BEGIN: Vendor JS-->
+    <script src="{{asset('admin/vendors/js/vendors.min.js')}}"></script>
+    <!-- BEGIN Vendor JS-->
 
-    var editor = CKEDITOR.replace('editor');
-    // The "change" event is fired whenever a change is made in the editor.
-    editor.on('change', function(evt) {
-      console.log('Total bytes: ' + evt.editor.getData().length);
-    });
-  </script>
-  <!-- END: Page Vendor JS-->
+    <!-- BEGIN: Page Vendor JS-->
+    <script src="{{asset('admin/vendors/js/tables/jquery.dataTables.min.js')}}"></script>
+    <script src="{{asset('admin/vendors/js/extensions/jquery.raty.js')}}"></script>
+    <script src="{{asset('admin/vendors/js/tables/datatable/dataTables.bootstrap4.min.js')}}"></script>
+    <script src="{{asset('admin/vendors/js/tables/datatable/dataTables.responsive.min.js')}}"></script>
+    <script src="{{asset('admin/vendors/js/tables/datatable/dataTables.rowReorder.min.js')}}"></script>
+    <script src="{{asset('admin/vendors/js/forms/icheck/icheck.min.js')}}"></script>
+    <script src="//cdn.ckeditor.com/4.19.0/full/ckeditor.js"></script>
+    <script>
+      CKEDITOR.replace('editor');
 
-  <!-- BEGIN: Theme JS-->
-  <script src="{{asset('admin/js/core/app-menu.js')}}"></script>
-  <script src="{{asset('admin/js/core/app.js')}}"></script>
-  <!-- END: Theme JS-->
+      var editor = CKEDITOR.replace('editor');
+      // The "change" event is fired whenever a change is made in the editor.
+      editor.on('change', function(evt) {
+        console.log('Total bytes: ' + evt.editor.getData().length);
+      });
+    </script>
+    <!-- END: Page Vendor JS-->
 
-  <!-- BEGIN: Page JS-->
-  <script src="{{asset('admin/js/scripts/pages/app-contacts.js')}}"></script>
-  <!-- END: Page JS-->
+    <!-- BEGIN: Theme JS-->
+    <script src="{{asset('admin/js/core/app-menu.js')}}"></script>
+    <script src="{{asset('admin/js/core/app.js')}}"></script>
+    <!-- END: Theme JS-->
 
-  <!-- BEGIN: Vendor JS-->
-  <script src="{{asset('admin/vendors/js/vendors.min.js')}}"></script>
-  <!-- BEGIN Vendor JS-->
+    <!-- BEGIN: Page JS-->
+    <script src="{{asset('admin/js/scripts/pages/app-contacts.js')}}"></script>
+    <!-- END: Page JS-->
+
+    <!-- BEGIN: Vendor JS-->
+    <script src="{{asset('admin/vendors/js/vendors.min.js')}}"></script>
+    <!-- BEGIN Vendor JS-->
 
 
 </body>
