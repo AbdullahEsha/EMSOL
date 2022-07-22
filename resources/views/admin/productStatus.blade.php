@@ -44,7 +44,7 @@
     <!-- END: Page CSS-->
 
     <!-- BEGIN: Custom CSS-->
-    <link rel="stylesheet" type="text/css" href="{{asset('admin/css/style.css')}}" />
+    <link rel="stylesheet" type="text/css" href="{{asset('css/style.css')}}" />
     <!-- END: Custom CSS-->
 </head>
 <!-- END: Head-->
@@ -63,115 +63,130 @@
 
     <!-- BEGIN: Content-->
     <div class="app-content content">
-      <div class="content-overlay"></div>
-      <div class="content-wrapper">
-        <div class="content-body">
-        <section class="row all-contacts">
-            <div class="col-12">
-                <div class="card">
-                    <div class="card-head">
-                        <div class="card-header">
-                            <h4 class="card-title">Product Review / Product Status</h4>
-                            <a class="heading-elements-toggle"><i
-                                    class="feather icon-align-justify font-medium-3"></i></a>
-                            <div class="heading-elements">
-                                <ul class="list-inline mb-0">
-                                    <li>
-                                        <a data-action="collapse"><i class="feather icon-minus"></i></a>
-                                    </li>
-                                    <li>
-                                        <a data-action="reload"><i class="feather icon-rotate-cw"></i></a>
-                                    </li>
-                                    <li>
-                                        <a data-action="expand"><i class="feather icon-maximize"></i></a>
-                                    </li>
-                                    <li>
-                                        <a data-action="close"><i class="feather icon-x"></i></a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="card-content collapse show">
-                            <div class="card-body">
-
-                                <form method='POST' action="" enctype=multipart/form-data>
-                                    @csrf
-                                    <div class="form-body">
-                                        <div class="row">
-                                            <!-- <div class="col-sm-12 col-md-4">
-                                                
-                                            </div> -->
-                                            
-                                            <div class="col-sm-12 col-md-6">
-                                                <div class="form-group">
-                                                    <label><b>Price :</b>{{$productStatusData['price']}}</label>
-                                                </div>
-                                            </div>
-                                            <div class="col-sm-12 col-md-6">
-                                                <div class="form-group">
-                                                    <label><b>Stock :</b>{{$productStatusData['stock']}}</label>
-                                                </div>
-                                            </div>
-                                            <div class="col-sm-12 col-md-12">
-                                                <div class="form-group">
-                                                    <label><b>Product Details:</b><br/>{{$productStatusData['productDetail']}}</label>
-                                                </div>
-                                            </div>
-                                            <div class="col-sm-12 col-md-3">
-                                                <img src="localhost:8000/{{$productStatusData['img1']}}" alt="{{$productStatusData['img1']}}" height="200px">
-                                            </div>
-                                            <div class="col-sm-12 col-md-3">
-                                                <img src="localhost:8000/{{$productStatusData['img2']}}" alt="{{$productStatusData['img2']}}" height="200px">
-                                            </div>
-                                            <div class="col-sm-12 col-md-3">
-                                                <img src="localhost:8000/{{$productStatusData['img3']}}" alt="{{$productStatusData['img3']}}" height="200px">
-                                            </div>
-                                            <div class="col-sm-12 col-md-3">
-                                                <img src="localhost:8000/{{$productStatusData['img4']}}" alt="{{$productStatusData['img4']}}" height="200px">
-                                            </div>
-                                            <div class="col-sm-12 col-md-12">
-                                                <br/>
-                                                <div className="form-group"><label><b>Current Status:</b>
-                                                        {{$productStatusData['status']}}</label>
-                                                    <select className="form-control" name="status"
-                                                        value="{{$productStatusData['status']}}" required>
-                                                        <option value="" disabled selected>
-                                                            Choose Status
-                                                        </option>
-                                                        <option value="isApproved">Is Approved</option>
-                                                        <option value="Rejected">Rejected</option>
-                                                    </select>
-                                                </div>
-                                            </div>
-                                            <div class="col-sm-12 col-md-12" align="right">
-                                                <input value="{{$productStatusData['id']}}" type="hidden" class="form-control" />
-                                                <button class="btn btn-info" type="submit">
-                                                    Submit
-                                                </button>
-                                            </div>
-                                            <br />
-                                        </div>
+        <div class="content-wrapper">
+            <div class="content-body">
+                <section class="row all-contacts">
+                    <div class="col-12">
+                        <div class="card">
+                            <div class="card-head">
+                                <div class="card-header">
+                                    <h4 class="card-title">Product Review / Product Status</h4>
+                                    <a class="heading-elements-toggle"><i
+                                            class="feather icon-align-justify font-medium-3"></i></a>
+                                    <div class="heading-elements">
+                                        <ul class="list-inline mb-0">
+                                            <li>
+                                                <a data-action="collapse"><i class="feather icon-minus"></i></a>
+                                            </li>
+                                            <li>
+                                                <a data-action="reload"><i class="feather icon-rotate-cw"></i></a>
+                                            </li>
+                                            <li>
+                                                <a data-action="expand"><i class="feather icon-maximize"></i></a>
+                                            </li>
+                                            <li>
+                                                <a data-action="close"><i class="feather icon-x"></i></a>
+                                            </li>
+                                        </ul>
                                     </div>
-                                </form>
+                                </div>
+                                <div class="card-content collapse show">
+                                    <div class="card-body">
+
+                                        <form method='POST' action="" enctype=multipart/form-data>
+                                            @csrf
+                                            <div class="form-body">
+                                                <div class="row">
+                                                    <div class="col-sm-12 col-md-12">
+                                                        <div class="row">
+                                                            <div class="col-sm-12 col-md-3 ">
+                                                                <div class="form-group product-status-image-view">
+                                                                    <img src="http://localhost:8000/{{$productStatusData['img1']}}"
+                                                                        alt="{{$productStatusData['img1']}}">
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-sm-12 col-md-3">
+                                                                <div class="form-group product-status-image-view">
+                                                                    <img src="http://localhost:8000/{{$productStatusData['img2']}}"
+                                                                        alt="{{$productStatusData['img1']}}">
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-sm-12 col-md-3">
+                                                                <div class="form-group product-status-image-view">
+                                                                    <img src="http://localhost:8000/{{$productStatusData['img3']}}"
+                                                                        alt="{{$productStatusData['img1']}}">
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-sm-12 col-md-3">
+                                                                <div class="form-group product-status-image-view">
+                                                                    <img src="http://localhost:8000/{{$productStatusData['img4']}}"
+                                                                        alt="{{$productStatusData['img1']}}">
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-sm-12 col-md-6">
+                                                        <div class="form-group">
+                                                            <label><b>Price :</b>{{$productStatusData['price']}}</label>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-sm-12 col-md-6">
+                                                        <div class="form-group">
+                                                            <label><b>Stock :</b>{{$productStatusData['stock']}}</label>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-sm-12 col-md-6">
+                                                        <fieldset class="form-group">
+                                                            <label><b>Current Status</b>
+                                                                ({{$productStatusData['status']}}):</label>
+                                                            <select class="custom-select block" id="customSelect"
+                                                                name="status" value="{{$productStatusData['status']}}"
+                                                                required>
+                                                                <option value="" disabled selected>
+                                                                    Choose Status
+                                                                </option>
+                                                                <option value="isApproved">Is Approved</option>
+                                                                <option value="Rejected">Rejected</option>
+                                                            </select>
+                                                        </fieldset>
+                                                    </div>
+                                                    <div class="col-sm-12 col-md-12">
+                                                        <div class="form-group">
+                                                            <label><b>Product
+                                                                    Details:</b><br />{{$productStatusData['productDetail']}}</label>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-sm-12 col-md-12" align="right">
+                                                        <div class="form-group">
+                                                            <input value="{{$productStatusData['id']}}" type="hidden" />
+                                                            <button class="btn btn-outline-info" type="submit">
+                                                                Submit
+                                                            </button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
                             </div>
-                        </div>
-                    </div>
-                    <div class="card-content">
-                        <div class="card-body">
-                            <!-- Task List table -->
-                            <!-- <button
+                            <div class="card-content">
+                                <div class="card-body">
+                                    <!-- Task List table -->
+                                    <!-- <button
                         type="button"
                         class="btn btn-danger btn-sm delete-all mb-1"
                       > 
                         Delete All
                       </button>-->
 
+                                </div>
+                            </div>
                         </div>
                     </div>
-                </div>
+                </section>
             </div>
-        </section>
-    </div>
+        </div>
     </div>
     <!-- END: Content-->
 
