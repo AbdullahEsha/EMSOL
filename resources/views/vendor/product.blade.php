@@ -111,68 +111,76 @@
                         <a href="/vendor/deleteProduct/{{$productData[$i]['id']}}" class="danger delete mr-1"><i
                             class="fa fa-trash-o"></i></a>
 
-                      </td>
-                      </tr>
-                      @endfor
-                      <div class="form-group" align="right">
-                        <button class="btn btn-primary mt-1" type="submit">
-                          <a href="/vendor/uploadProduct"><i class="fa fa-plus"></i></a>
-                          Add Product
-                        </button>
-                      </div>
-                  </tbody>
-                </table>
+
+                          </td>
+                          </tr>
+                          @endfor
+                          <div class="form-group" align="right">
+                            <button class="btn btn-primary mt-1" type="submit">
+                              <a href="/vendor/uploadProduct"><i class="fa fa-plus"></i></a>
+                              Add Product
+                            </button>
+                          </div>
+                      </tbody>
+                    </table>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
-        </div>
+        </section>
       </div>
+<<<<<<< HEAD
     </section>
   </div>
   </div>
   </div>
   <!-- END: Content-->
+=======
+    </div>
+    <!-- END: Content-->
+>>>>>>> b89111b21f91d1611bec3bd0a3d185064e7dd4c0
 
-  <div class="sidenav-overlay"></div>
-  <div class="drag-target"></div>
+    <div class="sidenav-overlay"></div>
+    <div class="drag-target"></div>
 
-  <!-- BEGIN: Footer-->
-  <footer class="footer footer-static footer-dark navbar-border">
-    <p class="clearfix blue-grey lighten-2 text-sm-center mb-0 px-2">
-      <span class="float-md-left d-block d-md-inline-block">Copyright &copy; 2020
-        <a class="text-bold-800 grey darken-2" href="https://1.envato.market/pixinvent_portfolio"
-          target="_blank">PIXINVENT
-        </a></span><span class="float-md-right d-none d-lg-block">Hand-crafted & Made with <i
-          class="feather icon-heart pink"></i></span>
-    </p>
-  </footer>
-  <!-- END: Footer-->
+    <!-- BEGIN: Footer-->
+    <footer class="footer footer-static footer-dark navbar-border">
+      <p class="clearfix blue-grey lighten-2 text-sm-center mb-0 px-2">
+        <span class="float-md-left d-block d-md-inline-block">Copyright &copy; 2020
+          <a class="text-bold-800 grey darken-2" href="https://1.envato.market/pixinvent_portfolio"
+            target="_blank">PIXINVENT
+          </a></span><span class="float-md-right d-none d-lg-block">Hand-crafted & Made with <i
+            class="feather icon-heart pink"></i></span>
+      </p>
+    </footer>
+    <!-- END: Footer-->
 
-  <!-- BEGIN: Vendor JS-->
-  <script src="{{asset('admin/vendors/js/vendors.min.js')}}"></script>
-  <!-- BEGIN Vendor JS-->
+    <!-- BEGIN: Vendor JS-->
+    <script src="{{asset('admin/vendors/js/vendors.min.js')}}"></script>
+    <!-- BEGIN Vendor JS-->
 
-  <!-- BEGIN: Page Vendor JS-->
-  <script src="{{asset('admin/vendors/js/tables/jquery.dataTables.min.js')}}"></script>
-  <script src="{{asset('admin/vendors/js/extensions/jquery.raty.js')}}"></script>
-  <script src="{{asset('admin/vendors/js/tables/datatable/dataTables.bootstrap4.min.js')}}"></script>
-  <script src="{{asset('admin/vendors/js/tables/datatable/dataTables.responsive.min.js')}}"></script>
-  <script src="{{asset('admin/vendors/js/tables/datatable/dataTables.rowReorder.min.js')}}"></script>
-  <script src="{{asset('admin/vendors/js/forms/icheck/icheck.min.js')}}"></script>
-  <!-- END: Page Vendor JS-->
+    <!-- BEGIN: Page Vendor JS-->
+    <script src="{{asset('admin/vendors/js/tables/jquery.dataTables.min.js')}}"></script>
+    <script src="{{asset('admin/vendors/js/extensions/jquery.raty.js')}}"></script>
+    <script src="{{asset('admin/vendors/js/tables/datatable/dataTables.bootstrap4.min.js')}}"></script>
+    <script src="{{asset('admin/vendors/js/tables/datatable/dataTables.responsive.min.js')}}"></script>
+    <script src="{{asset('admin/vendors/js/tables/datatable/dataTables.rowReorder.min.js')}}"></script>
+    <script src="{{asset('admin/vendors/js/forms/icheck/icheck.min.js')}}"></script>
+    <!-- END: Page Vendor JS-->
 
-  <!-- BEGIN: Theme JS-->
-  <script src="{{asset('admin/js/core/app-menu.js')}}"></script>
-  <script src="{{asset('admin/js/core/app.js')}}"></script>
-  <!-- END: Theme JS-->
+    <!-- BEGIN: Theme JS-->
+    <script src="{{asset('admin/js/core/app-menu.js')}}"></script>
+    <script src="{{asset('admin/js/core/app.js')}}"></script>
+    <!-- END: Theme JS-->
 
-  <!-- BEGIN: Page JS-->
-  <script src="{{asset('admin/js/scripts/pages/app-contacts.js')}}"></script>
-  <!-- END: Page JS-->
+    <!-- BEGIN: Page JS-->
+    <script src="{{asset('admin/js/scripts/pages/app-contacts.js')}}"></script>
+    <!-- END: Page JS-->
 
-  <!-- BEGIN: Vendor JS-->
-  <script src="{{asset('admin/vendors/js/vendors.min.js')}}"></script>
-  <!-- BEGIN Vendor JS-->
+    <!-- BEGIN: Vendor JS-->
+    <script src="{{asset('admin/vendors/js/vendors.min.js')}}"></script>
+    <!-- BEGIN Vendor JS-->
 
 
 </body>
