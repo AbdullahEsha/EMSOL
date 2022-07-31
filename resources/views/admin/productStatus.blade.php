@@ -156,14 +156,19 @@
                                                                     Details:</b><br />{{$productStatusData['productDetail']}}</label>
                                                         </div>
                                                     </div>
-                                                    <div class="col-sm-12 col-md-12" align="right">
+                                                    <!-- <div class="col-sm-12 col-md-3">
+                                                    </div> -->
+                                                    <div class="col-sm-12 col-md-12">
                                                         <div class="form-group">
                                                             <input value="{{$productStatusData['id']}}" type="hidden" />
-                                                            <button class="btn btn-outline-info" type="submit">
+                                                            <button class="btn btn-outline-info btn-block"
+                                                                type="submit">
                                                                 Submit
                                                             </button>
                                                         </div>
                                                     </div>
+                                                    <!-- <div class="col-sm-12 col-md-3">
+                                                    </div> -->
                                                 </div>
                                             </div>
                                         </form>
