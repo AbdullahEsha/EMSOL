@@ -844,16 +844,21 @@
                 <div class="icon-boxes-container icon-boxes-separator bg-transparent">
                     <div class="container">
                         <div class="row">
-                            <div class="col-sm-6 col-lg-3">
-                                <div class="icon-box icon-box-side">
-                                    <span class="icon-box-icon">
-                                        <i class="icon-rocket"></i>
-                                    </span>
-                                    <div class="icon-box-content">
-                                        <h3 class="icon-box-title">Free Shipping</h3><!-- End .icon-box-title -->
-                                        <p>Orders $50 or more</p>
-                                    </div><!-- End .icon-box-content -->
-                                </div><!-- End .icon-box -->
+                            <div class="col-sm-6 col-lg-2">
+                                <div class="row">
+                                    <div class="col-sm-4 col-lg-4">
+                                        <div class="icon-box-icon">
+                                            <img src="https://cdn-icons-png.flaticon.com/512/862/862032.png"
+                                                style="color: black" />
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-8 col-lg-8">
+                                        <div class="">
+                                            <h6 class="">Free Shipping</h6><!-- End .icon-box-title -->
+                                            <p>Orders $50 or more</p>
+                                        </div>
+                                    </div>
+                                </div>
                             </div><!-- End .col-sm-6 col-lg-3 -->
 
                             <div class="col-sm-6 col-lg-3">
@@ -2638,7 +2643,7 @@
         </div><!-- End .modal-dialog -->
     </div><!-- End .modal -->
 
-    <div class="container newsletter-popup-container mfp-hide" id="newsletter-popup-form">
+    <!-- <div class="container newsletter-popup-container mfp-hide" id="newsletter-popup-form">
         <div class="row justify-content-center">
             <div class="col-10">
                 <div class="row no-gutters bg-white newsletter-popup-content">
@@ -2656,22 +2661,21 @@
                                     <div class="input-group-append">
                                         <button class="btn" type="submit"><span>go</span></button>
                                     </div><!-- .End .input-group-append -->
-                                </div><!-- .End .input-group -->
-                            </form>
-                            <div class="custom-control custom-checkbox">
-                                <input type="checkbox" class="custom-control-input" id="register-policy-2" required>
-                                <label class="custom-control-label" for="register-policy-2">Do not show this popup
-                                    again</label>
-                            </div><!-- End .custom-checkbox -->
-                        </div>
-                    </div>
-                    <div class="col-xl-2-5col col-lg-5 ">
-                        <img src="{{asset('common/assets/images/popup/newsletter/img-1.jpg')}}" class="newsletter-img"
-                            alt="newsletter">
-                    </div>
-                </div>
-            </div>
-        </div>
+    </div><!-- .End .input-group -->
+    </form>
+    <!-- <div class="custom-control custom-checkbox">
+        <input type="checkbox" class="custom-control-input" id="register-policy-2" required>
+        <label class="custom-control-label" for="register-policy-2">Do not show this popup
+            again</label>
+    </div>End .custom-checkbox -->
+    </div>
+    </div>
+    <!-- <div class="col-xl-2-5col col-lg-5 ">
+        <img src="{{asset('common/assets/images/popup/newsletter/img-1.jpg')}}" class="newsletter-img" alt="newsletter">
+    </div> -->
+    </div>
+    </div>
+    </div>
     </div>
     <!-- Plugins JS File -->
     <script src="{{asset('common/assets/js/jquery.min.js')}}"></script>
