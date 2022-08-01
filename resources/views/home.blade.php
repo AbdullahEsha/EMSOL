@@ -844,20 +844,11 @@
                 <div class="icon-boxes-container icon-boxes-separator bg-transparent">
                     <div class="container">
                         <div class="row">
-                            <div class="col-sm-6 col-lg-2">
-                                <div class="row">
-                                    <div class="col-sm-4 col-lg-4">
-                                        <div class="icon-box-icon">
-                                            <img src="https://cdn-icons-png.flaticon.com/512/862/862032.png"
-                                                style="color: black" />
-                                        </div>
-                                    </div>
-                                    <div class="col-sm-8 col-lg-8">
-                                        <div class="">
-                                            <h6 class="">Free Shipping</h6><!-- End .icon-box-title -->
-                                            <p>Orders $50 or more</p>
-                                        </div>
-                                    </div>
+                            <div class="col-sm-6 col-lg-3">
+                                <div class="iconcard">
+                                    <img src="https://cdn-icons-png.flaticon.com/512/862/862032.png"
+                                        style="color: black" /></br>
+                                    <p>Free Shipping and Return</p>
                                 </div>
                             </div><!-- End .col-sm-6 col-lg-3 -->
 
