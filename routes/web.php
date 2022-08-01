@@ -23,6 +23,12 @@ use App\Http\Controllers\blogUploadController;
 Route::get('/', function () {
     return view('home');
 });
+Route::get('/product', function () {
+    return view('product');
+});
+Route::get('/product/{id}', function () {
+    return view('productDetails');
+});
 Route::get('/login', function () {
     return view('common.login');
 });
