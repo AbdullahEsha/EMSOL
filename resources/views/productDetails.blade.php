@@ -1660,7 +1660,7 @@
     <script src="{{asset('common/assets/js/bootstrap-input-spinner.js')}}"></script>
     <script src="{{asset('common/assets/js/jquery.magnific-popup.min.js')}}"></script>
     <!-- Main JS File -->
-    <script src="{{asset('common/assets/js/main.js"></script>
+    <script src="{{asset('common/assets/js/main.js')}}"></script>
 </body>
 
 
