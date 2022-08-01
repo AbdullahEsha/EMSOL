@@ -33,9 +33,9 @@
     <link rel="stylesheet" href="{{asset('common/assets/css/plugins/owl-carousel/owl.carousel.css')}}">
     <link rel="stylesheet" href="{{asset('common/assets/css/plugins/magnific-popup/magnific-popup.css')}}">
     <!-- Main CSS File -->
-    <link rel="stylesheet" href="{{asset('common/assets/css/style.css')}}">
     <link rel="stylesheet" href="{{asset('common/assets/css/skins/skin-demo-19.css')}}">
     <link rel="stylesheet" href="{{asset('common/assets/css/demos/demo-19.css')}}">
+    <link rel="stylesheet" href="{{asset('common/assets/css/style.css')}}">
 </head>
 
 <body>
@@ -840,59 +840,95 @@
                         </div><!-- End .col-lg-9 -->
                     </div><!-- End .row -->
                 </div><!-- End .container -->
+                <br />
+                <div class="container">
+                    <div class="heading heading-flex mb-2 mb-lg-3">
+                        <div class="heading-left">
+                            <h2 class="title mb-0">Catagories</h2><!-- End .title -->
+                        </div><!-- End .heading-left -->
+                    </div><!-- End .heading -->
 
-                <div class="icon-boxes-container icon-boxes-separator bg-transparent">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-sm-6 col-lg-3">
-                                <div class="iconcard">
-                                    <img src="https://cdn-icons-png.flaticon.com/512/862/862032.png"
-                                        style="color: black" /></br>
-                                    <p>Free Shipping and Return</p>
+                    <div class="icon-boxes-container icon-boxes-separator bg-transparent">
+                        <div class="container" align="center">
+                            <div class="row">
+                                <div class="col-sm-6 col-md-2 card-color-one">
+                                    <div id="catagory-icon-card">
+                                        <div class="icon-container" align="center">
+                                            <img src="https://cdn-icons-png.flaticon.com/512/809/809957.png" alt=""
+                                                height="100px">
+                                            <br />
+                                            <h6>
+                                                <a href="/product">Morbi in sem.</a>
+                                            </h6><!-- End .entry-title -->
+                                        </div><!-- End .entry-meta -->
+                                    </div><!-- End .entry-body -->
                                 </div>
-                            </div><!-- End .col-sm-6 col-lg-3 -->
+                                <div class="col-sm-6 col-md-2 card-color-two">
+                                    <div id="catagory-icon-card">
+                                        <div class="icon-container" align="center">
+                                            <img src="https://cdn-icons-png.flaticon.com/512/809/809957.png" alt=""
+                                                height="100px">
+                                            <br />
+                                            <h6>
+                                                <a href="/product">Morbi in sem.</a>
+                                            </h6><!-- End .entry-title -->
+                                        </div><!-- End .entry-meta -->
+                                    </div><!-- End .entry-body -->
+                                </div>
+                                <div class="col-sm-6 col-md-2 card-color-one">
+                                    <div id="catagory-icon-card">
+                                        <div class="icon-container" align="center">
+                                            <img src="https://cdn-icons-png.flaticon.com/512/809/809957.png" alt=""
+                                                height="100px">
+                                            <br />
+                                            <h6>
+                                                <a href="/product">Morbi in sem.</a>
+                                            </h6><!-- End .entry-title -->
+                                        </div><!-- End .entry-meta -->
+                                    </div><!-- End .entry-body -->
+                                </div>
+                                <div class="col-sm-6 col-md-2 card-color-two">
+                                    <div id="catagory-icon-card">
+                                        <div class="icon-container" align="center">
+                                            <img src="https://cdn-icons-png.flaticon.com/512/809/809957.png" alt=""
+                                                height="100px">
+                                            <br />
+                                            <h6>
+                                                <a href="/product">Morbi in sem.</a>
+                                            </h6><!-- End .entry-title -->
+                                        </div><!-- End .entry-meta -->
+                                    </div><!-- End .entry-body -->
+                                </div>
+                                <div class="col-sm-6 col-md-2 card-color-one">
+                                    <div id="catagory-icon-card">
+                                        <div class="icon-container" align="center">
+                                            <img src="https://cdn-icons-png.flaticon.com/512/809/809957.png" alt=""
+                                                height="100px">
+                                            <br />
+                                            <h6>
+                                                <a href="/product">Morbi in sem.</a>
+                                            </h6><!-- End .entry-title -->
+                                        </div><!-- End .entry-meta -->
+                                    </div><!-- End .entry-body -->
+                                </div>
+                                <div class="col-sm-6 col-md-2 card-color-two">
+                                    <div id="catagory-icon-card">
+                                        <div class="icon-container" align="center">
+                                            <img src="https://cdn-icons-png.flaticon.com/512/809/809957.png" alt=""
+                                                height="100px">
+                                            <br />
+                                            <h6>
+                                                <a href="/product">Morbi in sem.</a>
+                                            </h6><!-- End .entry-title -->
+                                        </div><!-- End .entry-meta -->
+                                    </div><!-- End .entry-body -->
+                                </div>
+                            </div>
+                        </div><!-- End .container -->
+                    </div><!-- End .icon-boxes-container -->
+                </div><!-- End .container -->
 
-                            <div class="col-sm-6 col-lg-3">
-                                <div class="icon-box icon-box-side">
-                                    <span class="icon-box-icon">
-                                        <i class="icon-rotate-left"></i>
-                                    </span>
 
-                                    <div class="icon-box-content">
-                                        <h3 class="icon-box-title">Free Returns</h3><!-- End .icon-box-title -->
-                                        <p>Within 30 days</p>
-                                    </div><!-- End .icon-box-content -->
-                                </div><!-- End .icon-box -->
-                            </div><!-- End .col-sm-6 col-lg-3 -->
-
-                            <div class="col-sm-6 col-lg-3">
-                                <div class="icon-box icon-box-side">
-                                    <span class="icon-box-icon">
-                                        <i class="icon-info-circle"></i>
-                                    </span>
-
-                                    <div class="icon-box-content">
-                                        <h3 class="icon-box-title">Get 20% Off 1 Item</h3><!-- End .icon-box-title -->
-                                        <p>When you sign up</p>
-                                    </div><!-- End .icon-box-content -->
-                                </div><!-- End .icon-box -->
-                            </div><!-- End .col-sm-6 col-lg-3 -->
-
-                            <div class="col-sm-6 col-lg-3">
-                                <div class="icon-box icon-box-side">
-                                    <span class="icon-box-icon">
-                                        <i class="icon-life-ring"></i>
-                                    </span>
-
-                                    <div class="icon-box-content">
-                                        <h3 class="icon-box-title">We Support</h3><!-- End .icon-box-title -->
-                                        <p>24/7 amazing services</p>
-                                    </div><!-- End .icon-box-content -->
-                                </div><!-- End .icon-box -->
-                            </div><!-- End .col-sm-6 col-lg-3 -->
-                        </div><!-- End .row -->
-                    </div><!-- End .container -->
-                </div><!-- End .icon-boxes-container -->
 
                 <div class="bg-light pt-3 pb-5 mb-5">
                     <div class="container">
@@ -2651,7 +2687,7 @@
                                         placeholder="Your Email Address" aria-label="Email Adress" required>
                                     <div class="input-group-append">
                                         <button class="btn" type="submit"><span>go</span></button>
-                                    </div><!-- .End .input-group-append -->
+                                    </div> .End .input-group-append -->
     </div><!-- .End .input-group -->
     </form>
     <!-- <div class="custom-control custom-checkbox">
