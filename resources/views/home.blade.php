@@ -12,16 +12,20 @@
     <meta name="keywords" content="HTML5 Template">
     <meta name="description" content="Molla - Bootstrap eCommerce Template">
     <meta name="author" content="p-themes">
-    <link rel="icon" href="{{asset('img/favicon.png')}}">
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="{{asset('common/assets/images/icons/apple-touch-icon.png')}}">
+    <link rel="icon" type="image/png" sizes="32x32" href="{{asset('common/assets/icons/favicon-32x32.png')}}">
     <link rel="icon" type="image/png" sizes="16x16" href="{{asset('common/assets/icons/favicon-16x16.png')}}">
     <link rel="manifest" href="{{asset('common/assets/images/icons/site.html')}}">
     <link rel="mask-icon" href="{{asset('common/assets/images/icons/safari-pinned-tab.svg')}}" color="#666666">
-    <link rel="icon" href="{{asset('img/favicon.png')}}">
+    <link rel="shortcut icon" href="{{asset('common/assets/images/icons/favicon.ico')}}">
     <meta name="apple-mobile-web-app-title" content="Molla">
     <meta name="application-name" content="Molla">
     <meta name="msapplication-TileColor" content="#cc9966">
     <meta name="msapplication-config" content="{{asset('common/assets/images/icons/browserconfig.xml')}}">
     <meta name="theme-color" content="#ffffff">
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
     <link rel="stylesheet"
         href="{{asset('common/assets/vendor/line-awesome/line-awesome/line-awesome/css/line-awesome.min.css')}}">
     <!-- Plugins CSS File -->
@@ -50,6 +54,29 @@
                                 <li>
                                     <a href="#">Links</a>
                                     <ul>
+                                        <li>
+                                            <div class="header-dropdown">
+                                                <a href="#">USD</a>
+                                                <div class="header-menu">
+                                                    <ul>
+                                                        <li><a href="#">Eur</a></li>
+                                                        <li><a href="#">Usd</a></li>
+                                                    </ul>
+                                                </div><!-- End .header-menu -->
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="header-dropdown">
+                                                <a href="#">English</a>
+                                                <div class="header-menu">
+                                                    <ul>
+                                                        <li><a href="#">English</a></li>
+                                                        <li><a href="#">French</a></li>
+                                                        <li><a href="#">Spanish</a></li>
+                                                    </ul>
+                                                </div><!-- End .header-menu -->
+                                            </div>
+                                        </li>
                                         <li><a href="#signin-modal" data-toggle="modal">Sign in / Sign up</a></li>
                                     </ul>
                                 </li>
@@ -68,7 +95,8 @@
                             </button>
 
                             <a href="index.html" class="logo">
-                                <img src="{{asset('img/emsolLogo.png')}}" alt="Molla Logo" width="180px" height="50px">
+                                <img src="https://emsol.xyz/wp-content/uploads/2020/11/Ems-logo-9.png" alt="Molla Logo"
+                                    width="180px" height="125px">
                             </a>
                         </div><!-- End .header-left -->
 
@@ -198,99 +226,250 @@
                                 <!-- End .sidenav-title -->
                                 <ul class="menu-vertical sf-arrows">
                                     <li>
-                                        <a href="product.html" class="sf-with-ul">Playstation</a>
 
+                                        <a href="product.html" class="sf-with-ul">
+                                            <i class="equipment"></i>
+                                            Medical Equipment</a>
                                         <div class="megamenu megamenu-sm">
                                             <div class="row no-gutters">
                                                 <div class="col-md-6">
                                                     <div class="menu-col">
-                                                        <div class="menu-title">Games Software</div>
-                                                        <!-- End .menu-title -->
                                                         <ul>
-                                                            <li><a href="#">Action</a></li>
-                                                            <li><a href="#">Adventure</a></li>
-                                                            <li><a href="#">Sports</a></li>
-                                                            <li><a href="#">Strategy</a></li>
-                                                            <li><a href="#">Role-Playing Game</a></li>
-                                                            <li><a href="#">Action-Adventure</a></li>
-                                                            <li><a href="#">Stealth</a></li>
-                                                            <li><a href="#">Shooter</a></li>
+                                                            <li><a href="#">Anesthesia</a></li>
+                                                            <li><a href="#">Autoclave</a></li>
+                                                            <li><a href="#">C-arm</a></li>
+                                                            <li><a href="#">Cath Lab</a></li>
+                                                            <li><a href="#">Cautery</a></li>
+                                                            <li><a href="#">CPAP BIPAP</a></li>
+                                                            <li><a href="#">Defibrillator / AED</a></li>
+                                                            <li><a href="#">Diathermy</a></li>
+                                                            <li><a href="#">ECG</a></li>
+                                                            <li><a href="#">ENT Equipment</a></li>
+                                                            <li><a href="#">Endoscopy/Colonoscopy</a></li>
+                                                            <li><a href="#">Hemodialysis Machine</a></li>
+                                                            <li><a href="#">Holter</a></li>
+                                                            <li><a href="#">OT Light</a></li>
+                                                            <li><a href="#">Patient Monitor</a></li>
+                                                            <li><a href="#">Phototherapy</a></li>
+                                                            <li><a href="#">Suction Machine</a></li>
+                                                            <li><a href="#">Syringe/Infusion Pump</a></li>
+                                                            <li><a href="#">Ultrasound Machine</a></li>
+                                                            <li><a href="#">Ventilator</a></li>
+                                                            <li><a href="#">Baby Warmer/Incubator</a></li>
+                                                            <li><a href="#">X-Ray/ C arm</a></li>
                                                         </ul>
                                                     </div><!-- End .menu-col -->
-                                                </div><!-- End .col-md-6 -->
-
-                                                <div class="col-md-6">
-                                                    <div class="banner banner-overlay">
-                                                        <a href="category.html">
-                                                            <img src="{{asset('common/assets/images/demos/demo-19/menu/banner-2.jpg')}}"
-                                                                alt="Banner">
-                                                        </a>
-                                                    </div><!-- End .banner -->
                                                 </div><!-- End .col-md-6 -->
                                             </div><!-- End .row -->
                                         </div><!-- End .megamenu megamenu-sm -->
                                     </li>
-                                    <li class="megamenu-container">
-                                        <a href="category.html" class="sf-with-ul">XBOX</a>
-
-                                        <div class="megamenu">
+                                    <li>
+                                        <a href="product.html" class="sf-with-ul">
+                                            <i class="device"></i>Medical Device</a>
+                                        <div class="megamenu megamenu-sm">
                                             <div class="row no-gutters">
-                                                <div class="col-md-8">
+                                                <div class="col-md-6">
                                                     <div class="menu-col">
-                                                        <div class="row">
-                                                            <div class="col-md-6">
-                                                                <div class="menu-title">Games Software</div>
-                                                                <!-- End .menu-title -->
-                                                                <ul>
-                                                                    <li><a href="#">Action</a></li>
-                                                                    <li><a href="#">Adventure</a></li>
-                                                                    <li><a href="#">Music</a></li>
-                                                                    <li><a href="#">Racing</a></li>
-                                                                    <li><a href="#">Sports</a></li>
-                                                                    <li><a href="#">Strategy</a></li>
-                                                                    <li><a href="#">Role-Playing Game</a></li>
-                                                                    <li><a href="#">Action-Adventure</a></li>
-                                                                    <li><a href="#">Stealth</a></li>
-                                                                    <li><a href="#">Shooter</a></li>
-                                                                    <li><a href="#">Horror</a></li>
-                                                                </ul>
-                                                            </div><!-- End .col-md-6 -->
-
-                                                            <div class="col-md-6">
-                                                                <div class="menu-title">Game Console & Accessories</div>
-                                                                <!-- End .menu-title -->
-                                                                <ul>
-                                                                    <li><a href="#">Console</a></li>
-                                                                    <li><a href="#">Headsets</a></li>
-                                                                    <li><a href="#">Collectibles</a></li>
-                                                                    <li><a href="#">Gaming Chairs</a></li>
-                                                                    <li><a href="#">Controller</a></li>
-                                                                    <li><a href="#">Digital</a></li>
-                                                                </ul>
-                                                            </div><!-- End .col-md-6 -->
-                                                        </div><!-- End .row -->
+                                                        <ul>
+                                                            <li><a href="#">Blood Pressure Monitor</a></li>
+                                                            <li><a href="#">Body Massage devices</a></li>
+                                                            <li><a href="#">Blood Pressure Monitor Accessories</a></li>
+                                                            <li><a href="#">Fetal Doppler</a></li>
+                                                            <li><a href="#">Flat Panel Detector</a></li>
+                                                            <li><a href="#">Hearing Aid</a></li>
+                                                            <li><a href="#">Hygrometer</a></li>
+                                                            <li><a href="#">Lung Exerciser</a></li>
+                                                            <li><a href="#">Nebulizer</a></li>
+                                                            <li><a href="#">Ophthalmoscope / Otoscope</a></li>
+                                                            <li><a href="#">Oxygen Concentrator</a></li>
+                                                            <li><a href="#">Pulse Oximeter</a></li>
+                                                            <li><a href="#">SPIROMETRY</a></li>
+                                                            <li><a href="#">Stethoscope</a></li>
+                                                            <li><a href="#">Thermometer</a></li>
+                                                            <li><a href="#">Vein Finder</a></li>
+                                                            <li><a href="#">Weighting Scale</a></li>
+                                                        </ul>
                                                     </div><!-- End .menu-col -->
-                                                </div><!-- End .col-md-8 -->
-
-                                                <div class="col-md-4">
-                                                    <div class="banner banner-overlay">
-                                                        <a href="category.html" class="banner banner-menu">
-                                                            <img src="{{asset('common/assets/images/demos/demo-19/menu/banner-1.jpg')}}"
-                                                                alt="Banner">
-                                                        </a>
-                                                    </div><!-- End .banner banner-overlay -->
-                                                </div><!-- End .col-md-4 -->
+                                                </div><!-- End .col-md-6 -->
                                             </div><!-- End .row -->
-                                        </div><!-- End .megamenu -->
+                                        </div><!-- End .megamenu megamenu-sm -->
                                     </li>
-                                    <li><a href="#">Nindendo</a></li>
-                                    <li><a href="#">PC Gaming</a></li>
-                                    <li><a href="#">Phones & Tablets</a></li>
-                                    <li><a href="#">Pre-owned</a></li>
-                                    <li><a href="#">Deals</a></li>
-                                    <li><a href="#">Coming Soon</a></li>
-                                    <li><a href="#">Accessories</a></li>
-                                    <li><a href="#">Accessories</a></li>
+                                    <li>
+                                        <a href="product.html" class="sf-with-ul">
+                                            <i class="accessories"></i>Accessories & Others</a>
+                                        <div class="megamenu megamenu-sm">
+                                            <div class="row no-gutters">
+                                                <div class="col-md-6">
+                                                    <div class="menu-col">
+                                                        <ul>
+                                                            <li><a href="#">Belt/Guards/Aids/Support</a></li>
+                                                            <li><a href="#">CT/MRI Accessories</a></li>
+                                                            <li><a href="#">Dehumidifier</a></li>
+                                                            <li><a href="#">ECG Accessories</a></li>
+                                                            <li><a href="#">Fire Extinguisher</a></li>
+                                                            <li><a href="#">Heating Pad / Water Bag</a></li>
+                                                            <li><a href="#">Catheter/Injector</a></li>
+                                                            <li><a href="#">Mask</a></li>
+                                                            <li><a href="#">Medical Software</a></li>
+                                                            <li><a href="#">Metal Detector</a></li>
+                                                            <li><a href="#">Oxygen Cylinder</a></li>
+                                                            <li><a href="#">Ultrasound/Echo Accessories</a></li>
+                                                            <li><a href="#">UPS</a></li>
+                                                            <li><a href="#">Ventilator Accessories</a></li>
+                                                            <li><a href="#">X-Ray Accessories</a></li>
+                                                        </ul>
+                                                    </div><!-- End .menu-col -->
+                                                </div><!-- End .col-md-6 -->
+                                            </div><!-- End .row -->
+                                        </div><!-- End .megamenu megamenu-sm -->
+                                    </li>
+                                    <li>
+                                        <a href="product.html" class="sf-with-ul">
+                                            <i class="laboratory"></i>Laboratory</a>
+                                        <div class="megamenu megamenu-sm">
+                                            <div class="row no-gutters">
+                                                <div class="col-md-6">
+                                                    <div class="menu-col">
+                                                        <ul>
+                                                            <li><a href="#">Biochemistry/Clinical Chemistry Analyzer</a>
+                                                            </li>
+                                                            <li><a href="#">Electrolyte/Blood gas Analyzer</a></li>
+                                                            <li><a href="#">ESR Analyzer</a></li>
+                                                            <li><a href="#">Roller Mixer</a></li>
+                                                            <li><a href="#">Rotator/ Platelet Rotator/Shaker</a></li>
+                                                            <li><a href="#">Urine Analyzer</a></li>
+                                                            <li><a href="#">Water Bath</a></li>
+                                                            <li><a href="#">Coagulation Analyzer</a></li>
+                                                            <li><a href="#">Harmon analyzer, Microplate,
+                                                                    Elisa & Microbiology Reader</a></li>
+                                                            <li><a href="#">Laboratory Analyzer</a></li>
+                                                            <li><a href="#">Laboratory Test Strip & device</a></li>
+                                                            <li><a href="#">Laboratory Others</a></li>
+                                                            <li><a href="#">Laboratory Centrifuge</a></li>
+                                                            <li><a href="#">Laboratory Analyzer</a></li>
+                                                        </ul>
+                                                    </div><!-- End .menu-col -->
+                                                </div><!-- End .col-md-6 -->
+                                            </div><!-- End .row -->
+                                        </div><!-- End .megamenu megamenu-sm -->
+                                    </li>
+                                    <li>
+                                        <a href="product.html" class="sf-with-ul">
+                                            <i class="dental"></i>Dental</a>
+                                        <div class="megamenu megamenu-sm">
+                                            <div class="row no-gutters">
+                                                <div class="col-md-6">
+                                                    <div class="menu-col">
+                                                        <ul>
+                                                            <li><a href="#">Apex Locator</a></li>
+                                                            <li><a href="#">Compressor</a></li>
+                                                            <li><a href="#">Curing Light</a></li>
+                                                            <li><a href="#">Dental Implant/micro/indo Motor</a></li>
+                                                            <li><a href="#">Dental Light</a></li>
+                                                            <li><a href="#">Dental Unit</a></li>
+                                                            <li><a href="#">Dental X-ray</a></li>
+                                                            <li><a href="#">Dental Accessories</a></li>
+                                                        </ul>
+                                                    </div><!-- End .menu-col -->
+                                                </div><!-- End .col-md-6 -->
+                                            </div><!-- End .row -->
+                                        </div><!-- End .megamenu megamenu-sm -->
+                                    </li>
+                                    <li>
+                                        <a href="product.html" class="sf-with-ul">
+                                            <i class="disposable"></i>Disposables</a>
+                                        <div class="megamenu megamenu-sm">
+                                            <div class="row no-gutters">
+                                                <div class="col-md-6">
+                                                    <div class="menu-col">
+                                                        <ul>
+                                                            <li><a href="#">Weighting Scale</a></li>
+                                                        </ul>
+                                                    </div><!-- End .menu-col -->
+                                                </div><!-- End .col-md-6 -->
+                                            </div><!-- End .row -->
+                                        </div><!-- End .megamenu megamenu-sm -->
+                                    </li>
+                                    <li>
+                                        <a href="product.html" class="sf-with-ul">
+                                            <i class="eyecare"></i>Eye Care</a>
+                                        <div class="megamenu megamenu-sm">
+                                            <div class="row no-gutters">
+                                                <div class="col-md-6">
+                                                    <div class="menu-col">
+                                                        <ul>
+                                                            <li><a href="#">Eye Instruments</a></li>
+                                                            <li><a href="#">Eye Consumables &amp; Disposables</a></li>
+                                                            <li><a href="#">Eye Accessories</a></li>
+                                                        </ul>
+                                                    </div><!-- End .menu-col -->
+                                                </div><!-- End .col-md-6 -->
+                                            </div><!-- End .row -->
+                                        </div><!-- End .megamenu megamenu-sm -->
+                                    </li>
+                                    <li>
+                                        <a href="product.html" class="sf-with-ul">
+                                            <i class="surgical"></i>Surgical</a>
+                                        <div class="megamenu megamenu-sm">
+                                            <div class="row no-gutters">
+                                                <div class="col-md-6">
+                                                    <div class="menu-col">
+                                                        <ul>
+                                                            <li><a href="#">Surgical Instruments</a></li>
+                                                            <li><a href="#">Surgical Disposables</a></li>
+                                                            <li><a href="#">Skin/Cosmetic Surgery</a></li>
+                                                        </ul>
+                                                    </div><!-- End .menu-col -->
+                                                </div><!-- End .col-md-6 -->
+                                            </div><!-- End .row -->
+                                        </div><!-- End .megamenu megamenu-sm -->
+                                    </li>
+                                    <li>
+                                        <a href="product.html" class="sf-with-ul">
+                                            <i class="furniture"></i>Medical Furniture</a>
+                                        <div class="megamenu megamenu-sm">
+                                            <div class="row no-gutters">
+                                                <div class="col-md-6">
+                                                    <div class="menu-col">
+                                                        <ul>
+                                                            <li><a href="#">Air Mattress</a></li>
+                                                            <li><a href="#">Hospital Bed</a></li>
+                                                            <li><a href="#">Cabinet</a></li>
+                                                            <li><a href="#">Instrument Cart</a></li>
+                                                            <li><a href="#">Over Bed Table</a></li>
+                                                            <li><a href="#">Stretcher</a></li>
+                                                            <li><a href="#">Trolley</a></li>
+                                                            <li><a href="#">Wheel Chair</a></li>
+                                                        </ul>
+                                                    </div><!-- End .menu-col -->
+                                                </div><!-- End .col-md-6 -->
+                                            </div><!-- End .row -->
+                                        </div><!-- End .megamenu megamenu-sm -->
+                                    </li>
+                                    <li>
+                                        <a href="product.html" class="sf-with-ul">
+                                            <i class="physiotherapy"></i>Physiotherapy</a>
+                                        <div class="megamenu megamenu-sm">
+                                            <div class="row no-gutters">
+                                                <div class="col-md-6">
+                                                    <div class="menu-col">
+                                                        <ul>
+                                                            <li><a href="#">Infrared lamp</a></li>
+                                                            <li><a href="#">TENS/EMS</a></li>
+                                                            <li><a href="#">Air Mattress</a></li>
+                                                            <li><a href="#">Belt/Guards/Aids/Support</a></li>
+                                                            <li><a href="#">Blood circulation Machine</a></li>
+                                                            <li><a href="#">Body Massage devices</a></li>
+                                                            <li><a href="#">Heating Pad / Water Bag</a></li>
+                                                            <li><a href="#">Hijama</a></li>
+                                                            <li><a href="#">Massager</a></li>
+                                                            <li><a href="#">Therapy Pad</a></li>
+                                                        </ul>
+                                                    </div><!-- End .menu-col -->
+                                                </div><!-- End .col-md-6 -->
+                                            </div><!-- End .row -->
+                                        </div><!-- End .megamenu megamenu-sm -->
+                                    </li>
                                 </ul><!-- End .menu -->
                             </nav><!-- End .side-nav -->
                         </div>
@@ -420,7 +599,7 @@
                                                 height="100px">
                                             <br />
                                             <h6>
-                                                <a href="/product">Heart Monitor</a>
+                                                <a href="/product">Medical Device</a>
                                             </h6><!-- End .entry-title -->
                                         </div><!-- End .entry-meta -->
                                     </div><!-- End .entry-body -->
@@ -440,7 +619,7 @@
                                 <div class="col-sm-6 col-md-2 card-color-one">
                                     <div id="catagory-icon-card">
                                         <div class="icon-container" align="center">
-                                            <img src="https://cdn-icons-png.flaticon.com/512/4465/4465221.png" alt=""
+                                            <img src="https://cdn-icons-png.flaticon.com/128/4465/4465221.png" alt=""
                                                 height="100px">
                                             <br />
                                             <h6>
