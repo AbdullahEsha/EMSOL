@@ -47,42 +47,16 @@
                         <div class="header-left">
                             <a href="tel:#"><i class="icon-phone"></i>Call: +0123 456 789</a>
                         </div><!-- End .header-left -->
-
                         <div class="header-right">
-
                             <ul class="top-menu">
                                 <li>
                                     <a href="#">Links</a>
                                     <ul>
-                                        <li>
-                                            <div class="header-dropdown">
-                                                <a href="#">USD</a>
-                                                <div class="header-menu">
-                                                    <ul>
-                                                        <li><a href="#">Eur</a></li>
-                                                        <li><a href="#">Usd</a></li>
-                                                    </ul>
-                                                </div><!-- End .header-menu -->
-                                            </div>
-                                        </li>
-                                        <li>
-                                            <div class="header-dropdown">
-                                                <a href="#">English</a>
-                                                <div class="header-menu">
-                                                    <ul>
-                                                        <li><a href="#">English</a></li>
-                                                        <li><a href="#">French</a></li>
-                                                        <li><a href="#">Spanish</a></li>
-                                                    </ul>
-                                                </div><!-- End .header-menu -->
-                                            </div>
-                                        </li>
                                         <li><a href="#signin-modal" data-toggle="modal">Sign in / Sign up</a></li>
                                     </ul>
                                 </li>
                             </ul><!-- End .top-menu -->
                         </div><!-- End .header-right -->
-
                     </div><!-- End .container -->
                 </div><!-- End .header-top -->
 
@@ -106,10 +80,9 @@
                                 <form action="#" method="get">
                                     <div class="header-search-wrapper search-wrapper-wide">
                                         <label for="q" class="sr-only">Search</label>
-                                        <button class="btn btn-primary" type="submit"><i
-                                                class="icon-search"></i></button>
-                                        <input type="search" class="form-control" name="q" id="q"
-                                            placeholder="Search product ..." required>
+                                        <input type="search" class="form-control" placeholder="Search product ..."
+                                            required>
+                                        <button class="btn btn-info" type="submit"><i class="icon-search"></i></button>
                                     </div><!-- End .header-search-wrapper -->
                                 </form>
                             </div><!-- End .header-search -->
@@ -202,8 +175,7 @@
                                         <div class="dropdown-cart-action">
                                             <a href="cart.html" class="btn btn-primary">View Cart</a>
                                             <a href="checkout.html"
-                                                class="btn btn-outline-primary-2"><span>Checkout</span><i
-                                                    class="icon-long-arrow-right"></i></a>
+                                                class="btn btn-outline-primary-2"><span>Checkout</span></a>
                                         </div><!-- End .dropdown-cart-total -->
                                     </div><!-- End .dropdown-menu -->
                                 </div><!-- End .cart-dropdown -->
@@ -485,8 +457,7 @@
                                     <h4 class="banner-subtitle">Pre-order now</h4>
                                     <img src="{{asset('common/assets/images/demos/demo-19/banners/banner-1-title.png')}}"
                                         alt="Banner 1 Title" width="217" height="54" class="mb-1">
-                                    <a href="#" class="banner-link size-lg">Pre-Order Now<i
-                                            class="icon-long-arrow-right"></i></a>
+
                                 </div>
                             </div><!-- End .banner -->
                         </div><!-- End .col-lg-6 -->
@@ -503,7 +474,7 @@
                                         src="{{asset('common/assets/images/demos/demo-19/banners/banner-2-title.png')}}"
                                         alt="Banner-2">
                                     <h4 class="banner-price">Save<span class="price">$19,99</span></h4>
-                                    <a href="#" class="banner-link">Buy Now<i class="icon-long-arrow-right"></i></a>
+
                                 </div>
                             </div><!-- End .banner -->
 
@@ -517,7 +488,6 @@
                                         src="{{asset('common/assets/images/demos/demo-19/banners/banner-3-title.png')}}"
                                         alt="Banner-3">
                                     <h5 class="text-white">35% OFF</h5>
-                                    <a href="#" class="banner-link">Buy Now<i class="icon-long-arrow-right"></i></a>
                                 </div>
                             </div><!-- End .banner -->
                         </div><!-- End .col-lg-3 -->
@@ -534,7 +504,7 @@
                                         src="{{asset('common/assets/images/demos/demo-19/banners/banner-4-title.png')}}"
                                         alt="Banner-4">
                                     <h4 class="banner-price"><span class="off">25% off</span></h4>
-                                    <a href="#" class="banner-link">Buy Now<i class="icon-long-arrow-right"></i></a>
+
                                 </div>
                             </div><!-- End .banner -->
                         </div><!-- End .col-lg-3 -->
@@ -550,100 +520,84 @@
                                     <img class="banner-title-img mb-1"
                                         src="{{asset('common/assets/images/demos/demo-19/banners/banner-5-title.png')}}"
                                         alt="Banner-5">
-                                    <a href="#" class="banner-link">Pre-Order Now<i
-                                            class="icon-long-arrow-right"></i></a>
                                 </div>
                             </div><!-- End .banner -->
                         </div><!-- End .col-lg-9 -->
                     </div><!-- End .row -->
                 </div><!-- End .container -->
                 <br />
-                <div class="container">
-                    <div class="heading heading-flex mb-2 mb-lg-3">
-                        <div class="heading-left">
-                            <h2 class="title mb-0">Catagories</h2><!-- End .title -->
-                        </div><!-- End .heading-left -->
-                    </div><!-- End .heading -->
-
-                    <div class="icon-boxes-container icon-boxes-separator bg-transparent">
-                        <div class="container" align="center">
-                            <div class="row">
-                                <div class="col-sm-6 col-md-2 card-color-one">
-                                    <div id="catagory-icon-card">
-                                        <div class="icon-container" align="center">
-                                            <img src="https://cdn-icons-png.flaticon.com/512/2904/2904190.png" alt=""
-                                                height="100px">
-                                            <br />
-                                            <h6>
-                                                <a href="/product">Mask</a>
-                                            </h6><!-- End .entry-title -->
-                                        </div><!-- End .entry-meta -->
-                                    </div><!-- End .entry-body -->
-                                </div>
-                                <div class="col-sm-6 col-md-2 card-color-two">
-                                    <div id="catagory-icon-card">
-                                        <div class="icon-container" align="center">
-                                            <img src="https://cdn-icons-png.flaticon.com/512/2877/2877907.png" alt=""
-                                                height="100px">
-                                            <br />
-                                            <h6>
-                                                <a href="/product">Disinfect Spray</a>
-                                            </h6><!-- End .entry-title -->
-                                        </div><!-- End .entry-meta -->
-                                    </div><!-- End .entry-body -->
-                                </div>
-                                <div class="col-sm-6 col-md-2 card-color-one">
-                                    <div id="catagory-icon-card">
-                                        <div class="icon-container" align="center">
-                                            <img src="https://cdn-icons-png.flaticon.com/512/3952/3952978.png" alt=""
-                                                height="100px">
-                                            <br />
-                                            <h6>
-                                                <a href="/product">Medical Device</a>
-                                            </h6><!-- End .entry-title -->
-                                        </div><!-- End .entry-meta -->
-                                    </div><!-- End .entry-body -->
-                                </div>
-                                <div class="col-sm-6 col-md-2 card-color-two">
-                                    <div id="catagory-icon-card">
-                                        <div class="icon-container" align="center">
-                                            <img src="https://cdn-icons-png.flaticon.com/512/883/883407.png" alt=""
-                                                height="100px">
-                                            <br />
-                                            <h6>
-                                                <a href="/product">Medicine Supply</a>
-                                            </h6><!-- End .entry-title -->
-                                        </div><!-- End .entry-meta -->
-                                    </div><!-- End .entry-body -->
-                                </div>
-                                <div class="col-sm-6 col-md-2 card-color-one">
-                                    <div id="catagory-icon-card">
-                                        <div class="icon-container" align="center">
-                                            <img src="https://cdn-icons-png.flaticon.com/128/4465/4465221.png" alt=""
-                                                height="100px">
-                                            <br />
-                                            <h6>
-                                                <a href="/product">Medical Bed</a>
-                                            </h6><!-- End .entry-title -->
-                                        </div><!-- End .entry-meta -->
-                                    </div><!-- End .entry-body -->
-                                </div>
-                                <div class="col-sm-6 col-md-2 card-color-two">
-                                    <div id="catagory-icon-card">
-                                        <div class="icon-container" align="center">
-                                            <img src="https://cdn-icons-png.flaticon.com/512/3481/3481172.png" alt=""
-                                                height="100px">
-                                            <br />
-                                            <h6>
-                                                <a href="/product">Emergency Support</a>
-                                            </h6><!-- End .entry-title -->
-                                        </div><!-- End .entry-meta -->
-                                    </div><!-- End .entry-body -->
-                                </div>
+                <div class="icon-boxes-container icon-boxes-separator bg-transparent">
+                    <div class="container" align="center">
+                        <div class="row">
+                            <div class="col-sm-6 col-md-2 card-color">
+                                <div class="catagory-icon-card">
+                                    <div class="icon-container-card" align="center">
+                                        <img src="https://cdn-icons-png.flaticon.com/512/2904/2904190.png" alt="">
+                                        <br />
+                                        <h6>
+                                            <a href="/product">Mask</a>
+                                        </h6><!-- End .entry-title -->
+                                    </div><!-- End .entry-meta -->
+                                </div><!-- End .entry-body -->
                             </div>
-                        </div><!-- End .container -->
-                    </div><!-- End .icon-boxes-container -->
-                </div><!-- End .container -->
+                            <div class="col-sm-6 col-md-2 card-color">
+                                <div class="catagory-icon-card">
+                                    <div class="icon-container-card" align="center">
+                                        <img src="https://cdn-icons-png.flaticon.com/512/2877/2877907.png" alt="">
+                                        <br />
+                                        <h6>
+                                            <a href="/product">Spray</a>
+                                        </h6><!-- End .entry-title -->
+                                    </div><!-- End .entry-meta -->
+                                </div><!-- End .entry-body -->
+                            </div>
+                            <div class="col-sm-6 col-md-2 card-color">
+                                <div class="catagory-icon-card">
+                                    <div class="icon-container-card" align="center">
+                                        <img src="https://cdn-icons-png.flaticon.com/512/3952/3952978.png" alt="">
+                                        <br />
+                                        <h6>
+                                            <a href="/product">Device</a>
+                                        </h6><!-- End .entry-title -->
+                                    </div><!-- End .entry-meta -->
+                                </div><!-- End .entry-body -->
+                            </div>
+                            <div class="col-sm-6 col-md-2 card-color">
+                                <div class="catagory-icon-card">
+                                    <div class="icon-container-card" align="center">
+                                        <img src="https://cdn-icons-png.flaticon.com/512/883/883407.png" alt="">
+                                        <br />
+                                        <h6>
+                                            <a href="/product">Medicine</a>
+                                        </h6><!-- End .entry-title -->
+                                    </div><!-- End .entry-meta -->
+                                </div><!-- End .entry-body -->
+                            </div>
+                            <div class="col-sm-6 col-md-2 card-color">
+                                <div class="catagory-icon-card">
+                                    <div class="icon-container-card" align="center">
+                                        <img src="https://cdn-icons-png.flaticon.com/128/4465/4465221.png" alt="">
+                                        <br />
+                                        <h6>
+                                            <a href="/product">Farnichar</a>
+                                        </h6><!-- End .entry-title -->
+                                    </div><!-- End .entry-meta -->
+                                </div><!-- End .entry-body -->
+                            </div>
+                            <div class="col-sm-6 col-md-2 card-color">
+                                <div class="catagory-icon-card">
+                                    <div class="icon-container-card" align="center">
+                                        <img src="https://cdn-icons-png.flaticon.com/512/3481/3481172.png" alt="">
+                                        <br />
+                                        <h6>
+                                            <a href="/product">Support</a>
+                                        </h6><!-- End .entry-title -->
+                                    </div><!-- End .entry-meta -->
+                                </div><!-- End .entry-body -->
+                            </div>
+                        </div>
+                    </div><!-- End .container -->
+                </div><!-- End .icon-boxes-container -->
 
 
 
@@ -1274,7 +1228,6 @@
                                         alt="Banner-6">
                                     <h4 class="banner-price"><span class="off" style="font-weight: 600;">Save <span
                                                 class="price">$19.99</span></span></h4>
-                                    <a href="#" class="banner-link">Buy Now<i class="icon-long-arrow-right"></i></a>
                                 </div>
                             </div><!-- End .banner -->
                         </div><!-- End .col-md-4 -->
@@ -1290,7 +1243,6 @@
                                     <h2 class="banner-title mb-0" style="font-size: 3rem;">XBOX ONE</h2>
                                     <h4 class="banner-price"><span class="off" style="font-weight: 600;">Save $50</span>
                                     </h4>
-                                    <a href="#" class="banner-link">Buy Now<i class="icon-long-arrow-right"></i></a>
                                 </div>
                             </div><!-- End .banner -->
                         </div><!-- End .col-md-4 -->
@@ -1306,7 +1258,6 @@
                                     <img class="banner-title-img mb-2"
                                         src="{{asset('common/assets/images/demos/demo-19/banners/banner-8-title.png')}}"
                                         alt="Banner-8">
-                                    <a href="#" class="banner-link">Buy Now<i class="icon-long-arrow-right"></i></a>
                                 </div>
                             </div><!-- End .banner -->
                         </div><!-- End .col-md-4 -->
@@ -1324,8 +1275,7 @@
                         </div><!-- End .heading-left -->
 
                         <div class="heading-right">
-                            <a href="category.html" class="title-link">View more products <i
-                                    class="icon-long-arrow-right"></i></a>
+                            <a href="category.html" class="title-link">View more products</a>
                         </div><!-- End .heading-right -->
                     </div><!-- End .heading -->
 
@@ -1550,8 +1500,6 @@
                                                 src="{{asset('common/assets/images/demos/demo-19/banners/banner-9-title.png')}}"
                                                 alt="Banner-9">
                                             <h4 class="banner-price mb-2" style="font-weight: 600;">$29.99</h4>
-                                            <a href="#" class="banner-link size-lg">Pre-Order Now<i
-                                                    class="icon-long-arrow-right"></i></a>
                                         </div>
                                     </div><!-- End .banner -->
 
@@ -1566,46 +1514,13 @@
                                             <img class="banner-title-img mb-1"
                                                 src="{{asset('common/assets/images/demos/demo-19/banners/banner-10-title.png')}}"
                                                 alt="Banner-10">
-                                            <a href="#" class="banner-link size-lg">Pre-Order Now<i
-                                                    class="icon-long-arrow-right"></i></a>
                                         </div>
                                     </div><!-- End .banner -->
-
                                 </div><!-- End .owl-carousel -->
                             </div><!-- End .col-lg-5 -->
                         </div><!-- End .row -->
                     </div><!-- End .games-soon -->
                 </div><!-- End .container -->
-
-                <div class="mb-3"></div><!-- End .mb-3 -->
-
-                <div class="container">
-                    <div class="cta cta-horizontal cta-horizontal-box bg-image mb-4"
-                        style="background-image: url('{{asset('common/assets/images/demos/demo-19/bg-2.jpg')}}');">
-                        <div class="row align-items-center">
-                            <div class="col-lg-5">
-                                <h3 class="cta-title text-primary">Join Our Newsletter</h3><!-- End .cta-title -->
-                                <p class="cta-desc text-light">Subcribe to get information about products and coupons
-                                </p><!-- End .cta-desc -->
-                            </div><!-- End .col-lg-5 -->
-
-                            <div class="col-lg-7 d-flex justify-content-lg-end">
-                                <form action="#">
-                                    <div class="input-group">
-                                        <input type="email" class="form-control form-control-white"
-                                            placeholder="Enter your Email Address" aria-label="Email Adress" required>
-                                        <div class="input-group-append">
-                                            <button class="btn btn-primary-white btn-rounded"
-                                                type="submit"><span>Subscribe</span><i
-                                                    class="icon-long-arrow-right"></i></button>
-                                        </div><!-- .End .input-group-append -->
-                                    </div><!-- .End .input-group -->
-                                </form>
-                            </div><!-- End .col-lg-8 -->
-                        </div><!-- End .row -->
-                    </div><!-- End .cta -->
-                </div><!-- End .container -->
-
                 <div class="container">
                     <div class="heading heading-flex mb-2">
                         <div class="heading-left">
@@ -1613,8 +1528,7 @@
                         </div><!-- End .heading-left -->
 
                         <div class="heading-right">
-                            <a href="category.html" class="title-link">View more products <i
-                                    class="icon-long-arrow-right"></i></a>
+                            <a href="category.html" class="title-link">View more products </a>
                         </div><!-- End .heading-right -->
                     </div><!-- End .heading -->
 
@@ -1779,139 +1693,6 @@
 
                     <div class="mb-5"></div><!-- End .mb-4 -->
                 </div><!-- End .container -->
-
-                <div class="blog-posts bg-light pt-4 pb-5">
-                    <div class="container">
-                        <div class="heading heading-flex mb-2">
-                            <div class="heading-left">
-                                <h2 class="title mb-0">From Our Blog</h2><!-- End .title -->
-                            </div><!-- End .heading-left -->
-
-                            <div class="heading-right">
-                                <a href="blog.html" class="title-link">View more articles <i
-                                        class="icon-long-arrow-right"></i></a>
-                            </div><!-- End .heading-right -->
-                        </div><!-- End .heading -->
-
-                        <div class="owl-carousel owl-simple carousel-equal-height" data-toggle="owl" data-owl-options='{
-                                "nav": false, 
-                                "dots": true,
-                                "items": 3,
-                                "margin": 20,
-                                "loop": false,
-                                "responsive": {
-                                    "0": {
-                                        "items":1
-                                    },
-                                    "600": {
-                                        "items":2
-                                    },
-                                    "992": {
-                                        "items":3
-                                    },
-                                    "1200": {
-                                        "items":4,
-                                        "nav": true
-                                    }
-                                }
-                            }'>
-                            <article class="entry">
-                                <figure class="entry-media">
-                                    <a href="single.html">
-                                        <img src="{{asset('common/assets/images/demos/demo-19/blog/post-1.jpg')}}"
-                                            alt="image desc">
-                                    </a>
-                                </figure><!-- End .entry-media -->
-
-                                <div class="entry-body">
-                                    <div class="entry-meta">
-                                        <a href="#">Nov 22, 2018</a>, 0 Comments
-                                    </div><!-- End .entry-meta -->
-
-                                    <h3 class="entry-title">
-                                        <a href="single.html">Morbi in sem quis dui placerat mauris sit ornare.</a>
-                                    </h3><!-- End .entry-title -->
-                                </div><!-- End .entry-body -->
-                            </article><!-- End .entry -->
-
-                            <article class="entry">
-                                <figure class="entry-media">
-                                    <a href="single.html">
-                                        <img src="{{asset('common/assets/images/demos/demo-19/blog/post-2.jpg')}}"
-                                            alt="image desc">
-                                    </a>
-                                </figure><!-- End .entry-media -->
-
-                                <div class="entry-body">
-                                    <div class="entry-meta">
-                                        <a href="#">Dec 12, 2018</a>, 0 Comments
-                                    </div><!-- End .entry-meta -->
-
-                                    <h3 class="entry-title">
-                                        <a href="single.html">Aliquam porttitor mauris sit ametorci.</a>
-                                    </h3><!-- End .entry-title -->
-                                </div><!-- End .entry-body -->
-                            </article><!-- End .entry -->
-
-                            <article class="entry">
-                                <figure class="entry-media">
-                                    <a href="single.html">
-                                        <img src="{{asset('common/assets/images/demos/demo-19/blog/post-3.jpg')}}"
-                                            alt="image desc">
-                                    </a>
-                                </figure><!-- End .entry-media -->
-
-                                <div class="entry-body">
-                                    <div class="entry-meta">
-                                        <a href="#">Dec 19, 2018</a>, 2 Comments
-                                    </div><!-- End .entry-meta -->
-
-                                    <h3 class="entry-title">
-                                        <a href="single.html">Cras ornare tristique elit.</a>
-                                    </h3><!-- End .entry-title -->
-                                </div><!-- End .entry-body -->
-                            </article><!-- End .entry -->
-
-                            <article class="entry">
-                                <figure class="entry-media">
-                                    <a href="single.html">
-                                        <img src="{{asset('common/assets/images/demos/demo-19/blog/post-4.jpg')}}"
-                                            alt="image desc">
-                                    </a>
-                                </figure><!-- End .entry-media -->
-
-                                <div class="entry-body">
-                                    <div class="entry-meta">
-                                        <a href="#">Dec 19, 2018</a>, 2 Comments
-                                    </div><!-- End .entry-meta -->
-
-                                    <h3 class="entry-title">
-                                        <a href="single.html">Donec consectetuer ligula vulputate sem cursus.</a>
-                                    </h3><!-- End .entry-title -->
-                                </div><!-- End .entry-body -->
-                            </article><!-- End .entry -->
-
-                            <article class="entry">
-                                <figure class="entry-media">
-                                    <a href="single.html">
-                                        <img src="{{asset('common/assets/images/demos/demo-19/blog/post-1.jpg')}}"
-                                            alt="image desc">
-                                    </a>
-                                </figure><!-- End .entry-media -->
-
-                                <div class="entry-body">
-                                    <div class="entry-meta">
-                                        <a href="#">Nov 22, 2018</a>, 0 Comments
-                                    </div><!-- End .entry-meta -->
-
-                                    <h3 class="entry-title">
-                                        <a href="single.html">Morbi in sem quis dui placerat mauris sit ornare.</a>
-                                    </h3><!-- End .entry-title -->
-                                </div><!-- End .entry-body -->
-                            </article><!-- End .entry -->
-                        </div><!-- End .owl-carousel -->
-                    </div><!-- End .container -->
-                </div><!-- End .blog-posts -->
             </main><!-- End .main -->
 
             <footer class="footer footer-dark">
@@ -1920,8 +1701,8 @@
                         <div class="row">
                             <div class="col-sm-6 col-lg-3">
                                 <div class="widget widget-about">
-                                    <img src="{{asset('common/assets/images/demos/demo-19/logo-footer.png')}}"
-                                        class="footer-logo" alt="Footer Logo" width="105" height="25">
+                                    <img src="https://emsol.xyz/wp-content/uploads/2020/11/Ems-logo-9.png"
+                                        class="footer-logo" alt="Footer Logo" width="180px">
                                     <p>Praesent dapibus, neque id cursus ucibus, tortor neque egestas augue, eu
                                         vulputate magna eros eu erat. </p>
 
@@ -2302,7 +2083,7 @@
                                         <div class="form-footer">
                                             <button type="submit" class="btn btn-outline-primary-2">
                                                 <span>LOG IN</span>
-                                                <i class="icon-long-arrow-right"></i>
+
                                             </button>
 
                                             <div class="custom-control custom-checkbox">
@@ -2350,7 +2131,7 @@
                                         <div class="form-footer">
                                             <button type="submit" class="btn btn-outline-primary-2">
                                                 <span>SIGN UP</span>
-                                                <i class="icon-long-arrow-right"></i>
+
                                             </button>
 
                                             <div class="custom-control custom-checkbox">
