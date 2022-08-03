@@ -111,6 +111,7 @@ body {
 }
 .header-3 .header-search-extended .header-search-wrapper {
   border-radius: 3px;
+  border-color: #a71931;
 }
 @media screen and (min-width: 1200px) {
   .header-3 .header-search-extended {
@@ -119,6 +120,7 @@ body {
   }
   .header-3 .header-search .search-wrapper-wide {
     width: 576px;
+    border-color: #a71931;
   }
 }
 .header-3 .wishlist-link {
@@ -444,6 +446,7 @@ a.banner-link.size-lg {
 a.banner-link:hover,
 a.banner-link:focus {
   text-decoration: none;
+  border-bottom: #ffffff;
   color: #333;
   background-color: #fff;
 }
@@ -563,6 +566,7 @@ img.banner-title-img,
   .games-soon .col-lg-7 {
     flex: 0 0 60%;
     max-width: 60%;
+    margin-top: -10px;
   }
 }
 .games-banners-slider {
