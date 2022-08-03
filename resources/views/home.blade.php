@@ -12,20 +12,16 @@
     <meta name="keywords" content="HTML5 Template">
     <meta name="description" content="Molla - Bootstrap eCommerce Template">
     <meta name="author" content="p-themes">
-    <!-- Favicon -->
-    <link rel="apple-touch-icon" sizes="180x180" href="{{asset('common/assets/images/icons/apple-touch-icon.png')}}">
-    <link rel="icon" type="image/png" sizes="32x32" href="{{asset('common/assets/icons/favicon-32x32.png')}}">
+    <link rel="icon" href="{{asset('img/favicon.png')}}">
     <link rel="icon" type="image/png" sizes="16x16" href="{{asset('common/assets/icons/favicon-16x16.png')}}">
     <link rel="manifest" href="{{asset('common/assets/images/icons/site.html')}}">
     <link rel="mask-icon" href="{{asset('common/assets/images/icons/safari-pinned-tab.svg')}}" color="#666666">
-    <link rel="shortcut icon" href="{{asset('common/assets/images/icons/favicon.ico')}}">
+    <link rel="icon" href="{{asset('img/favicon.png')}}">
     <meta name="apple-mobile-web-app-title" content="Molla">
     <meta name="application-name" content="Molla">
     <meta name="msapplication-TileColor" content="#cc9966">
     <meta name="msapplication-config" content="{{asset('common/assets/images/icons/browserconfig.xml')}}">
     <meta name="theme-color" content="#ffffff">
-
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
     <link rel="stylesheet"
         href="{{asset('common/assets/vendor/line-awesome/line-awesome/line-awesome/css/line-awesome.min.css')}}">
     <!-- Plugins CSS File -->
@@ -54,29 +50,6 @@
                                 <li>
                                     <a href="#">Links</a>
                                     <ul>
-                                        <li>
-                                            <div class="header-dropdown">
-                                                <a href="#">USD</a>
-                                                <div class="header-menu">
-                                                    <ul>
-                                                        <li><a href="#">Eur</a></li>
-                                                        <li><a href="#">Usd</a></li>
-                                                    </ul>
-                                                </div><!-- End .header-menu -->
-                                            </div>
-                                        </li>
-                                        <li>
-                                            <div class="header-dropdown">
-                                                <a href="#">English</a>
-                                                <div class="header-menu">
-                                                    <ul>
-                                                        <li><a href="#">English</a></li>
-                                                        <li><a href="#">French</a></li>
-                                                        <li><a href="#">Spanish</a></li>
-                                                    </ul>
-                                                </div><!-- End .header-menu -->
-                                            </div>
-                                        </li>
                                         <li><a href="#signin-modal" data-toggle="modal">Sign in / Sign up</a></li>
                                     </ul>
                                 </li>
@@ -95,8 +68,7 @@
                             </button>
 
                             <a href="index.html" class="logo">
-                                <img src="{{asset('common/assets/images/demos/demo-3/logo.png')}}" alt="Molla Logo"
-                                    width="105" height="25">
+                                <img src="{{asset('img/emsolLogo.png')}}" alt="Molla Logo" width="180px" height="50px">
                             </a>
                         </div><!-- End .header-left -->
 
@@ -318,6 +290,7 @@
                                     <li><a href="#">Deals</a></li>
                                     <li><a href="#">Coming Soon</a></li>
                                     <li><a href="#">Accessories</a></li>
+                                    <li><a href="#">Accessories</a></li>
                                 </ul><!-- End .menu -->
                             </nav><!-- End .side-nav -->
                         </div>
@@ -467,8 +440,8 @@
                                 <div class="col-sm-6 col-md-2 card-color-one">
                                     <div id="catagory-icon-card">
                                         <div class="icon-container" align="center">
-                                            <img src="https://cdn-icons.flaticon.com/png/512/3216/premium/3216220.png?token=exp=1659456479~hmac=6b5bb2b8b4c1212171ee55ba0d3195f2"
-                                                alt="" height="100px">
+                                            <img src="https://cdn-icons-png.flaticon.com/512/4465/4465221.png" alt=""
+                                                height="100px">
                                             <br />
                                             <h6>
                                                 <a href="/product">Medical Bed</a>
