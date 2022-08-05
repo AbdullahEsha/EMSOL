@@ -89,8 +89,8 @@
                         </button>
 
                         <a href="index.html" class="logo">
-                            <img src="{{asset('common/assets/images/logo.png')}}" alt="Molla Logo" width="105"
-                                height="25">
+                            <img src="https://emsol.xyz/wp-content/uploads/2020/11/Ems-logo-9.png" alt="Molla Logo"
+                                width="105" height="25">
                         </a>
 
                         <nav class="main-nav">
@@ -837,8 +837,8 @@
                                             <figure class="product-media">
                                                 <span class="product-label label-out">Out of Stock</span>
                                                 <a href="product.html">
-                                                    <img src="{{asset('common/assets/images/products/product-6.jpg')}}"
-                                                        alt="Product image" class="product-image">
+                                                    <img src="{{asset('img/product/5.png')}}" alt="Product image"
+                                                        class="product-image">
                                                 </a>
 
                                                 <div class="product-action-vertical">
@@ -882,8 +882,8 @@
                                         <div class="product product-7 text-center">
                                             <figure class="product-media">
                                                 <a href="product.html">
-                                                    <img src="{{asset('common/assets/images/products/product-7.jpg')}}"
-                                                        alt="Product image" class="product-image">
+                                                    <img src="{{asset('img/product/7.png')}}" alt="Product image"
+                                                        class="product-image">
                                                 </a>
 
                                                 <div class="product-action-vertical">
@@ -928,8 +928,8 @@
                                             <figure class="product-media">
                                                 <span class="product-label label-new">New</span>
                                                 <a href="product.html">
-                                                    <img src="{{asset('common/assets/images/products/product-8.jpg')}}"
-                                                        alt="Product image" class="product-image">
+                                                    <img src="{{asset('img/product/3.png')}}" alt="Product image"
+                                                        class="product-image">
                                                 </a>
 
                                                 <div class="product-action-vertical">
@@ -968,12 +968,10 @@
 
                                                 <div class="product-nav product-nav-thumbs">
                                                     <a href="#" class="active">
-                                                        <img src="{{asset('common/assets/images/products/product-8-thumb.jpg')}}"
-                                                            alt="product desc">
+                                                        <img src="{{asset('img/product/3.png')}}" alt="product desc">
                                                     </a>
                                                     <a href="#">
-                                                        <img src="{{asset('common/assets/images/products/product-8-2-thumb.jpg')}}"
-                                                            alt="product desc">
+                                                        <img src="{{asset('img/product/3.png')}}" alt="product desc">
                                                     </a>
                                                 </div><!-- End .product-nav -->
                                             </div><!-- End .product-body -->
@@ -984,8 +982,8 @@
                                         <div class="product product-7 text-center">
                                             <figure class="product-media">
                                                 <a href="product.html">
-                                                    <img src="{{asset('common/assets/images/products/product-9.jpg')}}"
-                                                        alt="Product image" class="product-image">
+                                                    <img src="{{asset('img/product/8.png')}}" alt="Product image"
+                                                        class="product-image">
                                                 </a>
 
                                                 <div class="product-action-vertical">
@@ -1024,16 +1022,13 @@
 
                                                 <div class="product-nav product-nav-thumbs">
                                                     <a href="#" class="active">
-                                                        <img src="{{asset('common/assets/images/products/product-9-thumb.jpg')}}"
-                                                            alt="product desc">
+                                                        <img src="{{asset('img/product/8.png')}}" alt="product desc">
                                                     </a>
                                                     <a href="#">
-                                                        <img src="{{asset('common/assets/images/products/product-9-2-thumb.jpg')}}"
-                                                            alt="product desc">
+                                                        <img src="{{asset('img/product/8.png')}}" alt="product desc">
                                                     </a>
                                                     <a href="#">
-                                                        <img src="{{asset('common/assets/images/products/product-9-3-thumb.jpg')}}"
-                                                            alt="product desc">
+                                                        <img src="{{asset('img/product/8.png')}}" alt="product desc">
                                                     </a>
                                                 </div><!-- End .product-nav -->
                                             </div><!-- End .product-body -->
@@ -1045,8 +1040,8 @@
                                             <figure class="product-media">
                                                 <span class="product-label label-top">Top</span>
                                                 <a href="product.html">
-                                                    <img src="{{asset('common/assets/images/products/product-11.jpg')}}"
-                                                        alt="Product image" class="product-image">
+                                                    <img src="{{asset('img/product/5.png')}}" alt="Product image"
+                                                        class="product-image">
                                                 </a>
 
                                                 <div class="product-action-vertical">
@@ -1085,17 +1080,14 @@
 
                                                 <div class="product-nav product-nav-thumbs">
                                                     <a href="#" class="active">
-                                                        <img src="{{asset('common/assets/images/products/product-11-thumb.jpg')}}"
-                                                            alt="product desc">
+                                                        <img src="{{asset('img/product/5.png')}}" alt="product desc">
                                                     </a>
                                                     <a href="#">
-                                                        <img src="{{asset('common/assets/images/products/product-11-2-thumb.jpg')}}"
-                                                            alt="product desc">
+                                                        <img src="{{asset('img/product/5.png')}}" alt="product desc">
                                                     </a>
 
                                                     <a href="#">
-                                                        <img src="{{asset('common/assets/images/products/product-11-3-thumb.jpg')}}"
-                                                            alt="product desc">
+                                                        <img src="{{asset('img/product/5.png')}}" alt="product desc">
                                                     </a>
                                                 </div><!-- End .product-nav -->
                                             </div><!-- End .product-body -->
@@ -1106,8 +1098,8 @@
                                         <div class="product product-7 text-center">
                                             <figure class="product-media">
                                                 <a href="product.html">
-                                                    <img src="{{asset('common/assets/images/products/product-10.jpg')}}"
-                                                        alt="Product image" class="product-image">
+                                                    <img src="{{asset('img/product/7.png')}}" alt="Product image"
+                                                        class="product-image">
                                                 </a>
 
                                                 <div class="product-action-vertical">
@@ -1151,8 +1143,8 @@
                                         <div class="product product-7 text-center">
                                             <figure class="product-media">
                                                 <a href="product.html">
-                                                    <img src="{{asset('common/assets/images/products/product-12.jpg')}}"
-                                                        alt="Product image" class="product-image">
+                                                    <img src="{{asset('img/product/7.png')}}" alt="Product image"
+                                                        class="product-image">
                                                 </a>
 
                                                 <div class="product-action-vertical">
@@ -1501,8 +1493,8 @@
                     <div class="row">
                         <div class="col-sm-6 col-lg-3">
                             <div class="widget widget-about">
-                                <img src="{{asset('common/assets/images/logo.png')}}" class="footer-logo"
-                                    alt="Footer Logo" width="105" height="25">
+                                <img src="https://emsol.xyz/wp-content/uploads/2020/11/Ems-logo-9.png"
+                                    class="footer-logo" alt="Footer Logo" width="105" height="25">
                                 <p>Praesent dapibus, neque id cursus ucibus, tortor neque egestas augue, eu vulputate
                                     magna eros eu erat. </p>
 
