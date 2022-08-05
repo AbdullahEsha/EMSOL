@@ -89,8 +89,8 @@
                         </button>
 
                         <a href="index.html" class="logo">
-                            <img src="{{asset('common/assets/images/logo.png')}}" alt="Molla Logo" width="105"
-                                height="25">
+                            <img src="https://emsol.xyz/wp-content/uploads/2020/11/Ems-logo-9.png" alt="Molla Logo"
+                                width="105" height="25">
                         </a>
 
                         <nav class="main-nav">
@@ -583,7 +583,7 @@
 
                                         <figure class="product-image-container">
                                             <a href="product.html" class="product-image">
-                                                <img src="{{asset('common/assets/images/products/cart/product-1.jpg')}}"
+                                                <img src="{{asset('common/assets/images/products/cart/product/1.png')}}"
                                                     alt="product">
                                             </a>
                                         </figure>
@@ -665,9 +665,8 @@
                                         <div class="product-gallery">
                                             <figure class="product-main-image">
                                                 <span class="product-label label-top">Top</span>
-                                                <img id="product-zoom"
-                                                    src="{{asset('common/assets/images/products/single/sidebar-gallery/1.jpg')}}"
-                                                    data-zoom-image="{{asset('common/assets/images/products/single/sidebar-gallery/1-big.jpg')}}"
+                                                <img id="product-zoom" src="{{asset('img/product/1.png')}}"
+                                                    data-zoom-image="{{asset('img/product/1.png')}}"
                                                     alt="product image">
 
                                                 <a href="#" id="btn-product-gallery" class="btn-product-gallery">
@@ -677,31 +676,27 @@
 
                                             <div id="product-zoom-gallery" class="product-image-gallery">
                                                 <a class="product-gallery-item active" href="#"
-                                                    data-image="{{asset('common/assets/images/products/single/sidebar-gallery/1.jpg')}}"
-                                                    data-zoom-image="{{asset('common/assets/images/products/single/sidebar-gallery/1-big.jpg')}}">
-                                                    <img src="{{asset('common/assets/images/products/single/sidebar-gallery/1-small.jpg')}}"
-                                                        alt="product side">
+                                                    data-image="{{asset('img/product/3.png')}}"
+                                                    data-zoom-image="{{asset('img/product/3.png')}}">
+                                                    <img src="{{asset('img/product/3.png')}}" alt="product side">
                                                 </a>
 
                                                 <a class="product-gallery-item" href="#"
-                                                    data-image="{{asset('common/assets/images/products/single/sidebar-gallery/2.jpg')}}"
-                                                    data-zoom-image="{{asset('common/assets/images/products/single/sidebar-gallery/2-big.jpg')}}">
-                                                    <img src="{{asset('common/assets/images/products/single/sidebar-gallery/2-small.jpg')}}"
-                                                        alt="product cross">
+                                                    data-image="{{asset('img/product/2.png.jpg')}}"
+                                                    data-zoom-image="{{asset('img/product/2.png')}}">
+                                                    <img src="{{asset('img/product/2.png')}}" alt="product cross">
                                                 </a>
 
                                                 <a class="product-gallery-item" href="#"
-                                                    data-image="{{asset('common/assets/images/products/single/sidebar-gallery/3.jpg')}}"
-                                                    data-zoom-image="{{asset('common/assets/images/products/single/sidebar-gallery/3-big.jpg')}}">
-                                                    <img src="{{asset('common/assets/images/products/single/sidebar-gallery/3-small.jpg')}}"
-                                                        alt="product with model">
+                                                    data-image="{{asset('img/product/8.png')}}"
+                                                    data-zoom-image="{{asset('img/product/8.png')}}">
+                                                    <img src="{{asset('img/product/8.png')}}" alt="product with model">
                                                 </a>
 
                                                 <a class="product-gallery-item" href="#"
-                                                    data-image="{{asset('common/assets/images/products/single/sidebar-gallery/4.jpg')}}"
-                                                    data-zoom-image="{{asset('common/assets/images/products/single/sidebar-gallery/4-big.jpg')}}">
-                                                    <img src="{{asset('common/assets/images/products/single/sidebar-gallery/4-small.jpg')}}"
-                                                        alt="product back">
+                                                    data-image="{{asset('img/product/1.png')}}"
+                                                    data-zoom-image="{{asset('img/product/1.png')}}">
+                                                    <img src="{{asset('img/product/1.png')}}" alt="product back">
                                                 </a>
                                             </div><!-- End .product-image-gallery -->
                                         </div><!-- End .product-gallery -->
@@ -709,7 +704,7 @@
 
                                     <div class="col-md-6">
                                         <div class="product-details product-details-sidebar">
-                                            <h1 class="product-title">Black faux leather chain trim sandals</h1>
+                                            <h1 class="product-title">Oxygen Mask</h1>
                                             <!-- End .product-title -->
 
                                             <div class="ratings-container">
@@ -991,8 +986,8 @@
                                     <figure class="product-media">
                                         <span class="product-label label-new">New</span>
                                         <a href="product.html">
-                                            <img src="{{asset('common/assets/images/products/product-4.jpg')}}"
-                                                alt="Product image" class="product-image">
+                                            <img src="{{asset('img/product/5.png')}}" alt="Product image"
+                                                class="product-image">
                                         </a>
 
                                         <div class="product-action-vertical">
@@ -1041,8 +1036,8 @@
                                     <figure class="product-media">
                                         <span class="product-label label-out">Out of Stock</span>
                                         <a href="product.html">
-                                            <img src="{{asset('common/assets/images/products/product-6.jpg')}}"
-                                                alt="Product image" class="product-image">
+                                            <img src="{{asset('img/product/7.png')}}" alt="Product image"
+                                                class="product-image">
                                         </a>
 
                                         <div class="product-action-vertical">
@@ -1082,8 +1077,8 @@
                                     <figure class="product-media">
                                         <span class="product-label label-top">Top</span>
                                         <a href="product.html">
-                                            <img src="{{asset('common/assets/images/products/product-11.jpg')}}"
-                                                alt="Product image" class="product-image">
+                                            <img src="{{asset('img/product/5.png')}}" alt="Product image"
+                                                class="product-image">
                                         </a>
 
                                         <div class="product-action-vertical">
@@ -1131,8 +1126,8 @@
                                 <div class="product product-7 text-center">
                                     <figure class="product-media">
                                         <a href="product.html">
-                                            <img src="{{asset('common/assets/images/products/product-10.jpg')}}"
-                                                alt="Product image" class="product-image">
+                                            <img src="{{asset('img/product/7.png')}}" alt="Product image"
+                                                class="product-image">
                                         </a>
 
                                         <div class="product-action-vertical">
@@ -1274,8 +1269,8 @@
                     <div class="row">
                         <div class="col-sm-6 col-lg-3">
                             <div class="widget widget-about">
-                                <img src="{{asset('common/assets/images/logo.png')}}" class="footer-logo"
-                                    alt="Footer Logo" width="105" height="25">
+                                <img src="https://emsol.xyz/wp-content/uploads/2020/11/Ems-logo-9.png"
+                                    class="footer-logo" alt="Footer Logo" width="105" height="25">
                                 <p>Praesent dapibus, neque id cursus ucibus, tortor neque egestas augue, eu vulputate
                                     magna eros eu erat. </p>
 
