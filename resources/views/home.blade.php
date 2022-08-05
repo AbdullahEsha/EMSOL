@@ -1487,7 +1487,7 @@
                                     }'>
                                     <div class="banner banner-overlay product-banner">
                                         <a href="#">
-                                            <img src="{{asset('img/product/4.png')}}" alt="Banner">
+                                            <img src="{{asset('img/product/4_spacial.png')}}" alt="Banner">
                                         </a>
                                         <div class="banner-content align-items-center center">
                                             <img class="banner-title-img mb-1"
