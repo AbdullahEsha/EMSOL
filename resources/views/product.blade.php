@@ -89,7 +89,8 @@
                         </button>
 
                         <a href="index.html" class="logo">
-                            <img src="assets/images/logo.png" alt="Molla Logo" width="105" height="25">
+                            <img src="{{asset('common/assets/images/logo.png')}}" alt="Molla Logo" width="105"
+                                height="25">
                         </a>
 
                         <nav class="main-nav">
@@ -105,7 +106,7 @@
                                                 <div class="demo-item">
                                                     <a href="index-1.html">
                                                         <span class="demo-bg"
-                                                            style="background-image: url(assets/images/menu/demos/1.jpg);"></span>
+                                                            style="background-image: url({{asset('common/assets/images/menu/demos/1.jpg')}}"></span>
                                                         <span class="demo-title">01 - furniture store</span>
                                                     </a>
                                                 </div><!-- End .demo-item -->
@@ -113,7 +114,7 @@
                                                 <div class="demo-item">
                                                     <a href="index-2.html">
                                                         <span class="demo-bg"
-                                                            style="background-image: url(assets/images/menu/demos/2.jpg);"></span>
+                                                            style="background-image: url({{asset('common/assets/images/menu/demos/2.jpg')}}"></span>
                                                         <span class="demo-title">02 - furniture store</span>
                                                     </a>
                                                 </div><!-- End .demo-item -->
@@ -121,7 +122,7 @@
                                                 <div class="demo-item">
                                                     <a href="index-3.html">
                                                         <span class="demo-bg"
-                                                            style="background-image: url(assets/images/menu/demos/3.jpg);"></span>
+                                                            style="background-image: url({{asset('common/assets/images/menu/demos/3.jpg')}}"></span>
                                                         <span class="demo-title">03 - electronic store</span>
                                                     </a>
                                                 </div><!-- End .demo-item -->
@@ -129,7 +130,7 @@
                                                 <div class="demo-item">
                                                     <a href="index-4.html">
                                                         <span class="demo-bg"
-                                                            style="background-image: url(assets/images/menu/demos/4.jpg);"></span>
+                                                            style="background-image: url({{asset('common/assets/images/menu/demos/4.jpg')}}"></span>
                                                         <span class="demo-title">04 - electronic store</span>
                                                     </a>
                                                 </div><!-- End .demo-item -->
@@ -137,7 +138,7 @@
                                                 <div class="demo-item">
                                                     <a href="index-5.html">
                                                         <span class="demo-bg"
-                                                            style="background-image: url(assets/images/menu/demos/5.jpg);"></span>
+                                                            style="background-image: url({{asset('common/assets/images/menu/demos/5.jpg')}}"></span>
                                                         <span class="demo-title">05 - fashion store</span>
                                                     </a>
                                                 </div><!-- End .demo-item -->
@@ -145,7 +146,7 @@
                                                 <div class="demo-item">
                                                     <a href="index-6.html">
                                                         <span class="demo-bg"
-                                                            style="background-image: url(assets/images/menu/demos/6.jpg);"></span>
+                                                            style="background-image: url({{asset('common/assets/images/menu/demos/6.jpg')}}"></span>
                                                         <span class="demo-title">06 - fashion store</span>
                                                     </a>
                                                 </div><!-- End .demo-item -->
@@ -153,7 +154,7 @@
                                                 <div class="demo-item">
                                                     <a href="index-7.html">
                                                         <span class="demo-bg"
-                                                            style="background-image: url(assets/images/menu/demos/7.jpg);"></span>
+                                                            style="background-image: url({{asset('common/assets/images/menu/demos/7.jpg')}}"></span>
                                                         <span class="demo-title">07 - fashion store</span>
                                                     </a>
                                                 </div><!-- End .demo-item -->
@@ -161,7 +162,7 @@
                                                 <div class="demo-item">
                                                     <a href="index-8.html">
                                                         <span class="demo-bg"
-                                                            style="background-image: url(assets/images/menu/demos/8.jpg);"></span>
+                                                            style="background-image: url({{asset('common/assets/images/menu/demos/8.jpg')}}"></span>
                                                         <span class="demo-title">08 - fashion store</span>
                                                     </a>
                                                 </div><!-- End .demo-item -->
@@ -169,7 +170,7 @@
                                                 <div class="demo-item">
                                                     <a href="index-9.html">
                                                         <span class="demo-bg"
-                                                            style="background-image: url(assets/images/menu/demos/9.jpg);"></span>
+                                                            style="background-image: url({{asset('common/assets/images/menu/demos/9.jpg')}}"></span>
                                                         <span class="demo-title">09 - fashion store</span>
                                                     </a>
                                                 </div><!-- End .demo-item -->
@@ -177,7 +178,7 @@
                                                 <div class="demo-item">
                                                     <a href="index-10.html">
                                                         <span class="demo-bg"
-                                                            style="background-image: url(assets/images/menu/demos/10.jpg);"></span>
+                                                            style="background-image: url({{asset('common/assets/images/menu/demos/10.jpg')}}"></span>
                                                         <span class="demo-title">10 - shoes store</span>
                                                     </a>
                                                 </div><!-- End .demo-item -->
@@ -185,7 +186,7 @@
                                                 <div class="demo-item hidden">
                                                     <a href="index-11.html">
                                                         <span class="demo-bg"
-                                                            style="background-image: url(assets/images/menu/demos/11.jpg);"></span>
+                                                            style="background-image: url({{asset('common/assets/images/menu/demos/11.jpg')}}"></span>
                                                         <span class="demo-title">11 - furniture simple store</span>
                                                     </a>
                                                 </div><!-- End .demo-item -->
@@ -193,7 +194,7 @@
                                                 <div class="demo-item hidden">
                                                     <a href="index-12.html">
                                                         <span class="demo-bg"
-                                                            style="background-image: url(assets/images/menu/demos/12.jpg);"></span>
+                                                            style="background-image: url({{asset('common/assets/images/menu/demos/12.jpg')}}"></span>
                                                         <span class="demo-title">12 - fashion simple store</span>
                                                     </a>
                                                 </div><!-- End .demo-item -->
@@ -201,7 +202,7 @@
                                                 <div class="demo-item hidden">
                                                     <a href="index-13.html">
                                                         <span class="demo-bg"
-                                                            style="background-image: url(assets/images/menu/demos/13.jpg);"></span>
+                                                            style="background-image: url({{asset('common/assets/images/menu/demos/13.jpg')}}"></span>
                                                         <span class="demo-title">13 - market</span>
                                                     </a>
                                                 </div><!-- End .demo-item -->
@@ -209,7 +210,7 @@
                                                 <div class="demo-item hidden">
                                                     <a href="index-14.html">
                                                         <span class="demo-bg"
-                                                            style="background-image: url(assets/images/menu/demos/14.jpg);"></span>
+                                                            style="background-image: url({{asset('common/assets/images/menu/demos/14.jpg')}}"></span>
                                                         <span class="demo-title">14 - market fullwidth</span>
                                                     </a>
                                                 </div><!-- End .demo-item -->
@@ -217,7 +218,7 @@
                                                 <div class="demo-item hidden">
                                                     <a href="index-15.html">
                                                         <span class="demo-bg"
-                                                            style="background-image: url(assets/images/menu/demos/15.jpg);"></span>
+                                                            style="background-image: url({{asset('common/assets/images/menu/demos/15.jpg')}}"></span>
                                                         <span class="demo-title">15 - lookbook 1</span>
                                                     </a>
                                                 </div><!-- End .demo-item -->
@@ -225,7 +226,7 @@
                                                 <div class="demo-item hidden">
                                                     <a href="index-16.html">
                                                         <span class="demo-bg"
-                                                            style="background-image: url(assets/images/menu/demos/16.jpg);"></span>
+                                                            style="background-image: url({{asset('common/assets/images/menu/demos/16.jpg')}}"></span>
                                                         <span class="demo-title">16 - lookbook 2</span>
                                                     </a>
                                                 </div><!-- End .demo-item -->
@@ -233,7 +234,7 @@
                                                 <div class="demo-item hidden">
                                                     <a href="index-17.html">
                                                         <span class="demo-bg"
-                                                            style="background-image: url(assets/images/menu/demos/17.jpg);"></span>
+                                                            style="background-image: url({{asset('common/assets/images/menu/demos/17.jpg')}}"></span>
                                                         <span class="demo-title">17 - fashion store</span>
                                                     </a>
                                                 </div><!-- End .demo-item -->
@@ -241,7 +242,7 @@
                                                 <div class="demo-item hidden">
                                                     <a href="index-18.html">
                                                         <span class="demo-bg"
-                                                            style="background-image: url(assets/images/menu/demos/18.jpg);"></span>
+                                                            style="background-image: url({{asset('common/assets/images/menu/demos/18.jpg')}}"></span>
                                                         <span class="demo-title">18 - fashion store (with
                                                             sidebar)</span>
                                                     </a>
@@ -250,7 +251,7 @@
                                                 <div class="demo-item hidden">
                                                     <a href="index-19.html">
                                                         <span class="demo-bg"
-                                                            style="background-image: url(assets/images/menu/demos/19.jpg);"></span>
+                                                            style="background-image: url({{asset('common/assets/images/menu/demos/19.jpg')}}"></span>
                                                         <span class="demo-title">19 - games store</span>
                                                     </a>
                                                 </div><!-- End .demo-item -->
@@ -258,7 +259,7 @@
                                                 <div class="demo-item hidden">
                                                     <a href="index-20.html">
                                                         <span class="demo-bg"
-                                                            style="background-image: url(assets/images/menu/demos/20.jpg);"></span>
+                                                            style="background-image: url({{asset('common/assets/images/menu/demos/20.jpg')}}"></span>
                                                         <span class="demo-title">20 - book store</span>
                                                     </a>
                                                 </div><!-- End .demo-item -->
@@ -266,7 +267,7 @@
                                                 <div class="demo-item hidden">
                                                     <a href="index-21.html">
                                                         <span class="demo-bg"
-                                                            style="background-image: url(assets/images/menu/demos/21.jpg);"></span>
+                                                            style="background-image: url({{asset('common/assets/images/menu/demos/21.jpg')}}"></span>
                                                         <span class="demo-title">21 - sport store</span>
                                                     </a>
                                                 </div><!-- End .demo-item -->
@@ -274,7 +275,7 @@
                                                 <div class="demo-item hidden">
                                                     <a href="index-22.html">
                                                         <span class="demo-bg"
-                                                            style="background-image: url(assets/images/menu/demos/22.jpg);"></span>
+                                                            style="background-image: url({{asset('common/assets/images/menu/demos/22.jpg')}}"></span>
                                                         <span class="demo-title">22 - tools store</span>
                                                     </a>
                                                 </div><!-- End .demo-item -->
@@ -282,7 +283,7 @@
                                                 <div class="demo-item hidden">
                                                     <a href="index-23.html">
                                                         <span class="demo-bg"
-                                                            style="background-image: url(assets/images/menu/demos/23.jpg);"></span>
+                                                            style="background-image: url({{asset('common/assets/images/menu/demos/23.jpg')}}"></span>
                                                         <span class="demo-title">23 - fashion left navigation
                                                             store</span>
                                                     </a>
@@ -291,7 +292,7 @@
                                                 <div class="demo-item hidden">
                                                     <a href="index-24.html">
                                                         <span class="demo-bg"
-                                                            style="background-image: url(assets/images/menu/demos/24.jpg);"></span>
+                                                            style="background-image: url({{asset('common/assets/images/menu/demos/24.jpg')}}"></span>
                                                         <span class="demo-title">24 - extreme sport store</span>
                                                     </a>
                                                 </div><!-- End .demo-item -->
@@ -369,7 +370,8 @@
                                             <div class="col-md-4">
                                                 <div class="banner banner-overlay">
                                                     <a href="category.html" class="banner banner-menu">
-                                                        <img src="assets/images/menu/banner-1.jpg" alt="Banner">
+                                                        <img src="{{asset('common/assets/images/menu/banner-1.jpg')}}"
+                                                            alt="Banner">
 
                                                         <div class="banner-content banner-content-top">
                                                             <div class="banner-title text-white">Last
@@ -409,7 +411,8 @@
                                             <div class="col-md-6">
                                                 <div class="banner banner-overlay">
                                                     <a href="category.html">
-                                                        <img src="assets/images/menu/banner-2.jpg" alt="Banner">
+                                                        <img src="{{asset('common/assets/images/menu/banner-2.jpg')}}"
+                                                            alt="Banner">
 
                                                         <div class="banner-content banner-content-bottom">
                                                             <div class="banner-title text-white">New
@@ -580,7 +583,8 @@
 
                                         <figure class="product-image-container">
                                             <a href="product.html" class="product-image">
-                                                <img src="assets/images/products/cart/product-1.jpg" alt="product">
+                                                <img src="{{asset('common/assets/images/products/cart/product-1.jpg')}}"
+                                                    alt="product">
                                             </a>
                                         </figure>
                                         <a href="#" class="btn-remove" title="Remove Product"><i
@@ -601,7 +605,8 @@
 
                                         <figure class="product-image-container">
                                             <a href="product.html" class="product-image">
-                                                <img src="assets/images/products/cart/product-2.jpg" alt="product">
+                                                <img src="{{asset('common/assets/images/products/cart/product-2.jpg')}}"
+                                                    alt="product">
                                             </a>
                                         </figure>
                                         <a href="#" class="btn-remove" title="Remove Product"><i
@@ -628,7 +633,8 @@
         </header><!-- End .header -->
 
         <main class="main">
-            <div class="page-header text-center" style="background-image: url('assets/images/page-header-bg.jpg')">
+            <div class="page-header text-center"
+                style="background-image: url({{asset('common/assets/images/page-header-bg.jpg')}})">
                 <div class="container">
                     <h1 class="page-title">Grid 3 Columns<span>Shop</span></h1>
                 </div><!-- End .container -->
@@ -718,7 +724,7 @@
                                             <figure class="product-media">
                                                 <span class="product-label label-new">New</span>
                                                 <a href="product.html">
-                                                    <img src="assets/images/products/product-4.jpg" alt="Product image"
+                                                    <img src="{{asset('img/product/9.jpg')}}" alt="Product image"
                                                         class="product-image">
                                                 </a>
 
@@ -741,10 +747,10 @@
 
                                             <div class="product-body">
                                                 <div class="product-cat">
-                                                    <a href="#">Women</a>
+                                                    <a href="#">Device</a>
                                                 </div><!-- End .product-cat -->
-                                                <h3 class="product-title"><a href="product.html">Brown paperbag waist
-                                                        pencil skirt</a></h3><!-- End .product-title -->
+                                                <h3 class="product-title"><a href="product.html">Pulse Oximeter</a></h3>
+                                                <!-- End .product-title -->
                                                 <div class="product-price">
                                                     $60.00
                                                 </div><!-- End .product-price -->
@@ -758,17 +764,14 @@
 
                                                 <div class="product-nav product-nav-thumbs">
                                                     <a href="#" class="active">
-                                                        <img src="assets/images/products/product-4-thumb.jpg"
-                                                            alt="product desc">
+                                                        <img src="{{asset('img/product/9.jpg')}}" alt="product desc">
                                                     </a>
                                                     <a href="#">
-                                                        <img src="assets/images/products/product-4-2-thumb.jpg"
-                                                            alt="product desc">
+                                                        <img src="{{asset('img/product/9.jpg')}}" alt="product desc">
                                                     </a>
 
                                                     <a href="#">
-                                                        <img src="assets/images/products/product-4-3-thumb.jpg"
-                                                            alt="product desc">
+                                                        <img src="{{asset('img/product/9.jpg')}}" alt="product desc">
                                                     </a>
                                                 </div><!-- End .product-nav -->
                                             </div><!-- End .product-body -->
@@ -779,7 +782,7 @@
                                         <div class="product product-7 text-center">
                                             <figure class="product-media">
                                                 <a href="product.html">
-                                                    <img src="assets/images/products/product-5.jpg" alt="Product image"
+                                                    <img src="{{asset('img/product/2.png')}}" alt="Product image"
                                                         class="product-image">
                                                 </a>
 
@@ -802,10 +805,10 @@
 
                                             <div class="product-body">
                                                 <div class="product-cat">
-                                                    <a href="#">Dresses</a>
+                                                    <a href="#">Med Accessories</a>
                                                 </div><!-- End .product-cat -->
-                                                <h3 class="product-title"><a href="product.html">Dark yellow lace cut
-                                                        out swing dress</a></h3><!-- End .product-title -->
+                                                <h3 class="product-title"><a href="product.html">Mask</a></h3>
+                                                <!-- End .product-title -->
                                                 <div class="product-price">
                                                     $84.00
                                                 </div><!-- End .product-price -->
@@ -819,12 +822,10 @@
 
                                                 <div class="product-nav product-nav-thumbs">
                                                     <a href="#" class="active">
-                                                        <img src="assets/images/products/product-5-thumb.jpg"
-                                                            alt="product desc">
+                                                        <img src="{{asset('img/product/2.png')}}" alt="product desc">
                                                     </a>
                                                     <a href="#">
-                                                        <img src="assets/images/products/product-5-2-thumb.jpg"
-                                                            alt="product desc">
+                                                        <img src="{{asset('img/product/2.png')}}" alt="product desc">
                                                     </a>
                                                 </div><!-- End .product-nav -->
                                             </div><!-- End .product-body -->
@@ -836,8 +837,8 @@
                                             <figure class="product-media">
                                                 <span class="product-label label-out">Out of Stock</span>
                                                 <a href="product.html">
-                                                    <img src="assets/images/products/product-6.jpg" alt="Product image"
-                                                        class="product-image">
+                                                    <img src="{{asset('common/assets/images/products/product-6.jpg')}}"
+                                                        alt="Product image" class="product-image">
                                                 </a>
 
                                                 <div class="product-action-vertical">
@@ -881,8 +882,8 @@
                                         <div class="product product-7 text-center">
                                             <figure class="product-media">
                                                 <a href="product.html">
-                                                    <img src="assets/images/products/product-7.jpg" alt="Product image"
-                                                        class="product-image">
+                                                    <img src="{{asset('common/assets/images/products/product-7.jpg')}}"
+                                                        alt="Product image" class="product-image">
                                                 </a>
 
                                                 <div class="product-action-vertical">
@@ -927,8 +928,8 @@
                                             <figure class="product-media">
                                                 <span class="product-label label-new">New</span>
                                                 <a href="product.html">
-                                                    <img src="assets/images/products/product-8.jpg" alt="Product image"
-                                                        class="product-image">
+                                                    <img src="{{asset('common/assets/images/products/product-8.jpg')}}"
+                                                        alt="Product image" class="product-image">
                                                 </a>
 
                                                 <div class="product-action-vertical">
@@ -967,11 +968,11 @@
 
                                                 <div class="product-nav product-nav-thumbs">
                                                     <a href="#" class="active">
-                                                        <img src="assets/images/products/product-8-thumb.jpg"
+                                                        <img src="{{asset('common/assets/images/products/product-8-thumb.jpg')}}"
                                                             alt="product desc">
                                                     </a>
                                                     <a href="#">
-                                                        <img src="assets/images/products/product-8-2-thumb.jpg"
+                                                        <img src="{{asset('common/assets/images/products/product-8-2-thumb.jpg')}}"
                                                             alt="product desc">
                                                     </a>
                                                 </div><!-- End .product-nav -->
@@ -983,8 +984,8 @@
                                         <div class="product product-7 text-center">
                                             <figure class="product-media">
                                                 <a href="product.html">
-                                                    <img src="assets/images/products/product-9.jpg" alt="Product image"
-                                                        class="product-image">
+                                                    <img src="{{asset('common/assets/images/products/product-9.jpg')}}"
+                                                        alt="Product image" class="product-image">
                                                 </a>
 
                                                 <div class="product-action-vertical">
@@ -1023,15 +1024,15 @@
 
                                                 <div class="product-nav product-nav-thumbs">
                                                     <a href="#" class="active">
-                                                        <img src="assets/images/products/product-9-thumb.jpg"
+                                                        <img src="{{asset('common/assets/images/products/product-9-thumb.jpg')}}"
                                                             alt="product desc">
                                                     </a>
                                                     <a href="#">
-                                                        <img src="assets/images/products/product-9-2-thumb.jpg"
+                                                        <img src="{{asset('common/assets/images/products/product-9-2-thumb.jpg')}}"
                                                             alt="product desc">
                                                     </a>
                                                     <a href="#">
-                                                        <img src="assets/images/products/product-9-3-thumb.jpg"
+                                                        <img src="{{asset('common/assets/images/products/product-9-3-thumb.jpg')}}"
                                                             alt="product desc">
                                                     </a>
                                                 </div><!-- End .product-nav -->
@@ -1044,8 +1045,8 @@
                                             <figure class="product-media">
                                                 <span class="product-label label-top">Top</span>
                                                 <a href="product.html">
-                                                    <img src="assets/images/products/product-11.jpg" alt="Product image"
-                                                        class="product-image">
+                                                    <img src="{{asset('common/assets/images/products/product-11.jpg')}}"
+                                                        alt="Product image" class="product-image">
                                                 </a>
 
                                                 <div class="product-action-vertical">
@@ -1084,16 +1085,16 @@
 
                                                 <div class="product-nav product-nav-thumbs">
                                                     <a href="#" class="active">
-                                                        <img src="assets/images/products/product-11-thumb.jpg"
+                                                        <img src="{{asset('common/assets/images/products/product-11-thumb.jpg')}}"
                                                             alt="product desc">
                                                     </a>
                                                     <a href="#">
-                                                        <img src="assets/images/products/product-11-2-thumb.jpg"
+                                                        <img src="{{asset('common/assets/images/products/product-11-2-thumb.jpg')}}"
                                                             alt="product desc">
                                                     </a>
 
                                                     <a href="#">
-                                                        <img src="assets/images/products/product-11-3-thumb.jpg"
+                                                        <img src="{{asset('common/assets/images/products/product-11-3-thumb.jpg')}}"
                                                             alt="product desc">
                                                     </a>
                                                 </div><!-- End .product-nav -->
@@ -1105,8 +1106,8 @@
                                         <div class="product product-7 text-center">
                                             <figure class="product-media">
                                                 <a href="product.html">
-                                                    <img src="assets/images/products/product-10.jpg" alt="Product image"
-                                                        class="product-image">
+                                                    <img src="{{asset('common/assets/images/products/product-10.jpg')}}"
+                                                        alt="Product image" class="product-image">
                                                 </a>
 
                                                 <div class="product-action-vertical">
@@ -1150,8 +1151,8 @@
                                         <div class="product product-7 text-center">
                                             <figure class="product-media">
                                                 <a href="product.html">
-                                                    <img src="assets/images/products/product-12.jpg" alt="Product image"
-                                                        class="product-image">
+                                                    <img src="{{asset('common/assets/images/products/product-12.jpg')}}"
+                                                        alt="Product image" class="product-image">
                                                 </a>
 
                                                 <div class="product-action-vertical">
@@ -1500,8 +1501,8 @@
                     <div class="row">
                         <div class="col-sm-6 col-lg-3">
                             <div class="widget widget-about">
-                                <img src="assets/images/logo.png" class="footer-logo" alt="Footer Logo" width="105"
-                                    height="25">
+                                <img src="{{asset('common/assets/images/logo.png')}}" class="footer-logo"
+                                    alt="Footer Logo" width="105" height="25">
                                 <p>Praesent dapibus, neque id cursus ucibus, tortor neque egestas augue, eu vulputate
                                     magna eros eu erat. </p>
 
@@ -1571,7 +1572,8 @@
                     <p class="footer-copyright">Copyright © 2019 Molla Store. All Rights Reserved.</p>
                     <!-- End .footer-copyright -->
                     <figure class="footer-payments">
-                        <img src="assets/images/payments.png" alt="Payment methods" width="272" height="20">
+                        <img src="{{asset('common/assets/images/payments.png')}}" alt="Payment methods" width="272"
+                            height="20">
                     </figure><!-- End .footer-payments -->
                 </div><!-- End .container -->
             </div><!-- End .footer-bottom -->
