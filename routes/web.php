@@ -119,3 +119,7 @@ Route::post('/vendor/editProduct/{id}', [
 Route::get('/vendor/support', function () {
     return view('vendor.support');
 });
+//===============User==============//
+Route::get('/user/cart', function () {
+    return view('user.cart');
+});
