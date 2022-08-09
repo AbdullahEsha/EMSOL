@@ -138,6 +138,9 @@ img {
   height: 60px;
   width: 60px;
 }
+.icon-container-card-h6 {
+  margin-bottom: 0;
+}
 @keyframes rotating {
   from {
     transform: rotate(0deg);
@@ -5612,8 +5615,8 @@ p {
 }
 .nav.nav-pills .nav-link {
   color: #777;
-  font-weight: 400;
-  font-size: 1.4rem;
+  font-weight: 600;
+  font-size: 2rem;
   line-height: 1.5;
   letter-spacing: -0.01em;
   padding: 0.45rem 1rem;
