@@ -8,7 +8,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>Molla - Bootstrap eCommerce Template</title>
+    <title>EMSOL - Largest Medical Market Place In Bangladesh</title>
     <meta name="keywords" content="HTML5 Template">
     <meta name="description" content="Molla - Bootstrap eCommerce Template">
     <meta name="author" content="p-themes">
@@ -522,6 +522,11 @@
                 </div><!-- End .container -->
                 <br />
                 <div class="icon-boxes-container icon-boxes-separator bg-transparent">
+                    <div class="heading heading-flex mb-2 mb-lg-3 container">
+                        <div class="heading-left">
+                            <h2 class="title mb-0">Categories</h2><!-- End .title -->
+                        </div><!-- End .heading-left -->
+                    </div><!-- End .heading -->
                     <div class="container" align="center">
                         <div class="row">
                             <div class="col-sm-6 col-md-2 card-color">
@@ -529,7 +534,7 @@
                                     <div class="icon-container-card" align="center">
                                         <img src="https://cdn-icons-png.flaticon.com/512/2904/2904190.png" alt="">
                                         <br />
-                                        <h6>
+                                        <h6 class="icon-container-card-h6">
                                             <a href="/product">Mask</a>
                                         </h6><!-- End .entry-title -->
                                     </div><!-- End .entry-meta -->
@@ -540,7 +545,7 @@
                                     <div class="icon-container-card" align="center">
                                         <img src="https://cdn-icons-png.flaticon.com/512/2877/2877907.png" alt="">
                                         <br />
-                                        <h6>
+                                        <h6 class="icon-container-card-h6">
                                             <a href="/product">Spray</a>
                                         </h6><!-- End .entry-title -->
                                     </div><!-- End .entry-meta -->
@@ -551,7 +556,7 @@
                                     <div class="icon-container-card" align="center">
                                         <img src="https://cdn-icons-png.flaticon.com/512/3952/3952978.png" alt="">
                                         <br />
-                                        <h6>
+                                        <h6 class="icon-container-card-h6">
                                             <a href="/product">Device</a>
                                         </h6><!-- End .entry-title -->
                                     </div><!-- End .entry-meta -->
@@ -562,7 +567,7 @@
                                     <div class="icon-container-card" align="center">
                                         <img src="https://cdn-icons-png.flaticon.com/512/883/883407.png" alt="">
                                         <br />
-                                        <h6>
+                                        <h6 class="icon-container-card-h6">
                                             <a href="/product">Medicine</a>
                                         </h6><!-- End .entry-title -->
                                     </div><!-- End .entry-meta -->
@@ -573,7 +578,7 @@
                                     <div class="icon-container-card" align="center">
                                         <img src="https://cdn-icons-png.flaticon.com/128/4465/4465221.png" alt="">
                                         <br />
-                                        <h6>
+                                        <h6 class="icon-container-card-h6">
                                             <a href="/product">Furniture</a>
                                         </h6><!-- End .entry-title -->
                                     </div><!-- End .entry-meta -->
@@ -584,7 +589,7 @@
                                     <div class="icon-container-card" align="center">
                                         <img src="https://cdn-icons-png.flaticon.com/512/3481/3481172.png" alt="">
                                         <br />
-                                        <h6>
+                                        <h6 class="icon-container-card-h6">
                                             <a href="/product">Support</a>
                                         </h6><!-- End .entry-title -->
                                     </div><!-- End .entry-meta -->
@@ -645,7 +650,7 @@
                                         <figure class="product-media">
                                             <span class="product-label label-sale">Sale</span>
                                             <a href="product.html">
-                                                <img src="{{asset('img/product/4.png')}}" alt="Product image"
+                                                <img src="{{asset('img/product/7.png')}}" alt="Product image"
                                                     class="product-image">
                                             </a>
 
@@ -1499,13 +1504,13 @@
 
                                     <div class="banner banner-overlay product-banner">
                                         <a href="#">
-                                            <img src="{{asset('img/product/5.png')}}" alt="Banner">
+                                            <img src="{{asset('img/product/4_spacial.png')}}" alt="Banner">
                                         </a>
                                         <div class="banner-content align-items-center">
                                             <h4 class="banner-subtitle" style="letter-spacing: 0.1em;">Out 14 May 2019
                                             </h4>
                                             <img class="banner-title-img mb-1"
-                                                src="{{asset('common/assets/images/demos/demo-19/banners/banner-10-title.png')}}"
+                                                src="{{asset('common/assets/images/demos/demo-19/banners/banner-9-title.png')}}"
                                                 alt="Banner-10">
                                         </div>
                                     </div><!-- End .banner -->
