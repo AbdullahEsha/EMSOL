@@ -132,3 +132,6 @@ Route::get('/user/cart', function () {
 Route::get('/user/wishlist', function () {
     return view('user.wishList');
 });
+Route::get('/user/profile', function () {
+    return view('user.profile');
+});
