@@ -29,6 +29,12 @@ Route::get('/product', function () {
 Route::get('/product/{id}', function () {
     return view('productDetails');
 });
+Route::get('/contact', function () {
+    return view('contact');
+});
+Route::get('/about', function () {
+    return view('about');
+});
 Route::get('/login', function () {
     return view('common.login');
 });
@@ -125,4 +131,7 @@ Route::get('/user/cart', function () {
 });
 Route::get('/user/wishlist', function () {
     return view('user.wishList');
+});
+Route::get('/user/profile', function () {
+    return view('user.profile');
 });
