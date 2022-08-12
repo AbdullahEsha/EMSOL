@@ -123,3 +123,6 @@ Route::get('/vendor/support', function () {
 Route::get('/user/cart', function () {
     return view('user.cart');
 });
+Route::get('/user/wishlist', function () {
+    return view('user.wishList');
+});
