@@ -633,12 +633,6 @@
         </header><!-- End .header -->
 
         <main class="main">
-            <div class="page-header text-center"
-                style="background-image: url({{asset('common/assets/images/page-header-bg.jpg')}})">
-                <div class="container">
-                    <h1 class="page-title">Grid 3 Columns<span>Shop</span></h1>
-                </div><!-- End .container -->
-            </div><!-- End .page-header -->
             <nav aria-label="breadcrumb" class="breadcrumb-nav mb-2">
                 <div class="container">
                     <ol class="breadcrumb">
@@ -672,7 +666,7 @@
                                         </div>
                                     </div><!-- End .toolbox-sort -->
                                     <div class="toolbox-layout">
-                                        <a href="category-list.html" class="btn-layout">
+                                        <a href="/product-list" class="btn-layout active">
                                             <svg width="16" height="10">
                                                 <rect x="0" y="0" width="4" height="4" />
                                                 <rect x="6" y="0" width="10" height="4" />
@@ -680,17 +674,7 @@
                                                 <rect x="6" y="6" width="10" height="4" />
                                             </svg>
                                         </a>
-
-                                        <a href="category-2cols.html" class="btn-layout">
-                                            <svg width="10" height="10">
-                                                <rect x="0" y="0" width="4" height="4" />
-                                                <rect x="6" y="0" width="4" height="4" />
-                                                <rect x="0" y="6" width="4" height="4" />
-                                                <rect x="6" y="6" width="4" height="4" />
-                                            </svg>
-                                        </a>
-
-                                        <a href="category.html" class="btn-layout active">
+                                        <a href="/product" class="btn-layout">
                                             <svg width="16" height="10">
                                                 <rect x="0" y="0" width="4" height="4" />
                                                 <rect x="6" y="0" width="4" height="4" />
@@ -698,19 +682,6 @@
                                                 <rect x="0" y="6" width="4" height="4" />
                                                 <rect x="6" y="6" width="4" height="4" />
                                                 <rect x="12" y="6" width="4" height="4" />
-                                            </svg>
-                                        </a>
-
-                                        <a href="category-4cols.html" class="btn-layout">
-                                            <svg width="22" height="10">
-                                                <rect x="0" y="0" width="4" height="4" />
-                                                <rect x="6" y="0" width="4" height="4" />
-                                                <rect x="12" y="0" width="4" height="4" />
-                                                <rect x="18" y="0" width="4" height="4" />
-                                                <rect x="0" y="6" width="4" height="4" />
-                                                <rect x="6" y="6" width="4" height="4" />
-                                                <rect x="12" y="6" width="4" height="4" />
-                                                <rect x="18" y="6" width="4" height="4" />
                                             </svg>
                                         </a>
                                     </div><!-- End .toolbox-layout -->
