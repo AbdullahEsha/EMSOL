@@ -91,7 +91,7 @@
                         <div class="header-right">
                             <div class="header-dropdown-link">
                                 <div class="account">
-                                    <a href="user/profile" title="My account">
+                                    <a href="/user/profile" title="My account">
                                         <div class="icon">
                                             <i class="icon-user"></i>
                                         </div>
@@ -100,7 +100,7 @@
                                 </div><!-- End .compare-dropdown -->
 
                                 <div class="wishlist">
-                                    <a href="user/wishlist" title="Wishlist">
+                                    <a href="/user/wishlist" title="Wishlist">
                                         <div class="icon">
                                             <i class="icon-heart-o"></i>
                                             <span class="wishlist-count badge">3</span>
@@ -110,7 +110,7 @@
                                 </div><!-- End .compare-dropdown -->
 
                                 <div class="dropdown cart-dropdown">
-                                    <a href="user/cart" class="dropdown-toggle" role="button" data-toggle="dropdown"
+                                    <a href="/user/cart" class="dropdown-toggle" role="button" data-toggle="dropdown"
                                         aria-haspopup="true" aria-expanded="false" data-display="static">
                                         <div class="icon">
                                             <i class="icon-shopping-cart"></i>
@@ -650,7 +650,7 @@
                                         <figure class="product-media">
                                             <span class="product-label label-sale">Sale</span>
                                             <a href="product.html">
-                                                <img src="{{asset('img/product/7.png')}}" alt="Product image"
+                                                <img src="{{asset($homeData[0]->img1)}}" alt="Product image"
                                                     class="product-image">
                                             </a>
 
