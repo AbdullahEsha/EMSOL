@@ -21,6 +21,17 @@ class productController extends Controller
         }
     }
 
+    public function getHome()
+    {
+        try {
+            $homeData = Product::orderBy('id', 'desc')->get();
+            //return $productData;
+            return view('home')->with('homeData', $homeData);
+        } catch (\Exception $e) {
+            $req->session()->flash('error', $e->getMessage());
+        }
+    }
+
     public function storeProduct(Request $req)
     {
         $uploadProductData = new Product();

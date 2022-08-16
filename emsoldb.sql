@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Jul 21, 2022 at 02:31 PM
+-- Generation Time: Aug 16, 2022 at 07:25 PM
 -- Server version: 10.4.22-MariaDB
 -- PHP Version: 8.1.2
 
@@ -40,6 +40,13 @@ CREATE TABLE `ambulances` (
   `updated_at` timestamp NULL DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
+--
+-- Dumping data for table `ambulances`
+--
+
+INSERT INTO `ambulances` (`id`, `ambulanceDetail`, `img1`, `img2`, `img3`, `img4`, `cost`, `available`, `created_at`, `updated_at`) VALUES
+(1, 'abc', 'abc.jpg', 'abc.jpg', 'abc.jpg', 'abc.jpg', '123', 'yes', '2022-05-31 12:00:00', '2022-05-31 12:00:00');
+
 -- --------------------------------------------------------
 
 --
@@ -59,11 +66,7 @@ CREATE TABLE `blogs` (
 --
 
 INSERT INTO `blogs` (`id`, `image`, `blogDetail`, `created_at`, `updated_at`) VALUES
-(1, 'img/uploads/more-services-2.jpg', 'jdnwebfiwuevhuiwevnwuebvyeubeuvbisudvdisdvn.', '2022-05-31 12:00:00', '2022-07-12 09:23:08'),
-(2, 'img/uploads/more-services-4.jpg', 'sjfneireijnwindeiubfwivnwievnwiue, sdhfhnhuveurhv.', '2022-05-31 12:00:00', '2022-07-12 09:11:10'),
-(4, 'b.jpg', 'sjfneireijnwindeiubfwivnwievnwiue.', '2022-05-31 06:00:00', '2022-05-31 06:00:00'),
-(5, 'c.jpg', 'sjfneireijnwindeiubfwivnwievnwiue.', '2022-05-31 06:00:00', '2022-05-31 06:00:00'),
-(6, 'd.jpg', 'sjfneireijnwindeiubfwivnwievnwiue.', '2022-05-31 06:00:00', '2022-05-31 06:00:00');
+(1, 'img/uploads/blog.jpg', 'jdnwebfiwuevhuiwevnwuebvyeubeuvbisudvdisdvn.', '2022-05-31 12:00:00', '2022-05-31 12:00:00');
 
 -- --------------------------------------------------------
 
@@ -162,9 +165,14 @@ CREATE TABLE `products` (
 --
 
 INSERT INTO `products` (`id`, `productDetail`, `img1`, `img2`, `img3`, `img4`, `price`, `stock`, `status`, `created_at`, `updated_at`) VALUES
-(1, 'Oxyzen Mask', 'a.jpg', 'b.jpg', 'c.jpg', 'mask.jpg', '100', '3', 'isApproved', '2022-05-31 12:00:00', '2022-07-06 04:14:48'),
-(2, 'Disinfect Spray', 'img/uploads/', 'img/uploads/', 'img/uploads/', 'spray.jpg', '100', '10', 'processing', '2022-05-31 12:00:00', '2022-07-12 09:06:22'),
-(3, 'jnjbnibrtb', 'rgtrgt.jpg', 'rgtrgt.jpg', 'rgtrgt.jpg', 'rgtrgt.jpg', '250', '5', 'processing', '2022-07-10 18:00:00', '2022-07-10 18:00:00');
+(1, 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut turpis. Suspendisse urna viverra non, semper suscipit, posuere a, pede. Donec nec justo eget felis facilisis fermentum. Aliquam porttitor mauris sit amet orci. Aenean dignissim pellentesque felis. Phasellus ultrices nulla quis nibh. Quisque a lectus. Donec consectetuer ligula vulputate sem tristique cursus.\n\nNunc nec porttitor turpis. In eu risus enim. In vitae mollis elit.\nVivamus finibus vel mauris ut vehicula.\nNullam a magna porttitor, dictum risus nec, faucibus sapien.\nLorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut turpis. Suspendisse urna viverra non, semper suscipit, posuere a, pede. Donec nec justo eget felis facilisis fermentum. Aliquam porttitor mauris sit amet orci. Aenean dignissim pellentesque felis. Phasellus ultrices nulla quis nibh. Quisque a lectus. Donec consectetuer ligula vulputate sem tristique cursus.', 'img/product/7.png', 'img/uploads/more-services-2.jpg', 'img/uploads/more-services-2.jpg', 'img/uploads/more-services-2.jpg', '100', '3', 'isApproved', '2022-05-31 12:00:00', '2022-07-15 15:07:56'),
+(2, 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut turpis. Suspendisse urna viverra non, semper suscipit, posuere a, pede. Donec nec justo eget felis facilisis fermentum. Aliquam porttitor mauris sit amet orci. Aenean dignissim pellentesque felis. Phasellus ultrices nulla quis nibh. Quisque a lectus. Donec consectetuer ligula vulputate sem tristique cursus.\n\nNunc nec porttitor turpis. In eu risus enim. In vitae mollis elit.\nVivamus finibus vel mauris ut vehicula.\nNullam a magna porttitor, dictum risus nec, faucibus sapien.\nLorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut turpis. Suspendisse urna viverra non, semper suscipit, posuere a, pede. Donec nec justo eget felis facilisis fermentum. Aliquam porttitor mauris sit amet orci. Aenean dignissim pellentesque felis. Phasellus ultrices nulla quis nibh. Quisque a lectus. Donec consectetuer ligula vulputate sem tristique cursus.', 'img/product/2.png', 'img/uploads/more-services-2.jpg', 'img/uploads/more-services-2.jpg', 'img/uploads/more-services-2.jpg', '100', '5', 'processing', '2022-05-31 12:00:00', '2022-05-31 12:00:00'),
+(3, 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut turpis. Suspendisse urna viverra non, semper suscipit, posuere a, pede. Donec nec justo eget felis facilisis fermentum. Aliquam porttitor mauris sit amet orci. Aenean dignissim pellentesque felis. Phasellus ultrices nulla quis nibh. Quisque a lectus. Donec consectetuer ligula vulputate sem tristique cursus.\r\n\r\nNunc nec porttitor turpis. In eu risus enim. In vitae mollis elit.\r\nVivamus finibus vel mauris ut vehicula.\r\nNullam a magna porttitor, dictum risus nec, faucibus sapien.\r\nLorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut turpis. Suspendisse urna viverra non, semper suscipit, posuere a, pede. Donec nec justo eget felis facilisis fermentum. Aliquam porttitor mauris sit amet orci. Aenean dignissim pellentesque felis. Phasellus ultrices nulla quis nibh. Quisque a lectus. Donec consectetuer ligula vulputate sem tristique cursus.', 'img/product/1.png', 'img/uploads/more-services-2.jpg', 'img/uploads/more-services-2.jpg', 'img/uploads/more-services-2.jpg', '100', '5', 'processing', '2022-08-16 17:09:15', '2022-08-16 17:09:27'),
+(4, 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut turpis. Suspendisse urna viverra non, semper suscipit, posuere a, pede. Donec nec justo eget felis facilisis fermentum. Aliquam porttitor mauris sit amet orci. Aenean dignissim pellentesque felis. Phasellus ultrices nulla quis nibh. Quisque a lectus. Donec consectetuer ligula vulputate sem tristique cursus.\r\n\r\nNunc nec porttitor turpis. In eu risus enim. In vitae mollis elit.\r\nVivamus finibus vel mauris ut vehicula.\r\nNullam a magna porttitor, dictum risus nec, faucibus sapien.\r\nLorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut turpis. Suspendisse urna viverra non, semper suscipit, posuere a, pede. Donec nec justo eget felis facilisis fermentum. Aliquam porttitor mauris sit amet orci. Aenean dignissim pellentesque felis. Phasellus ultrices nulla quis nibh. Quisque a lectus. Donec consectetuer ligula vulputate sem tristique cursus.', 'img/product/2.png', 'img/uploads/more-services-2.jpg', 'img/uploads/more-services-2.jpg', 'img/uploads/more-services-2.jpg', '100', '5', 'processing', '2022-05-31 12:00:00', '2022-05-31 12:00:00'),
+(5, 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut turpis. Suspendisse urna viverra non, semper suscipit, posuere a, pede. Donec nec justo eget felis facilisis fermentum. Aliquam porttitor mauris sit amet orci. Aenean dignissim pellentesque felis. Phasellus ultrices nulla quis nibh. Quisque a lectus. Donec consectetuer ligula vulputate sem tristique cursus.\r\n\r\nNunc nec porttitor turpis. In eu risus enim. In vitae mollis elit.\r\nVivamus finibus vel mauris ut vehicula.\r\nNullam a magna porttitor, dictum risus nec, faucibus sapien.\r\nLorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut turpis. Suspendisse urna viverra non, semper suscipit, posuere a, pede. Donec nec justo eget felis facilisis fermentum. Aliquam porttitor mauris sit amet orci. Aenean dignissim pellentesque felis. Phasellus ultrices nulla quis nibh. Quisque a lectus. Donec consectetuer ligula vulputate sem tristique cursus.', 'img/product/5.png', 'img/uploads/more-services-2.jpg', 'img/uploads/more-services-2.jpg', 'img/uploads/more-services-2.jpg', '100', '5', 'processing', '2022-08-16 17:09:15', '2022-08-16 17:09:27'),
+(6, 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut turpis. Suspendisse urna viverra non, semper suscipit, posuere a, pede. Donec nec justo eget felis facilisis fermentum. Aliquam porttitor mauris sit amet orci. Aenean dignissim pellentesque felis. Phasellus ultrices nulla quis nibh. Quisque a lectus. Donec consectetuer ligula vulputate sem tristique cursus.\r\n\r\nNunc nec porttitor turpis. In eu risus enim. In vitae mollis elit.\r\nVivamus finibus vel mauris ut vehicula.\r\nNullam a magna porttitor, dictum risus nec, faucibus sapien.\r\nLorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut turpis. Suspendisse urna viverra non, semper suscipit, posuere a, pede. Donec nec justo eget felis facilisis fermentum. Aliquam porttitor mauris sit amet orci. Aenean dignissim pellentesque felis. Phasellus ultrices nulla quis nibh. Quisque a lectus. Donec consectetuer ligula vulputate sem tristique cursus.', 'img/product/7.png', 'img/uploads/more-services-2.jpg', 'img/uploads/more-services-2.jpg', 'img/uploads/more-services-2.jpg', '100', '5', 'processing', '2022-08-16 17:09:15', '2022-08-16 17:09:27'),
+(7, 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut turpis. Suspendisse urna viverra non, semper suscipit, posuere a, pede. Donec nec justo eget felis facilisis fermentum. Aliquam porttitor mauris sit amet orci. Aenean dignissim pellentesque felis. Phasellus ultrices nulla quis nibh. Quisque a lectus. Donec consectetuer ligula vulputate sem tristique cursus.\r\n\r\nNunc nec porttitor turpis. In eu risus enim. In vitae mollis elit.\r\nVivamus finibus vel mauris ut vehicula.\r\nNullam a magna porttitor, dictum risus nec, faucibus sapien.\r\nLorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut turpis. Suspendisse urna viverra non, semper suscipit, posuere a, pede. Donec nec justo eget felis facilisis fermentum. Aliquam porttitor mauris sit amet orci. Aenean dignissim pellentesque felis. Phasellus ultrices nulla quis nibh. Quisque a lectus. Donec consectetuer ligula vulputate sem tristique cursus.', 'img/product/8.png', 'img/uploads/more-services-2.jpg', 'img/uploads/more-services-2.jpg', 'img/uploads/more-services-2.jpg', '100', '5', 'processing', '2022-05-31 12:00:00', '2022-05-31 12:00:00'),
+(8, 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut turpis. Suspendisse urna viverra non, semper suscipit, posuere a, pede. Donec nec justo eget felis facilisis fermentum. Aliquam porttitor mauris sit amet orci. Aenean dignissim pellentesque felis. Phasellus ultrices nulla quis nibh. Quisque a lectus. Donec consectetuer ligula vulputate sem tristique cursus.\r\n\r\nNunc nec porttitor turpis. In eu risus enim. In vitae mollis elit.\r\nVivamus finibus vel mauris ut vehicula.\r\nNullam a magna porttitor, dictum risus nec, faucibus sapien.\r\nLorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut turpis. Suspendisse urna viverra non, semper suscipit, posuere a, pede. Donec nec justo eget felis facilisis fermentum. Aliquam porttitor mauris sit amet orci. Aenean dignissim pellentesque felis. Phasellus ultrices nulla quis nibh. Quisque a lectus. Donec consectetuer ligula vulputate sem tristique cursus.', 'img/product/9.jpg', 'img/uploads/more-services-2.jpg', 'img/uploads/more-services-2.jpg', 'img/uploads/more-services-2.jpg', '100', '5', 'processing', '2022-08-16 17:09:15', '2022-08-16 17:09:27');
 
 -- --------------------------------------------------------
 
@@ -177,7 +185,7 @@ CREATE TABLE `support` (
   `email` text COLLATE utf8mb4_unicode_ci NOT NULL,
   `details` text COLLATE utf8mb4_unicode_ci NOT NULL,
   `image` text COLLATE utf8mb4_unicode_ci NOT NULL,
-  `created_at` timestamp NULL DEFAULT current_timestamp(),
+  `created_at` timestamp NULL DEFAULT NULL,
   `updated_at` timestamp NULL DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
@@ -186,8 +194,7 @@ CREATE TABLE `support` (
 --
 
 INSERT INTO `support` (`id`, `email`, `details`, `image`, `created_at`, `updated_at`) VALUES
-(1, 'xyz@gmail.com', 'jfehfvbehfvbehfv', 'a.jpg', '2022-07-20 18:00:00', '2022-07-20 18:00:00'),
-(2, 'abc@gmail.com', 'dfgrthtjtybtyjtj', 'x.jpg', '2022-07-20 18:00:00', '2022-07-20 18:00:00');
+(1, 'fwdfewhd', 'rgggggggggg', 'reeeeeeeeeeeeeg', '2022-07-04 20:10:24', '2022-07-12 20:10:24');
 
 -- --------------------------------------------------------
 
@@ -287,13 +294,13 @@ ALTER TABLE `users`
 -- AUTO_INCREMENT for table `ambulances`
 --
 ALTER TABLE `ambulances`
-  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT;
+  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
 
 --
 -- AUTO_INCREMENT for table `blogs`
 --
 ALTER TABLE `blogs`
-  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=7;
+  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
 
 --
 -- AUTO_INCREMENT for table `failed_jobs`
@@ -317,13 +324,13 @@ ALTER TABLE `personal_access_tokens`
 -- AUTO_INCREMENT for table `products`
 --
 ALTER TABLE `products`
-  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
+  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=9;
 
 --
 -- AUTO_INCREMENT for table `support`
 --
 ALTER TABLE `support`
-  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
+  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
 
 --
 -- AUTO_INCREMENT for table `users`

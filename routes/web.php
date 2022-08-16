@@ -20,9 +20,8 @@ use App\Http\Controllers\blogUploadController;
 |
 */
 
-Route::get('/', function () {
-    return view('home');
-});
+Route::get('/', [ProductController::class, 'getHome']);
+
 Route::get('/product', function () {
     return view('product');
 });
