@@ -668,7 +668,8 @@
                                             <div class="product-cat">
                                                 <a href="#">Shooter</a>
                                             </div><!-- End .product-cat -->
-                                            <h3 class="product-title"><a href="product.html">Call of Duty <br>WWII -
+                                            <h3 class="product-title"><a href="/product/{{$homeData[0]->id}}">Call of
+                                                    Duty <br>WWII -
                                                     Gold Edition</a></h3><!-- End .product-title -->
                                             <div class="product-price">
                                                 <span class="new-price">$24.00</span>
@@ -798,11 +799,10 @@
 
                                     <div class="product">
                                         <figure class="product-media">
-                                            <a href="product.html">
+                                            <a href="/product/{{$homeData[5]->id}}">
                                                 <img src="{{asset($homeData[5]->img1)}}" alt="Product image"
                                                     class="product-image">
                                             </a>
-
                                             <div class="product-action-vertical">
                                                 <a href="#" class="btn-product-icon btn-wishlist"
                                                     title="Add to Wishlist"><span>add to wishlist</span></a>
@@ -815,9 +815,10 @@
 
                                         <div class="product-body">
                                             <div class="product-cat">
-                                                <a href="#">Shooter</a>
+                                                <a href="/product/{{$homeData[5]->id}}">Shooter</a>
                                             </div><!-- End .product-cat -->
-                                            <h3 class="product-title"><a href="product.html">Tom Clancy’s <br>Ghost
+                                            <h3 class="product-title"><a href="/product/{{$homeData[5]->id}}">Tom
+                                                    Clancy’s <br>Ghost
                                                     Recon Wildlands</a></h3><!-- End .product-title -->
                                             <div class="product-price">
                                                 $49.99
