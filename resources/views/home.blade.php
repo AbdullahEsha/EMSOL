@@ -68,7 +68,7 @@
                                 <i class="icon-bars"></i>
                             </button>
 
-                            <a href="index.html" class="logo">
+                            <a href="/" class="logo">
                                 <img src="https://emsol.xyz/wp-content/uploads/2020/11/Ems-logo-9.png" alt="Molla Logo"
                                     width="180px" height="125px">
                             </a>
@@ -91,7 +91,7 @@
                         <div class="header-right">
                             <div class="header-dropdown-link">
                                 <div class="account">
-                                    <a href="dashboard.html" title="My account">
+                                    <a href="user/profile" title="My account">
                                         <div class="icon">
                                             <i class="icon-user"></i>
                                         </div>
@@ -100,7 +100,7 @@
                                 </div><!-- End .compare-dropdown -->
 
                                 <div class="wishlist">
-                                    <a href="wishlist.html" title="Wishlist">
+                                    <a href="user/wishlist" title="Wishlist">
                                         <div class="icon">
                                             <i class="icon-heart-o"></i>
                                             <span class="wishlist-count badge">3</span>
@@ -110,7 +110,7 @@
                                 </div><!-- End .compare-dropdown -->
 
                                 <div class="dropdown cart-dropdown">
-                                    <a href="#" class="dropdown-toggle" role="button" data-toggle="dropdown"
+                                    <a href="user/cart" class="dropdown-toggle" role="button" data-toggle="dropdown"
                                         aria-haspopup="true" aria-expanded="false" data-display="static">
                                         <div class="icon">
                                             <i class="icon-shopping-cart"></i>
@@ -173,7 +173,7 @@
                                         </div><!-- End .dropdown-cart-total -->
 
                                         <div class="dropdown-cart-action">
-                                            <a href="cart.html" class="btn btn-primary">View Cart</a>
+                                            <a href="user/cart" class="btn btn-primary">View Cart</a>
                                             <a href="checkout.html"
                                                 class="btn btn-outline-primary-2"><span>Checkout</span></a>
                                         </div><!-- End .dropdown-cart-total -->
