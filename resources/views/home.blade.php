@@ -680,7 +680,7 @@
                                     <div class="product">
                                         <figure class="product-media">
                                             <a href="product.html">
-                                                <img src="{{asset('img/product/2.png')}}" alt="Product image"
+                                                <img src="{{asset($homeData[1]->img1)}}" alt="Product image"
                                                     class="product-image">
                                             </a>
 
@@ -710,7 +710,7 @@
                                         <figure class="product-media">
                                             <span class="product-label label-top">Top</span>
                                             <a href="product.html">
-                                                <img src="{{asset('img/product/9.jpg')}}" alt="Product image"
+                                                <img src="{{asset($homeData[2]->img1)}}" alt="Product image"
                                                     class="product-image">
                                             </a>
 
@@ -739,7 +739,7 @@
                                     <div class="product">
                                         <figure class="product-media">
                                             <a href="product.html">
-                                                <img src="{{asset('img/product/5.png')}}" alt="Product image"
+                                                <img src="{{asset($homeData[3]->img1)}}" alt="Product image"
                                                     class="product-image">
                                             </a>
 
@@ -769,7 +769,7 @@
                                         <figure class="product-media">
                                             <span class="product-label label-sale">Sale</span>
                                             <a href="product.html">
-                                                <img src="{{asset('img/product/7.png')}}" alt="Product image"
+                                                <img src="{{asset($homeData[4]->img1)}}" alt="Product image"
                                                     class="product-image">
                                             </a>
 
@@ -799,7 +799,7 @@
                                     <div class="product">
                                         <figure class="product-media">
                                             <a href="product.html">
-                                                <img src="{{asset('img/product/1.png')}}" alt="Product image"
+                                                <img src="{{asset($homeData[5]->img1)}}" alt="Product image"
                                                     class="product-image">
                                             </a>
 
