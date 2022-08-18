@@ -35,13 +35,14 @@
         <header class="header">
             <div class="header-top">
                 <div class="container">
-
+                    <div class="header-left">
+                        <a href="tel:#"><i class="icon-phone"></i>Call: +0123 456 789</a>
+                    </div><!-- End .header-left -->
                     <div class="header-right">
                         <ul class="top-menu">
                             <li>
                                 <a href="#">Links</a>
                                 <ul>
-                                    <li><a href="tel:#"><i class="icon-phone"></i>Call: +0123 456 789</a></li>
                                     <li><a href="/user/wishlist"><i class="icon-heart-o"></i>Wishlist
                                             <span>(3)</span></a></li>
                                     <li><a href="/about">About Us</a></li>
@@ -505,11 +506,7 @@
                             </form>
                         </div><!-- End .header-search -->
                         <div class="dropdown compare-dropdown">
-                            <a href="#" class="dropdown-toggle" role="button" data-toggle="dropdown"
-                                aria-haspopup="true" aria-expanded="false" data-display="static"
-                                title="Compare Products" aria-label="Compare Products">
-                                <i class="icon-random"></i>
-                            </a>
+
 
                             <div class="dropdown-menu dropdown-menu-right">
                                 <ul class="compare-products">
