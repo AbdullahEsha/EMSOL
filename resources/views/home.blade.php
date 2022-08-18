@@ -666,11 +666,10 @@
 
                                         <div class="product-body">
                                             <div class="product-cat">
-                                                <a href="#">Shooter</a>
+                                                <a href="/product/{{$homeData[0]->id}}">Device</a>
                                             </div><!-- End .product-cat -->
-                                            <h3 class="product-title"><a href="/product/{{$homeData[0]->id}}">Call of
-                                                    Duty <br>WWII -
-                                                    Gold Edition</a></h3><!-- End .product-title -->
+                                            <h3 class="product-title"><a href="/product/{{$homeData[0]->id}}">Pulse
+                                                    Oximeter</a></h3><!-- End .product-title -->
                                             <div class="product-price">
                                                 <span class="new-price">$24.00</span>
                                                 <span class="old-price">Was $59.99</span>
@@ -697,9 +696,10 @@
 
                                         <div class="product-body">
                                             <div class="product-cat">
-                                                <a href="#">Shooter</a>
+                                                <a href="/product/{{$homeData[1]->id}}">Accessories</a>
                                             </div><!-- End .product-cat -->
-                                            <h3 class="product-title"><a href="product.html">World War Z</a></h3>
+                                            <h3 class="product-title"><a href="/product/{{$homeData[1]->id}}">Oxygen
+                                                    Mask</a></h3>
                                             <!-- End .product-title -->
                                             <div class="product-price">
                                                 $39.99
@@ -727,10 +727,11 @@
 
                                         <div class="product-body">
                                             <div class="product-cat">
-                                                <a href="#">Shooter</a>
+                                                <a href="/product/{{$homeData[2]->id}}">Device</a>
                                             </div><!-- End .product-cat -->
-                                            <h3 class="product-title"><a href="product.html">Borderlands: <br>The
-                                                    Handsome Collection</a></h3><!-- End .product-title -->
+                                            <h3 class="product-title"><a
+                                                    href="/product/{{$homeData[2]->id}}">Particulate Filter</a></h3>
+                                            <!-- End .product-title -->
                                             <div class="product-price">
                                                 $59.99
                                             </div><!-- End .product-price -->
@@ -756,10 +757,10 @@
 
                                         <div class="product-body">
                                             <div class="product-cat">
-                                                <a href="#">Action & adventure</a>
+                                                <a href="/product/{{$homeData[3]->id}}">Device</a>
                                             </div><!-- End .product-cat -->
-                                            <h3 class="product-title"><a href="product.html">The Witcher 3: Wild
-                                                    Hunt</a></h3><!-- End .product-title -->
+                                            <h3 class="product-title"><a href="/product/{{$homeData[3]->id}}">Sensor</a>
+                                            </h3><!-- End .product-title -->
                                             <div class="product-price">
                                                 $39.99
                                             </div><!-- End .product-price -->
@@ -786,10 +787,10 @@
 
                                         <div class="product-body">
                                             <div class="product-cat">
-                                                <a href="#">Action & adventure</a>
+                                                <a href="/product/{{$homeData[4]->id}}">Accessories</a>
                                             </div><!-- End .product-cat -->
-                                            <h3 class="product-title"><a href="product.html">GTA Online: Criminal
-                                                    Enterprise Starter Pack</a></h3><!-- End .product-title -->
+                                            <h3 class="product-title"><a href="/product/{{$homeData[4]->id}}">Oxygen
+                                                    Mask</a></h3><!-- End .product-title -->
                                             <div class="product-price">
                                                 <span class="new-price">$19.49</span>
                                                 <span class="old-price">Was $24.49</span>
@@ -815,11 +816,10 @@
 
                                         <div class="product-body">
                                             <div class="product-cat">
-                                                <a href="/product/{{$homeData[5]->id}}">Shooter</a>
+                                                <a href="/product/{{$homeData[5]->id}}">Accessories</a>
                                             </div><!-- End .product-cat -->
-                                            <h3 class="product-title"><a href="/product/{{$homeData[5]->id}}">Tom
-                                                    Clancy’s <br>Ghost
-                                                    Recon Wildlands</a></h3><!-- End .product-title -->
+                                            <h3 class="product-title"><a href="/product/{{$homeData[5]->id}}">Oxygen
+                                                    Mask</a></h3><!-- End .product-title -->
                                             <div class="product-price">
                                                 $49.99
                                             </div><!-- End .product-price -->
@@ -857,7 +857,7 @@
                                     <div class="product">
                                         <figure class="product-media">
                                             <a href="product.html">
-                                                <img src="{{asset('img/product/1.png')}}" alt="Product image"
+                                                <img src="{{asset($homeData[0]->img1)}}" alt="Product image"
                                                     class="product-image">
                                             </a>
 
@@ -873,10 +873,10 @@
 
                                         <div class="product-body">
                                             <div class="product-cat">
-                                                <a href="#">Shooter</a>
+                                                <a href="/product/{{$homeData[0]->id}}">Device</a>
                                             </div><!-- End .product-cat -->
-                                            <h3 class="product-title"><a href="product.html">Tom Clancy’s <br>Ghost
-                                                    Recon Wildlands</a></h3><!-- End .product-title -->
+                                            <h3 class="product-title"><a href="/product/{{$homeData[0]->id}}">Pulse
+                                                    Oximeter</a></h3><!-- End .product-title -->
                                             <div class="product-price">
                                                 $49.99
                                             </div><!-- End .product-price -->
@@ -887,7 +887,7 @@
                                         <figure class="product-media">
                                             <span class="product-label label-sale">Sale</span>
                                             <a href="product.html">
-                                                <img src="{{asset('img/product/5.png')}}" alt="Product image"
+                                                <img src="{{asset($homeData[1]->img1)}}" alt="Product image"
                                                     class="product-image">
                                             </a>
 
@@ -903,10 +903,10 @@
 
                                         <div class="product-body">
                                             <div class="product-cat">
-                                                <a href="#">Action & adventure</a>
+                                                <a href="/product/{{$homeData[1]->id}}">Accessories</a>
                                             </div><!-- End .product-cat -->
-                                            <h3 class="product-title"><a href="product.html">GTA Online: Criminal
-                                                    Enterprise Starter Pack</a></h3><!-- End .product-title -->
+                                            <h3 class="product-title"><a href="/product/{{$homeData[1]->id}}">Oxygen
+                                                    Mask</a></h3><!-- End .product-title -->
                                             <div class="product-price">
                                                 <span class="new-price">$19.49</span>
                                                 <span class="old-price">Was $24.49</span>
@@ -917,7 +917,7 @@
                                     <div class="product">
                                         <figure class="product-media">
                                             <a href="product.html">
-                                                <img src="{{asset('img/product/7.png')}}" alt="Product image"
+                                                <img src="{{asset($homeData[2]->img1)}}" alt="Product image"
                                                     class="product-image">
                                             </a>
 
@@ -933,9 +933,10 @@
 
                                         <div class="product-body">
                                             <div class="product-cat">
-                                                <a href="#">Shooter</a>
+                                                <a href="/product/{{$homeData[2]->id}}">Device</a>
                                             </div><!-- End .product-cat -->
-                                            <h3 class="product-title"><a href="product.html">World War Z</a></h3>
+                                            <h3 class="product-title"><a
+                                                    href="/product/{{$homeData[2]->id}}">Particulate Filter</a></h3>
                                             <!-- End .product-title -->
                                             <div class="product-price">
                                                 $39.99
@@ -947,7 +948,7 @@
                                         <figure class="product-media">
                                             <span class="product-label label-sale">Sale</span>
                                             <a href="product.html">
-                                                <img src="{{asset('img/product/8.png')}}" alt="Product image"
+                                                <img src="{{asset($homeData[3]->img1)}}" alt="Product image"
                                                     class="product-image">
                                             </a>
 
@@ -963,10 +964,10 @@
 
                                         <div class="product-body">
                                             <div class="product-cat">
-                                                <a href="#">Shooter</a>
+                                                <a href="/product/{{$homeData[3]->id}}">Device</a>
                                             </div><!-- End .product-cat -->
-                                            <h3 class="product-title"><a href="product.html">Call of Duty <br>WWII -
-                                                    Gold Edition</a></h3><!-- End .product-title -->
+                                            <h3 class="product-title"><a href="/product/{{$homeData[3]->id}}">Sensor</a>
+                                            </h3><!-- End .product-title -->
                                             <div class="product-price">
                                                 <span class="new-price">$24.00</span>
                                                 <span class="old-price">Was $59.99</span>
@@ -978,7 +979,7 @@
                                         <figure class="product-media">
                                             <span class="product-label label-top">Top</span>
                                             <a href="product.html">
-                                                <img src="{{asset('img/product/9.jpg')}}" alt="Product image"
+                                                <img src="{{asset($homeData[4]->img1)}}" alt="Product image"
                                                     class="product-image">
                                             </a>
 
@@ -994,10 +995,10 @@
 
                                         <div class="product-body">
                                             <div class="product-cat">
-                                                <a href="#">Shooter</a>
+                                                <a href="/product/{{$homeData[4]->id}}">Accessories</a>
                                             </div><!-- End .product-cat -->
-                                            <h3 class="product-title"><a href="product.html">Borderlands: <br>The
-                                                    Handsome Collection</a></h3><!-- End .product-title -->
+                                            <h3 class="product-title"><a href="/product/{{$homeData[4]->id}}">Oxygen
+                                                    Mask</a></h3><!-- End .product-title -->
                                             <div class="product-price">
                                                 $59.99
                                             </div><!-- End .product-price -->
@@ -1007,7 +1008,7 @@
                                     <div class="product">
                                         <figure class="product-media">
                                             <a href="product.html">
-                                                <img src="{{asset('img/product/5.png')}}" alt="Product image"
+                                                <img src="{{asset($homeData[5]->img1)}}" alt="Product image"
                                                     class="product-image">
                                             </a>
 
@@ -1023,10 +1024,10 @@
 
                                         <div class="product-body">
                                             <div class="product-cat">
-                                                <a href="#">Action & adventure</a>
+                                                <a href="/product/{{$homeData[5]->id}}">Accessories</a>
                                             </div><!-- End .product-cat -->
-                                            <h3 class="product-title"><a href="product.html">The Witcher 3: Wild
-                                                    Hunt</a></h3><!-- End .product-title -->
+                                            <h3 class="product-title"><a href="/product/{{$homeData[5]->id}}">Oxygen
+                                                    Mask</a></h3><!-- End .product-title -->
                                             <div class="product-price">
                                                 $39.99
                                             </div><!-- End .product-price -->
@@ -1065,7 +1066,7 @@
                                         <figure class="product-media">
                                             <span class="product-label label-top">Top</span>
                                             <a href="product.html">
-                                                <img src="{{asset('img/product/1.png')}}" alt="Product image"
+                                                <img src="{{asset($homeData[0]->img1)}}" alt="Product image"
                                                     class="product-image">
                                             </a>
 
@@ -1081,10 +1082,10 @@
 
                                         <div class="product-body">
                                             <div class="product-cat">
-                                                <a href="#">Shooter</a>
+                                                <a href="/product/{{$homeData[0]->id}}">Device</a>
                                             </div><!-- End .product-cat -->
-                                            <h3 class="product-title"><a href="product.html">Borderlands: <br>The
-                                                    Handsome Collection</a></h3><!-- End .product-title -->
+                                            <h3 class="product-title"><a href="/product/{{$homeData[0]->id}}">Pulse
+                                                    Oximeter</a></h3><!-- End .product-title -->
                                             <div class="product-price">
                                                 $59.99
                                             </div><!-- End .product-price -->
@@ -1094,7 +1095,7 @@
                                     <div class="product">
                                         <figure class="product-media">
                                             <a href="product.html">
-                                                <img src="{{asset('img/product/5.png')}}" alt="Product image"
+                                                <img src="{{asset($homeData[1]->img1)}}" alt="Product image"
                                                     class="product-image">
                                             </a>
 
@@ -1110,9 +1111,10 @@
 
                                         <div class="product-body">
                                             <div class="product-cat">
-                                                <a href="#">Shooter</a>
+                                                <a href="/product/{{$homeData[1]->id}}">Accessories</a>
                                             </div><!-- End .product-cat -->
-                                            <h3 class="product-title"><a href="product.html">World War Z</a></h3>
+                                            <h3 class="product-title"><a href="/product/{{$homeData[1]->id}}">Oxygen
+                                                    Mask</a></h3>
                                             <!-- End .product-title -->
                                             <div class="product-price">
                                                 $39.99
@@ -1123,7 +1125,7 @@
                                     <div class="product">
                                         <figure class="product-media">
                                             <a href="product.html">
-                                                <img src="{{asset('img/product/7.png')}}" alt="Product image"
+                                                <img src="{{asset($homeData[2]->img1)}}" alt="Product image"
                                                     class="product-image">
                                             </a>
 
@@ -1139,10 +1141,11 @@
 
                                         <div class="product-body">
                                             <div class="product-cat">
-                                                <a href="#">Action & adventure</a>
+                                                <a href="/product/{{$homeData[2]->id}}">Device</a>
                                             </div><!-- End .product-cat -->
-                                            <h3 class="product-title"><a href="product.html">The Witcher 3: Wild
-                                                    Hunt</a></h3><!-- End .product-title -->
+                                            <h3 class="product-title"><a
+                                                    href="/product/{{$homeData[2]->id}}">Particulate Filter</a></h3>
+                                            <!-- End .product-title -->
                                             <div class="product-price">
                                                 $39.99
                                             </div><!-- End .product-price -->
@@ -1153,7 +1156,7 @@
                                         <figure class="product-media">
                                             <span class="product-label label-sale">Sale</span>
                                             <a href="product.html">
-                                                <img src="{{asset('img/product/8.png')}}" alt="Product image"
+                                                <img src="{{asset($homeData[3]->img1)}}" alt="Product image"
                                                     class="product-image">
                                             </a>
 
@@ -1169,10 +1172,10 @@
 
                                         <div class="product-body">
                                             <div class="product-cat">
-                                                <a href="#">Action & adventure</a>
+                                                <a href="/product/{{$homeData[3]->id}}">Device</a>
                                             </div><!-- End .product-cat -->
-                                            <h3 class="product-title"><a href="product.html">GTA Online: Criminal
-                                                    Enterprise Starter Pack</a></h3><!-- End .product-title -->
+                                            <h3 class="product-title"><a href="/product/{{$homeData[3]->id}}">Sensor</a>
+                                            </h3><!-- End .product-title -->
                                             <div class="product-price">
                                                 <span class="new-price">$19.49</span>
                                                 <span class="old-price">Was $24.49</span>
@@ -1183,7 +1186,7 @@
                                     <div class="product">
                                         <figure class="product-media">
                                             <a href="product.html">
-                                                <img src="{{asset('img/product/9.jpg')}}" alt="Product image"
+                                                <img src="{{asset($homeData[4]->img1)}}" alt="Product image"
                                                     class="product-image">
                                             </a>
 
@@ -1199,10 +1202,10 @@
 
                                         <div class="product-body">
                                             <div class="product-cat">
-                                                <a href="#">Shooter</a>
+                                                <a href="/product/{{$homeData[4]->id}}">Accessories</a>
                                             </div><!-- End .product-cat -->
-                                            <h3 class="product-title"><a href="product.html">Tom Clancy’s <br>Ghost
-                                                    Recon Wildlands</a></h3><!-- End .product-title -->
+                                            <h3 class="product-title"><a href="/product/{{$homeData[4]->id}}">Oxygen
+                                                    Mask</a></h3><!-- End .product-title -->
                                             <div class="product-price">
                                                 $49.99
                                             </div><!-- End .product-price -->
@@ -1289,7 +1292,7 @@
                                             <div class="product">
                                                 <figure class="product-media">
                                                     <a href="product.html">
-                                                        <img src="{{asset('img/product/5.png')}}" alt="Product image"
+                                                        <img src="{{asset($homeData[0]->img1)}}" alt="Product image"
                                                             class="product-image">
                                                     </a>
 
@@ -1306,10 +1309,10 @@
 
                                                 <div class="product-body">
                                                     <div class="product-cat">
-                                                        <a href="#">Shooter</a>
+                                                        <a href="/product/{{$homeData[0]->id}}">Device</a>
                                                     </div><!-- End .product-cat -->
-                                                    <h3 class="product-title"><a href="product.html">Tom Clancy’s
-                                                            <br>Ghost Recon Wildlands</a></h3>
+                                                    <h3 class="product-title"><a
+                                                            href="/product/{{$homeData[0]->id}}">Pulse Oximeter</a></h3>
                                                     <!-- End .product-title -->
                                                     <div class="product-price">
                                                         $49.99
@@ -1322,7 +1325,7 @@
                                             <div class="product">
                                                 <figure class="product-media">
                                                     <a href="product.html">
-                                                        <img src="{{asset('img/product/7.png')}}" alt="Product image"
+                                                        <img src="{{asset($homeData[1]->img1)}}" alt="Product image"
                                                             class="product-image">
                                                     </a>
 
@@ -1339,10 +1342,11 @@
 
                                                 <div class="product-body">
                                                     <div class="product-cat">
-                                                        <a href="#">Sport</a>
+                                                        <a href="/product/{{$homeData[1]->id}}">Accessories</a>
                                                     </div><!-- End .product-cat -->
-                                                    <h3 class="product-title"><a href="product.html">NBA 2K19 450,000
-                                                            VC</a></h3><!-- End .product-title -->
+                                                    <h3 class="product-title"><a
+                                                            href="/product/{{$homeData[1]->id}}">Oxygen Mask</a></h3>
+                                                    <!-- End .product-title -->
                                                     <div class="product-price">
                                                         $74.99
                                                     </div><!-- End .product-price -->
@@ -1354,7 +1358,7 @@
                                             <div class="product">
                                                 <figure class="product-media">
                                                     <a href="product.html">
-                                                        <img src="{{asset('img/product/8.png')}}" alt="Product image"
+                                                        <img src="{{asset($homeData[2]->img1)}}" alt="Product image"
                                                             class="product-image">
                                                     </a>
 
@@ -1371,10 +1375,11 @@
 
                                                 <div class="product-body">
                                                     <div class="product-cat">
-                                                        <a href="#">Shooter</a>
+                                                        <a href="/product/{{$homeData[2]->id}}">Device</a>
                                                     </div><!-- End .product-cat -->
-                                                    <h3 class="product-title"><a href="product.html">STAR WARS
-                                                            Battlefront II</a></h3><!-- End .product-title -->
+                                                    <h3 class="product-title"><a
+                                                            href="/product/{{$homeData[2]->id}}">Particulate Filter</a>
+                                                    </h3><!-- End .product-title -->
                                                     <div class="product-price">
                                                         $24.99
                                                     </div><!-- End .product-price -->
@@ -1386,7 +1391,7 @@
                                             <div class="product">
                                                 <figure class="product-media">
                                                     <a href="product.html">
-                                                        <img src="{{asset('img/product/9.jpg')}}" alt="Product image"
+                                                        <img src="{{asset($homeData[3]->img1)}}" alt="Product image"
                                                             class="product-image">
                                                     </a>
 
@@ -1403,10 +1408,10 @@
 
                                                 <div class="product-body">
                                                     <div class="product-cat">
-                                                        <a href="#">Shooter</a>
+                                                        <a href="/product/{{$homeData[3]->id}}">Device</a>
                                                     </div><!-- End .product-cat -->
-                                                    <h3 class="product-title"><a href="product.html">Call of Duty: Black
-                                                            Ops 4 Spectre Rising Edition</a></h3>
+                                                    <h3 class="product-title"><a
+                                                            href="/product/{{$homeData[3]->id}}">Sensor</a></h3>
                                                     <!-- End .product-title -->
                                                     <div class="product-price">
                                                         $39.99
@@ -1419,7 +1424,7 @@
                                             <div class="product">
                                                 <figure class="product-media">
                                                     <a href="product.html">
-                                                        <img src="{{asset('img/product/1.png')}}" alt="Product image"
+                                                        <img src="{{asset($homeData[4]->img1)}}" alt="Product image"
                                                             class="product-image">
                                                     </a>
 
@@ -1436,10 +1441,11 @@
 
                                                 <div class="product-body">
                                                     <div class="product-cat">
-                                                        <a href="#">Role playing</a>
+                                                        <a href="/product/{{$homeData[4]->id}}">Accessories</a>
                                                     </div><!-- End .product-cat -->
-                                                    <h3 class="product-title"><a href="product.html">Diablo III:
-                                                            <br>Eternal Collection</a></h3><!-- End .product-title -->
+                                                    <h3 class="product-title"><a
+                                                            href="/product/{{$homeData[4]->id}}">Oxygen Mask</a></h3>
+                                                    <!-- End .product-title -->
                                                     <div class="product-price">
                                                         $19.99
                                                     </div><!-- End .product-price -->
@@ -1451,7 +1457,7 @@
                                             <div class="product">
                                                 <figure class="product-media">
                                                     <a href="product.html">
-                                                        <img src="{{asset('img/product/11.jpg')}}" alt="Product image"
+                                                        <img src="{{asset($homeData[5]->img1)}}" alt="Product image"
                                                             class="product-image">
                                                     </a>
 
@@ -1468,10 +1474,11 @@
 
                                                 <div class="product-body">
                                                     <div class="product-cat">
-                                                        <a href="#">Role playing</a>
+                                                        <a href="/product/{{$homeData[5]->id}}">Accessories</a>
                                                     </div><!-- End .product-cat -->
-                                                    <h3 class="product-title"><a href="product.html">Tom Clancy's
-                                                            <br>The Division 2</a></h3><!-- End .product-title -->
+                                                    <h3 class="product-title"><a
+                                                            href="/product/{{$homeData[5]->id}}">Oxygen Mask</a></h3>
+                                                    <!-- End .product-title -->
                                                     <div class="product-price">
                                                         $24.99
                                                     </div><!-- End .product-price -->
@@ -1523,7 +1530,7 @@
                 <div class="container">
                     <div class="heading heading-flex mb-2">
                         <div class="heading-left">
-                            <h2 class="title mb-5">Consoles & Accessories</h2><!-- End .title -->
+                            <h2 class="title mb-5">Accessories & Other Devices</h2><!-- End .title -->
                         </div><!-- End .heading-left -->
 
                         <div class="heading-right">
@@ -1560,7 +1567,7 @@
                             <figure class="product-media">
                                 <span class="product-label label-new">New</span>
                                 <a href="product.html">
-                                    <img src="{{asset('img/product/5.png')}}" alt="Product image" class="product-image">
+                                    <img src="{{asset($homeData[0]->img1)}}" alt="Product image" class="product-image">
                                 </a>
 
                                 <div class="product-action-vertical">
@@ -1574,8 +1581,8 @@
                             </figure><!-- End .product-media -->
 
                             <div class="product-body">
-                                <h3 class="product-title"><a href="product.html">Microsoft - Xbox Elite Wireless
-                                        Controller</a></h3><!-- End .product-title -->
+                                <h3 class="product-title"><a href="/product/{{$homeData[0]->id}}">pulse Oximeter</a>
+                                </h3><!-- End .product-title -->
                                 <div class="product-price">
                                     $149.99
                                 </div><!-- End .product-price -->
@@ -1586,7 +1593,7 @@
                             <figure class="product-media">
                                 <span class="product-label label-top">Top</span>
                                 <a href="product.html">
-                                    <img src="{{asset('img/product/7.png')}}" alt="Product image" class="product-image">
+                                    <img src="{{asset($homeData[1]->img1)}}" alt="Product image" class="product-image">
                                 </a>
 
                                 <div class="product-action-vertical">
@@ -1600,8 +1607,8 @@
                             </figure><!-- End .product-media -->
 
                             <div class="product-body">
-                                <h3 class="product-title"><a href="product.html">Sony - PlayStation 4 1TB Console -
-                                        Black</a></h3><!-- End .product-title -->
+                                <h3 class="product-title"><a href="/product/{{$homeData[1]->id}}">Oxygen Mask</a></h3>
+                                <!-- End .product-title -->
                                 <div class="product-price">
                                     $299.99
                                 </div><!-- End .product-price -->
@@ -1611,7 +1618,7 @@
                         <div class="product">
                             <figure class="product-media">
                                 <a href="product.html">
-                                    <img src="{{asset('img/product/8.png')}}" alt="Product image" class="product-image">
+                                    <img src="{{asset($homeData[2]->img1)}}" alt="Product image" class="product-image">
                                 </a>
 
                                 <div class="product-action-vertical">
@@ -1625,7 +1632,8 @@
                             </figure><!-- End .product-media -->
 
                             <div class="product-body">
-                                <h3 class="product-title"><a href="product.html">Nintendo - Switch 32GB Console</a></h3>
+                                <h3 class="product-title"><a href="/product/{{$homeData[2]->id}}">Particulate Filter</a>
+                                </h3>
                                 <!-- End .product-title -->
                                 <div class="product-price">
                                     $149.99
@@ -1637,7 +1645,7 @@
                             <figure class="product-media">
                                 <span class="product-label label-top">Top</span>
                                 <a href="product.html">
-                                    <img src="{{asset('img/product/9.jpg')}}" alt="Product image" class="product-image">
+                                    <img src="{{asset($homeData[3]->img1)}}" alt="Product image" class="product-image">
                                 </a>
 
                                 <div class="product-action-vertical">
@@ -1651,8 +1659,8 @@
                             </figure><!-- End .product-media -->
 
                             <div class="product-body">
-                                <h3 class="product-title"><a href="product.html">HyperX - Cloud Alpha Wired Stereo
-                                        Gaming Headset</a></h3><!-- End .product-title -->
+                                <h3 class="product-title"><a href="/product/{{$homeData[3]->id}}">Sensor</a></h3>
+                                <!-- End .product-title -->
                                 <div class="product-price">
                                     $99.99
                                 </div><!-- End .product-price -->
@@ -1662,8 +1670,7 @@
                         <div class="product">
                             <figure class="product-media">
                                 <a href="product.html">
-                                    <img src="{{asset('img/product/10.jpg')}}" alt="Product image"
-                                        class="product-image">
+                                    <img src="{{asset($homeData[4]->img1)}}" alt="Product image" class="product-image">
                                 </a>
 
                                 <div class="product-action-vertical">
@@ -1677,8 +1684,8 @@
                             </figure><!-- End .product-media -->
 
                             <div class="product-body">
-                                <h3 class="product-title"><a href="product.html">Logitech - G502 HERO Wired Optical
-                                        Gaming Mouse Pack</a></h3><!-- End .product-title -->
+                                <h3 class="product-title"><a href="/product/{{$homeData[4]->id}}">Oxygen Mask</a></h3>
+                                <!-- End .product-title -->
                                 <div class="product-price">
                                     $59.99
                                 </div><!-- End .product-price -->

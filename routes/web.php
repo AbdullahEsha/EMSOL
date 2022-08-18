@@ -21,10 +21,11 @@ use App\Http\Controllers\blogUploadController;
 */
 
 Route::get('/', [ProductController::class, 'getHome']);
+Route::get('/product', [ProductController::class, 'getProductHome']);
 
-Route::get('/product', function () {
-    return view('product');
-});
+// Route::get('/product', function () {
+//     return view('product');
+// });
 Route::get('/product-list', function () {
     return view('productList');
 });

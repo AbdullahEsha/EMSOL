@@ -694,8 +694,8 @@
                                         <div class="product product-7 text-center">
                                             <figure class="product-media">
                                                 <span class="product-label label-new">New</span>
-                                                <a href="product.html">
-                                                    <img src="{{asset('img/product/9.jpg')}}" alt="Product image"
+                                                <a href="/product/{{$productHomeData[0]->id}}">
+                                                    <img src="{{asset($productHomeData[0]->img1)}}" alt="Product image"
                                                         class="product-image">
                                                 </a>
 
@@ -734,15 +734,18 @@
                                                 </div><!-- End .rating-container -->
 
                                                 <div class="product-nav product-nav-thumbs">
-                                                    <a href="#" class="active">
-                                                        <img src="{{asset('img/product/9.jpg')}}" alt="product desc">
+                                                    <a href="/product/{{$productHomeData[0]->id}}" class="active">
+                                                        <img src="{{asset($productHomeData[0]->img1)}}"
+                                                            alt="product desc">
                                                     </a>
-                                                    <a href="#">
-                                                        <img src="{{asset('img/product/9.jpg')}}" alt="product desc">
+                                                    <a href="/product/{{$productHomeData[0]->id}}">
+                                                        <img src="{{asset($productHomeData[0]->img1)}}"
+                                                            alt="product desc">
                                                     </a>
 
-                                                    <a href="#">
-                                                        <img src="{{asset('img/product/9.jpg')}}" alt="product desc">
+                                                    <a href="/product/{{$productHomeData[0]->id}}">
+                                                        <img src="{{asset($productHomeData[0]->img1)}}"
+                                                            alt="product desc">
                                                     </a>
                                                 </div><!-- End .product-nav -->
                                             </div><!-- End .product-body -->
@@ -752,8 +755,8 @@
                                     <div class="col-6 col-md-4 col-lg-4">
                                         <div class="product product-7 text-center">
                                             <figure class="product-media">
-                                                <a href="product.html">
-                                                    <img src="{{asset('img/product/2.png')}}" alt="Product image"
+                                                <a href="/product/{{$productHomeData[1]->id}}">
+                                                    <img src="{{asset($productHomeData[1]->img1)}}" alt="Product image"
                                                         class="product-image">
                                                 </a>
 
@@ -792,11 +795,13 @@
                                                 </div><!-- End .rating-container -->
 
                                                 <div class="product-nav product-nav-thumbs">
-                                                    <a href="#" class="active">
-                                                        <img src="{{asset('img/product/2.png')}}" alt="product desc">
+                                                    <a href="/product/{{$productHomeData[1]->id}}" class="active">
+                                                        <img src="{{asset($productHomeData[1]->img1)}}"
+                                                            alt="product desc">
                                                     </a>
-                                                    <a href="#">
-                                                        <img src="{{asset('img/product/2.png')}}" alt="product desc">
+                                                    <a href="/product/{{$productHomeData[1]->id}}">
+                                                        <img src="{{asset($productHomeData[1]->img1)}}"
+                                                            alt="product desc">
                                                     </a>
                                                 </div><!-- End .product-nav -->
                                             </div><!-- End .product-body -->
@@ -807,8 +812,8 @@
                                         <div class="product product-7 text-center">
                                             <figure class="product-media">
                                                 <span class="product-label label-out">Out of Stock</span>
-                                                <a href="product.html">
-                                                    <img src="{{asset('img/product/5.png')}}" alt="Product image"
+                                                <a href="/product/{{$productHomeData[2]->id}}">
+                                                    <img src="{{asset($productHomeData[2]->img1)}}" alt="Product image"
                                                         class="product-image">
                                                 </a>
 
@@ -852,8 +857,8 @@
                                     <div class="col-6 col-md-4 col-lg-4">
                                         <div class="product product-7 text-center">
                                             <figure class="product-media">
-                                                <a href="product.html">
-                                                    <img src="{{asset('img/product/7.png')}}" alt="Product image"
+                                                <a href="/product/{{$productHomeData[3]->id}}">
+                                                    <img src="{{asset($productHomeData[3]->img1)}}" alt="Product image"
                                                         class="product-image">
                                                 </a>
 
@@ -898,8 +903,8 @@
                                         <div class="product product-7 text-center">
                                             <figure class="product-media">
                                                 <span class="product-label label-new">New</span>
-                                                <a href="product.html">
-                                                    <img src="{{asset('img/product/3.png')}}" alt="Product image"
+                                                <a href="/product/{{$productHomeData[4]->id}}">
+                                                    <img src="{{asset($productHomeData[4]->img1)}}" alt="Product image"
                                                         class="product-image">
                                                 </a>
 
@@ -938,11 +943,13 @@
                                                 </div><!-- End .rating-container -->
 
                                                 <div class="product-nav product-nav-thumbs">
-                                                    <a href="#" class="active">
-                                                        <img src="{{asset('img/product/3.png')}}" alt="product desc">
+                                                    <a href="/product/{{$productHomeData[4]->id}}" class="active">
+                                                        <img src="{{asset($productHomeData[4]->img1)}}"
+                                                            alt="product desc">
                                                     </a>
-                                                    <a href="#">
-                                                        <img src="{{asset('img/product/3.png')}}" alt="product desc">
+                                                    <a href="/product/{{$productHomeData[4]->id}}">
+                                                        <img src="{{asset($productHomeData[4]->img1)}}"
+                                                            alt="product desc">
                                                     </a>
                                                 </div><!-- End .product-nav -->
                                             </div><!-- End .product-body -->
@@ -952,8 +959,8 @@
                                     <div class="col-6 col-md-4 col-lg-4">
                                         <div class="product product-7 text-center">
                                             <figure class="product-media">
-                                                <a href="product.html">
-                                                    <img src="{{asset('img/product/8.png')}}" alt="Product image"
+                                                <a href="/product/{{$productHomeData[5]->id}}">
+                                                    <img src="{{asset($productHomeData[5]->img1)}}" alt="Product image"
                                                         class="product-image">
                                                 </a>
 
@@ -992,14 +999,17 @@
                                                 </div><!-- End .rating-container -->
 
                                                 <div class="product-nav product-nav-thumbs">
-                                                    <a href="#" class="active">
-                                                        <img src="{{asset('img/product/8.png')}}" alt="product desc">
+                                                    <a href="/product/{{$productHomeData[5]->id}}" class="active">
+                                                        <img src="{{asset($productHomeData[5]->img1)}}"
+                                                            alt="product desc">
                                                     </a>
-                                                    <a href="#">
-                                                        <img src="{{asset('img/product/8.png')}}" alt="product desc">
+                                                    <a href="/product/{{$productHomeData[5]->id}}">
+                                                        <img src="{{asset($productHomeData[5]->img1)}}"
+                                                            alt="product desc">
                                                     </a>
-                                                    <a href="#">
-                                                        <img src="{{asset('img/product/8.png')}}" alt="product desc">
+                                                    <a href="/product/{{$productHomeData[5]->id}}">
+                                                        <img src="{{asset($productHomeData[5]->img1)}}"
+                                                            alt="product desc">
                                                     </a>
                                                 </div><!-- End .product-nav -->
                                             </div><!-- End .product-body -->
@@ -1010,8 +1020,8 @@
                                         <div class="product product-7 text-center">
                                             <figure class="product-media">
                                                 <span class="product-label label-top">Top</span>
-                                                <a href="product.html">
-                                                    <img src="{{asset('img/product/5.png')}}" alt="Product image"
+                                                <a href="/product/{{$productHomeData[6]->id}}">
+                                                    <img src="{{asset($productHomeData[6]->img1)}}" alt="Product image"
                                                         class="product-image">
                                                 </a>
 
@@ -1050,15 +1060,18 @@
                                                 </div><!-- End .rating-container -->
 
                                                 <div class="product-nav product-nav-thumbs">
-                                                    <a href="#" class="active">
-                                                        <img src="{{asset('img/product/5.png')}}" alt="product desc">
+                                                    <a href="/product/{{$productHomeData[6]->id}}" class="active">
+                                                        <img src="{{asset($productHomeData[6]->img1)}}"
+                                                            alt="product desc">
                                                     </a>
-                                                    <a href="#">
-                                                        <img src="{{asset('img/product/5.png')}}" alt="product desc">
+                                                    <a href="/product/{{$productHomeData[6]->id}}">
+                                                        <img src="{{asset($productHomeData[6]->img1)}}"
+                                                            alt="product desc">
                                                     </a>
 
-                                                    <a href="#">
-                                                        <img src="{{asset('img/product/5.png')}}" alt="product desc">
+                                                    <a href="/product/{{$productHomeData[6]->id}}">
+                                                        <img src="{{asset($productHomeData[6]->img1)}}"
+                                                            alt="product desc">
                                                     </a>
                                                 </div><!-- End .product-nav -->
                                             </div><!-- End .product-body -->
@@ -1068,8 +1081,8 @@
                                     <div class="col-6 col-md-4 col-lg-4">
                                         <div class="product product-7 text-center">
                                             <figure class="product-media">
-                                                <a href="product.html">
-                                                    <img src="{{asset('img/product/7.png')}}" alt="Product image"
+                                                <a href="/product/{{$productHomeData[7]->id}}">
+                                                    <img src="{{asset($productHomeData[7]->img1)}}" alt="Product image"
                                                         class="product-image">
                                                 </a>
 
@@ -1113,8 +1126,8 @@
                                     <div class="col-6 col-md-4 col-lg-4">
                                         <div class="product product-7 text-center">
                                             <figure class="product-media">
-                                                <a href="product.html">
-                                                    <img src="{{asset('img/product/7.png')}}" alt="Product image"
+                                                <a href="/product/{{$productHomeData[6]->id}}">
+                                                    <img src="{{asset($productHomeData[0]->img1)}}" alt="Product image"
                                                         class="product-image">
                                                 </a>
 
