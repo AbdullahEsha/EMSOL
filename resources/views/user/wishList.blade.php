@@ -71,296 +71,6 @@
 
                         <nav class="main-nav">
                             <ul class="menu sf-arrows">
-                                <li class="megamenu-container active">
-                                    <a href="index.html" class="sf-with-ul">Home</a>
-
-                                    <div class="megamenu demo">
-                                        <div class="menu-col">
-                                            <div class="menu-title">Choose your demo</div><!-- End .menu-title -->
-
-                                            <div class="demo-list">
-                                                <div class="demo-item">
-                                                    <a href="index-1.html">
-                                                        <span class="demo-bg"
-                                                            style="background-image: url({{asset('common/assets/images/menu/demos/1.jpg')}})"></span>
-                                                        <span class="demo-title">01 - furniture store</span>
-                                                    </a>
-                                                </div><!-- End .demo-item -->
-
-                                                <div class="demo-item">
-                                                    <a href="index-2.html">
-                                                        <span class="demo-bg"
-                                                            style="background-image: url({{asset('common/assets/images/menu/demos/2.jpg')}})"></span>
-                                                        <span class="demo-title">02 - furniture store</span>
-                                                    </a>
-                                                </div><!-- End .demo-item -->
-
-                                                <div class="demo-item">
-                                                    <a href="index-3.html">
-                                                        <span class="demo-bg"
-                                                            style="background-image: url({{asset('common/assets/images/menu/demos/3.jpg')}})"></span>
-                                                        <span class="demo-title">03 - electronic store</span>
-                                                    </a>
-                                                </div><!-- End .demo-item -->
-
-                                                <div class="demo-item">
-                                                    <a href="index-4.html">
-                                                        <span class="demo-bg"
-                                                            style="background-image: url({{asset('common/assets/images/menu/demos/4.jpg')}})"></span>
-                                                        <span class="demo-title">04 - electronic store</span>
-                                                    </a>
-                                                </div><!-- End .demo-item -->
-
-                                                <div class="demo-item">
-                                                    <a href="index-5.html">
-                                                        <span class="demo-bg"
-                                                            style="background-image: url({{asset('common/assets/images/menu/demos/5.jpg')}})"></span>
-                                                        <span class="demo-title">05 - fashion store</span>
-                                                    </a>
-                                                </div><!-- End .demo-item -->
-
-                                                <div class="demo-item">
-                                                    <a href="index-6.html">
-                                                        <span class="demo-bg"
-                                                            style="background-image: url({{asset('common/assets/images/menu/demos/6.jpg')}})"></span>
-                                                        <span class="demo-title">06 - fashion store</span>
-                                                    </a>
-                                                </div><!-- End .demo-item -->
-
-                                                <div class="demo-item">
-                                                    <a href="index-7.html">
-                                                        <span class="demo-bg"
-                                                            style="background-image: url({{asset('common/assets/images/menu/demos/7.jpg')}})"></span>
-                                                        <span class="demo-title">07 - fashion store</span>
-                                                    </a>
-                                                </div><!-- End .demo-item -->
-
-                                                <div class="demo-item">
-                                                    <a href="index-8.html">
-                                                        <span class="demo-bg"
-                                                            style="background-image: url({{asset('common/assets/images/menu/demos/8.jpg')}})"></span>
-                                                        <span class="demo-title">08 - fashion store</span>
-                                                    </a>
-                                                </div><!-- End .demo-item -->
-
-                                                <div class="demo-item">
-                                                    <a href="index-9.html">
-                                                        <span class="demo-bg"
-                                                            style="background-image: url({{asset('common/assets/images/menu/demos/9.jpg')}})"></span>
-                                                        <span class="demo-title">09 - fashion store</span>
-                                                    </a>
-                                                </div><!-- End .demo-item -->
-
-                                                <div class="demo-item">
-                                                    <a href="index-10.html">
-                                                        <span class="demo-bg"
-                                                            style="background-image: url({{asset('common/assets/images/menu/demos/10.jpg')}})"></span>
-                                                        <span class="demo-title">10 - shoes store</span>
-                                                    </a>
-                                                </div><!-- End .demo-item -->
-
-                                                <div class="demo-item hidden">
-                                                    <a href="index-11.html">
-                                                        <span class="demo-bg"
-                                                            style="background-image: url({{asset('common/assets/images/menu/demos/11.jpg')}})"></span>
-                                                        <span class="demo-title">11 - furniture simple store</span>
-                                                    </a>
-                                                </div><!-- End .demo-item -->
-
-                                                <div class="demo-item hidden">
-                                                    <a href="index-12.html">
-                                                        <span class="demo-bg"
-                                                            style="background-image: url({{asset('common/assets/images/menu/demos/12.jpg')}})"></span>
-                                                        <span class="demo-title">12 - fashion simple store</span>
-                                                    </a>
-                                                </div><!-- End .demo-item -->
-
-                                                <div class="demo-item hidden">
-                                                    <a href="index-13.html">
-                                                        <span class="demo-bg"
-                                                            style="background-image: url({{asset('common/assets/images/menu/demos/13.jpg')}})"></span>
-                                                        <span class="demo-title">13 - market</span>
-                                                    </a>
-                                                </div><!-- End .demo-item -->
-
-                                                <div class="demo-item hidden">
-                                                    <a href="index-14.html">
-                                                        <span class="demo-bg"
-                                                            style="background-image: url({{asset('common/assets/images/menu/demos/14.jpg')}})"></span>
-                                                        <span class="demo-title">14 - market fullwidth</span>
-                                                    </a>
-                                                </div><!-- End .demo-item -->
-
-                                                <div class="demo-item hidden">
-                                                    <a href="index-15.html">
-                                                        <span class="demo-bg"
-                                                            style="background-image: url({{asset('common/assets/images/menu/demos/15.jpg')}})"></span>
-                                                        <span class="demo-title">15 - lookbook 1</span>
-                                                    </a>
-                                                </div><!-- End .demo-item -->
-
-                                                <div class="demo-item hidden">
-                                                    <a href="index-16.html">
-                                                        <span class="demo-bg"
-                                                            style="background-image: url({{asset('common/assets/images/menu/demos/16.jpg')}})"></span>
-                                                        <span class="demo-title">16 - lookbook 2</span>
-                                                    </a>
-                                                </div><!-- End .demo-item -->
-
-                                                <div class="demo-item hidden">
-                                                    <a href="index-17.html">
-                                                        <span class="demo-bg"
-                                                            style="background-image: url({{asset('common/assets/images/menu/demos/17.jpg')}})"></span>
-                                                        <span class="demo-title">17 - fashion store</span>
-                                                    </a>
-                                                </div><!-- End .demo-item -->
-
-                                                <div class="demo-item hidden">
-                                                    <a href="index-18.html">
-                                                        <span class="demo-bg"
-                                                            style="background-image: url({{asset('common/assets/images/menu/demos/18.jpg')}})"></span>
-                                                        <span class="demo-title">18 - fashion store (with
-                                                            sidebar)</span>
-                                                    </a>
-                                                </div><!-- End .demo-item -->
-
-                                                <div class="demo-item hidden">
-                                                    <a href="index-19.html">
-                                                        <span class="demo-bg"
-                                                            style="background-image: url({{asset('common/assets/images/menu/demos/19.jpg')}})"></span>
-                                                        <span class="demo-title">19 - games store</span>
-                                                    </a>
-                                                </div><!-- End .demo-item -->
-
-                                                <div class="demo-item hidden">
-                                                    <a href="index-20.html">
-                                                        <span class="demo-bg"
-                                                            style="background-image: url({{asset('common/assets/images/menu/demos/20.jpg')}})"></span>
-                                                        <span class="demo-title">20 - book store</span>
-                                                    </a>
-                                                </div><!-- End .demo-item -->
-
-                                                <div class="demo-item hidden">
-                                                    <a href="index-21.html">
-                                                        <span class="demo-bg"
-                                                            style="background-image: url({{asset('common/assets/images/menu/demos/21.jpg')}})"></span>
-                                                        <span class="demo-title">21 - sport store</span>
-                                                    </a>
-                                                </div><!-- End .demo-item -->
-
-                                                <div class="demo-item hidden">
-                                                    <a href="index-22.html">
-                                                        <span class="demo-bg"
-                                                            style="background-image: url({{asset('common/assets/images/menu/demos/22.jpg')}})"></span>
-                                                        <span class="demo-title">22 - tools store</span>
-                                                    </a>
-                                                </div><!-- End .demo-item -->
-
-                                                <div class="demo-item hidden">
-                                                    <a href="index-23.html">
-                                                        <span class="demo-bg"
-                                                            style="background-image: url({{asset('common/assets/images/menu/demos/23.jpg')}})"></span>
-                                                        <span class="demo-title">23 - fashion left navigation
-                                                            store</span>
-                                                    </a>
-                                                </div><!-- End .demo-item -->
-
-                                                <div class="demo-item hidden">
-                                                    <a href="index-24.html">
-                                                        <span class="demo-bg"
-                                                            style="background-image: url({{asset('common/assets/images/menu/demos/24.jpg')}})"></span>
-                                                        <span class="demo-title">24 - extreme sport store</span>
-                                                    </a>
-                                                </div><!-- End .demo-item -->
-
-                                            </div><!-- End .demo-list -->
-
-                                            <div class="megamenu-action text-center">
-                                                <a href="#" class="btn btn-outline-primary-2 view-all-demos"><span>View
-                                                        All Demos</span><i class="icon-long-arrow-right"></i></a>
-                                            </div><!-- End .text-center -->
-                                        </div><!-- End .menu-col -->
-                                    </div><!-- End .megamenu -->
-                                </li>
-                                <li>
-                                    <a href="category.html" class="sf-with-ul">Shop</a>
-
-                                    <div class="megamenu megamenu-md">
-                                        <div class="row no-gutters">
-                                            <div class="col-md-8">
-                                                <div class="menu-col">
-                                                    <div class="row">
-                                                        <div class="col-md-6">
-                                                            <div class="menu-title">Shop with sidebar</div>
-                                                            <!-- End .menu-title -->
-                                                            <ul>
-                                                                <li><a href="category-list.html">Shop List</a></li>
-                                                                <li><a href="category-2cols.html">Shop Grid 2
-                                                                        Columns</a></li>
-                                                                <li><a href="category.html">Shop Grid 3 Columns</a></li>
-                                                                <li><a href="category-4cols.html">Shop Grid 4
-                                                                        Columns</a></li>
-                                                                <li><a href="category-market.html"><span>Shop
-                                                                            Market<span
-                                                                                class="tip tip-new">New</span></span></a>
-                                                                </li>
-                                                            </ul>
-
-                                                            <div class="menu-title">Shop no sidebar</div>
-                                                            <!-- End .menu-title -->
-                                                            <ul>
-                                                                <li><a href="category-boxed.html"><span>Shop Boxed No
-                                                                            Sidebar<span
-                                                                                class="tip tip-hot">Hot</span></span></a>
-                                                                </li>
-                                                                <li><a href="category-fullwidth.html">Shop Fullwidth No
-                                                                        Sidebar</a></li>
-                                                            </ul>
-                                                        </div><!-- End .col-md-6 -->
-
-                                                        <div class="col-md-6">
-                                                            <div class="menu-title">Product Category</div>
-                                                            <!-- End .menu-title -->
-                                                            <ul>
-                                                                <li><a href="product-category-boxed.html">Product
-                                                                        Category Boxed</a></li>
-                                                                <li><a href="product-category-fullwidth.html"><span>Product
-                                                                            Category Fullwidth<span
-                                                                                class="tip tip-new">New</span></span></a>
-                                                                </li>
-                                                            </ul>
-                                                            <div class="menu-title">Shop Pages</div>
-                                                            <!-- End .menu-title -->
-                                                            <ul>
-                                                                <li><a href="cart.html">Cart</a></li>
-                                                                <li><a href="checkout.html">Checkout</a></li>
-                                                                <li><a href="wishlist.html">Wishlist</a></li>
-                                                                <li><a href="dashboard.html">My Account</a></li>
-                                                                <li><a href="#">Lookbook</a></li>
-                                                            </ul>
-                                                        </div><!-- End .col-md-6 -->
-                                                    </div><!-- End .row -->
-                                                </div><!-- End .menu-col -->
-                                            </div><!-- End .col-md-8 -->
-
-                                            <div class="col-md-4">
-                                                <div class="banner banner-overlay">
-                                                    <a href="category.html" class="banner banner-menu">
-                                                        <img src="{{asset('common/assets/images/menu/banner-1.jpg')}}"
-                                                            alt="Banner">
-
-                                                        <div class="banner-content banner-content-top">
-                                                            <div class="banner-title text-white">Last
-                                                                <br>Chance<br><span><strong>Sale</strong></span>
-                                                            </div>
-                                                            <!-- End .banner-title -->
-                                                        </div><!-- End .banner-content -->
-                                                    </a>
-                                                </div><!-- End .banner banner-overlay -->
-                                            </div><!-- End .col-md-4 -->
-                                        </div><!-- End .row -->
-                                    </div><!-- End .megamenu megamenu-md -->
-                                </li>
                                 <li>
                                     <a href="product.html" class="sf-with-ul">Product</a>
 
@@ -371,15 +81,296 @@
                                                     <div class="menu-title">Product Details</div>
                                                     <!-- End .menu-title -->
                                                     <ul>
-                                                        <li><a href="product.html">Default</a></li>
-                                                        <li><a href="product-centered.html">Centered</a></li>
-                                                        <li><a href="product-extended.html"><span>Extended Info<span
-                                                                        class="tip tip-new">New</span></span></a></li>
-                                                        <li><a href="product-gallery.html">Gallery</a></li>
-                                                        <li><a href="product-sticky.html">Sticky Info</a></li>
-                                                        <li><a href="product-sidebar.html">Boxed With Sidebar</a></li>
-                                                        <li><a href="product-fullwidth.html">Full Width</a></li>
-                                                        <li><a href="product-masonry.html">Masonry Sticky Info</a></li>
+                                                        <li>
+                                                            <a href="product.html" class="sf-with-ul">
+                                                                <i class="equipment"></i>
+                                                                Medical Equipment</a>
+                                                            <div class="megamenu megamenu-sm">
+                                                                <div class="row no-gutters">
+                                                                    <div class="col-md-6">
+                                                                        <div class="menu-col">
+                                                                            <ul>
+                                                                                <li><a href="#">Anesthesia</a></li>
+                                                                                <li><a href="#">Autoclave</a></li>
+                                                                                <li><a href="#">C-arm</a></li>
+                                                                                <li><a href="#">Cath Lab</a></li>
+                                                                                <li><a href="#">Cautery</a></li>
+                                                                                <li><a href="#">CPAP BIPAP</a></li>
+                                                                                <li><a href="#">Defibrillator / AED</a>
+                                                                                </li>
+                                                                                <li><a href="#">Diathermy</a></li>
+                                                                                <li><a href="#">ECG</a></li>
+                                                                                <li><a href="#">ENT Equipment</a></li>
+                                                                                <li><a
+                                                                                        href="#">Endoscopy/Colonoscopy</a>
+                                                                                </li>
+                                                                                <li><a href="#">Hemodialysis Machine</a>
+                                                                                </li>
+                                                                                <li><a href="#">Holter</a></li>
+                                                                                <li><a href="#">OT Light</a></li>
+                                                                                <li><a href="#">Patient Monitor</a></li>
+                                                                                <li><a href="#">Phototherapy</a></li>
+                                                                                <li><a href="#">Suction Machine</a></li>
+                                                                                <li><a href="#">Syringe/Infusion
+                                                                                        Pump</a></li>
+                                                                                <li><a href="#">Ultrasound Machine</a>
+                                                                                </li>
+                                                                                <li><a href="#">Ventilator</a></li>
+                                                                                <li><a href="#">Baby
+                                                                                        Warmer/Incubator</a></li>
+                                                                                <li><a href="#">X-Ray/ C arm</a></li>
+                                                                            </ul>
+                                                                        </div><!-- End .menu-col -->
+                                                                    </div><!-- End .col-md-6 -->
+                                                                </div><!-- End .row -->
+                                                            </div><!-- End .megamenu megamenu-sm -->
+                                                        </li>
+                                                        <li>
+                                                            <a href="product.html" class="sf-with-ul">
+                                                                <i class="device"></i>Medical Device</a>
+                                                            <div class="megamenu megamenu-sm">
+                                                                <div class="row no-gutters">
+                                                                    <div class="col-md-6">
+                                                                        <div class="menu-col">
+                                                                            <ul>
+                                                                                <li><a href="#">Blood Pressure
+                                                                                        Monitor</a></li>
+                                                                                <li><a href="#">Body Massage devices</a>
+                                                                                </li>
+                                                                                <li><a href="#">Blood Pressure Monitor
+                                                                                        Accessories</a></li>
+                                                                                <li><a href="#">Fetal Doppler</a></li>
+                                                                                <li><a href="#">Flat Panel Detector</a>
+                                                                                </li>
+                                                                                <li><a href="#">Hearing Aid</a></li>
+                                                                                <li><a href="#">Hygrometer</a></li>
+                                                                                <li><a href="#">Lung Exerciser</a></li>
+                                                                                <li><a href="#">Nebulizer</a></li>
+                                                                                <li><a href="#">Ophthalmoscope /
+                                                                                        Otoscope</a></li>
+                                                                                <li><a href="#">Oxygen Concentrator</a>
+                                                                                </li>
+                                                                                <li><a href="#">Pulse Oximeter</a></li>
+                                                                                <li><a href="#">SPIROMETRY</a></li>
+                                                                                <li><a href="#">Stethoscope</a></li>
+                                                                                <li><a href="#">Thermometer</a></li>
+                                                                                <li><a href="#">Vein Finder</a></li>
+                                                                                <li><a href="#">Weighting Scale</a></li>
+                                                                            </ul>
+                                                                        </div><!-- End .menu-col -->
+                                                                    </div><!-- End .col-md-6 -->
+                                                                </div><!-- End .row -->
+                                                            </div><!-- End .megamenu megamenu-sm -->
+                                                        </li>
+                                                        <li>
+                                                            <a href="product.html" class="sf-with-ul">
+                                                                <i class="accessories"></i>Accessories & Others</a>
+                                                            <div class="megamenu megamenu-sm">
+                                                                <div class="row no-gutters">
+                                                                    <div class="col-md-6">
+                                                                        <div class="menu-col">
+                                                                            <ul>
+                                                                                <li><a
+                                                                                        href="#">Belt/Guards/Aids/Support</a>
+                                                                                </li>
+                                                                                <li><a href="#">CT/MRI Accessories</a>
+                                                                                </li>
+                                                                                <li><a href="#">Dehumidifier</a></li>
+                                                                                <li><a href="#">ECG Accessories</a></li>
+                                                                                <li><a href="#">Fire Extinguisher</a>
+                                                                                </li>
+                                                                                <li><a href="#">Heating Pad / Water
+                                                                                        Bag</a></li>
+                                                                                <li><a href="#">Catheter/Injector</a>
+                                                                                </li>
+                                                                                <li><a href="#">Mask</a></li>
+                                                                                <li><a href="#">Medical Software</a>
+                                                                                </li>
+                                                                                <li><a href="#">Metal Detector</a></li>
+                                                                                <li><a href="#">Oxygen Cylinder</a></li>
+                                                                                <li><a href="#">Ultrasound/Echo
+                                                                                        Accessories</a></li>
+                                                                                <li><a href="#">UPS</a></li>
+                                                                                <li><a href="#">Ventilator
+                                                                                        Accessories</a></li>
+                                                                                <li><a href="#">X-Ray Accessories</a>
+                                                                                </li>
+                                                                            </ul>
+                                                                        </div><!-- End .menu-col -->
+                                                                    </div><!-- End .col-md-6 -->
+                                                                </div><!-- End .row -->
+                                                            </div><!-- End .megamenu megamenu-sm -->
+                                                        </li>
+                                                        <li>
+                                                            <a href="product.html" class="sf-with-ul">
+                                                                <i class="laboratory"></i>Laboratory</a>
+                                                            <div class="megamenu megamenu-sm">
+                                                                <div class="row no-gutters">
+                                                                    <div class="col-md-6">
+                                                                        <div class="menu-col">
+                                                                            <ul>
+                                                                                <li><a href="#">Biochemistry/Clinical
+                                                                                        Chemistry Analyzer</a>
+                                                                                </li>
+                                                                                <li><a href="#">Electrolyte/Blood gas
+                                                                                        Analyzer</a></li>
+                                                                                <li><a href="#">ESR Analyzer</a></li>
+                                                                                <li><a href="#">Roller Mixer</a></li>
+                                                                                <li><a href="#">Rotator/ Platelet
+                                                                                        Rotator/Shaker</a></li>
+                                                                                <li><a href="#">Urine Analyzer</a></li>
+                                                                                <li><a href="#">Water Bath</a></li>
+                                                                                <li><a href="#">Coagulation Analyzer</a>
+                                                                                </li>
+                                                                                <li><a href="#">Harmon analyzer,
+                                                                                        Microplate,
+                                                                                        Elisa & Microbiology Reader</a>
+                                                                                </li>
+                                                                                <li><a href="#">Laboratory Analyzer</a>
+                                                                                </li>
+                                                                                <li><a href="#">Laboratory Test Strip &
+                                                                                        device</a></li>
+                                                                                <li><a href="#">Laboratory Others</a>
+                                                                                </li>
+                                                                                <li><a href="#">Laboratory
+                                                                                        Centrifuge</a></li>
+                                                                                <li><a href="#">Laboratory Analyzer</a>
+                                                                                </li>
+                                                                            </ul>
+                                                                        </div><!-- End .menu-col -->
+                                                                    </div><!-- End .col-md-6 -->
+                                                                </div><!-- End .row -->
+                                                            </div><!-- End .megamenu megamenu-sm -->
+                                                        </li>
+                                                        <li>
+                                                            <a href="product.html" class="sf-with-ul">
+                                                                <i class="dental"></i>Dental</a>
+                                                            <div class="megamenu megamenu-sm">
+                                                                <div class="row no-gutters">
+                                                                    <div class="col-md-6">
+                                                                        <div class="menu-col">
+                                                                            <ul>
+                                                                                <li><a href="#">Apex Locator</a></li>
+                                                                                <li><a href="#">Compressor</a></li>
+                                                                                <li><a href="#">Curing Light</a></li>
+                                                                                <li><a href="#">Dental
+                                                                                        Implant/micro/indo Motor</a>
+                                                                                </li>
+                                                                                <li><a href="#">Dental Light</a></li>
+                                                                                <li><a href="#">Dental Unit</a></li>
+                                                                                <li><a href="#">Dental X-ray</a></li>
+                                                                                <li><a href="#">Dental Accessories</a>
+                                                                                </li>
+                                                                            </ul>
+                                                                        </div><!-- End .menu-col -->
+                                                                    </div><!-- End .col-md-6 -->
+                                                                </div><!-- End .row -->
+                                                            </div><!-- End .megamenu megamenu-sm -->
+                                                        </li>
+                                                        <li>
+                                                            <a href="product.html" class="sf-with-ul">
+                                                                <i class="disposable"></i>Disposables</a>
+                                                            <div class="megamenu megamenu-sm">
+                                                                <div class="row no-gutters">
+                                                                    <div class="col-md-6">
+                                                                        <div class="menu-col">
+                                                                            <ul>
+                                                                                <li><a href="#">Weighting Scale</a></li>
+                                                                            </ul>
+                                                                        </div><!-- End .menu-col -->
+                                                                    </div><!-- End .col-md-6 -->
+                                                                </div><!-- End .row -->
+                                                            </div><!-- End .megamenu megamenu-sm -->
+                                                        </li>
+                                                        <li>
+                                                            <a href="product.html" class="sf-with-ul">
+                                                                <i class="eyecare"></i>Eye Care</a>
+                                                            <div class="megamenu megamenu-sm">
+                                                                <div class="row no-gutters">
+                                                                    <div class="col-md-6">
+                                                                        <div class="menu-col">
+                                                                            <ul>
+                                                                                <li><a href="#">Eye Instruments</a></li>
+                                                                                <li><a href="#">Eye Consumables &amp;
+                                                                                        Disposables</a></li>
+                                                                                <li><a href="#">Eye Accessories</a></li>
+                                                                            </ul>
+                                                                        </div><!-- End .menu-col -->
+                                                                    </div><!-- End .col-md-6 -->
+                                                                </div><!-- End .row -->
+                                                            </div><!-- End .megamenu megamenu-sm -->
+                                                        </li>
+                                                        <li>
+                                                            <a href="product.html" class="sf-with-ul">
+                                                                <i class="surgical"></i>Surgical</a>
+                                                            <div class="megamenu megamenu-sm">
+                                                                <div class="row no-gutters">
+                                                                    <div class="col-md-6">
+                                                                        <div class="menu-col">
+                                                                            <ul>
+                                                                                <li><a href="#">Surgical Instruments</a>
+                                                                                </li>
+                                                                                <li><a href="#">Surgical Disposables</a>
+                                                                                </li>
+                                                                                <li><a href="#">Skin/Cosmetic
+                                                                                        Surgery</a></li>
+                                                                            </ul>
+                                                                        </div><!-- End .menu-col -->
+                                                                    </div><!-- End .col-md-6 -->
+                                                                </div><!-- End .row -->
+                                                            </div><!-- End .megamenu megamenu-sm -->
+                                                        </li>
+                                                        <li>
+                                                            <a href="product.html" class="sf-with-ul">
+                                                                <i class="furniture"></i>Medical Furniture</a>
+                                                            <div class="megamenu megamenu-sm">
+                                                                <div class="row no-gutters">
+                                                                    <div class="col-md-6">
+                                                                        <div class="menu-col">
+                                                                            <ul>
+                                                                                <li><a href="#">Air Mattress</a></li>
+                                                                                <li><a href="#">Hospital Bed</a></li>
+                                                                                <li><a href="#">Cabinet</a></li>
+                                                                                <li><a href="#">Instrument Cart</a></li>
+                                                                                <li><a href="#">Over Bed Table</a></li>
+                                                                                <li><a href="#">Stretcher</a></li>
+                                                                                <li><a href="#">Trolley</a></li>
+                                                                                <li><a href="#">Wheel Chair</a></li>
+                                                                            </ul>
+                                                                        </div><!-- End .menu-col -->
+                                                                    </div><!-- End .col-md-6 -->
+                                                                </div><!-- End .row -->
+                                                            </div><!-- End .megamenu megamenu-sm -->
+                                                        </li>
+                                                        <li>
+                                                            <a href="product.html" class="sf-with-ul">
+                                                                <i class="physiotherapy"></i>Physiotherapy</a>
+                                                            <div class="megamenu megamenu-sm">
+                                                                <div class="row no-gutters">
+                                                                    <div class="col-md-6">
+                                                                        <div class="menu-col">
+                                                                            <ul>
+                                                                                <li><a href="#">Infrared lamp</a></li>
+                                                                                <li><a href="#">TENS/EMS</a></li>
+                                                                                <li><a href="#">Air Mattress</a></li>
+                                                                                <li><a
+                                                                                        href="#">Belt/Guards/Aids/Support</a>
+                                                                                </li>
+                                                                                <li><a href="#">Blood circulation
+                                                                                        Machine</a></li>
+                                                                                <li><a href="#">Body Massage devices</a>
+                                                                                </li>
+                                                                                <li><a href="#">Heating Pad / Water
+                                                                                        Bag</a></li>
+                                                                                <li><a href="#">Hijama</a></li>
+                                                                                <li><a href="#">Massager</a></li>
+                                                                                <li><a href="#">Therapy Pad</a></li>
+                                                                            </ul>
+                                                                        </div><!-- End .menu-col -->
+                                                                    </div><!-- End .col-md-6 -->
+                                                                </div><!-- End .row -->
+                                                            </div><!-- End .megamenu megamenu-sm -->
+                                                        </li>
                                                     </ul>
                                                 </div><!-- End .menu-col -->
                                             </div><!-- End .col-md-6 -->
@@ -400,32 +391,6 @@
                                             </div><!-- End .col-md-6 -->
                                         </div><!-- End .row -->
                                     </div><!-- End .megamenu megamenu-sm -->
-                                </li>
-                                <li>
-                                    <a href="#" class="sf-with-ul">Pages</a>
-
-                                    <ul>
-                                        <li>
-                                            <a href="about.html" class="sf-with-ul">About</a>
-
-                                            <ul>
-                                                <li><a href="about.html">About 01</a></li>
-                                                <li><a href="about-2.html">About 02</a></li>
-                                            </ul>
-                                        </li>
-                                        <li>
-                                            <a href="contact.html" class="sf-with-ul">Contact</a>
-
-                                            <ul>
-                                                <li><a href="contact.html">Contact 01</a></li>
-                                                <li><a href="contact-2.html">Contact 02</a></li>
-                                            </ul>
-                                        </li>
-                                        <li><a href="login.html">Login</a></li>
-                                        <li><a href="faq.html">FAQs</a></li>
-                                        <li><a href="404.html">Error 404</a></li>
-                                        <li><a href="coming-soon.html">Coming Soon</a></li>
-                                    </ul>
                                 </li>
                                 <li>
                                     <a href="blog.html" class="sf-with-ul">Blog</a>
@@ -467,26 +432,6 @@
                                                 </li>
                                             </ul>
                                         </li>
-                                    </ul>
-                                </li>
-                                <li>
-                                    <a href="elements-list.html" class="sf-with-ul">Elements</a>
-
-                                    <ul>
-                                        <li><a href="elements-products.html">Products</a></li>
-                                        <li><a href="elements-typography.html">Typography</a></li>
-                                        <li><a href="elements-titles.html">Titles</a></li>
-                                        <li><a href="elements-banners.html">Banners</a></li>
-                                        <li><a href="elements-product-category.html">Product Category</a></li>
-                                        <li><a href="elements-video-banners.html">Video Banners</a></li>
-                                        <li><a href="elements-buttons.html">Buttons</a></li>
-                                        <li><a href="elements-accordions.html">Accordions</a></li>
-                                        <li><a href="elements-tabs.html">Tabs</a></li>
-                                        <li><a href="elements-testimonials.html">Testimonials</a></li>
-                                        <li><a href="elements-blog-posts.html">Blog Posts</a></li>
-                                        <li><a href="elements-portfolio.html">Portfolio</a></li>
-                                        <li><a href="elements-cta.html">Call to Action</a></li>
-                                        <li><a href="elements-icon-boxes.html">Icon Boxes</a></li>
                                     </ul>
                                 </li>
                             </ul><!-- End .menu -->
@@ -593,7 +538,7 @@
                                 </div><!-- End .dropdown-cart-total -->
 
                                 <div class="dropdown-cart-action">
-                                    <a href="cart.html" class="btn btn-primary">View Cart</a>
+                                    <a href="user/cart" class="btn btn-primary">View Cart</a>
                                     <a href="checkout.html" class="btn btn-outline-primary-2"><span>Checkout</span><i
                                             class="icon-long-arrow-right"></i></a>
                                 </div><!-- End .dropdown-cart-total -->

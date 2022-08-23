@@ -52,7 +52,8 @@
                                 <li>
                                     <a href="#">Links</a>
                                     <ul>
-                                        <li><a href="#signin-modal" data-toggle="modal">Sign in / Sign up</a></li>
+                                        <li><a href="/login" data-toggle="modal">Login</a></li>
+                                        <li><a href="/register" data-toggle="modal">Sign In</a></li>
                                     </ul>
                                 </li>
                             </ul><!-- End .top-menu -->
@@ -190,7 +191,6 @@
         <div class="wrap-container">
             <main class="main">
                 <div class="mb-2"></div><!-- End .mb-2 -->
-
                 <div class="container">
                     <div class="row">
                         <div class="col-xl-3 d-none d-xl-block">
@@ -198,7 +198,6 @@
                                 <!-- End .sidenav-title -->
                                 <ul class="menu-vertical sf-arrows">
                                     <li>
-
                                         <a href="product.html" class="sf-with-ul">
                                             <i class="equipment"></i>
                                             Medical Equipment</a>
