@@ -16,6 +16,11 @@ class Product extends Model
      * @var array<int, string>
      */
     protected $fillable = [
+        'title',
+        'catagory',
+        'subCatagory',
+        'additionalInfo',
+        'shippingReturn',
         'productDetail',
         'img1',
         'img2',
