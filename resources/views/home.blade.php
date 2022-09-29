@@ -52,8 +52,8 @@
                                 <li>
                                     <a href="#">Links</a>
                                     <ul>
-                                        <li><a href="/login" data-toggle="modal">Login</a></li>
-                                        <li><a href="/register" data-toggle="modal">Sign In</a></li>
+                                        <li><a href="/login">Login</a></li>
+                                        <li><a href="/register">Sign In</a></li>
                                     </ul>
                                 </li>
                             </ul><!-- End .top-menu -->
