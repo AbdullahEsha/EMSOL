@@ -47,7 +47,7 @@
                                             <span>(3)</span></a></li>
                                     <li><a href="/about">About Us</a></li>
                                     <li><a href="/contact">Contact Us</a></li>
-                                    <li><a href="/login" data-toggle="modal"><i class="icon-user"></i>Login</a>
+                                    <li><a href="/login"><i class="icon-user"></i>Login</a>
                                     </li>
                                 </ul>
                             </li>
