@@ -45,7 +45,7 @@
                                 <ul>
                                     <li><a href="/user/wishlist"><i class="icon-heart-o"></i>Wishlist
                                             <span>(3)</span></a></li>
-                                    <li><a href="/about">About Us</a></li>
+
                                     <li><a href="/contact">Contact Us</a></li>
                                     <li><a href="/login"><i class="icon-user"></i>Login</a>
                                     </li>
@@ -565,53 +565,33 @@
             <div id="map"></div><!-- End #map -->
             <br />
             <div class="page-content pb-0">
-                <div class="container">
-                    <div class="row">
+                <div class="container ">
+                    <div class="row align-container-item">
                         <hr class="mt-4 mb-5">
-                        <div class="col-lg-6 mb-2 mb-lg-0">
-                            <h2 class="title mb-1">Contact Information</h2><!-- End .title mb-2 -->
-                            <p class="mb-3">Vestibulum volutpat, lacus a ultrices sagittis, mi neque euismod dui, eu
-                                pulvinar nunc sapien ornare nisl. Phasellus pede arcu, dapibus eu, fermentum et, dapibus
-                                sed, urna.</p>
-                            <div class="row">
-                                <div class="col-sm-7">
-                                    <div class="contact-info">
-                                        <h3>The Office</h3>
+                        <div class="col-lg-6 mb-2 mb-lg-0 ">
 
-                                        <ul class="contact-list">
-                                            <li>
-                                                <i class="icon-map-marker"></i>
-                                                70 Washington Square South New York, NY 10012, United States
-                                            </li>
-                                            <li>
-                                                <i class="icon-phone"></i>
-                                                <a href="tel:#">+92 423 567</a>
-                                            </li>
-                                            <li>
-                                                <i class="icon-envelope"></i>
-                                                <a href="mailto:#">info@Molla.com</a>
-                                            </li>
-                                        </ul><!-- End .contact-list -->
-                                    </div><!-- End .contact-info -->
-                                </div><!-- End .col-sm-7 -->
+                            <div class="contact-info ">
+                                <h3>Location & Contact</h3>
 
-                                <div class="col-sm-5">
-                                    <div class="contact-info">
-                                        <h3>The Office</h3>
-
-                                        <ul class="contact-list">
-                                            <li>
-                                                <i class="icon-clock-o"></i>
-                                                <span class="text-dark">Monday-Saturday</span> <br>11am-7pm ET
-                                            </li>
-                                            <li>
-                                                <i class="icon-calendar"></i>
-                                                <span class="text-dark">Sunday</span> <br>11am-6pm ET
-                                            </li>
-                                        </ul><!-- End .contact-list -->
-                                    </div><!-- End .contact-info -->
-                                </div><!-- End .col-sm-5 -->
-                            </div><!-- End .row -->
+                                <ul class="contact-list">
+                                    <li>
+                                        <i class="icon-map-marker"></i>
+                                        70 Washington Square South New York, NY 10012, United States
+                                    </li>
+                                    <li>
+                                        <i class="icon-phone"></i>
+                                        <a href="tel:#">+92 423 567</a>
+                                    </li>
+                                    <li>
+                                        <i class="icon-envelope"></i>
+                                        <a href="mailto:#">info@Molla.com</a>
+                                    </li>
+                                    <li>
+                                        <i class="icon-clock-o"></i>
+                                        <span>Call us 24/7!</span>
+                                    </li>
+                                </ul><!-- End .contact-list -->
+                            </div><!-- End .contact-info -->
                         </div><!-- End .col-lg-6 -->
                         <div class="col-lg-6">
                             <h2 class="title mb-1">Got Any Questions?</h2><!-- End .title mb-2 -->
