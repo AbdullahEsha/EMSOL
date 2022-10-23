@@ -45,7 +45,7 @@
                                 <ul>
                                     <li><a href="/user/wishlist"><i class="icon-heart-o"></i>Wishlist
                                             <span>(3)</span></a></li>
-                                    <li><a href="/about">About Us</a></li>
+
                                     <li><a href="/contact">Contact Us</a></li>
                                     <li><a href="common/login" data-toggle="modal"><i class="icon-user"></i>Login</a>
                                     </li>

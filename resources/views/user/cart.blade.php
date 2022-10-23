@@ -45,7 +45,7 @@
                                 <ul>
                                     <li><a href="/user/wishlist"><i class="icon-heart-o"></i>Wishlist
                                             <span>(3)</span></a></li>
-                                    <li><a href="/about">About Us</a></li>
+
                                     <li><a href="/contact">Contact Us</a></li>
                                     <li><a href="/login" data-toggle="modal"><i class="icon-user"></i>Login</a>
                                     </li>
@@ -81,250 +81,296 @@
                                                     <div class="menu-title">Product Details</div>
                                                     <!-- End .menu-title -->
                                                     <ul>
-                                                    <li>
-                                        <a href="product.html" class="sf-with-ul">
-                                            <i class="equipment"></i>
-                                            Medical Equipment</a>
-                                        <div class="megamenu megamenu-sm">
-                                            <div class="row no-gutters">
-                                                <div class="col-md-6">
-                                                    <div class="menu-col">
-                                                        <ul>
-                                                            <li><a href="#">Anesthesia</a></li>
-                                                            <li><a href="#">Autoclave</a></li>
-                                                            <li><a href="#">C-arm</a></li>
-                                                            <li><a href="#">Cath Lab</a></li>
-                                                            <li><a href="#">Cautery</a></li>
-                                                            <li><a href="#">CPAP BIPAP</a></li>
-                                                            <li><a href="#">Defibrillator / AED</a></li>
-                                                            <li><a href="#">Diathermy</a></li>
-                                                            <li><a href="#">ECG</a></li>
-                                                            <li><a href="#">ENT Equipment</a></li>
-                                                            <li><a href="#">Endoscopy/Colonoscopy</a></li>
-                                                            <li><a href="#">Hemodialysis Machine</a></li>
-                                                            <li><a href="#">Holter</a></li>
-                                                            <li><a href="#">OT Light</a></li>
-                                                            <li><a href="#">Patient Monitor</a></li>
-                                                            <li><a href="#">Phototherapy</a></li>
-                                                            <li><a href="#">Suction Machine</a></li>
-                                                            <li><a href="#">Syringe/Infusion Pump</a></li>
-                                                            <li><a href="#">Ultrasound Machine</a></li>
-                                                            <li><a href="#">Ventilator</a></li>
-                                                            <li><a href="#">Baby Warmer/Incubator</a></li>
-                                                            <li><a href="#">X-Ray/ C arm</a></li>
-                                                        </ul>
-                                                    </div><!-- End .menu-col -->
-                                                </div><!-- End .col-md-6 -->
-                                            </div><!-- End .row -->
-                                        </div><!-- End .megamenu megamenu-sm -->
-                                    </li>
-                                    <li>
-                                        <a href="product.html" class="sf-with-ul">
-                                            <i class="device"></i>Medical Device</a>
-                                        <div class="megamenu megamenu-sm">
-                                            <div class="row no-gutters">
-                                                <div class="col-md-6">
-                                                    <div class="menu-col">
-                                                        <ul>
-                                                            <li><a href="#">Blood Pressure Monitor</a></li>
-                                                            <li><a href="#">Body Massage devices</a></li>
-                                                            <li><a href="#">Blood Pressure Monitor Accessories</a></li>
-                                                            <li><a href="#">Fetal Doppler</a></li>
-                                                            <li><a href="#">Flat Panel Detector</a></li>
-                                                            <li><a href="#">Hearing Aid</a></li>
-                                                            <li><a href="#">Hygrometer</a></li>
-                                                            <li><a href="#">Lung Exerciser</a></li>
-                                                            <li><a href="#">Nebulizer</a></li>
-                                                            <li><a href="#">Ophthalmoscope / Otoscope</a></li>
-                                                            <li><a href="#">Oxygen Concentrator</a></li>
-                                                            <li><a href="#">Pulse Oximeter</a></li>
-                                                            <li><a href="#">SPIROMETRY</a></li>
-                                                            <li><a href="#">Stethoscope</a></li>
-                                                            <li><a href="#">Thermometer</a></li>
-                                                            <li><a href="#">Vein Finder</a></li>
-                                                            <li><a href="#">Weighting Scale</a></li>
-                                                        </ul>
-                                                    </div><!-- End .menu-col -->
-                                                </div><!-- End .col-md-6 -->
-                                            </div><!-- End .row -->
-                                        </div><!-- End .megamenu megamenu-sm -->
-                                    </li>
-                                    <li>
-                                        <a href="product.html" class="sf-with-ul">
-                                            <i class="accessories"></i>Accessories & Others</a>
-                                        <div class="megamenu megamenu-sm">
-                                            <div class="row no-gutters">
-                                                <div class="col-md-6">
-                                                    <div class="menu-col">
-                                                        <ul>
-                                                            <li><a href="#">Belt/Guards/Aids/Support</a></li>
-                                                            <li><a href="#">CT/MRI Accessories</a></li>
-                                                            <li><a href="#">Dehumidifier</a></li>
-                                                            <li><a href="#">ECG Accessories</a></li>
-                                                            <li><a href="#">Fire Extinguisher</a></li>
-                                                            <li><a href="#">Heating Pad / Water Bag</a></li>
-                                                            <li><a href="#">Catheter/Injector</a></li>
-                                                            <li><a href="#">Mask</a></li>
-                                                            <li><a href="#">Medical Software</a></li>
-                                                            <li><a href="#">Metal Detector</a></li>
-                                                            <li><a href="#">Oxygen Cylinder</a></li>
-                                                            <li><a href="#">Ultrasound/Echo Accessories</a></li>
-                                                            <li><a href="#">UPS</a></li>
-                                                            <li><a href="#">Ventilator Accessories</a></li>
-                                                            <li><a href="#">X-Ray Accessories</a></li>
-                                                        </ul>
-                                                    </div><!-- End .menu-col -->
-                                                </div><!-- End .col-md-6 -->
-                                            </div><!-- End .row -->
-                                        </div><!-- End .megamenu megamenu-sm -->
-                                    </li>
-                                    <li>
-                                        <a href="product.html" class="sf-with-ul">
-                                            <i class="laboratory"></i>Laboratory</a>
-                                        <div class="megamenu megamenu-sm">
-                                            <div class="row no-gutters">
-                                                <div class="col-md-6">
-                                                    <div class="menu-col">
-                                                        <ul>
-                                                            <li><a href="#">Biochemistry/Clinical Chemistry Analyzer</a>
-                                                            </li>
-                                                            <li><a href="#">Electrolyte/Blood gas Analyzer</a></li>
-                                                            <li><a href="#">ESR Analyzer</a></li>
-                                                            <li><a href="#">Roller Mixer</a></li>
-                                                            <li><a href="#">Rotator/ Platelet Rotator/Shaker</a></li>
-                                                            <li><a href="#">Urine Analyzer</a></li>
-                                                            <li><a href="#">Water Bath</a></li>
-                                                            <li><a href="#">Coagulation Analyzer</a></li>
-                                                            <li><a href="#">Harmon analyzer, Microplate,
-                                                                    Elisa & Microbiology Reader</a></li>
-                                                            <li><a href="#">Laboratory Analyzer</a></li>
-                                                            <li><a href="#">Laboratory Test Strip & device</a></li>
-                                                            <li><a href="#">Laboratory Others</a></li>
-                                                            <li><a href="#">Laboratory Centrifuge</a></li>
-                                                            <li><a href="#">Laboratory Analyzer</a></li>
-                                                        </ul>
-                                                    </div><!-- End .menu-col -->
-                                                </div><!-- End .col-md-6 -->
-                                            </div><!-- End .row -->
-                                        </div><!-- End .megamenu megamenu-sm -->
-                                    </li>
-                                    <li>
-                                        <a href="product.html" class="sf-with-ul">
-                                            <i class="dental"></i>Dental</a>
-                                        <div class="megamenu megamenu-sm">
-                                            <div class="row no-gutters">
-                                                <div class="col-md-6">
-                                                    <div class="menu-col">
-                                                        <ul>
-                                                            <li><a href="#">Apex Locator</a></li>
-                                                            <li><a href="#">Compressor</a></li>
-                                                            <li><a href="#">Curing Light</a></li>
-                                                            <li><a href="#">Dental Implant/micro/indo Motor</a></li>
-                                                            <li><a href="#">Dental Light</a></li>
-                                                            <li><a href="#">Dental Unit</a></li>
-                                                            <li><a href="#">Dental X-ray</a></li>
-                                                            <li><a href="#">Dental Accessories</a></li>
-                                                        </ul>
-                                                    </div><!-- End .menu-col -->
-                                                </div><!-- End .col-md-6 -->
-                                            </div><!-- End .row -->
-                                        </div><!-- End .megamenu megamenu-sm -->
-                                    </li>
-                                    <li>
-                                        <a href="product.html" class="sf-with-ul">
-                                            <i class="disposable"></i>Disposables</a>
-                                        <div class="megamenu megamenu-sm">
-                                            <div class="row no-gutters">
-                                                <div class="col-md-6">
-                                                    <div class="menu-col">
-                                                        <ul>
-                                                            <li><a href="#">Weighting Scale</a></li>
-                                                        </ul>
-                                                    </div><!-- End .menu-col -->
-                                                </div><!-- End .col-md-6 -->
-                                            </div><!-- End .row -->
-                                        </div><!-- End .megamenu megamenu-sm -->
-                                    </li>
-                                    <li>
-                                        <a href="product.html" class="sf-with-ul">
-                                            <i class="eyecare"></i>Eye Care</a>
-                                        <div class="megamenu megamenu-sm">
-                                            <div class="row no-gutters">
-                                                <div class="col-md-6">
-                                                    <div class="menu-col">
-                                                        <ul>
-                                                            <li><a href="#">Eye Instruments</a></li>
-                                                            <li><a href="#">Eye Consumables &amp; Disposables</a></li>
-                                                            <li><a href="#">Eye Accessories</a></li>
-                                                        </ul>
-                                                    </div><!-- End .menu-col -->
-                                                </div><!-- End .col-md-6 -->
-                                            </div><!-- End .row -->
-                                        </div><!-- End .megamenu megamenu-sm -->
-                                    </li>
-                                    <li>
-                                        <a href="product.html" class="sf-with-ul">
-                                            <i class="surgical"></i>Surgical</a>
-                                        <div class="megamenu megamenu-sm">
-                                            <div class="row no-gutters">
-                                                <div class="col-md-6">
-                                                    <div class="menu-col">
-                                                        <ul>
-                                                            <li><a href="#">Surgical Instruments</a></li>
-                                                            <li><a href="#">Surgical Disposables</a></li>
-                                                            <li><a href="#">Skin/Cosmetic Surgery</a></li>
-                                                        </ul>
-                                                    </div><!-- End .menu-col -->
-                                                </div><!-- End .col-md-6 -->
-                                            </div><!-- End .row -->
-                                        </div><!-- End .megamenu megamenu-sm -->
-                                    </li>
-                                    <li>
-                                        <a href="product.html" class="sf-with-ul">
-                                            <i class="furniture"></i>Medical Furniture</a>
-                                        <div class="megamenu megamenu-sm">
-                                            <div class="row no-gutters">
-                                                <div class="col-md-6">
-                                                    <div class="menu-col">
-                                                        <ul>
-                                                            <li><a href="#">Air Mattress</a></li>
-                                                            <li><a href="#">Hospital Bed</a></li>
-                                                            <li><a href="#">Cabinet</a></li>
-                                                            <li><a href="#">Instrument Cart</a></li>
-                                                            <li><a href="#">Over Bed Table</a></li>
-                                                            <li><a href="#">Stretcher</a></li>
-                                                            <li><a href="#">Trolley</a></li>
-                                                            <li><a href="#">Wheel Chair</a></li>
-                                                        </ul>
-                                                    </div><!-- End .menu-col -->
-                                                </div><!-- End .col-md-6 -->
-                                            </div><!-- End .row -->
-                                        </div><!-- End .megamenu megamenu-sm -->
-                                    </li>
-                                    <li>
-                                        <a href="product.html" class="sf-with-ul">
-                                            <i class="physiotherapy"></i>Physiotherapy</a>
-                                        <div class="megamenu megamenu-sm">
-                                            <div class="row no-gutters">
-                                                <div class="col-md-6">
-                                                    <div class="menu-col">
-                                                        <ul>
-                                                            <li><a href="#">Infrared lamp</a></li>
-                                                            <li><a href="#">TENS/EMS</a></li>
-                                                            <li><a href="#">Air Mattress</a></li>
-                                                            <li><a href="#">Belt/Guards/Aids/Support</a></li>
-                                                            <li><a href="#">Blood circulation Machine</a></li>
-                                                            <li><a href="#">Body Massage devices</a></li>
-                                                            <li><a href="#">Heating Pad / Water Bag</a></li>
-                                                            <li><a href="#">Hijama</a></li>
-                                                            <li><a href="#">Massager</a></li>
-                                                            <li><a href="#">Therapy Pad</a></li>
-                                                        </ul>
-                                                    </div><!-- End .menu-col -->
-                                                </div><!-- End .col-md-6 -->
-                                            </div><!-- End .row -->
-                                        </div><!-- End .megamenu megamenu-sm -->
-                                    </li>
+                                                        <li>
+                                                            <a href="product.html" class="sf-with-ul">
+                                                                <i class="equipment"></i>
+                                                                Medical Equipment</a>
+                                                            <div class="megamenu megamenu-sm">
+                                                                <div class="row no-gutters">
+                                                                    <div class="col-md-6">
+                                                                        <div class="menu-col">
+                                                                            <ul>
+                                                                                <li><a href="#">Anesthesia</a></li>
+                                                                                <li><a href="#">Autoclave</a></li>
+                                                                                <li><a href="#">C-arm</a></li>
+                                                                                <li><a href="#">Cath Lab</a></li>
+                                                                                <li><a href="#">Cautery</a></li>
+                                                                                <li><a href="#">CPAP BIPAP</a></li>
+                                                                                <li><a href="#">Defibrillator / AED</a>
+                                                                                </li>
+                                                                                <li><a href="#">Diathermy</a></li>
+                                                                                <li><a href="#">ECG</a></li>
+                                                                                <li><a href="#">ENT Equipment</a></li>
+                                                                                <li><a
+                                                                                        href="#">Endoscopy/Colonoscopy</a>
+                                                                                </li>
+                                                                                <li><a href="#">Hemodialysis Machine</a>
+                                                                                </li>
+                                                                                <li><a href="#">Holter</a></li>
+                                                                                <li><a href="#">OT Light</a></li>
+                                                                                <li><a href="#">Patient Monitor</a></li>
+                                                                                <li><a href="#">Phototherapy</a></li>
+                                                                                <li><a href="#">Suction Machine</a></li>
+                                                                                <li><a href="#">Syringe/Infusion
+                                                                                        Pump</a></li>
+                                                                                <li><a href="#">Ultrasound Machine</a>
+                                                                                </li>
+                                                                                <li><a href="#">Ventilator</a></li>
+                                                                                <li><a href="#">Baby
+                                                                                        Warmer/Incubator</a></li>
+                                                                                <li><a href="#">X-Ray/ C arm</a></li>
+                                                                            </ul>
+                                                                        </div><!-- End .menu-col -->
+                                                                    </div><!-- End .col-md-6 -->
+                                                                </div><!-- End .row -->
+                                                            </div><!-- End .megamenu megamenu-sm -->
+                                                        </li>
+                                                        <li>
+                                                            <a href="product.html" class="sf-with-ul">
+                                                                <i class="device"></i>Medical Device</a>
+                                                            <div class="megamenu megamenu-sm">
+                                                                <div class="row no-gutters">
+                                                                    <div class="col-md-6">
+                                                                        <div class="menu-col">
+                                                                            <ul>
+                                                                                <li><a href="#">Blood Pressure
+                                                                                        Monitor</a></li>
+                                                                                <li><a href="#">Body Massage devices</a>
+                                                                                </li>
+                                                                                <li><a href="#">Blood Pressure Monitor
+                                                                                        Accessories</a></li>
+                                                                                <li><a href="#">Fetal Doppler</a></li>
+                                                                                <li><a href="#">Flat Panel Detector</a>
+                                                                                </li>
+                                                                                <li><a href="#">Hearing Aid</a></li>
+                                                                                <li><a href="#">Hygrometer</a></li>
+                                                                                <li><a href="#">Lung Exerciser</a></li>
+                                                                                <li><a href="#">Nebulizer</a></li>
+                                                                                <li><a href="#">Ophthalmoscope /
+                                                                                        Otoscope</a></li>
+                                                                                <li><a href="#">Oxygen Concentrator</a>
+                                                                                </li>
+                                                                                <li><a href="#">Pulse Oximeter</a></li>
+                                                                                <li><a href="#">SPIROMETRY</a></li>
+                                                                                <li><a href="#">Stethoscope</a></li>
+                                                                                <li><a href="#">Thermometer</a></li>
+                                                                                <li><a href="#">Vein Finder</a></li>
+                                                                                <li><a href="#">Weighting Scale</a></li>
+                                                                            </ul>
+                                                                        </div><!-- End .menu-col -->
+                                                                    </div><!-- End .col-md-6 -->
+                                                                </div><!-- End .row -->
+                                                            </div><!-- End .megamenu megamenu-sm -->
+                                                        </li>
+                                                        <li>
+                                                            <a href="product.html" class="sf-with-ul">
+                                                                <i class="accessories"></i>Accessories & Others</a>
+                                                            <div class="megamenu megamenu-sm">
+                                                                <div class="row no-gutters">
+                                                                    <div class="col-md-6">
+                                                                        <div class="menu-col">
+                                                                            <ul>
+                                                                                <li><a
+                                                                                        href="#">Belt/Guards/Aids/Support</a>
+                                                                                </li>
+                                                                                <li><a href="#">CT/MRI Accessories</a>
+                                                                                </li>
+                                                                                <li><a href="#">Dehumidifier</a></li>
+                                                                                <li><a href="#">ECG Accessories</a></li>
+                                                                                <li><a href="#">Fire Extinguisher</a>
+                                                                                </li>
+                                                                                <li><a href="#">Heating Pad / Water
+                                                                                        Bag</a></li>
+                                                                                <li><a href="#">Catheter/Injector</a>
+                                                                                </li>
+                                                                                <li><a href="#">Mask</a></li>
+                                                                                <li><a href="#">Medical Software</a>
+                                                                                </li>
+                                                                                <li><a href="#">Metal Detector</a></li>
+                                                                                <li><a href="#">Oxygen Cylinder</a></li>
+                                                                                <li><a href="#">Ultrasound/Echo
+                                                                                        Accessories</a></li>
+                                                                                <li><a href="#">UPS</a></li>
+                                                                                <li><a href="#">Ventilator
+                                                                                        Accessories</a></li>
+                                                                                <li><a href="#">X-Ray Accessories</a>
+                                                                                </li>
+                                                                            </ul>
+                                                                        </div><!-- End .menu-col -->
+                                                                    </div><!-- End .col-md-6 -->
+                                                                </div><!-- End .row -->
+                                                            </div><!-- End .megamenu megamenu-sm -->
+                                                        </li>
+                                                        <li>
+                                                            <a href="product.html" class="sf-with-ul">
+                                                                <i class="laboratory"></i>Laboratory</a>
+                                                            <div class="megamenu megamenu-sm">
+                                                                <div class="row no-gutters">
+                                                                    <div class="col-md-6">
+                                                                        <div class="menu-col">
+                                                                            <ul>
+                                                                                <li><a href="#">Biochemistry/Clinical
+                                                                                        Chemistry Analyzer</a>
+                                                                                </li>
+                                                                                <li><a href="#">Electrolyte/Blood gas
+                                                                                        Analyzer</a></li>
+                                                                                <li><a href="#">ESR Analyzer</a></li>
+                                                                                <li><a href="#">Roller Mixer</a></li>
+                                                                                <li><a href="#">Rotator/ Platelet
+                                                                                        Rotator/Shaker</a></li>
+                                                                                <li><a href="#">Urine Analyzer</a></li>
+                                                                                <li><a href="#">Water Bath</a></li>
+                                                                                <li><a href="#">Coagulation Analyzer</a>
+                                                                                </li>
+                                                                                <li><a href="#">Harmon analyzer,
+                                                                                        Microplate,
+                                                                                        Elisa & Microbiology Reader</a>
+                                                                                </li>
+                                                                                <li><a href="#">Laboratory Analyzer</a>
+                                                                                </li>
+                                                                                <li><a href="#">Laboratory Test Strip &
+                                                                                        device</a></li>
+                                                                                <li><a href="#">Laboratory Others</a>
+                                                                                </li>
+                                                                                <li><a href="#">Laboratory
+                                                                                        Centrifuge</a></li>
+                                                                                <li><a href="#">Laboratory Analyzer</a>
+                                                                                </li>
+                                                                            </ul>
+                                                                        </div><!-- End .menu-col -->
+                                                                    </div><!-- End .col-md-6 -->
+                                                                </div><!-- End .row -->
+                                                            </div><!-- End .megamenu megamenu-sm -->
+                                                        </li>
+                                                        <li>
+                                                            <a href="product.html" class="sf-with-ul">
+                                                                <i class="dental"></i>Dental</a>
+                                                            <div class="megamenu megamenu-sm">
+                                                                <div class="row no-gutters">
+                                                                    <div class="col-md-6">
+                                                                        <div class="menu-col">
+                                                                            <ul>
+                                                                                <li><a href="#">Apex Locator</a></li>
+                                                                                <li><a href="#">Compressor</a></li>
+                                                                                <li><a href="#">Curing Light</a></li>
+                                                                                <li><a href="#">Dental
+                                                                                        Implant/micro/indo Motor</a>
+                                                                                </li>
+                                                                                <li><a href="#">Dental Light</a></li>
+                                                                                <li><a href="#">Dental Unit</a></li>
+                                                                                <li><a href="#">Dental X-ray</a></li>
+                                                                                <li><a href="#">Dental Accessories</a>
+                                                                                </li>
+                                                                            </ul>
+                                                                        </div><!-- End .menu-col -->
+                                                                    </div><!-- End .col-md-6 -->
+                                                                </div><!-- End .row -->
+                                                            </div><!-- End .megamenu megamenu-sm -->
+                                                        </li>
+                                                        <li>
+                                                            <a href="product.html" class="sf-with-ul">
+                                                                <i class="disposable"></i>Disposables</a>
+                                                            <div class="megamenu megamenu-sm">
+                                                                <div class="row no-gutters">
+                                                                    <div class="col-md-6">
+                                                                        <div class="menu-col">
+                                                                            <ul>
+                                                                                <li><a href="#">Weighting Scale</a></li>
+                                                                            </ul>
+                                                                        </div><!-- End .menu-col -->
+                                                                    </div><!-- End .col-md-6 -->
+                                                                </div><!-- End .row -->
+                                                            </div><!-- End .megamenu megamenu-sm -->
+                                                        </li>
+                                                        <li>
+                                                            <a href="product.html" class="sf-with-ul">
+                                                                <i class="eyecare"></i>Eye Care</a>
+                                                            <div class="megamenu megamenu-sm">
+                                                                <div class="row no-gutters">
+                                                                    <div class="col-md-6">
+                                                                        <div class="menu-col">
+                                                                            <ul>
+                                                                                <li><a href="#">Eye Instruments</a></li>
+                                                                                <li><a href="#">Eye Consumables &amp;
+                                                                                        Disposables</a></li>
+                                                                                <li><a href="#">Eye Accessories</a></li>
+                                                                            </ul>
+                                                                        </div><!-- End .menu-col -->
+                                                                    </div><!-- End .col-md-6 -->
+                                                                </div><!-- End .row -->
+                                                            </div><!-- End .megamenu megamenu-sm -->
+                                                        </li>
+                                                        <li>
+                                                            <a href="product.html" class="sf-with-ul">
+                                                                <i class="surgical"></i>Surgical</a>
+                                                            <div class="megamenu megamenu-sm">
+                                                                <div class="row no-gutters">
+                                                                    <div class="col-md-6">
+                                                                        <div class="menu-col">
+                                                                            <ul>
+                                                                                <li><a href="#">Surgical Instruments</a>
+                                                                                </li>
+                                                                                <li><a href="#">Surgical Disposables</a>
+                                                                                </li>
+                                                                                <li><a href="#">Skin/Cosmetic
+                                                                                        Surgery</a></li>
+                                                                            </ul>
+                                                                        </div><!-- End .menu-col -->
+                                                                    </div><!-- End .col-md-6 -->
+                                                                </div><!-- End .row -->
+                                                            </div><!-- End .megamenu megamenu-sm -->
+                                                        </li>
+                                                        <li>
+                                                            <a href="product.html" class="sf-with-ul">
+                                                                <i class="furniture"></i>Medical Furniture</a>
+                                                            <div class="megamenu megamenu-sm">
+                                                                <div class="row no-gutters">
+                                                                    <div class="col-md-6">
+                                                                        <div class="menu-col">
+                                                                            <ul>
+                                                                                <li><a href="#">Air Mattress</a></li>
+                                                                                <li><a href="#">Hospital Bed</a></li>
+                                                                                <li><a href="#">Cabinet</a></li>
+                                                                                <li><a href="#">Instrument Cart</a></li>
+                                                                                <li><a href="#">Over Bed Table</a></li>
+                                                                                <li><a href="#">Stretcher</a></li>
+                                                                                <li><a href="#">Trolley</a></li>
+                                                                                <li><a href="#">Wheel Chair</a></li>
+                                                                            </ul>
+                                                                        </div><!-- End .menu-col -->
+                                                                    </div><!-- End .col-md-6 -->
+                                                                </div><!-- End .row -->
+                                                            </div><!-- End .megamenu megamenu-sm -->
+                                                        </li>
+                                                        <li>
+                                                            <a href="product.html" class="sf-with-ul">
+                                                                <i class="physiotherapy"></i>Physiotherapy</a>
+                                                            <div class="megamenu megamenu-sm">
+                                                                <div class="row no-gutters">
+                                                                    <div class="col-md-6">
+                                                                        <div class="menu-col">
+                                                                            <ul>
+                                                                                <li><a href="#">Infrared lamp</a></li>
+                                                                                <li><a href="#">TENS/EMS</a></li>
+                                                                                <li><a href="#">Air Mattress</a></li>
+                                                                                <li><a
+                                                                                        href="#">Belt/Guards/Aids/Support</a>
+                                                                                </li>
+                                                                                <li><a href="#">Blood circulation
+                                                                                        Machine</a></li>
+                                                                                <li><a href="#">Body Massage devices</a>
+                                                                                </li>
+                                                                                <li><a href="#">Heating Pad / Water
+                                                                                        Bag</a></li>
+                                                                                <li><a href="#">Hijama</a></li>
+                                                                                <li><a href="#">Massager</a></li>
+                                                                                <li><a href="#">Therapy Pad</a></li>
+                                                                            </ul>
+                                                                        </div><!-- End .menu-col -->
+                                                                    </div><!-- End .col-md-6 -->
+                                                                </div><!-- End .row -->
+                                                            </div><!-- End .megamenu megamenu-sm -->
+                                                        </li>
                                                     </ul>
                                                 </div><!-- End .menu-col -->
                                             </div><!-- End .col-md-6 -->
