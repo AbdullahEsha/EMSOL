@@ -70,8 +70,7 @@
                             </button>
 
                             <a href="/" class="logo">
-                                <img src="https://emsol.xyz/wp-content/uploads/2020/11/Ems-logo-9.png" alt="Molla Logo"
-                                    width="180px" height="125px">
+                                <img src="{{asset('img/image.png')}}" alt="Molla Logo" width="180px" height="125px">
                             </a>
                         </div><!-- End .header-left -->
 
@@ -125,7 +124,7 @@
                                             <div class="product">
                                                 <div class="product-cart-details">
                                                     <h4 class="product-title">
-                                                        <a href="product.html">Beige knitted elastic runner shoes</a>
+                                                        <a href="#">Beige knitted elastic runner shoes</a>
                                                     </h4>
 
                                                     <span class="cart-product-info">
@@ -135,7 +134,7 @@
                                                 </div><!-- End .product-cart-details -->
 
                                                 <figure class="product-image-container">
-                                                    <a href="product.html" class="product-image">
+                                                    <a href="#" class="product-image">
                                                         <img src="{{asset('common/assets/images/products/cart/product-1.jpg')}}"
                                                             alt="product">
                                                     </a>
@@ -147,7 +146,7 @@
                                             <div class="product">
                                                 <div class="product-cart-details">
                                                     <h4 class="product-title">
-                                                        <a href="product.html">Blue utility pinafore denim dress</a>
+                                                        <a href="#">Blue utility pinafore denim dress</a>
                                                     </h4>
 
                                                     <span class="cart-product-info">
@@ -157,7 +156,7 @@
                                                 </div><!-- End .product-cart-details -->
 
                                                 <figure class="product-image-container">
-                                                    <a href="product.html" class="product-image">
+                                                    <a href="#" class="product-image">
                                                         <img src="{{asset('common/assets/images/products/cart/product-2.jpg')}}"
                                                             alt="product">
                                                     </a>
@@ -198,7 +197,7 @@
                                 <!-- End .sidenav-title -->
                                 <ul class="menu-vertical sf-arrows">
                                     <li>
-                                        <a href="product.html" class="sf-with-ul">
+                                        <a href="#" class="sf-with-ul">
                                             <i class="equipment"></i>
                                             Medical Equipment</a>
                                         <div class="megamenu megamenu-sm">
@@ -235,7 +234,7 @@
                                         </div><!-- End .megamenu megamenu-sm -->
                                     </li>
                                     <li>
-                                        <a href="product.html" class="sf-with-ul">
+                                        <a href="#" class="sf-with-ul">
                                             <i class="device"></i>Medical Device</a>
                                         <div class="megamenu megamenu-sm">
                                             <div class="row no-gutters">
@@ -266,7 +265,7 @@
                                         </div><!-- End .megamenu megamenu-sm -->
                                     </li>
                                     <li>
-                                        <a href="product.html" class="sf-with-ul">
+                                        <a href="#" class="sf-with-ul">
                                             <i class="accessories"></i>Accessories & Others</a>
                                         <div class="megamenu megamenu-sm">
                                             <div class="row no-gutters">
@@ -295,7 +294,7 @@
                                         </div><!-- End .megamenu megamenu-sm -->
                                     </li>
                                     <li>
-                                        <a href="product.html" class="sf-with-ul">
+                                        <a href="#" class="sf-with-ul">
                                             <i class="laboratory"></i>Laboratory</a>
                                         <div class="megamenu megamenu-sm">
                                             <div class="row no-gutters">
@@ -325,7 +324,7 @@
                                         </div><!-- End .megamenu megamenu-sm -->
                                     </li>
                                     <li>
-                                        <a href="product.html" class="sf-with-ul">
+                                        <a href="#" class="sf-with-ul">
                                             <i class="dental"></i>Dental</a>
                                         <div class="megamenu megamenu-sm">
                                             <div class="row no-gutters">
@@ -347,7 +346,7 @@
                                         </div><!-- End .megamenu megamenu-sm -->
                                     </li>
                                     <li>
-                                        <a href="product.html" class="sf-with-ul">
+                                        <a href="#" class="sf-with-ul">
                                             <i class="disposable"></i>Disposables</a>
                                         <div class="megamenu megamenu-sm">
                                             <div class="row no-gutters">
@@ -362,7 +361,7 @@
                                         </div><!-- End .megamenu megamenu-sm -->
                                     </li>
                                     <li>
-                                        <a href="product.html" class="sf-with-ul">
+                                        <a href="#" class="sf-with-ul">
                                             <i class="eyecare"></i>Eye Care</a>
                                         <div class="megamenu megamenu-sm">
                                             <div class="row no-gutters">
@@ -379,7 +378,7 @@
                                         </div><!-- End .megamenu megamenu-sm -->
                                     </li>
                                     <li>
-                                        <a href="product.html" class="sf-with-ul">
+                                        <a href="#" class="sf-with-ul">
                                             <i class="surgical"></i>Surgical</a>
                                         <div class="megamenu megamenu-sm">
                                             <div class="row no-gutters">
@@ -396,7 +395,7 @@
                                         </div><!-- End .megamenu megamenu-sm -->
                                     </li>
                                     <li>
-                                        <a href="product.html" class="sf-with-ul">
+                                        <a href="#" class="sf-with-ul">
                                             <i class="furniture"></i>Medical Furniture</a>
                                         <div class="megamenu megamenu-sm">
                                             <div class="row no-gutters">
@@ -418,7 +417,7 @@
                                         </div><!-- End .megamenu megamenu-sm -->
                                     </li>
                                     <li>
-                                        <a href="product.html" class="sf-with-ul">
+                                        <a href="#" class="sf-with-ul">
                                             <i class="physiotherapy"></i>Physiotherapy</a>
                                         <div class="megamenu megamenu-sm">
                                             <div class="row no-gutters">
@@ -648,7 +647,7 @@
                                     <div class="product">
                                         <figure class="product-media">
                                             <span class="product-label label-sale">Sale</span>
-                                            <a href="product.html">
+                                            <a href="#">
                                                 <img src="{{asset($homeData[0]->img1)}}" alt="Product image"
                                                     class="product-image">
                                             </a>
@@ -678,7 +677,7 @@
 
                                     <div class="product">
                                         <figure class="product-media">
-                                            <a href="product.html">
+                                            <a href="#">
                                                 <img src="{{asset($homeData[1]->img1)}}" alt="Product image"
                                                     class="product-image">
                                             </a>
@@ -709,7 +708,7 @@
                                     <div class="product">
                                         <figure class="product-media">
                                             <span class="product-label label-top">Top</span>
-                                            <a href="product.html">
+                                            <a href="#">
                                                 <img src="{{asset($homeData[2]->img1)}}" alt="Product image"
                                                     class="product-image">
                                             </a>
@@ -739,7 +738,7 @@
 
                                     <div class="product">
                                         <figure class="product-media">
-                                            <a href="product.html">
+                                            <a href="#">
                                                 <img src="{{asset($homeData[3]->img1)}}" alt="Product image"
                                                     class="product-image">
                                             </a>
@@ -769,7 +768,7 @@
                                     <div class="product">
                                         <figure class="product-media">
                                             <span class="product-label label-sale">Sale</span>
-                                            <a href="product.html">
+                                            <a href="#">
                                                 <img src="{{asset($homeData[4]->img1)}}" alt="Product image"
                                                     class="product-image">
                                             </a>
@@ -855,7 +854,7 @@
                                     }'>
                                     <div class="product">
                                         <figure class="product-media">
-                                            <a href="product.html">
+                                            <a href="#">
                                                 <img src="{{asset($homeData[0]->img1)}}" alt="Product image"
                                                     class="product-image">
                                             </a>
@@ -885,7 +884,7 @@
                                     <div class="product">
                                         <figure class="product-media">
                                             <span class="product-label label-sale">Sale</span>
-                                            <a href="product.html">
+                                            <a href="#">
                                                 <img src="{{asset($homeData[1]->img1)}}" alt="Product image"
                                                     class="product-image">
                                             </a>
@@ -915,7 +914,7 @@
 
                                     <div class="product">
                                         <figure class="product-media">
-                                            <a href="product.html">
+                                            <a href="#">
                                                 <img src="{{asset($homeData[2]->img1)}}" alt="Product image"
                                                     class="product-image">
                                             </a>
@@ -946,7 +945,7 @@
                                     <div class="product">
                                         <figure class="product-media">
                                             <span class="product-label label-sale">Sale</span>
-                                            <a href="product.html">
+                                            <a href="#">
                                                 <img src="{{asset($homeData[3]->img1)}}" alt="Product image"
                                                     class="product-image">
                                             </a>
@@ -977,7 +976,7 @@
                                     <div class="product">
                                         <figure class="product-media">
                                             <span class="product-label label-top">Top</span>
-                                            <a href="product.html">
+                                            <a href="#">
                                                 <img src="{{asset($homeData[4]->img1)}}" alt="Product image"
                                                     class="product-image">
                                             </a>
@@ -1006,7 +1005,7 @@
 
                                     <div class="product">
                                         <figure class="product-media">
-                                            <a href="product.html">
+                                            <a href="#">
                                                 <img src="{{asset($homeData[5]->img1)}}" alt="Product image"
                                                     class="product-image">
                                             </a>
@@ -1064,7 +1063,7 @@
                                     <div class="product">
                                         <figure class="product-media">
                                             <span class="product-label label-top">Top</span>
-                                            <a href="product.html">
+                                            <a href="#">
                                                 <img src="{{asset($homeData[0]->img1)}}" alt="Product image"
                                                     class="product-image">
                                             </a>
@@ -1093,7 +1092,7 @@
 
                                     <div class="product">
                                         <figure class="product-media">
-                                            <a href="product.html">
+                                            <a href="#">
                                                 <img src="{{asset($homeData[1]->img1)}}" alt="Product image"
                                                     class="product-image">
                                             </a>
@@ -1123,7 +1122,7 @@
 
                                     <div class="product">
                                         <figure class="product-media">
-                                            <a href="product.html">
+                                            <a href="#">
                                                 <img src="{{asset($homeData[2]->img1)}}" alt="Product image"
                                                     class="product-image">
                                             </a>
@@ -1154,7 +1153,7 @@
                                     <div class="product">
                                         <figure class="product-media">
                                             <span class="product-label label-sale">Sale</span>
-                                            <a href="product.html">
+                                            <a href="#">
                                                 <img src="{{asset($homeData[3]->img1)}}" alt="Product image"
                                                     class="product-image">
                                             </a>
@@ -1184,7 +1183,7 @@
 
                                     <div class="product">
                                         <figure class="product-media">
-                                            <a href="product.html">
+                                            <a href="#">
                                                 <img src="{{asset($homeData[4]->img1)}}" alt="Product image"
                                                     class="product-image">
                                             </a>
@@ -1267,14 +1266,12 @@
                     </div><!-- End .row -->
                 </div><!-- End .container -->
 
-                <div class="container">
-                    <hr class="mt-0 mb-4">
-                </div><!-- End .container -->
+
 
                 <div class="container">
-                    <div class="heading heading-flex mb-2 mb-lg-3">
+                    <div class="heading heading-flex mb-2">
                         <div class="heading-left">
-                            <h2 class="title mb-0">Games Coming Soon</h2><!-- End .title -->
+                            <h2 class="title mb-5">Coming Soon</h2><!-- End .title -->
                         </div><!-- End .heading-left -->
 
                         <div class="heading-right">
@@ -1284,13 +1281,13 @@
 
                     <div class="games-soon">
                         <div class="row">
-                            <div class="col-lg-7">
+                            <div class="col-lg-12">
                                 <div class="products">
                                     <div class="row">
-                                        <div class="col-6 col-md-4">
+                                        <div class="col-6 col-md-2">
                                             <div class="product">
                                                 <figure class="product-media">
-                                                    <a href="product.html">
+                                                    <a href="#">
                                                         <img src="{{asset($homeData[0]->img1)}}" alt="Product image"
                                                             class="product-image">
                                                     </a>
@@ -1320,10 +1317,10 @@
                                             </div><!-- End .product -->
                                         </div><!-- End .col-sm-6 col-md-4 -->
 
-                                        <div class="col-6 col-md-4">
+                                        <div class="col-6 col-md-2">
                                             <div class="product">
                                                 <figure class="product-media">
-                                                    <a href="product.html">
+                                                    <a href="#">
                                                         <img src="{{asset($homeData[1]->img1)}}" alt="Product image"
                                                             class="product-image">
                                                     </a>
@@ -1353,10 +1350,10 @@
                                             </div><!-- End .product -->
                                         </div><!-- End .col-sm-6 col-md-4 -->
 
-                                        <div class="col-6 col-md-4">
+                                        <div class="col-6 col-md-2">
                                             <div class="product">
                                                 <figure class="product-media">
-                                                    <a href="product.html">
+                                                    <a href="#">
                                                         <img src="{{asset($homeData[2]->img1)}}" alt="Product image"
                                                             class="product-image">
                                                     </a>
@@ -1386,10 +1383,10 @@
                                             </div><!-- End .product -->
                                         </div><!-- End .col-sm-6 col-md-4 -->
 
-                                        <div class="col-6 col-md-4">
+                                        <div class="col-6 col-md-2">
                                             <div class="product">
                                                 <figure class="product-media">
-                                                    <a href="product.html">
+                                                    <a href="#">
                                                         <img src="{{asset($homeData[3]->img1)}}" alt="Product image"
                                                             class="product-image">
                                                     </a>
@@ -1419,10 +1416,10 @@
                                             </div><!-- End .product -->
                                         </div><!-- End .col-sm-6 col-md-4 -->
 
-                                        <div class="col-6 col-md-4">
+                                        <div class="col-6 col-md-2">
                                             <div class="product">
                                                 <figure class="product-media">
-                                                    <a href="product.html">
+                                                    <a href="#">
                                                         <img src="{{asset($homeData[4]->img1)}}" alt="Product image"
                                                             class="product-image">
                                                     </a>
@@ -1452,10 +1449,207 @@
                                             </div><!-- End .product -->
                                         </div><!-- End .col-sm-6 col-md-4 -->
 
-                                        <div class="col-6 col-md-4">
+                                        <div class="col-6 col-md-2">
                                             <div class="product">
                                                 <figure class="product-media">
-                                                    <a href="product.html">
+                                                    <a href="#">
+                                                        <img src="{{asset($homeData[5]->img1)}}" alt="Product image"
+                                                            class="product-image">
+                                                    </a>
+
+                                                    <div class="product-action-vertical">
+                                                        <a href="#" class="btn-product-icon btn-wishlist"
+                                                            title="Add to Wishlist"><span>add to wishlist</span></a>
+                                                    </div><!-- End .product-action-vertical -->
+
+                                                    <div class="product-action">
+                                                        <a href="#" class="btn-product btn-cart"><span>add to
+                                                                cart</span></a>
+                                                    </div><!-- End .product-action -->
+                                                </figure><!-- End .product-media -->
+
+                                                <div class="product-body">
+                                                    <div class="product-cat">
+                                                        <a href="/product/{{$homeData[5]->id}}">Accessories</a>
+                                                    </div><!-- End .product-cat -->
+                                                    <h3 class="product-title"><a
+                                                            href="/product/{{$homeData[5]->id}}">Oxygen Mask</a></h3>
+                                                    <!-- End .product-title -->
+                                                    <div class="product-price">
+                                                        $24.99
+                                                    </div><!-- End .product-price -->
+                                                </div><!-- End .product-body -->
+                                            </div><!-- End .product -->
+                                        </div><!-- End .col-sm-6 col-md-4 -->
+                                        <div class="col-6 col-md-2">
+                                            <div class="product">
+                                                <figure class="product-media">
+                                                    <a href="#">
+                                                        <img src="{{asset($homeData[0]->img1)}}" alt="Product image"
+                                                            class="product-image">
+                                                    </a>
+
+                                                    <div class="product-action-vertical">
+                                                        <a href="#" class="btn-product-icon btn-wishlist"
+                                                            title="Add to Wishlist"><span>add to wishlist</span></a>
+                                                    </div><!-- End .product-action-vertical -->
+
+                                                    <div class="product-action">
+                                                        <a href="#" class="btn-product btn-cart"><span>add to
+                                                                cart</span></a>
+                                                    </div><!-- End .product-action -->
+                                                </figure><!-- End .product-media -->
+
+                                                <div class="product-body">
+                                                    <div class="product-cat">
+                                                        <a href="/product/{{$homeData[0]->id}}">Device</a>
+                                                    </div><!-- End .product-cat -->
+                                                    <h3 class="product-title"><a
+                                                            href="/product/{{$homeData[0]->id}}">Pulse Oximeter</a></h3>
+                                                    <!-- End .product-title -->
+                                                    <div class="product-price">
+                                                        $49.99
+                                                    </div><!-- End .product-price -->
+                                                </div><!-- End .product-body -->
+                                            </div><!-- End .product -->
+                                        </div><!-- End .col-sm-6 col-md-4 -->
+
+                                        <div class="col-6 col-md-2">
+                                            <div class="product">
+                                                <figure class="product-media">
+                                                    <a href="#">
+                                                        <img src="{{asset($homeData[1]->img1)}}" alt="Product image"
+                                                            class="product-image">
+                                                    </a>
+
+                                                    <div class="product-action-vertical">
+                                                        <a href="#" class="btn-product-icon btn-wishlist"
+                                                            title="Add to Wishlist"><span>add to wishlist</span></a>
+                                                    </div><!-- End .product-action-vertical -->
+
+                                                    <div class="product-action">
+                                                        <a href="#" class="btn-product btn-cart"><span>add to
+                                                                cart</span></a>
+                                                    </div><!-- End .product-action -->
+                                                </figure><!-- End .product-media -->
+
+                                                <div class="product-body">
+                                                    <div class="product-cat">
+                                                        <a href="/product/{{$homeData[1]->id}}">Accessories</a>
+                                                    </div><!-- End .product-cat -->
+                                                    <h3 class="product-title"><a
+                                                            href="/product/{{$homeData[1]->id}}">Oxygen Mask</a></h3>
+                                                    <!-- End .product-title -->
+                                                    <div class="product-price">
+                                                        $74.99
+                                                    </div><!-- End .product-price -->
+                                                </div><!-- End .product-body -->
+                                            </div><!-- End .product -->
+                                        </div><!-- End .col-sm-6 col-md-4 -->
+
+                                        <div class="col-6 col-md-2">
+                                            <div class="product">
+                                                <figure class="product-media">
+                                                    <a href="#">
+                                                        <img src="{{asset($homeData[2]->img1)}}" alt="Product image"
+                                                            class="product-image">
+                                                    </a>
+
+                                                    <div class="product-action-vertical">
+                                                        <a href="#" class="btn-product-icon btn-wishlist"
+                                                            title="Add to Wishlist"><span>add to wishlist</span></a>
+                                                    </div><!-- End .product-action-vertical -->
+
+                                                    <div class="product-action">
+                                                        <a href="#" class="btn-product btn-cart"><span>add to
+                                                                cart</span></a>
+                                                    </div><!-- End .product-action -->
+                                                </figure><!-- End .product-media -->
+
+                                                <div class="product-body">
+                                                    <div class="product-cat">
+                                                        <a href="/product/{{$homeData[2]->id}}">Device</a>
+                                                    </div><!-- End .product-cat -->
+                                                    <h3 class="product-title"><a
+                                                            href="/product/{{$homeData[2]->id}}">Particulate Filter</a>
+                                                    </h3><!-- End .product-title -->
+                                                    <div class="product-price">
+                                                        $24.99
+                                                    </div><!-- End .product-price -->
+                                                </div><!-- End .product-body -->
+                                            </div><!-- End .product -->
+                                        </div><!-- End .col-sm-6 col-md-4 -->
+
+                                        <div class="col-6 col-md-2">
+                                            <div class="product">
+                                                <figure class="product-media">
+                                                    <a href="#">
+                                                        <img src="{{asset($homeData[3]->img1)}}" alt="Product image"
+                                                            class="product-image">
+                                                    </a>
+
+                                                    <div class="product-action-vertical">
+                                                        <a href="#" class="btn-product-icon btn-wishlist"
+                                                            title="Add to Wishlist"><span>add to wishlist</span></a>
+                                                    </div><!-- End .product-action-vertical -->
+
+                                                    <div class="product-action">
+                                                        <a href="#" class="btn-product btn-cart"><span>add to
+                                                                cart</span></a>
+                                                    </div><!-- End .product-action -->
+                                                </figure><!-- End .product-media -->
+
+                                                <div class="product-body">
+                                                    <div class="product-cat">
+                                                        <a href="/product/{{$homeData[3]->id}}">Device</a>
+                                                    </div><!-- End .product-cat -->
+                                                    <h3 class="product-title"><a
+                                                            href="/product/{{$homeData[3]->id}}">Sensor</a></h3>
+                                                    <!-- End .product-title -->
+                                                    <div class="product-price">
+                                                        $39.99
+                                                    </div><!-- End .product-price -->
+                                                </div><!-- End .product-body -->
+                                            </div><!-- End .product -->
+                                        </div><!-- End .col-sm-6 col-md-4 -->
+
+                                        <div class="col-6 col-md-2">
+                                            <div class="product">
+                                                <figure class="product-media">
+                                                    <a href="#">
+                                                        <img src="{{asset($homeData[4]->img1)}}" alt="Product image"
+                                                            class="product-image">
+                                                    </a>
+
+                                                    <div class="product-action-vertical">
+                                                        <a href="#" class="btn-product-icon btn-wishlist"
+                                                            title="Add to Wishlist"><span>add to wishlist</span></a>
+                                                    </div><!-- End .product-action-vertical -->
+
+                                                    <div class="product-action">
+                                                        <a href="#" class="btn-product btn-cart"><span>Pre-order
+                                                                Now</span></a>
+                                                    </div><!-- End .product-action -->
+                                                </figure><!-- End .product-media -->
+
+                                                <div class="product-body">
+                                                    <div class="product-cat">
+                                                        <a href="/product/{{$homeData[4]->id}}">Accessories</a>
+                                                    </div><!-- End .product-cat -->
+                                                    <h3 class="product-title"><a
+                                                            href="/product/{{$homeData[4]->id}}">Oxygen Mask</a></h3>
+                                                    <!-- End .product-title -->
+                                                    <div class="product-price">
+                                                        $19.99
+                                                    </div><!-- End .product-price -->
+                                                </div><!-- End .product-body -->
+                                            </div><!-- End .product -->
+                                        </div><!-- End .col-sm-6 col-md-4 -->
+
+                                        <div class="col-6 col-md-2">
+                                            <div class="product">
+                                                <figure class="product-media">
+                                                    <a href="#">
                                                         <img src="{{asset($homeData[5]->img1)}}" alt="Product image"
                                                             class="product-image">
                                                     </a>
@@ -1487,45 +1681,12 @@
                                     </div><!-- End .row -->
                                 </div><!-- End .products -->
                             </div><!-- End .col-lg-7 -->
-
-                            <div class="col-lg-5 order-lg-first">
-                                <div class="games-banners-slider owl-carousel owl-simple" data-toggle="owl"
-                                    data-owl-options='{
-                                        "nav": false, 
-                                        "dots": true,
-                                        "margin": 0,
-                                        "loop": false,
-                                        "items":1
-                                    }'>
-                                    <div class="banner banner-overlay product-banner">
-                                        <a href="#">
-                                            <img src="{{asset('img/product/4_spacial.png')}}" alt="Banner">
-                                        </a>
-                                        <div class="banner-content align-items-center center">
-                                            <img class="banner-title-img mb-1"
-                                                src="{{asset('common/assets/images/demos/demo-19/banners/banner-9-title.png')}}"
-                                                alt="Banner-9">
-                                            <h4 class="banner-price mb-2" style="font-weight: 600;">$29.99</h4>
-                                        </div>
-                                    </div><!-- End .banner -->
-
-                                    <div class="banner banner-overlay product-banner">
-                                        <a href="#">
-                                            <img src="{{asset('img/product/4_spacial.png')}}" alt="Banner">
-                                        </a>
-                                        <div class="banner-content align-items-center">
-                                            <h4 class="banner-subtitle" style="letter-spacing: 0.1em;">Out 14 May 2019
-                                            </h4>
-                                            <img class="banner-title-img mb-1"
-                                                src="{{asset('common/assets/images/demos/demo-19/banners/banner-9-title.png')}}"
-                                                alt="Banner-10">
-                                        </div>
-                                    </div><!-- End .banner -->
-                                </div><!-- End .owl-carousel -->
-                            </div><!-- End .col-lg-5 -->
                         </div><!-- End .row -->
                     </div><!-- End .games-soon -->
                 </div><!-- End .container -->
+
+
+            
                 <div class="container">
                     <div class="heading heading-flex mb-2">
                         <div class="heading-left">
@@ -1565,7 +1726,7 @@
                         <div class="product">
                             <figure class="product-media">
                                 <span class="product-label label-new">New</span>
-                                <a href="product.html">
+                                <a href="#">
                                     <img src="{{asset($homeData[0]->img1)}}" alt="Product image" class="product-image">
                                 </a>
 
@@ -1591,7 +1752,7 @@
                         <div class="product">
                             <figure class="product-media">
                                 <span class="product-label label-top">Top</span>
-                                <a href="product.html">
+                                <a href="#">
                                     <img src="{{asset($homeData[1]->img1)}}" alt="Product image" class="product-image">
                                 </a>
 
@@ -1616,7 +1777,7 @@
 
                         <div class="product">
                             <figure class="product-media">
-                                <a href="product.html">
+                                <a href="#">
                                     <img src="{{asset($homeData[2]->img1)}}" alt="Product image" class="product-image">
                                 </a>
 
@@ -1643,7 +1804,7 @@
                         <div class="product">
                             <figure class="product-media">
                                 <span class="product-label label-top">Top</span>
-                                <a href="product.html">
+                                <a href="#">
                                     <img src="{{asset($homeData[3]->img1)}}" alt="Product image" class="product-image">
                                 </a>
 
@@ -1668,7 +1829,7 @@
 
                         <div class="product">
                             <figure class="product-media">
-                                <a href="product.html">
+                                <a href="#">
                                     <img src="{{asset($homeData[4]->img1)}}" alt="Product image" class="product-image">
                                 </a>
 
@@ -1702,8 +1863,8 @@
                         <div class="row">
                             <div class="col-sm-6 col-lg-3">
                                 <div class="widget widget-about">
-                                    <img src="https://emsol.xyz/wp-content/uploads/2020/11/Ems-logo-9.png"
-                                        class="footer-logo" alt="Footer Logo" width="180px">
+                                    <img src="{{asset('img/image.png')}}" class="footer-logo" alt="Footer Logo"
+                                        width="180px">
                                     <p>Praesent dapibus, neque id cursus ucibus, tortor neque egestas augue, eu
                                         vulputate magna eros eu erat. </p>
 
@@ -1863,9 +2024,9 @@
                                 </ul>
                             </li>
                             <li>
-                                <a href="product.html" class="sf-with-ul">Product</a>
+                                <a href="#" class="sf-with-ul">Product</a>
                                 <ul>
-                                    <li><a href="product.html">Default</a></li>
+                                    <li><a href="#">Default</a></li>
                                     <li><a href="product-centered.html">Centered</a></li>
                                     <li><a href="product-extended.html"><span>Extended Info<span
                                                     class="tip tip-new">New</span></span></a></li>
@@ -1879,16 +2040,9 @@
                             <li>
                                 <a href="#">Pages</a>
                                 <ul>
-                                    <li>
-                                        <a href="about.html">About</a>
 
-                                        <ul>
-                                            <li><a href="about.html">About 01</a></li>
-                                            <li><a href="about-2.html">About 02</a></li>
-                                        </ul>
-                                    </li>
                                     <li>
-                                        <a href="contact.html">Contact</a>
+                                        <a href="/contact">Contact</a>
 
                                         <ul>
                                             <li><a href="contact.html">Contact 01</a></li>
